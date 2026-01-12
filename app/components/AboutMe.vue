@@ -25,12 +25,12 @@ const credentials = [
 
 <template>
   <UPageSection id="about">
-    <div class="relative animate-fade-up ">
+    <div class="relative animate-fade-up">
       <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         <div class="relative rounded-2xl overflow-hidden shadow-elevated">
           <img
             src="/images/Aleksandra_Dubiel_zdjecie_glowne.JPG"
-            alt="Aleksandra Budel - Mediator, Prawnik, Coach"
+            alt="Aleksandra Dubiel - Mediator, Prawnik, Coach"
             class="w-full aspect-[4/5] object-cover"
           >
           <div class="absolute inset-0 bg-gradient-to-t from-[hsl(192,75%,25%)/30%] to-transparent" />

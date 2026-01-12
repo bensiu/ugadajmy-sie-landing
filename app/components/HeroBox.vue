@@ -1,23 +1,6 @@
 <script setup>
 // No imports needed for Lucide icons or Buttons when using Nuxt UI
 const description = 'Jestem Aleksandra Dubiel – łączę doświadczenie prawnika, mediatora i coacha, by pomagać Ci wyjść z konfliktów z poczuciem ulgi i konkretnym rozwiązaniem. Dla osób prywatnych i firm.'
-// const links = [
-//   {
-//     label: 'Umów się na rozmowę',
-//     href: '#contact',
-//     color: 'primary',
-//     size: 'xl',
-//     trailingIcon: 'i-lucide-arrow-right',
-//     class: 'p-4 px-8'
-//   },
-//   {
-//     label: 'Poznaj mnie',
-//     href: '#about',
-//     color: 'primary',
-//     size: 'xl',
-//     class: 'p-4 px-8'
-//   }
-// ]
 </script>
 
 <template>
@@ -26,9 +9,10 @@ const description = 'Jestem Aleksandra Dubiel – łączę doświadczenie prawni
     :ui="{
       wrapper: 'w-full text-left',
       footer: 'text-left',
-      container: 'pb-8 md:pb-12 lg:pb-16'
+      container: 'pb-8 md:pb-12 lg:pb-16',
+      description: 'text-white/90 mb-8 animate-fade-up delay-200'
     }"
-    class="bg-background"
+    class="bg-secondary-foreground"
   >
     <template #headline>
       <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white/90 text-sm font-medium mb-8 backdrop-blur-sm animate-fade-up">
@@ -53,7 +37,7 @@ const description = 'Jestem Aleksandra Dubiel – łączę doświadczenie prawni
             rounded: 'rounded-md',
             icon: { base: 'transition-transform group-hover:translate-x-1' }
           }"
-          class="px-8 py-6 text-base"
+          class="justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 bg-[hsl(40,90%,55%)] text-[hsl(210,30%,12%)] hover:bg-[hsl(40,90%,50%)] bg-primary text-primary-foreground px-8"
         >
           Umów się na rozmowę
         </UButton>
@@ -62,7 +46,7 @@ const description = 'Jestem Aleksandra Dubiel – łączę doświadczenie prawni
           to="#about"
           variant="outline"
           size="xl"
-          class="px-8 py-6 text-base"
+          class="justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 bg-[hsl(40,90%,55%)] text-[hsl(210,30%,12%)] hover:bg-[hsl(40,90%,50%)] bg-primary text-primary-foreground px-8"
         >
           Poznaj mnie
         </UButton>

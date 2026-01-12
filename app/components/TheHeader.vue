@@ -37,16 +37,16 @@ const navLinks = [
     ]"
   >
     <div class="container flex items-center justify-between">
-      <!-- <NuxtLink
+      <NuxtLink
         to="#home"
         class="flex items-center group"
       >
         <img
           src="/images/logo.png"
-          alt="Ugadajmy się - Aleksandra Budel"
+          alt="Ugadajmy się - Aleksandra Dubiel"
           :class="['h-10 w-auto transition-all', !isScrolled ? 'brightness-0 invert' : '']"
         >
-      </NuxtLink> -->
+      </NuxtLink>
 
       <nav class="hidden xl:flex items-center gap-6">
         <NuxtLink

@@ -1,0 +1,175 @@
+service: ugadajmy-sie-landing-page
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: nodejs22.x
+  region: eu-central-1
+  apiGateway:
+    shouldStartNameWithService: true
+    minimumCompressionSize: 1024
+    binaryMediaTypes:
+      - 'image/jpeg'
+      - 'image/jpg'
+      - 'image/png'
+  httpApi:
+    payload: '1.0'
+    cors: true
+  logRetentionInDays: 14
+  tags:
+    Project: ${self:service}-${opt:stage, sls:stage, 'dev'}
+  iam:
+    role:
+      statements:
+        - 
+          Effect: Allow
+          Action:
+            - s3:ListBucket
+            - s3:PutObject
+            - s3:GetObject
+            - s3:DeleteObject
+          Resource:
+            - Fn::Join:
+                - ''
+                - - 'arn:aws:s3:::'
+                  - Ref: ApplicationDataBucket
+            - Fn::Join:
+                - ''
+                - - 'arn:aws:s3:::'
+                  - Ref: ApplicationDataBucket
+                  - "/*"
+        - 
+          Effect: Allow
+          Action:
+            - dynamodb:GetItem
+            - dynamodb:Query
+            - dynamodb:PutItem
+            - dynamodb:UpdateItem
+          Resource: !Sub "arn:aws:dynamodb:${self:provider.region}:${AWS::AccountId}:table/${self:custom.PROJECT_NAME}-data"
+        - 
+          Effect: Allow
+          Action:
+            - dynamodb:Query
+          Resource: !Sub "arn:aws:dynamodb:${self:provider.region}:${AWS::AccountId}:table/${self:custom.PROJECT_NAME}-data/index/*"
+        -
+          Effect: Allow
+          Action:
+            - sns:Publish
+          Resource:
+            - Ref: ContactNotificationTopic
+
+
+custom:
+  PROJECT_NAME: ${self:service}-${opt:stage, sls:stage, 'dev'}
+
+  scriptable:
+    # add custom hooks
+    hooks:
+      before:package:createDeploymentArtifacts:
+        - 'pnpm run build'
+  #       - 'pnpm run esbuild:data-loader'
+  #       - 'pnpm run esbuild:trigger-worker'
+
+
+plugins:
+  - serverless-scriptable-plugin
+  # - serverless-dynamodb-local
+
+
+functions:
+
+  ssr:
+    handler: handler.runner
+    timeout: 25
+    memorySize: 1024
+    package:
+      individually: true
+      patterns:
+        - '!**'
+        - .output/**
+        - '!.output/**/*.map'
+        - '!.output/server/node_modules/.nitro/@aws-sdk/**'
+        - '!.output/server/node_modules/@aws-sdk/**'
+        - handler.mjs
+        # - 'data/*.json'
+
+    events:
+      - httpApi:
+          path: '*'
+          method: '*'
+
+    environment:
+      AWS_SERVICE_REGION: ${self:provider.region}
+      APP_DATA_BUCKET_NAME: ${self:custom.PROJECT_NAME}-${self:provider.region}-data
+      APP_DATA_TABLE_NAME: ${self:custom.PROJECT_NAME}-data
+      # BASIC_AUTH_USER: ${env:BASIC_AUTH_USER}
+      # BASIC_AUTH_PASS: ${env:BASIC_AUTH_PASS}
+      APP_DATA_CONTACT_NOTIFICATION_TOPIC_ARN: !Ref ContactNotificationTopic
+
+resources:
+  Resources:
+
+    ApplicationDataBucket:
+      Type: AWS::S3::Bucket
+      Properties:
+        BucketName: ${self:custom.PROJECT_NAME}-${self:provider.region}-data
+
+    ApplicationDataTable:
+      Type: AWS::DynamoDB::Table
+      DeletionPolicy: Retain
+      Properties:
+        TableName: ${self:custom.PROJECT_NAME}-data
+        BillingMode: PAY_PER_REQUEST
+        TimeToLiveSpecification:
+          AttributeName: ttl
+          Enabled: true
+        AttributeDefinitions:
+          -
+            AttributeName: PK
+            AttributeType: S
+          -
+            AttributeName: SK
+            AttributeType: S
+          -
+            AttributeName: PK1
+            AttributeType: S
+          -
+            AttributeName: SK1
+            AttributeType: S
+        KeySchema:
+          -
+            AttributeName: PK
+            KeyType: HASH
+          -
+            AttributeName: SK
+            KeyType: RANGE
+
+        GlobalSecondaryIndexes:
+          -
+            IndexName: GSI1
+            KeySchema:
+              -
+                AttributeName: PK1
+                KeyType: HASH
+              -
+                AttributeName: SK1
+                KeyType: RANGE
+            Projection:
+              ProjectionType: ALL
+        Tags:
+          -
+            Key: Project
+            Value: ${self:service}-${opt:stage, sls:stage, 'dev'}
+
+    ContactNotificationTopic:
+      Type: AWS::SNS::Topic
+      Properties:
+        TopicName: ${self:custom.PROJECT_NAME}-${self:provider.region}-contact-alert-topic
+        DisplayName: "System Alerts"
+
+    # ContactNotificationTopicSubscription:
+    #   Type: AWS::SNS::Subscription
+    #   Properties:
+    #     TopicArn: !Ref ContactNotificationTopic
+    #     Protocol: email
+    #     Endpoint: ${env:CONTACT_NOTIFICATION_EMAIL}

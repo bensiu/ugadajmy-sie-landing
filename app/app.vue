@@ -1,4 +1,26 @@
 <script setup>
+// 1. Logic for SEO Tags
+useSeoMeta({
+  title: 'Ugadajmy się - Aleksandra Dubiel | Mediator, Prawnik, Coach | Szczecin',
+  description: 'Rozwiązuję konflikty. Buduję porozumienie. Aleksandra Dubiel – mediator, prawnik i coach. Mediacje rodzinne, spadkowe i dla firm. Coaching i szkolenia. Szczecin.',
+  author: 'Aleksandra Dubiel - Ugadajmy się',
+  keywords: 'mediator Szczecin, mediacje rodzinne, mediacje rozwodowe, mediacje spadkowe, coaching, rozwiązywanie konfliktów, prawnik mediator',
+  canonical: 'https://ugadajmy-sie.pl',
+  // Open Graph
+  ogTitle: 'Ugadajmy się - Aleksandra Dubiel | Mediator, Prawnik, Coach',
+  ogDescription: 'Rozwiązuję konflikty. Buduję porozumienie. Mediacje rodzinne, spadkowe i dla firm. Coaching i szkolenia w Szczecinie.',
+  ogType: 'website',
+  ogImage: 'https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a4fadd1f-631f-43fd-abab-468429d56e33/id-preview-35150130--c3ce7dd4-0e1f-4cf7-b2d1-67b9e4c8b7a4.lovable.app-1768236509323.png',
+  ogLocale: 'pl_PL',
+
+  // Twitter
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'Ugadajmy się - Aleksandra Dubiel',
+  twitterDescription: 'Mediator, prawnik i coach. Mediacje i coaching w Szczecinie.'
+  // twitterImage: 'https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a4fadd1f-631f-43fd-abab-468429d56e33/id-preview-35150130--c3ce7dd4-0e1f-4cf7-b2d1-67b9e4c8b7a4.lovable.app-1768236509323.png'
+})
+
+// 2. Logic for Scripts, Links, and Global Styles
 useHead({
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
@@ -7,21 +29,8 @@ useHead({
     { rel: 'icon', href: '/favicon.ico' }
   ],
   htmlAttrs: {
-    lang: 'en'
+    lang: 'pl'
   }
-})
-
-const title = 'Nuxt Starter Template'
-const description = 'A production-ready starter template powered by Nuxt UI. Build beautiful, accessible, and performant applications in minutes, not hours.'
-
-useSeoMeta({
-  title,
-  description,
-  ogTitle: title,
-  ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
-  twitterCard: 'summary_large_image'
 })
 </script>
 
