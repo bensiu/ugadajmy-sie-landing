@@ -25,7 +25,7 @@ const credentials = [
 
 <template>
   <UPageSection id="about">
-    <div class="relative animate-fade-up">
+    <div class="page-container relative animate-fade-up">
       <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         <div class="relative rounded-2xl animate-fade-up">
           <div className="relative rounded-2xl overflow-hidden shadow-elevated">

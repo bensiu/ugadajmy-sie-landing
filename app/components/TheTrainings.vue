@@ -30,7 +30,7 @@ const topics = [
   <UPageSection
     id="trainings"
     :ui="{
-      container: 'py-8 lg:py-16'
+      container: 'page-container py-8 lg:py-16'
     }"
   >
     <div class="page-container">
@@ -48,18 +48,18 @@ const topics = [
           :style="{ animationDelay: `${index * 100}ms` }"
         />
       </div>
-    </div>
-    <div class="bg-[hsl(192,75%,25%)] rounded-2xl p-8 lg:p-12 animate-fade-up delay-200">
-      <SubHeroHeader
-        title="Tematy szkoleń"
-        description="Każde szkolenie można dostosować do Twoich potrzeb"
-        class="bg-reverse max-w-5xl"
-      >
-        <SimpleBadges
-          :features="topics"
-          class="mt-8"
-        />
-      </SubHeroHeader>
+      <div class="bg-[hsl(192,75%,25%)] rounded-2xl p-8 lg:p-12 animate-fade-up delay-200 mt-16">
+        <SubHeroHeader
+          title="Tematy szkoleń"
+          description="Każde szkolenie można dostosować do Twoich potrzeb"
+          class="bg-reverse max-w-5xl"
+        >
+          <SimpleBadges
+            :features="topics"
+            class="mt-8"
+          />
+        </SubHeroHeader>
+      </div>
     </div>
   </UPageSection>
 </template>

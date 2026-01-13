@@ -120,7 +120,7 @@ const modules = [
       container: 'py-8 lg:py-16'
     }"
   >
-    <div class="relative animate-fade-up">
+    <div class="page-container relative animate-fade-up">
       <SubHeroHeader
         lead="Program dla par"
         title="„Razem czy osobno?”"

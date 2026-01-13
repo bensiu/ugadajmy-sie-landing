@@ -23,7 +23,7 @@ const navLinks = [
   { href: '#mediation', label: 'Mediacje' },
   { href: '#coaching', label: 'Coaching' },
   { href: '#trainings', label: 'Szkolenia' },
-  { href: '#business', label: 'Dla firm' },
+  // { href: '#business', label: 'Dla firm' },
   { href: '#contact', label: 'Kontakt' }
 ]
 </script>

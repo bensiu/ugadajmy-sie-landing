@@ -11,12 +11,11 @@ const description = 'Jestem Aleksandra Dubiel – łączę doświadczenie prawni
     <UPageHero
       :description="description"
       :ui="{
-        wrapper: 'w-full text-left',
+        wrapper: 'page-container w-full text-left',
         footer: 'text-left',
         container: 'pb-8 md:pb-12 lg:pb-16',
         description: 'text-white/90 mb-8 animate-fade-up delay-200'
       }"
-      class="page-container mx-auto"
     >
       <template #headline>
         <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white/90 text-sm font-medium mb-8 backdrop-blur-sm animate-fade-up">
