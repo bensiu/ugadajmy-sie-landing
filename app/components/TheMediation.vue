@@ -50,37 +50,30 @@ const steps = [
 <template>
   <UPageSection
     id="mediation"
-    class="section-subtle"
     :ui="{
       container: 'py-8 lg:py-16'
     }"
   >
     <div class="page-container">
-      <div class="text-center max-w-2xl mx-auto mb-16 animate-fade-up">
-        <span class="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-4">
-          Mediacje
-        </span>
-        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-display font-bold mb-6">
-          Rozwiązuj konflikty bez sądu
-        </h2>
-        <p class="text-lg text-muted-foreground">
-          Mediacja to droga do porozumienia – szybsza, tańsza i mniej stresująca niż proces sądowy.
-          A co najważniejsze: to Wy macie wpływ na rozwiązanie.
-        </p>
-      </div>
+      <SubHeroHeader
+        lead="Mediacje"
+        title="Rozwiązuj konflikty bez sądu"
+        description="Mediacja to droga do porozumienia – szybsza, tańsza i mniej stresująca niż proces sądowy.
+          A co najważniejsze: to Wy macie wpływ na rozwiązanie."
+      />
 
       <div class="grid md:grid-cols-3 gap-6 mb-16">
         <UCard
           v-for="(type, index) in mediationTypes"
           :key="type.title"
           :ui="{
-            root: 'border-0 text-white transition-all duration-300 hover:shadow-elevated animate-fade-up bg-primary/60 hover:bg-primary/70 ',
+            root: 'rounded-lg shadow-sm bg-[hsl(192,75%,25%)] border-0 text-white hover:bg-[hsl(192,75%,22%)] transition-all duration-300 hover:shadow-elevated animate-fade-up',
             divide: '',
             body: { padding: 'p-8' }
           }"
           :style="{ animationDelay: `${index * 100}ms` }"
         >
-          <div class="w-14 h-14 rounded-xl flex items-center justify-center mb-6 bg-secondary/10">
+          <div class="w-14 h-14 rounded-xl flex items-center justify-center mb-6 bg-secondary">
             <UIcon
               :name="type.icon"
               class="h-7 w-7 text-primary"
@@ -102,7 +95,7 @@ const steps = [
             :key="benefit.text"
             class="flex items-center gap-4"
           >
-            <div class="w-12 h-12 rounded-xl bg-secondary/10 flex items-center justify-center flex-shrink-0">
+            <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
               <UIcon
                 :name="benefit.icon"
                 class="h-6 w-6 text-primary"
@@ -147,7 +140,7 @@ const steps = [
             to="#contact"
             size="xl"
             trailing-icon="i-lucide-arrow-right"
-            class="px-8"
+            class="px-8 py-4"
           >
             Umów się na konsultację
           </UButton>

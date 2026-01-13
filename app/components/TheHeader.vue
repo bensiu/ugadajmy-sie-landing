@@ -17,6 +17,7 @@ onUnmounted(() => {
 })
 
 const navLinks = [
+  { href: '#couples-program', label: 'Program dla par' },
   { href: '#about', label: 'Kim jestem' },
   { href: '#help', label: 'W czym pomagam' },
   { href: '#mediation', label: 'Mediacje' },

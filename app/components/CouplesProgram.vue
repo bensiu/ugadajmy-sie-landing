@@ -1,4 +1,11 @@
 <script setup>
+const features = [
+  'Przywracanie komunikacji',
+  'Zrozumienie ról w związku',
+  'Uświadamianie potrzeb emocjonalnych',
+  'Budowanie porozumienia'
+]
+
 const steps = [
   {
     icon: 'i-lucide-message-circle',
@@ -114,14 +121,17 @@ const modules = [
     }"
   >
     <div class="relative animate-fade-up">
-      <CouplesProgramHeader
-        :features="[
-          'Przywracanie komunikacji',
-          'Zrozumienie ról w związku',
-          'Uświadamianie potrzeb emocjonalnych',
-          'Budowanie porozumienia'
-        ]"
-      />
+      <SubHeroHeader
+        lead="Program dla par"
+        title="„Razem czy osobno?”"
+        description="Program zbudowany na strukturze mediacji, który przywraca komunikację w relacji,
+          pozwala dostrzec różne role w związku i uświadamia potrzeby emocjonalne partnerów."
+      >
+        <SimpleBadges
+          :features="features"
+          class="mt-8"
+        />
+      </SubHeroHeader>
       <CouplesProgramWhy
         :benefits="[
           'Aby ubrać proces terapeutyczny w konkretne ramy',

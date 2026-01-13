@@ -36,18 +36,12 @@ const areas = [
     }"
   >
     <div class="page-container">
-      <div class="text-center max-w-3xl mx-auto mb-16 animate-fade-up">
-        <span class="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-4">
-          W czym pomagam
-        </span>
-        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-display font-bold mb-6">
-          Zamieniam konflikty w&nbsp;porozumienie
-        </h2>
-        <p class="text-lg text-muted-foreground">
-          Niezależnie od tego, czy mierzysz się z konfliktem w rodzinie, w pracy,
-          czy w biznesie – pomogę Ci znaleźć drogę do konstruktywnego rozwiązania.
-        </p>
-      </div>
+      <SubHeroHeader
+        lead="W czym pomagam"
+        title="Zamieniam konflikty w&nbsp;porozumienie"
+        description="Niezależnie od tego, czy mierzysz się z konfliktem w rodzinie, w pracy,
+          czy w biznesie – pomogę Ci znaleźć drogę do konstruktywnego rozwiązania."
+      />
 
       <div class="grid md:grid-cols-2 gap-6 lg:gap-8">
         <UCard

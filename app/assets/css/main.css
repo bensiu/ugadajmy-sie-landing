@@ -13,6 +13,7 @@
 
 :root {
   --background: 0 0% 100%;
+  --primary: 192 70% 35%;
   --secondary: 210 20% 96%;
   --foreground: 210 25% 15%;
   --border: 210 20% 90%;
@@ -39,6 +40,13 @@
   border-width: 1px;
 }
 
+.border-primary {
+  border-color: hsl(var(--primary));
+}
+.border-primary\/30 {
+  border-color: hsl(var(--primary) / .3);
+}
+
 .bg-foreground {
   background-color: hsl(var(--foreground));
 }
@@ -50,8 +58,18 @@
   background-color: hsl(var(--background) / .8);
 }
 
+.bg-primary {
+  background-color: hsl(var(--primary));
+}
+.bg-primary\/10 {
+  background-color: hsl(var(--primary) / .1);
+}
+
 .bg-secondary {
   background-color: hsl(var(--secondary));
+}
+.bg-secondary\/10 {
+  background-color: hsl(var(--secondary) / .1);
 }
 .bg-secondary\/30 {
   background-color: hsl(var(--secondary) / .3);
@@ -94,6 +112,9 @@
   color: hsl(var(--muted-foreground));
 }
 
+.bg-card {
+  background-color: hsl(var(--card));
+}
 .shadow-card {
   box-shadow: var(--shadow-card);
 }
@@ -105,4 +126,16 @@
   --tw-shadow: var(--shadow-card);
   --tw-shadow-colored: var(--shadow-card);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.bg-reverse h2 {
+  color: hsl(var(--foreground));
+}
+.bg-reverse p {
+  color: hsl(var(--background));
+}
+
+.bg-reverse span.the-feature {
+  background-color: hsl(var(--secondary) / .3);
+  color: hsl(var(--background));
 }
