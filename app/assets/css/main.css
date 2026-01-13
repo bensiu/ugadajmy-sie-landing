@@ -20,6 +20,15 @@
   --primary-foreground: 0 0% 100%;
   --secondary-foreground: 210 25% 15%;
   --muted-foreground: 210 15% 45%;
+
+  --section-subtle: 192 20% 95%;
+
+  --card: 0 0% 100%;
+  --shadow-card: 0 4px 24px -4px hsla(210, 25%, 20%, .12);
+  --tw-shadow-colored: 0 4px 24px -4px hsla(210, 25%, 20%, .12);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 4px 24px -4px hsla(210, 25%, 20%, .12);
 }
 
 * {
@@ -30,14 +39,13 @@
   border-width: 1px;
 }
 
-.bg-background {
-  background-color: hsl(var(--background));
-}
-
 .bg-foreground {
   background-color: hsl(var(--foreground));
 }
 
+.bg-background {
+  background-color: hsl(var(--background));
+}
 .bg-background\/80 {
   background-color: hsl(var(--background) / .8);
 }
@@ -45,22 +53,29 @@
 .bg-secondary {
   background-color: hsl(var(--secondary));
 }
-
 .bg-secondary\/30 {
   background-color: hsl(var(--secondary) / .3);
 }
-
-
-.bg-secondary-foreground {
-    background-color: hsl(var(--secondary-foreground));
+.bg-secondary\/50 {
+  background-color: hsl(var(--secondary) / .5);
 }
 
+.bg-primary-foreground {
+  background-color: hsl(var(--primary-foreground));
+}
+.bg-secondary-foreground {
+  background-color: hsl(var(--secondary-foreground));
+}
+
+.section-subtle {
+  background-color: hsl(var(--section-subtle));
+}
 
 .min-h-screen {
   min-height: 100vh;
 }
 
-.container {
+.page-container {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -71,14 +86,23 @@
 .text-primary-foreground {
   color: hsl(var(--primary-foreground));
 }
+.text-foreground {
+  color: hsl(var(--foreground));
+}
 
 .text-muted-foreground {  
   color: hsl(var(--muted-foreground));
 }
 
-/* @layer base {
-  :root {
-    --primary: 192 70% 35%;
-    --primary-foreground: 0 0% 100%;
-  }
-} */
+.shadow-card {
+  box-shadow: var(--shadow-card);
+}
+.shadow-card {
+  --tw-shadow-color: hsl(var(--card));
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.shadow-card {
+  --tw-shadow: var(--shadow-card);
+  --tw-shadow-colored: var(--shadow-card);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}

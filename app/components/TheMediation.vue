@@ -55,7 +55,7 @@ const steps = [
       container: 'py-8 lg:py-16'
     }"
   >
-    <div class="container">
+    <div class="page-container">
       <div class="text-center max-w-2xl mx-auto mb-16 animate-fade-up">
         <span class="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-4">
           Mediacje

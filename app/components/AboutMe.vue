@@ -27,15 +27,15 @@ const credentials = [
   <UPageSection id="about">
     <div class="relative animate-fade-up">
       <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-        <div class="relative rounded-2xl overflow-hidden shadow-elevated">
-          <img
-            src="/images/Aleksandra_Dubiel_zdjecie_glowne.JPG"
-            alt="Aleksandra Dubiel - Mediator, Prawnik, Coach"
-            class="w-full aspect-[4/5] object-cover"
-          >
-          <div class="absolute inset-0 bg-gradient-to-t from-[hsl(192,75%,25%)/30%] to-transparent" />
-
-          <div class="absolute -bottom-1 -right-1 px-6 py-4 rounded-xl shadow-card text-primary bg-white border border-primary/10">
+        <div class="relative rounded-2xl animate-fade-up">
+          <div className="relative rounded-2xl overflow-hidden shadow-elevated">
+            <img
+              src="/images/Aleksandra_Dubiel_zdjecie_glowne.JPG"
+              alt="Aleksandra Dubiel - Mediator, Prawnik, Coach"
+              class="w-full aspect-[4/5] object-cover"
+            >
+          </div>
+          <div class="absolute -bottom-6 -right-6 px-6 py-4 rounded-xl shadow-card text-primary bg-primary-foreground">
             <p class="font-display font-bold text-2xl">
               15+
             </p>
@@ -67,7 +67,7 @@ const credentials = [
             <div
               v-for="item in credentials"
               :key="item.title"
-              class="flex items-start gap-4 p-4 rounded-xl bg-secondary/10 hover:bg-secondary/20 transition-colors group"
+              class="flex items-start gap-4 p-4 rounded-xl bg-secondary/50 hover:bg-secondary transition-colors group"
             >
               <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                 <UIcon

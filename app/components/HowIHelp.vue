@@ -30,12 +30,12 @@ const areas = [
 <template>
   <UPageSection
     id="help"
-    class="section-subtle bg-secondary/10"
+    class="section-subtle"
     :ui="{
       container: 'py-8 lg:py-16'
     }"
   >
-    <div class="container">
+    <div class="page-container">
       <div class="text-center max-w-3xl mx-auto mb-16 animate-fade-up">
         <span class="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-4">
           W czym pomagam

@@ -4,81 +4,86 @@ const description = 'Jestem Aleksandra Dubiel – łączę doświadczenie prawni
 </script>
 
 <template>
-  <UPageHero
-    :description="description"
-    :ui="{
-      wrapper: 'w-full text-left',
-      footer: 'text-left',
-      container: 'pb-8 md:pb-12 lg:pb-16',
-      description: 'text-white/90 mb-8 animate-fade-up delay-200'
-    }"
+  <div
+    id="home"
     class="bg-secondary-foreground"
   >
-    <template #headline>
-      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white/90 text-sm font-medium mb-8 backdrop-blur-sm animate-fade-up">
-        <span>Mediator · Prawnik · Coach</span>
-      </div>
-    </template>
-    <template #title>
-      <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-display font-bold leading-tight mb-6 text-white animate-fade-up delay-100">
-        Rozwiązuję konflikty.
-        <span class="block text-primary">Buduję porozumienie.</span>
-      </h1>
-    </template>
-    <template #footer>
-      <div class="flex flex-col sm:flex-row gap-4 animate-fade-up delay-300">
-        <UButton
-          to="#contact"
-          size="xl"
-          trailing-icon="i-lucide-arrow-right"
-          :ui="{
-            base: 'group',
-            font: 'font-semibold',
-            rounded: 'rounded-md',
-            icon: { base: 'transition-transform group-hover:translate-x-1' }
-          }"
-          class="justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 bg-[hsl(40,90%,55%)] text-[hsl(210,30%,12%)] hover:bg-[hsl(40,90%,50%)] bg-primary text-primary-foreground px-8"
-        >
-          Umów się na rozmowę
-        </UButton>
+    <UPageHero
+      :description="description"
+      :ui="{
+        wrapper: 'w-full text-left',
+        footer: 'text-left',
+        container: 'pb-8 md:pb-12 lg:pb-16',
+        description: 'text-white/90 mb-8 animate-fade-up delay-200'
+      }"
+      class="page-container mx-auto"
+    >
+      <template #headline>
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white/90 text-sm font-medium mb-8 backdrop-blur-sm animate-fade-up">
+          <span>Mediator · Prawnik · Coach</span>
+        </div>
+      </template>
+      <template #title>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-display font-bold leading-tight mb-6 text-white animate-fade-up delay-100">
+          Rozwiązuję konflikty.
+          <span class="block text-primary">Buduję porozumienie.</span>
+        </h1>
+      </template>
+      <template #footer>
+        <div class="flex flex-col sm:flex-row gap-4 animate-fade-up delay-300">
+          <UButton
+            to="#contact"
+            size="xl"
+            trailing-icon="i-lucide-arrow-right"
+            :ui="{
+              base: 'group',
+              font: 'font-semibold',
+              rounded: 'rounded-md',
+              icon: { base: 'transition-transform group-hover:translate-x-1' }
+            }"
+            class="justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 bg-[hsl(40,90%,55%)] text-[hsl(210,30%,12%)] hover:bg-[hsl(40,90%,50%)] bg-primary text-primary-foreground px-8"
+          >
+            Umów się na rozmowę
+          </UButton>
 
-        <UButton
-          to="#about"
-          variant="outline"
-          size="xl"
-          class="justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 bg-[hsl(40,90%,55%)] text-[hsl(210,30%,12%)] hover:bg-[hsl(40,90%,50%)] bg-primary text-primary-foreground px-8"
-        >
-          Poznaj mnie
-        </UButton>
-      </div>
-      <div class="flex flex-wrap items-center gap-8 mt-12 pt-8 border-t border-white/20 animate-fade-up delay-400">
-        <div class="text-center">
-          <p class="text-3xl font-display font-bold text-white">
-            100+
-          </p>
-          <p class="text-sm text-white/60">
-            zakończonych mediacji
-          </p>
+          <UButton
+            to="#about"
+            variant="outline"
+            size="xl"
+            class="justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 bg-[hsl(40,90%,55%)] text-[hsl(210,30%,12%)] hover:bg-[hsl(40,90%,50%)] bg-primary text-primary-foreground px-8"
+          >
+            Poznaj mnie
+          </UButton>
         </div>
-        <div class="text-center">
-          <p class="text-3xl font-display font-bold text-white">
-            15+
-          </p>
-          <p class="text-sm text-white/60">
-            lat doświadczenia
-          </p>
+        <div class="flex flex-wrap items-center gap-8 mt-12 pt-8 border-t border-white/20 animate-fade-up delay-400">
+          <div class="text-center">
+            <p class="text-3xl font-display font-bold text-white">
+              100+
+            </p>
+            <p class="text-sm text-white/60">
+              zakończonych mediacji
+            </p>
+          </div>
+          <div class="text-center">
+            <p class="text-3xl font-display font-bold text-white">
+              15+
+            </p>
+            <p class="text-sm text-white/60">
+              lat doświadczenia
+            </p>
+          </div>
+          <div class="text-center">
+            <p class="text-3xl font-display font-bold text-white">
+              100%
+            </p>
+            <p class="text-sm text-white/60">
+              poufność
+            </p>
+          </div>
         </div>
-        <div class="text-center">
-          <p class="text-3xl font-display font-bold text-white">
-            100%
-          </p>
-          <p class="text-sm text-white/60">
-            poufność
-          </p>
-        </div>
-      </div>
-    </template>
-  </UPageHero>
+      </template>
+    </UPageHero>
+  </div>
 </template>
 
 <style scoped>

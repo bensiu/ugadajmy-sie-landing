@@ -32,11 +32,11 @@ const navLinks = [
     :class="[
       'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
       isScrolled
-        ? 'bg-foreground backdrop-blur-md shadow-soft border-b py-5'
+        ? 'bg-background backdrop-blur-md shadow-soft border-b py-5'
         : 'bg-transparent py-5'
     ]"
   >
-    <div class="container flex items-center justify-between">
+    <div class="page-container flex items-center justify-between">
       <NuxtLink
         to="#home"
         class="flex items-center group"
@@ -85,7 +85,7 @@ const navLinks = [
           to="#contact"
           size="sm"
           :class="[
-            'font-semibold transition-all',
+            'font-semibold transition-all p-4',
             isScrolled
               ? ''
               : 'bg-[hsl(40,90%,55%)] text-[hsl(210,30%,12%)] hover:bg-[hsl(40,90%,50%)] border-none'
@@ -98,15 +98,21 @@ const navLinks = [
       <UButton
         variant="ghost"
         color="neutral"
-        class="xl:hidden"
+        :class="['xl:hidden p-2', isScrolled ? 'text-foreground' : 'text-white']"
         :aria-label="isMobileMenuOpen ? 'Close menu' : 'Open menu'"
         @click="isMobileMenuOpen = !isMobileMenuOpen"
       >
         <template #leading>
-          <!-- <component
-            :is="isMobileMenuOpen ? X : Menu"
-            :class="['h-6 w-6', isScrolled ? 'text-foreground' : 'text-white']"
-          /> -->
+          <UIcon
+            v-if="isMobileMenuOpen"
+            name="i-lucide-x"
+            class="h-8 w-8"
+          />
+          <UIcon
+            v-else
+            name="i-lucide-menu"
+            class="h-8 w-8"
+          />
         </template>
       </UButton>
     </div>
