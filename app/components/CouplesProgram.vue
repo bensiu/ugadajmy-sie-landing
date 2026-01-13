@@ -10,21 +10,21 @@ const steps = [
   {
     icon: 'i-lucide-message-circle',
     title: 'Konsultacja',
-    description: 'Poznajemy się i sprawdzamy, czy jesteśmy dla siebie. Możemy stworzyć plan spotkań dopasowany do Waszych potrzeb.',
+    description: 'Poznajemy się i sprawdzamy, czy jesteśmy dla&nbsp;siebie. Możemy stworzyć plan spotkań dopasowany do Waszych potrzeb.',
     price: '220 zł',
     duration: '60 minut'
   },
   {
     icon: 'i-lucide-users',
     title: 'Spotkania indywidualne',
-    description: 'Każdy partner przychodzi na osobne, poufne spotkanie. Poznaję perspektywę każdej strony z osobna.',
+    description: 'Każdy partner przychodzi na osobne, poufne spotkanie. Poznaję perspektywę każdej strony z&nbsp;osobna.',
     price: '390 zł',
     duration: '2 godziny'
   },
   {
     icon: 'i-lucide-heart',
     title: 'Spotkania wspólne',
-    description: 'Tematycznie uporządkowane sesje. Przed każdym spotkaniem otrzymujecie zadania domowe do przygotowania.',
+    description: 'Tematycznie uporządkowane sesje. Przed każdym spotkaniem otrzymujecie zadania domowe do&nbsp;przygotowania.',
     price: '490 zł',
     duration: '2 godziny'
   }

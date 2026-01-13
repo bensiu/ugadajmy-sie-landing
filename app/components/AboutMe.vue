@@ -3,7 +3,7 @@ const credentials = [
   {
     icon: 'i-lucide-scale',
     title: 'Prawnik',
-    description: 'Wieloletnie doświadczenie w prawie rodzinnym i gospodarczym'
+    description: 'Wieloletnie doświadczenie w prawie rodzinnym i&nbsp;gospodarczym'
   },
   {
     icon: 'i-lucide-heart',
@@ -13,12 +13,12 @@ const credentials = [
   {
     icon: 'i-lucide-target',
     title: 'Coach',
-    description: 'Akredytowany coach wspierający rozwój osobisty i zawodowy'
+    description: 'Akredytowany coach wspierający rozwój osobisty i&nbsp;zawodowy'
   },
   {
     icon: 'i-lucide-award',
     title: 'Trener',
-    description: 'Prowadzę szkolenia z komunikacji i rozwiązywania konfliktów'
+    description: 'Prowadzę szkolenia z&nbsp;komunikacji i&nbsp;rozwiązywania konfliktów'
   }
 ]
 </script>
@@ -58,8 +58,8 @@ const credentials = [
             </p>
             <p class="text-lg text-muted-foreground leading-relaxed">
               Wierzę, że każdy konflikt można rozwiązać - potrzeba do tego bezpiecznej przestrzeni,
-              profesjonalnego wsparcia i gotowości do dialogu. Moją rolą jest być Twoim przewodnikiem
-              na drodze do porozumienia.
+              profesjonalnego wsparcia i gotowości do&nbsp;dialogu. Moją rolą jest być Twoim przewodnikiem
+              na drodze do&nbsp;porozumienia.
             </p>
           </div>
 
@@ -79,9 +79,10 @@ const credentials = [
                 <h3 class="font-semibold text-foreground mb-1">
                   {{ item.title }}
                 </h3>
-                <p class="text-sm text-muted-foreground">
-                  {{ item.description }}
-                </p>
+                <p
+                  class="text-sm text-muted-foreground"
+                  v-html="item.description"
+                />
               </div>
             </div>
           </div>

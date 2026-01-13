@@ -7,7 +7,7 @@
     <TheMediation />
     <TheCoaching />
     <TheTrainings />
-
+    <FinalCta />
     <ContactMe />
   </div>
 </template>

@@ -30,6 +30,8 @@
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 4px 24px -4px hsla(210, 25%, 20%, .12);
+
+  --primary-to-reverse-bg: 192 70% 25%;
 }
 
 * {
@@ -137,5 +139,16 @@
 
 .bg-reverse span.the-feature {
   background-color: hsl(var(--secondary) / .3);
+  color: hsl(var(--background));
+}
+
+.section-reverse {
+  background-color: hsl(var(--primary-to-reverse-bg));
+}
+
+.section-reverse h2 {
+  color: hsl(var(--foreground));
+}
+.section-reverse p {
   color: hsl(var(--background));
 }

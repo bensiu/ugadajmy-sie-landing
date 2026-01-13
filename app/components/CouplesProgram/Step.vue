@@ -32,9 +32,10 @@ const props = defineProps<{
       </h3>
     </template>
 
-    <p class="text-muted-foreground text-sm mb-4">
-      {{ props.step.description }}
-    </p>
+    <p
+      class="text-muted-foreground text-sm mb-4"
+      v-html="props.step.description"
+    />
 
     <div class="flex justify-between text-sm border-t border-gray-200 dark:border-gray-800 pt-4">
       <span class="font-semibold text-primary">{{ props.step.price }}</span>
