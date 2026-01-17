@@ -59,16 +59,11 @@ const topics = [
             class="mt-8"
           />
         </SubHeroHeader>
-        <div class="text-center">
-          <UButton
-            to="#contact"
-            size="xl"
-            trailing-icon="i-lucide-arrow-right"
-            class="px-8 py-4 bg-primary-foreground text-primary"
-          >
-            Zapytaj o szkolenie
-          </UButton>
-        </div>
+        <BlockButtonLink
+          href="/#contact"
+          label="Zapytaj o szkolenie"
+          class="bg-primary-foreground text-primary"
+        />
       </div>
     </div>
   </UPageSection>

@@ -6,14 +6,21 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/a11y',
     '@nuxt/hints',
-    '@nuxt/scripts'
+    '@nuxt/scripts',
+    '@nuxtjs/sitemap'
   ],
+  // ssr: true,
 
   devtools: {
     enabled: true
   },
 
   css: ['~/assets/css/main.css'],
+
+  site: {
+    url: 'https://ugadajmysie.pl',
+    name: 'Ugadajmy się - Aleksandra Dubiel | Mediator, Prawnik, Coach | Szczecin'
+  },
 
   colorMode: {
     preference: 'light', // Force light mode

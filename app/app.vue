@@ -34,14 +34,14 @@ useHead({
 })
 
 const navLinks = [
-  { href: '#couples-program', label: 'Program dla par' },
-  { href: '#about', label: 'Kim jestem' },
-  { href: '#help', label: 'W czym pomagam' },
-  { href: '#mediation', label: 'Mediacje' },
-  { href: '#coaching', label: 'Coaching' },
-  { href: '#trainings', label: 'Szkolenia' },
+  { href: '/program-dla-par', label: 'Program dla par' },
+  { href: '/#about', label: 'Kim jestem' },
+  { href: '/#help', label: 'W czym pomagam' },
+  { href: '/#mediation', label: 'Mediacje' },
+  { href: '/#coaching', label: 'Coaching' },
+  { href: '/#trainings', label: 'Szkolenia' },
   // { href: '#business', label: 'Dla firm' },
-  { href: '#contact', label: 'Kontakt' }
+  { href: '/#contact', label: 'Kontakt' }
 ]
 </script>
 

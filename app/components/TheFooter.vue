@@ -8,7 +8,9 @@ const currentYear = new Date().getFullYear()
 
 const socialLinks = [
   { icon: 'i-heroicons-envelope', label: 'Email', href: 'mailto:Aleksandra_Dubiel@wp.pl' },
-  { icon: 'i-heroicons-phone', label: 'Telefon', href: 'tel:+48796245605' }
+  { icon: 'i-heroicons-phone', label: 'Telefon', href: 'tel:+48796245605' },
+  { icon: 'i-simple-icons-facebook', label: 'Facebook', href: 'https://www.facebook.com/share/1LGSATGs2M/?mibextid=wwXIfr' },
+  { icon: 'i-simple-icons-instagram', label: 'Instagram', href: 'https://www.instagram.com/ugadajmy.sie' }
   // { icon: 'i-simple-icons-linkedin', label: 'LinkedIn', href: '#' }
 ]
 
@@ -24,7 +26,7 @@ const props = defineProps<{
         <div class="lg:col-span-2">
           <div class="flex items-center gap-2 mb-4">
             <NuxtLink
-              to="#home"
+              to="/#home"
               class="flex items-center group"
             >
               <img
@@ -46,6 +48,7 @@ const props = defineProps<{
               :aria-label="social.label"
               variant="ghost"
               class="bg-slate-800 hover:bg-slate-700 text-white rounded-lg w-10 h-10 flex justify-center"
+              target="_blank"
             />
           </div>
         </div>

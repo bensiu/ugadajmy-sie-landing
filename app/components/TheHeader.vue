@@ -32,12 +32,12 @@ const props = defineProps<{
       'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
       isScrolled
         ? 'bg-background backdrop-blur-md shadow-soft border-b py-5'
-        : 'bg-transparent py-5'
+        : 'bg-secondary-foreground py-5'
     ]"
   >
     <div class="page-container flex items-center justify-between">
       <NuxtLink
-        to="#home"
+        to="/#home"
         class="flex items-center group"
       >
         <img
@@ -133,17 +133,17 @@ const props = defineProps<{
             v-for="link in props.navLinks"
             :key="link.href"
             :to="link.href"
-            class="text-base font-medium text-foreground/80 hover:text-primary transition-colors py-2"
+            class="text-base font-medium text-foreground/80 hover:text-primary transition-colors py-2 px-6"
             @click="isMobileMenuOpen = false"
           >
             {{ link.label }}
           </NuxtLink>
-          <div class="pt-4 border-t border-border flex flex-col gap-3">
+          <div class="pt-4 border-t border-border flex flex-col gap-3 px-6">
             <UButton
               to="tel:+48796245605"
               variant="link"
               color="primary"
-              class="justify-start p-0"
+              class="justify-center p-0"
             >
               <template #leading>
                 <UIcon

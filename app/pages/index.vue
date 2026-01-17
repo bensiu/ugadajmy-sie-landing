@@ -1,7 +1,12 @@
 <template>
   <div class="min-h-screen">
     <HeroBox />
-    <CouplesProgram />
+    <CouplesProgram>
+      <BlockButtonLink
+        href="/program-dla-par"
+        label="Więcej o programie"
+      />
+    </CouplesProgram>
     <AboutMe />
     <HowIHelp />
     <TheMediation />

@@ -134,17 +134,10 @@ const steps = [
             />
           </div>
         </div>
-
-        <div class="text-center pt-6 border-t border-border">
-          <UButton
-            to="#contact"
-            size="xl"
-            trailing-icon="i-lucide-arrow-right"
-            class="px-8 py-4"
-          >
-            Umów się na konsultację
-          </UButton>
-        </div>
+        <BlockButtonLink
+          href="/#contact"
+          label="Umów się na konsultację"
+        />
       </div>
     </div>
   </UPageSection>
