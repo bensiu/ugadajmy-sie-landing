@@ -95,7 +95,7 @@ async function handleSubmit() {
 
     <div class="grid sm:grid-cols-2 gap-4">
       <UFormField
-        label="Telefon"
+        label="Telefon *"
         name="phone"
         class="w-full"
       >
@@ -103,6 +103,7 @@ async function handleSubmit() {
           v-model="state.phone"
           type="tel"
           placeholder="+48 000 000 000"
+          required
           class="w-full"
         />
       </UFormField>

@@ -15,6 +15,12 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  colorMode: {
+    preference: 'light', // Force light mode
+    fallback: 'light', // Fallback if 'light' isn't available
+    storageKey: 'nuxt-color-mode-v2'
+  },
+
   // runtimeConfig: {
   //   basicAuthUser: process.env.BASIC_AUTH_USER,
   //   basicAuthPass: process.env.BASIC_AUTH_PASS
@@ -47,6 +53,15 @@ export default defineNuxtConfig({
       stylistic: {
         commaDangle: 'never',
         braceStyle: '1tbs'
+      }
+    }
+  },
+
+  scripts: {
+    registry: {
+      googleAnalytics: {
+        enabled: process.env.NODE_ENV !== 'development',
+        id: 'G-V511SC00K4'
       }
     }
   }

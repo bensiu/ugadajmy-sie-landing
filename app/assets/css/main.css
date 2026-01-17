@@ -103,6 +103,13 @@
   padding-left: 1.5rem;
 }
 
+@media (width < 400px) {
+  .page-container {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
 .text-primary-foreground {
   color: hsl(var(--primary-foreground));
 }

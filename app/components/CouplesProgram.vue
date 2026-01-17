@@ -125,7 +125,7 @@ const modules = [
         lead="Program dla par"
         title="„Razem czy osobno?”"
         description="Program zbudowany na strukturze mediacji, który przywraca komunikację w relacji,
-          pozwala dostrzec różne role w związku i uświadamia potrzeby emocjonalne partnerów."
+          pozwala dostrzec różne role w&nbsp;związku i&nbsp;uświadamia potrzeby emocjonalne partnerów."
       >
         <SimpleBadges
           :features="features"

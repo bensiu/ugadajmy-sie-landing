@@ -17,9 +17,10 @@ const props = defineProps<{
     <h2 class="text-3xl sm:text-4xl lg:text-5xl font-display font-bold mb-6">
       {{ props.title }}
     </h2>
-    <p class="text-lg text-muted-foreground">
-      {{ props.description }}
-    </p>
+    <p
+      class="text-lg text-muted-foreground"
+      v-html="props.description"
+    />
     <slot />
   </div>
 </template>

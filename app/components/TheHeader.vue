@@ -1,4 +1,9 @@
 <script setup lang="ts">
+interface NavLink {
+  href: string
+  label: string
+}
+
 // State
 const isMobileMenuOpen = ref(false)
 const isScrolled = ref(false)
@@ -16,16 +21,9 @@ onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
 })
 
-const navLinks = [
-  { href: '#couples-program', label: 'Program dla par' },
-  { href: '#about', label: 'Kim jestem' },
-  { href: '#help', label: 'W czym pomagam' },
-  { href: '#mediation', label: 'Mediacje' },
-  { href: '#coaching', label: 'Coaching' },
-  { href: '#trainings', label: 'Szkolenia' },
-  // { href: '#business', label: 'Dla firm' },
-  { href: '#contact', label: 'Kontakt' }
-]
+const props = defineProps<{
+  navLinks: NavLink[]
+}>()
 </script>
 
 <template>
@@ -132,7 +130,7 @@ const navLinks = [
       >
         <nav class="container py-6 flex flex-col gap-4">
           <NuxtLink
-            v-for="link in navLinks"
+            v-for="link in props.navLinks"
             :key="link.href"
             :to="link.href"
             class="text-base font-medium text-foreground/80 hover:text-primary transition-colors py-2"

@@ -37,7 +37,7 @@ const topics = [
       <SubHeroHeader
         lead="Szkolenia i programy"
         title="Rozwijaj umiejętności komunikacji"
-        description="Dzielę się wiedzą i doświadczeniem w formie szkoleń, warsztatów i programów rozwojowych.
+        description="Dzielę się wiedzą i&nbsp;doświadczeniem w&nbsp;formie szkoleń, warsztatów i&nbsp;programów rozwojowych.
           Dla osób indywidualnych i całych zespołów."
       />
       <div className="grid md:grid-cols-3 gap-6 mb-8">

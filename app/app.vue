@@ -5,12 +5,12 @@ useSeoMeta({
   description: 'Rozwiązuję konflikty. Buduję porozumienie. Aleksandra Dubiel – mediator, prawnik i coach. Mediacje rodzinne, spadkowe i dla firm. Coaching i szkolenia. Szczecin.',
   author: 'Aleksandra Dubiel - Ugadajmy się',
   keywords: 'mediator Szczecin, mediacje rodzinne, mediacje rozwodowe, mediacje spadkowe, coaching, rozwiązywanie konfliktów, prawnik mediator',
-  canonical: 'https://ugadajmy-sie.pl',
+  canonical: 'https://ugadajmysie.pl',
   // Open Graph
   ogTitle: 'Ugadajmy się - Aleksandra Dubiel | Mediator, Prawnik, Coach',
   ogDescription: 'Rozwiązuję konflikty. Buduję porozumienie. Mediacje rodzinne, spadkowe i dla firm. Coaching i szkolenia w Szczecinie.',
   ogType: 'website',
-  ogImage: 'https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a4fadd1f-631f-43fd-abab-468429d56e33/id-preview-35150130--c3ce7dd4-0e1f-4cf7-b2d1-67b9e4c8b7a4.lovable.app-1768236509323.png',
+  // ogImage: 'https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a4fadd1f-631f-43fd-abab-468429d56e33/id-preview-35150130--c3ce7dd4-0e1f-4cf7-b2d1-67b9e4c8b7a4.lovable.app-1768236509323.png',
   ogLocale: 'pl_PL',
 
   // Twitter
@@ -32,14 +32,26 @@ useHead({
     lang: 'pl'
   }
 })
+
+const navLinks = [
+  { href: '#couples-program', label: 'Program dla par' },
+  { href: '#about', label: 'Kim jestem' },
+  { href: '#help', label: 'W czym pomagam' },
+  { href: '#mediation', label: 'Mediacje' },
+  { href: '#coaching', label: 'Coaching' },
+  { href: '#trainings', label: 'Szkolenia' },
+  // { href: '#business', label: 'Dla firm' },
+  { href: '#contact', label: 'Kontakt' }
+]
 </script>
 
 <template>
   <UApp :class="['bg-background text-foreground']">
     <NuxtRouteAnnouncer />
-    <TheHeader />
+    <TheHeader :nav-links="navLinks" />
     <main>
       <NuxtPage />
     </main>
+    <TheFooter :nav-links="navLinks" />
   </UApp>
 </template>

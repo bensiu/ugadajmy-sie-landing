@@ -54,7 +54,7 @@ const contacts = [
               Rozmowa wstępna
             </h3>
             <p class="text-white/80 text-sm">
-              Pierwsza konsultacja jest po to, by zrozumieć i wskazać dalsze wskazówki. To 60 minut na poznanie Twojej sytuacji i wspólne ocenienie, jak mogę Ci pomóc.
+              Pierwsza konsultacja jest po to, by zrozumieć i wskazać dalsze wskazówki. To&nbsp;60&nbsp;minut na poznanie Twojej sytuacji i&nbsp;wspólne ocenienie, jak mogę Ci pomóc.
             </p>
           </div>
         </div>

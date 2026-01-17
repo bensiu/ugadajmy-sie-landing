@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const whatYouGet = [
-  'Indywidualne sesje dopasowane do Twoich potrzeb',
-  'Konkretne narzędzia i techniki do codziennego stosowania',
+  'Indywidualne sesje dopasowane do&nbsp;Twoich potrzeb',
+  'Konkretne narzędzia i techniki do&nbsp;codziennego stosowania',
   'Wsparcie w podejmowaniu trudnych decyzji',
   'Przestrzeń do refleksji i rozwoju',
   'Odpowiedzialność za realizację celów'
@@ -62,7 +62,10 @@ const coachingAreas = [
               name="i-lucide-check-circle-2"
               class="h-5 w-5 text-primary flex-shrink-0 mt-0.5"
             />
-            <span class="text-foreground">{{ item }}</span>
+            <span
+              class="text-foreground"
+              v-html="item"
+            />
           </li>
         </ul>
 

@@ -17,8 +17,8 @@ const columns: TableColumn<Module>[] = [
     header: 'Nr',
     meta: {
       class: {
-        th: 'w-16 text-right',
-        td: 'text-right font-semibold'
+        th: 'w-16 text-right hidden md:table-cell',
+        td: 'text-right font-semibold hidden md:table-cell'
       }
     }
   },
@@ -27,8 +27,8 @@ const columns: TableColumn<Module>[] = [
     header: 'Moduł',
     meta: {
       class: {
-        th: 'w-64',
-        td: 'font-semibold'
+        th: 'max-w-64',
+        td: 'font-semibold text-wrap whitespace-normal col-start-1 col-span-2 align-middle sm:table-cell flex items-center'
       }
     }
   },
@@ -37,7 +37,7 @@ const columns: TableColumn<Module>[] = [
     header: 'Opis',
     meta: {
       class: {
-        td: 'text-wrap whitespace-normal'
+        td: 'text-wrap whitespace-normal col-span-3 sm:table-cell border-t sm:border-t-0'
       }
     }
   },
@@ -47,7 +47,7 @@ const columns: TableColumn<Module>[] = [
     meta: {
       class: {
         th: 'w-32 text-center',
-        td: 'text-center font-medium align-middle flex items-center justify-center'
+        td: 'col-start-3 row-start-1 justify-self-end sm:table-cell text-center font-medium align-middle flex items-center sm:justify-items-center'
       }
     },
     cell: ({ row }) => {
@@ -78,12 +78,13 @@ const props = defineProps<{
       Moduły Programu
     </h3>
 
-    <div class="rounded-xl border bg-background overflow-hidden">
+    <div class="rounded-xl border bg-background">
       <UTable
         :data="props.modules"
         :columns="columns"
         :ui="{
-          thead: 'bg-primary/5',
+          thead: 'hidden sm:table-header-group bg-primary/5', // Hide headers on mobile
+          tr: 'grid grid-cols-3 gap-x-4 gap-y-1 p-4 sm:p-0 sm:table-row border-b last:border-0',
           th: 'text-foreground font-semibold',
           td: 'align-middle'
         }"
