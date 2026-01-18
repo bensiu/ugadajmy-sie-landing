@@ -34,7 +34,7 @@ const topics = [
     }"
   >
     <div class="page-container">
-      <SubHeroHeader
+      <BlockHeroHeader
         lead="Szkolenia i programy"
         title="Rozwijaj umiejętności komunikacji"
         description="Dzielę się wiedzą i&nbsp;doświadczeniem w&nbsp;formie szkoleń, warsztatów i&nbsp;programów rozwojowych.
@@ -49,7 +49,7 @@ const topics = [
         />
       </div>
       <div class="bg-[hsl(192,75%,25%)] rounded-2xl p-8 lg:p-12 animate-fade-up delay-200 mt-16">
-        <SubHeroHeader
+        <BlockHeroHeader
           title="Tematy szkoleń"
           description="Każde szkolenie można dostosować do Twoich potrzeb"
           class="bg-reverse max-w-5xl"
@@ -58,7 +58,7 @@ const topics = [
             :features="topics"
             class="mt-8"
           />
-        </SubHeroHeader>
+        </BlockHeroHeader>
         <BlockButtonLink
           href="/#contact"
           label="Zapytaj o szkolenie"

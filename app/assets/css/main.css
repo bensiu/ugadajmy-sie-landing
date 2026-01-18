@@ -159,3 +159,18 @@
 .section-reverse p {
   color: hsl(var(--background));
 }
+
+.flexy-custom-column-row {
+  @apply flex flex-row;
+}
+
+@media (width < 530px) {
+  .flexy-custom-column-row {
+    @apply flex flex-col items-start;
+    
+    div.text-center {
+      @apply text-left;
+    }
+  }
+  
+}

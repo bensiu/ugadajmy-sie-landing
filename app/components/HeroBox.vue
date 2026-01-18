@@ -54,7 +54,7 @@ const description = 'Jestem Aleksandra Dubiel – łączę doświadczenie prawni
             Poznaj mnie
           </UButton>
         </div>
-        <div class="flex flex-wrap items-center gap-8 mt-12 pt-8 border-t border-white/20 animate-fade-up delay-400">
+        <div class="flex flexy-custom-column-row flex-wrap items-center gap-8 mt-12 pt-8 border-t border-white/20 animate-fade-up delay-400">
           <div class="text-center">
             <p class="text-3xl font-display font-bold text-white">
               100+

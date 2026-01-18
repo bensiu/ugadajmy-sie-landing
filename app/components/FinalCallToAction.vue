@@ -7,8 +7,8 @@
     }"
   >
     <div class="page-container">
-      <SubHeroHeader
-        title="Pierwszy krok do rozwiązania jest prostszy niż myślisz"
+      <BlockHeroHeader
+        title="Pierwszy krok do&nbsp;rozwiązania jest&nbsp;prostszy niż&nbsp;myślisz"
         description="Nie musisz mierzyć się z konfliktem sam. Umów bezpłatną rozmowę wstępną – bez zobowiązań, w pełnej dyskrecji. Wspólnie ocenimy, jak mogę Ci pomóc."
       />
 

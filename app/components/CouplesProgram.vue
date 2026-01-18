@@ -16,17 +16,17 @@ const features = [
     }"
   >
     <div class="page-container relative animate-fade-up">
-      <SubHeroHeader
+      <BlockHeroHeader
         lead="Program dla par"
         title="„Razem czy osobno?”"
-        description="Program zbudowany na strukturze mediacji, który przywraca komunikację w relacji,
+        description="Program zbudowany na strukturze mediacji, który przywraca komunikację w&nbsp;relacji,
           pozwala dostrzec różne role w&nbsp;związku i&nbsp;uświadamia potrzeby emocjonalne partnerów."
       >
         <SimpleBadges
           :features="features"
           class="mt-8"
         />
-      </SubHeroHeader>
+      </BlockHeroHeader>
       <CouplesProgramWhy
         :benefits="[
           'Aby ubrać proces terapeutyczny w konkretne ramy',

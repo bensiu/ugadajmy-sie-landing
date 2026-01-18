@@ -36,11 +36,11 @@ const areas = [
     }"
   >
     <div class="page-container">
-      <SubHeroHeader
+      <BlockHeroHeader
         lead="W czym pomagam"
         title="Zamieniam konflikty w&nbsp;porozumienie"
-        description="Niezależnie od tego, czy mierzysz się z konfliktem w rodzinie, w pracy,
-          czy w biznesie – pomogę Ci znaleźć drogę do konstruktywnego rozwiązania."
+        description="Niezależnie od tego, czy mierzysz się z&nbsp;konfliktem w&nbsp;rodzinie, w&nbsp;pracy,
+          czy w&nbsp;biznesie – pomogę Ci znaleźć drogę do&nbsp;konstruktywnego rozwiązania."
       />
 
       <div class="grid md:grid-cols-2 gap-6 lg:gap-8">

@@ -35,7 +35,7 @@ const contacts = [
     }"
   >
     <div class="page-container">
-      <SubHeroHeader
+      <BlockHeroHeader
         lead="Kontakt"
         title="Porozmawiajmy"
         description="Masz pytania? Chcesz umówić konsultację? Napisz lub zadzwoń – pierwsza rozmowa jest zawsze bezpłatna i&nbsp;niezobowiązująca."

@@ -55,11 +55,11 @@ const steps = [
     }"
   >
     <div class="page-container">
-      <SubHeroHeader
+      <BlockHeroHeader
         lead="Mediacje"
-        title="Rozwiązuj konflikty bez sądu"
-        description="Mediacja to droga do porozumienia – szybsza, tańsza i mniej stresująca niż proces sądowy.
-          A co najważniejsze: to Wy macie wpływ na rozwiązanie."
+        title="Rozwiązuj konflikty bez&nbsp;sądu"
+        description="Mediacja to droga do porozumienia – szybsza, tańsza i&nbsp;mniej stresująca niż&nbsp;proces sądowy.
+          A co najważniejsze: to&nbsp;Wy macie wpływ na rozwiązanie."
       />
 
       <div class="grid md:grid-cols-3 gap-6 mb-16">

@@ -54,12 +54,12 @@ const credentials = [
           </h2>
           <div class="space-y-6 mb-8">
             <p class="text-lg text-muted-foreground leading-relaxed">
-              Witaj! Jestem certyfikowanym mediatorem, coachem i prawnikiem. To unikalne połączenie kompetencji pozwala mi patrzeć na konflikty z wielu perspektyw i znajdować rozwiązania, które naprawdę działają.
+              Witaj! Jestem certyfikowanym mediatorem, coachem i&nbsp;prawnikiem. To&nbsp;unikalne połączenie kompetencji pozwala mi patrzeć na konflikty z wielu perspektyw i znajdować rozwiązania, które naprawdę działają.
             </p>
             <p class="text-lg text-muted-foreground leading-relaxed">
               Wierzę, że każdy konflikt można rozwiązać - potrzeba do tego bezpiecznej przestrzeni,
-              profesjonalnego wsparcia i gotowości do&nbsp;dialogu. Moją rolą jest być Twoim przewodnikiem
-              na drodze do&nbsp;porozumienia.
+              profesjonalnego wsparcia i gotowości do&nbsp;dialogu. Moją&nbsp;rolą jest być Twoim przewodnikiem
+              na&nbsp;drodze do&nbsp;porozumienia.
             </p>
           </div>
 
