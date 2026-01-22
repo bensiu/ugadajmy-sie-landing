@@ -3,6 +3,7 @@ const props = defineProps<{
   lead?: string
   title: string
   description: string
+  asH1?: boolean
 }>()
 </script>
 
@@ -14,7 +15,16 @@ const props = defineProps<{
     >
       {{ props.lead }}
     </span>
-    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-display font-bold mb-6">
+    <h1
+      v-if="props.asH1"
+      class="text-3xl sm:text-4xl lg:text-5xl font-display font-bold mb-6"
+    >
+      {{ props.title }}
+    </h1>
+    <h2
+      v-else
+      class="text-3xl sm:text-4xl lg:text-5xl font-display font-bold mb-6"
+    >
       {{ props.title }}
     </h2>
     <p

@@ -1,7 +1,7 @@
 <script setup>
 // 1. Logic for SEO Tags
 useSeoMeta({
-  title: 'Ugadajmy się - Aleksandra Dubiel | Mediator, Prawnik, Coach | Szczecin',
+  title: 'Ugadajmy się - Aleksandra Dubiel | Mediator, Coach | Szczecin',
   description: 'Rozwiązuję konflikty. Buduję porozumienie. Aleksandra Dubiel – mediator, prawnik i coach. Mediacje rodzinne, spadkowe i dla firm. Coaching i szkolenia. Szczecin.',
   author: 'Aleksandra Dubiel - Ugadajmy się',
   keywords: 'mediator Szczecin, mediacje rodzinne, mediacje rozwodowe, mediacje spadkowe, coaching, rozwiązywanie konfliktów, prawnik mediator',
@@ -26,7 +26,7 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
   ],
   link: [
-    { rel: 'icon', href: '/favicon.ico' }
+    { rel: 'icon', href: '/favicon.png' }
   ],
   htmlAttrs: {
     lang: 'pl'

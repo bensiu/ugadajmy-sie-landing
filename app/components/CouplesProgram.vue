@@ -1,10 +1,14 @@
-<script setup>
+<script lang="ts" setup>
 const features = [
   'Przywracanie komunikacji',
   'Zrozumienie ról w związku',
   'Uświadamianie potrzeb emocjonalnych',
   'Budowanie porozumienia'
 ]
+
+const props = defineProps<{
+  asH1?: boolean
+}>()
 </script>
 
 <template>
@@ -21,6 +25,7 @@ const features = [
         title="„Razem czy osobno?”"
         description="Program zbudowany na strukturze mediacji, który przywraca komunikację w&nbsp;relacji,
           pozwala dostrzec różne role w&nbsp;związku i&nbsp;uświadamia potrzeby emocjonalne partnerów."
+        :as-h1="props.asH1"
       >
         <SimpleBadges
           :features="features"

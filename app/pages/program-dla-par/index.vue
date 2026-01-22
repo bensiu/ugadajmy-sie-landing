@@ -107,7 +107,10 @@ const modules = [
 
 <template>
   <div class="min-h-screen">
-    <CouplesProgram class="mt-20">
+    <CouplesProgram
+      :as-h1="true"
+      class="mt-20"
+    >
       <div class="grid md:grid-cols-3 gap-6">
         <CouplesProgramStep
           v-for="step in steps"

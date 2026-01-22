@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     '@nuxt/a11y',
     '@nuxt/hints',
     '@nuxt/scripts',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    'nuxt-security'
   ],
   // ssr: true,
 
