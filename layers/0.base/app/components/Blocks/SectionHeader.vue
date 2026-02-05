@@ -4,6 +4,8 @@ const props = defineProps<{
   title: string
   description: string
   asH1?: boolean
+  titleColor?: string
+  descriptionColor?: string
 }>()
 </script>
 
@@ -24,12 +26,13 @@ const props = defineProps<{
     <h2
       v-else
       class="text-3xl sm:text-4xl lg:text-5xl font-display font-bold mb-6"
+      :class="props.titleColor ? props.titleColor : 'text-primary'"
     >
       {{ props.title }}
     </h2>
     <!-- eslint-disable vue/no-v-html -->
     <p
-      class="text-lg text-muted-foreground"
+      :class="`text-lg ${props.descriptionColor || 'text-muted-foreground'}`"
       v-html="props.description"
     />
     <slot />
