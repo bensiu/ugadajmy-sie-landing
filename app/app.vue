@@ -1,11 +1,11 @@
-<script setup>
+<script lang="ts" setup>
 // 1. Logic for SEO Tags
 useSeoMeta({
   title: 'Ugadajmy się - Aleksandra Dubiel | Mediator, Coach | Szczecin',
   description: 'Rozwiązuję konflikty. Buduję porozumienie. Aleksandra Dubiel – mediator, prawnik i coach. Mediacje rodzinne, spadkowe i dla firm. Coaching i szkolenia. Szczecin.',
   author: 'Aleksandra Dubiel - Ugadajmy się',
   keywords: 'mediator Szczecin, mediacje rodzinne, mediacje rozwodowe, mediacje spadkowe, coaching, rozwiązywanie konfliktów, prawnik mediator',
-  canonical: 'https://ugadajmysie.pl',
+  // canonical: 'https://ugadajmysie.pl',
   // Open Graph
   ogTitle: 'Ugadajmy się - Aleksandra Dubiel | Mediator, Prawnik, Coach',
   ogDescription: 'Rozwiązuję konflikty. Buduję porozumienie. Mediacje rodzinne, spadkowe i dla firm. Coaching i szkolenia w Szczecinie.',
@@ -35,20 +35,127 @@ useHead({
 
 const navLinks = [
   { href: '/program-dla-par', label: 'Program dla par' },
-  { href: '/#about', label: 'Kim jestem' },
-  { href: '/#help', label: 'W czym pomagam' },
+  { href: '/#o-mnie', label: 'Kim jestem' },
+  { href: '/#w-czym-pomagam', label: 'W czym pomagam' },
   { href: '/#mediation', label: 'Mediacje' },
   { href: '/#coaching', label: 'Coaching' },
-  { href: '/#trainings', label: 'Szkolenia' },
+  { href: '/#szkolenia-i-programy', label: 'Szkolenia' },
   // { href: '#business', label: 'Dla firm' },
   { href: '/#contact', label: 'Kontakt' }
 ]
+
+const isMenuOpen = ref(false)
+const isScrolled = ref(false)
+
+// Scroll Logic
+const handleScroll = () => {
+  isScrolled.value = window.scrollY > 50
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
 </script>
 
 <template>
   <UApp :class="['bg-background text-foreground']">
     <NuxtRouteAnnouncer />
-    <TheHeader :nav-links="navLinks" />
+
+    <UHeader
+      :open="isMenuOpen"
+      :ui="{
+        left: 'lg:flex-1 xl:flex-none pr-4 lg:pr-8'
+      }"
+      :class="[
+        isScrolled
+          ? 'bg-background backdrop-blur-md shadow-soft border-b py-5'
+          : 'bg-secondary-foreground py-5'
+      ]"
+    >
+      <template #left>
+        <NuxtLink
+          to="/#home"
+          class="flex items-center group"
+        >
+          <img
+            src="/images/logo.png"
+            alt="Ugadajmy się - Aleksandra Dubiel"
+            :class="['h-10 w-auto transition-all', !isScrolled ? 'brightness-0 invert' : '']"
+          >
+        </NuxtLink>
+      </template>
+
+      <nav class="hidden lg:flex items-center gap-6">
+        <NuxtLink
+          v-for="link in navLinks"
+          :key="link.href"
+          :to="link.href"
+          :class="[
+            'text-sm font-medium transition-colors',
+            isScrolled ? 'text-foreground/70 hover:text-primary' : 'text-white/80 hover:text-white'
+          ]"
+        >
+          {{ link.label }}
+        </NuxtLink>
+      </nav>
+
+      <template #right>
+        <div class="hidden xl:flex items-center gap-4">
+          <UButton
+            to="tel:+48796245605"
+            variant="ghost"
+            color="neutral"
+            :class="[
+              'transition-colors',
+              isScrolled ? 'text-muted-foreground hover:text-primary' : 'text-white/80 hover:text-white hover:bg-white/10'
+            ]"
+          >
+            <template #leading>
+              <UIcon
+                name="i-lucide-phone"
+                class="h-4 w-4"
+              />
+            </template>
+            +48 796 245 605
+          </UButton>
+
+          <UButton
+            to="#contact"
+            size="sm"
+            :class="[
+              'font-semibold transition-all p-4',
+              isScrolled
+                ? ''
+                : 'bg-[hsl(40,90%,55%)] text-[hsl(210,30%,12%)] hover:bg-[hsl(40,90%,50%)] border-none'
+            ]"
+          >
+            Umów rozmowę
+          </UButton>
+        </div>
+      </template>
+
+      <template #body>
+        <div class="p-2 flex flex-col h-full">
+          <div class="flex flex-col gap-2">
+            <UButton
+              v-for="link in navLinks"
+              :key="link.href"
+              variant="ghost"
+              :to="link.href"
+              class="text-left text-lg font-semibold py-3 px-5 border-b border-gray-100 dark:border-gray-800"
+            >
+              {{ link.label }}
+            </UButton>
+          </div>
+        </div>
+      </template>
+    </UHeader>
+
+    <!-- <TheHeader :nav-links="navLinks" /> -->
     <main>
       <NuxtPage />
     </main>

@@ -1,0 +1,145 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+
+  /* Art Direction: Professional Energy */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Poppins', system-ui, sans-serif;
+  
+  --animate-fade-in-up: fadeInUp 0.5s ease-out forwards;
+}
+
+/* Light Mode - Professional Corporate Clean */
+:root {
+
+  /* Base */
+  --background: 0 0% 100%; /* Pure White */
+  --foreground: 222 47% 11%; /* Deep Navy Text */
+
+  /* Primary: Trustworthy Navy Blue */
+  --primary: 192 70% 35;
+  --primary-foreground: 210 40% 98%;
+
+  /* Secondary: Energy Green */
+  --secondary: 210 20% 96%; /* Vibrant Green */
+  --secondary-foreground: 210 25% 15%;
+
+  --ui-primary: hsl(var(--primary));
+  --ui-secondary: hsl(var(var(--secondary)));
+  
+  --ui-color-primary-500: hsl(var(--primary));
+
+  /* Muted/Neutral */
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  
+  /* Cards/Surfaces */
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+  
+  /* Borders */
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  
+  /* Utilities */
+  --ring: 222 47% 11%;
+  --radius: 0.5rem;
+  
+  /* Status */
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  
+  --accent: 210 40% 96.1%;
+  --accent-foreground: 222 47% 11%;
+
+  --section-subtle: 192 20% 95%;
+}
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+
+  .bg-primary\/80 {
+    background-color: color-mix(in oklab, hsl(var(--primary)) 80%, transparent);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-in {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.section-subtle {
+  background-color: hsl(var(--section-subtle));
+}
+
+
+.flexy-custom-column-row {
+  @apply flex flex-row;
+}
+
+@media (width < 530px) {
+  .flexy-custom-column-row {
+    @apply flex flex-col items-start;
+    
+    div.text-center {
+      @apply text-left;
+    }
+  }
+}

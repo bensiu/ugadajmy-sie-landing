@@ -107,7 +107,7 @@ const modules = [
 
 <template>
   <div class="min-h-screen">
-    <CouplesProgram
+    <SectionsCouplesProgram
       :as-h1="true"
       class="mt-20"
     >
@@ -120,6 +120,6 @@ const modules = [
       </div>
       <CouplesProgramDiscount />
       <CouplesProgramModules :modules="modules" />
-    </CouplesProgram>
+    </SectionsCouplesProgram>
   </div>
 </template>

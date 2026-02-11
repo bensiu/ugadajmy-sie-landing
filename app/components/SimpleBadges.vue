@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const props = defineProps<{
   features: string[]
+  bgColor?: string
 }>()
 </script>
 
@@ -9,7 +10,10 @@ const props = defineProps<{
     <span
       v-for="feature in props.features"
       :key="feature"
-      class="px-6 py-2 bg-primary/10 rounded-full text-primary text-sm font-medium the-feature"
+      :class="[
+        'px-6 py-2 bg-primary/10 rounded-full text-primary text-sm font-medium the-feature',
+        props.bgColor || ''
+      ]"
     >
       {{ feature }}
     </span>

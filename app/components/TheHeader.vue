@@ -29,7 +29,7 @@ const props = defineProps<{
 <template>
   <header
     :class="[
-      'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
+      'fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-4',
       isScrolled
         ? 'bg-background backdrop-blur-md shadow-soft border-b py-5'
         : 'bg-secondary-foreground py-5'
@@ -126,9 +126,9 @@ const props = defineProps<{
     >
       <div
         v-if="isMobileMenuOpen"
-        class="xl:hidden absolute top-full left-0 right-0 bg-background border-b border-border shadow-elevated"
+        class="xl:hidden absolute top-full left-0 right-0 bg-background border-b border-border shadow-elevated w-full"
       >
-        <nav class="container py-6 flex flex-col gap-4">
+        <nav class="py-6 flex flex-col gap-4 w-full">
           <NuxtLink
             v-for="link in props.navLinks"
             :key="link.href"

@@ -1,17 +1,17 @@
 <template>
   <div class="min-h-screen">
     <HeroBox />
-    <CouplesProgram>
+    <SectionsCouplesProgram>
       <BlockButtonLink
         href="/program-dla-par"
         label="Więcej o programie"
       />
-    </CouplesProgram>
-    <AboutMe />
-    <HowIHelp />
+    </SectionsCouplesProgram>
+    <SectionsAboutMe />
+    <SectionsHowIHelp />
     <TheMediation />
     <TheCoaching />
-    <TheTrainings />
+    <SectionsTheTrainings />
     <FinalCallToAction />
     <ContactMe />
   </div>

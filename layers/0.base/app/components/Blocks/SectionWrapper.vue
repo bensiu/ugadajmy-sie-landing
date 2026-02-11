@@ -14,7 +14,7 @@ const props = defineProps<SectionWrapperProps>()
       container: `page-container py-8 sm:py-12 lg:py-16 ${props.containerClass || ''} `
     }"
   >
-    <div class="page-container">
+    <div class="page-container animate-fade-up">
       <slot />
     </div>
   </UPageSection>

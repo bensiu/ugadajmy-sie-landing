@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     enabled: true
   },
 
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/main2.css'],
 
   site: {
     url: 'https://ugadajmysie.pl',

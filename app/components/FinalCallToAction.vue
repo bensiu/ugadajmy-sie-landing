@@ -7,9 +7,10 @@
     }"
   >
     <div class="page-container">
-      <BlockHeroHeader
+      <BlocksSectionHeader
         title="Pierwszy krok do&nbsp;rozwiązania jest&nbsp;prostszy niż&nbsp;myślisz"
-        description="Nie musisz mierzyć się z konfliktem sam. Umów bezpłatną rozmowę wstępną – bez zobowiązań, w pełnej dyskrecji. Wspólnie ocenimy, jak mogę Ci pomóc."
+        description="Nie musisz mierzyć się z&nbsp;konfliktem sam. Umów bezpłatną rozmowę wstępną – bez zobowiązań, w&nbsp;pełnej dyskrecji. Wspólnie ocenimy, jak mogę Ci pomóc."
+        title-color=" "
       />
 
       <div class="flex flex-col sm:flex-row gap-6 justify-center mb-12">
