@@ -71,9 +71,10 @@ onUnmounted(() => {
         left: 'lg:flex-1 xl:flex-none pr-4 lg:pr-8'
       }"
       :class="[
+        'absolute w-full fixed left-0 top-0 right-0',
         isScrolled
           ? 'bg-background backdrop-blur-md shadow-soft border-b py-5'
-          : 'bg-secondary-foreground py-5'
+          : 'bg-transparent py-5'
       ]"
     >
       <template #left>
@@ -156,7 +157,7 @@ onUnmounted(() => {
     </UHeader>
 
     <!-- <TheHeader :nav-links="navLinks" /> -->
-    <main>
+    <main class="relative">
       <NuxtPage />
     </main>
     <TheFooter :nav-links="navLinks" />

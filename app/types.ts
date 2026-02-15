@@ -16,6 +16,7 @@ export interface DetailPageProps {
   kinds?: {
     title: string
     description: string
+    class?: string
     items: {
       title: string
       path: string
