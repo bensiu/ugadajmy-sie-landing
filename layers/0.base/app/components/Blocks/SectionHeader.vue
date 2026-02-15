@@ -2,7 +2,8 @@
 const props = defineProps<{
   lead?: string
   title: string
-  description: string
+  description?: string
+  items?: string[]
   asH1?: boolean
   titleColor?: string
   descriptionColor?: string
@@ -17,24 +18,41 @@ const props = defineProps<{
     >
       {{ props.lead }}
     </span>
+    <!-- eslint-disable vue/no-v-html -->
     <h1
       v-if="props.asH1"
-      class="text-3xl sm:text-4xl lg:text-5xl font-display font-bold mb-6"
-    >
-      {{ props.title }}
-    </h1>
+      class="text-2xl sm:text-3xl lg:text-4xl font-display font-bold mb-6"
+      v-html="props.title"
+    />
+    <!-- eslint-disable vue/no-v-html -->
     <h2
       v-else
-      class="text-3xl sm:text-4xl lg:text-5xl font-display font-bold mb-6"
+      class="text-2xl sm:text-3xl lg:text-4xl font-display font-bold mb-6"
       :class="props.titleColor ? props.titleColor : 'text-primary'"
-    >
-      {{ props.title }}
-    </h2>
+      v-html="props.title"
+    />
     <!-- eslint-disable vue/no-v-html -->
     <p
+      v-if="props.description"
       :class="`text-lg ${props.descriptionColor || 'text-muted-foreground'}`"
       v-html="props.description"
     />
+    <ul
+      v-if="props.items?.length"
+      class="space-y-4 mb-4 py-3"
+    >
+      <li
+        v-for="(item, index) in props.items"
+        :key="`item-${index}`"
+        class="flex items-start gap-4"
+      >
+        <UIcon
+          name="lucide-check-circle-2"
+          class="h-5 w-5 text-primary flex-shrink-0 mt-0.5"
+        />
+        {{ item }}
+      </li>
+    </ul>
     <slot />
   </div>
 </template>

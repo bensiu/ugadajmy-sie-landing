@@ -2,7 +2,9 @@
 type FeatureCardItem = {
   icon: string
   title: string
-  desc: string
+  description: string
+  items?: string[]
+  link?: string
 }
 const props = defineProps<FeatureCardItem>()
 </script>
@@ -23,16 +25,45 @@ const props = defineProps<FeatureCardItem>()
       </slot>
     </div>
 
-    <h3 class="text-xl font-bold mb-2 group-hover:text-primary-500 transition-colors">
-      <slot name="title">
-        {{ props.title }}
-      </slot>
-    </h3>
+    <!-- eslint-disable vue/no-v-html -->
+    <h3
+      class="text-xl font-bold mb-2 group-hover:text-primary-500 transition-colors min-h-16"
+      v-html="props.title"
+    />
 
     <!-- eslint-disable vue/no-v-html -->
     <p
       class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed"
-      v-html="props.desc"
+      v-html="props.description"
     />
+
+    <slot name="list">
+      <ul
+        v-if="props.items?.length"
+        class="space-y-1 mb-4 py-3"
+      >
+        <li
+          v-for="(item, index) in props.items"
+          :key="`item-${index}`"
+          class="text-sm text-(--ui-text-muted) flex items-center gap-2"
+        >
+          <span class="w-1.5 h-1.5 rounded-full bg-(--ui-primary)/60" />
+          {{ item }}
+        </li>
+      </ul>
+    </slot>
+
+    <slot name="link">
+      <div
+        v-if="props.link"
+        class="flex items-center text-primary font-semibold text-sm group-hover:gap-3 gap-2 transition-all"
+      >
+        {{ props.link }}
+        <UIcon
+          name="lucide-arrow-right"
+          class="h-4 w-4 transition-transform group-hover:translate-x-1"
+        />
+      </div>
+    </slot>
   </div>
 </template>
