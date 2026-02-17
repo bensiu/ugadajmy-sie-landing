@@ -16,20 +16,20 @@ export const page: DetailPageProps = {
   whenToUse: {
     title: 'Dla kogo jest coaching kariery?',
     situations: [
-      'Rozważasz zmianę pracy lub branży i&nbsp;potrzebujesz jasności',
+      'Rozważasz zmianę pracy lub&nbsp;branży i&nbsp;potrzebujesz jasności',
       'Chcesz awansować, ale nie wiesz, jak się wyróżnić',
       'Czujesz się wypalony zawodowo i&nbsp;szukasz nowej energii',
-      'Masz trudności z&nbsp;komunikacją z&nbsp;przełożonym lub współpracownikami',
-      'Wracasz na rynek pracy po przerwie i&nbsp;potrzebujesz pewności siebie',
+      'Masz trudności z&nbsp;komunikacją z&nbsp;przełożonym lub&nbsp;współpracownikami',
+      'Wracasz na&nbsp;rynek pracy po przerwie i&nbsp;potrzebujesz pewności siebie',
       'Chcesz rozwinąć kompetencje przywódcze i&nbsp;zarządzać zespołem',
-      'Stoisz przed trudnymi negocjacjami dotyczącymi wynagrodzenia lub stanowiska'
+      'Stoisz przed trudnymi negocjacjami dotyczącymi wynagrodzenia lub&nbsp;stanowiska'
     ]
   },
   howProcess: {
     title: 'Jak wygląda proces coachingu kariery?',
     steps: [
       { title: 'Analiza obecnej sytuacji', description: 'Wspólnie przyglądamy się Twojej ścieżce zawodowej, kompetencjom i&nbsp;wyzwaniom' },
-      { title: 'Definiowanie celów', description: 'Określamy, czego naprawdę chcesz i&nbsp;co jest dla Ciebie możliwe' },
+      { title: 'Definiowanie celów', description: 'Określamy, czego naprawdę chcesz i&nbsp;co jest dla&nbsp;Ciebie możliwe' },
       { title: 'Strategia działania', description: 'Tworzymy konkretny plan z&nbsp;krokami do realizacji Twoich celów' },
       { title: 'Wdrożenie i&nbsp;wsparcie', description: 'Działasz według planu, a ja wspieram Cię w&nbsp;pokonywaniu przeszkód' }
     ]
@@ -44,7 +44,7 @@ export const page: DetailPageProps = {
       'Rozwój umiejętności komunikacji i&nbsp;negocjacji',
       'Większa pewność siebie w&nbsp;środowisku pracy',
       'Lepsze zarządzanie czasem i&nbsp;priorytetami',
-      'Strategiczne planowanie kariery na lata'
+      'Strategiczne planowanie kariery na&nbsp;lata'
     ]
   },
   frequentlyAskedQuestions: {
@@ -52,11 +52,11 @@ export const page: DetailPageProps = {
     questions: [
       {
         label: 'Ile trwa proces coachingu kariery?',
-        content: 'Typowy proces coachingu kariery trwa od 6 do 12 sesji, rozłożonych na 2-4 miesiące. Czasem wystarczy kilka spotkań, żeby uzyskać klarowność w&nbsp;konkretnej kwestii. Zawsze dopasowuję liczbę sesji do Twoich potrzeb i&nbsp;celów.'
+        content: 'Typowy proces coachingu kariery trwa od 6 do 12 sesji, rozłożonych na&nbsp;2-4 miesiące. Czasem wystarczy kilka spotkań, żeby uzyskać klarowność w&nbsp;konkretnej kwestii. Zawsze dopasowuję liczbę sesji do Twoich potrzeb i&nbsp;celów.'
       },
       {
         label: 'Czy coaching pomoże mi zmienić pracę?',
-        content: 'Coaching pomoże Ci podjąć świadomą decyzję – czy zmiana pracy jest właściwym krokiem. Pracujemy nad zdefiniowaniem tego, czego naprawdę szukasz, jakie masz opcje i&nbsp;jak skutecznie przeprowadzić zmianę, jeśli się na nią zdecydujesz.'
+        content: 'Coaching pomoże Ci podjąć świadomą decyzję – czy zmiana pracy jest właściwym krokiem. Pracujemy nad zdefiniowaniem tego, czego naprawdę szukasz, jakie masz opcje i&nbsp;jak skutecznie przeprowadzić zmianę, jeśli się na&nbsp;nią zdecydujesz.'
       },
       {
         label: 'Czym różni się coaching od doradztwa zawodowego?',
@@ -68,11 +68,11 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Jak przygotować się do pierwszej sesji?',
-        content: 'Przed pierwszą sesją warto zastanowić się, czego oczekujesz od coachingu i&nbsp;jakie wyzwania zawodowe są dla Ciebie najważniejsze. Nie musisz mieć gotowych odpowiedzi – to właśnie będziemy wypracowywać wspólnie.'
+        content: 'Przed pierwszą sesją warto zastanowić się, czego oczekujesz od coachingu i&nbsp;jakie wyzwania zawodowe są dla&nbsp;Ciebie najważniejsze. Nie musisz mieć gotowych odpowiedzi – to właśnie będziemy wypracowywać wspólnie.'
       }
     ]
   },
   callToAction: {
-    title: 'Umów się na coaching kariery w&nbsp;Szczecinie'
+    title: 'Umów się na&nbsp;coaching kariery w&nbsp;Szczecinie'
   }
 }

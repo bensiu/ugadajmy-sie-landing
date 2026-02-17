@@ -10,7 +10,7 @@ export const page: DetailPageProps = {
     description: [
       'Mediacja z&nbsp;udziałem dzieci to szczególny rodzaj mediacji rodzinnej, w&nbsp;której głos dziecka jest uwzględniany przy wypracowywaniu rozwiązań. Nie oznacza to stawiania dziecka w&nbsp;roli arbitra czy obciążania go decyzjami dorosłych – chodzi o&nbsp;zrozumienie perspektywy i&nbsp;potrzeb najmłodszych, które często są inne niż zakładają rodzice.',
       'Jako mediator z&nbsp;doświadczeniem w&nbsp;pracy z&nbsp;dziećmi, stosuję specjalne techniki dostosowane do wieku i&nbsp;rozwoju dziecka. Rozmowa z&nbsp;7-latkiem wygląda inaczej niż z&nbsp;nastolatkiem. w&nbsp;każdym przypadku dbam o&nbsp;to, by dziecko czuło się bezpieczne i&nbsp;by nie było wciągane w&nbsp;konflikt rodziców.',
-      'Sesje z&nbsp;udziałem dzieci prowadzę w&nbsp;przyjaznej przestrzeni gabinetu przy ul. Kapitańskiej 3a w&nbsp;Szczecinie. Najpierw spotykam się z&nbsp;rodzicami, by ustalić zasady, a dopiero potem, jeśli to wskazane, zapraszam dziecko na rozmowę lub wspólną sesję.'
+      'Sesje z&nbsp;udziałem dzieci prowadzę w&nbsp;przyjaznej przestrzeni gabinetu przy ul. Kapitańskiej 3a w&nbsp;Szczecinie. Najpierw spotykam się z&nbsp;rodzicami, by ustalić zasady, a dopiero potem, jeśli to wskazane, zapraszam dziecko na&nbsp;rozmowę lub&nbsp;wspólną sesję.'
     ]
   },
   whenToUse: {
@@ -41,7 +41,7 @@ export const page: DetailPageProps = {
       'Dziecko czuje, że jego głos ma znaczenie',
       'Rozwiązania są lepiej dopasowane do realnych potrzeb dziecka',
       'Zmniejsza się konflikt lojalnościowy dziecka',
-      'Rodzice zyskują nową perspektywę na sytuację',
+      'Rodzice zyskują nową perspektywę na&nbsp;sytuację',
       'Dziecko uczy się, że konflikty można rozwiązywać rozmową'
     ]
   },
@@ -49,28 +49,28 @@ export const page: DetailPageProps = {
     title: 'Pytania o&nbsp;mediacje sąsiedzkie',
     questions: [
       {
-        label: 'Od jakiego wieku dziecko może uczestniczyć w&nbsp;mediacji?',
+        label: 'Od jakiego wieku dziecko może uczestniczyć w mediacji?',
         content: 'Nie ma sztywnej granicy wiekowej. Już 5-6-latki mogą uczestniczyć w&nbsp;uproszczonych formach rozmowy. Im starsze dziecko, tym bardziej może być zaangażowane. Nastolatki często uczestniczą we wspólnych sesjach z&nbsp;rodzicami.'
       },
       {
-        label: 'Czy dziecko musi brać udział w&nbsp;mediacji?',
+        label: 'Czy dziecko musi brać udział w mediacji?',
         content: 'Nie, udział dziecka jest zawsze opcjonalny i&nbsp;zależy od sytuacji. Czasami wystarczy, że przeprowadzę z&nbsp;dzieckiem rozmowę i&nbsp;przekażę rodzicom jego perspektywę. Innym razem wspólna sesja jest wskazana.'
       },
       {
-        label: 'Czy dziecko decyduje o&nbsp;wyniku mediacji?',
-        content: 'Absolutnie nie. Decyzje podejmują dorośli. Głos dziecka jest jednym z&nbsp;elementów branych pod uwagę, ale odpowiedzialność za decyzje spoczywa na rodzicach. Chronię dzieci przed byciem rozjemcami.'
+        label: 'Czy dziecko decyduje o wyniku mediacji?',
+        content: 'Absolutnie nie. Decyzje podejmują dorośli. Głos dziecka jest jednym z&nbsp;elementów branych pod uwagę, ale odpowiedzialność za decyzje spoczywa na&nbsp;rodzicach. Chronię dzieci przed byciem rozjemcami.'
       },
       {
         label: 'Czy to, co powie dziecko, jest poufne?',
         content: 'Ustalamy to z&nbsp;góry z&nbsp;rodzicami. Zazwyczaj przekazuję rodzicom ogólną perspektywę dziecka, ale nie dosłownie każde słowo. Jeśli dziecko poprosi o&nbsp;dyskrecję w&nbsp;jakiejś sprawie, respektuję to, chyba że chodzi o&nbsp;bezpieczeństwo.'
       },
       {
-        label: 'Ile kosztuje mediacja z&nbsp;udziałem dziecka w&nbsp;Szczecinie?',
+        label: 'Ile kosztuje mediacja z udziałem dziecka w Szczecinie?',
         content: 'Sesja mediacyjna z&nbsp;udziałem dziecka to koszt 450-550 zł, ponieważ wymaga dodatkowego czasu i&nbsp;przygotowania. Rozmowa wstępna z&nbsp;dzieckiem to ok. 200 zł. Dokładny koszt ustalamy po poznaniu sytuacji.'
       }
     ]
   },
   callToAction: {
-    title: 'Umów się na mediację z&nbsp;udziałem dziecka w&nbsp;Szczecinie'
+    title: 'Umów się na&nbsp;mediację z&nbsp;udziałem dziecka w&nbsp;Szczecinie'
   }
 }

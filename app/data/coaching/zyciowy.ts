@@ -9,7 +9,7 @@ export const page: DetailPageProps = {
     title: 'Na czym polega coaching życiowy?',
     description: [
       'Coaching życiowy (life coaching) to partnerska relacja, która pomaga Ci żyć pełnią życia. Wspólnie odkrywamy Twoje wartości, pasje i&nbsp;cele, a następnie tworzymy plan ich realizacji w&nbsp;sposób autentyczny i&nbsp;zgodny z&nbsp;tym, kim naprawdę jesteś.',
-      'Wielu ludzi czuje, że gdzieś po drodze zagubiło się w&nbsp;codzienności – rutyna, oczekiwania innych, presja społeczna. Coaching życiowy to przestrzeń, w&nbsp;której możesz się zatrzymać, przemyśleć swoje życie i&nbsp;świadomie wybrać kierunek, który ma dla Ciebie sens.',
+      'Wielu ludzi czuje, że gdzieś po drodze zagubiło się w&nbsp;codzienności – rutyna, oczekiwania innych, presja społeczna. Coaching życiowy to przestrzeń, w&nbsp;której możesz się zatrzymać, przemyśleć swoje życie i&nbsp;świadomie wybrać kierunek, który ma dla&nbsp;Ciebie sens.',
       'Jako coach pomagam Ci zadać właściwe pytania, zobaczyć nowe możliwości i&nbsp;pokonać bariery, które Cię ograniczają. Nie daję gotowych odpowiedzi – wierzę, że masz w&nbsp;sobie mądrość potrzebną do zbudowania życia, jakiego pragniesz.'
     ]
   },
@@ -29,9 +29,9 @@ export const page: DetailPageProps = {
   howProcess: {
     title: 'Jak wygląda proces coachingu życiowego?',
     steps: [
-      { title: 'Odkrywanie siebie', description: 'Eksplorujemy Twoje wartości, mocne strony i&nbsp;to, co naprawdę ma dla Ciebie znaczenie' },
+      { title: 'Odkrywanie siebie', description: 'Eksplorujemy Twoje wartości, mocne strony i&nbsp;to, co naprawdę ma dla&nbsp;Ciebie znaczenie' },
       { title: 'Wizja przyszłości', description: 'Tworzymy inspirującą wizję życia, jakiego pragniesz' },
-      { title: 'Plan działania', description: 'Przekładamy wizję na konkretne, realistyczne kroki' },
+      { title: 'Plan działania', description: 'Przekładamy wizję na&nbsp;konkretne, realistyczne kroki' },
       { title: 'Realizacja i&nbsp;wzrost', description: 'Działasz, a ja wspieram Cię w&nbsp;pokonywaniu przeszkód i&nbsp;celebruję Twoje sukcesy' }
     ]
   },
@@ -53,7 +53,7 @@ export const page: DetailPageProps = {
     questions: [
       {
         label: 'Czy coaching życiowy to terapia?',
-        content: 'Nie, coaching różni się od terapii. Terapia koncentruje się na leczeniu problemów psychicznych i&nbsp;pracy z&nbsp;przeszłością. Coaching jest zorientowany na przyszłość – skupiamy się na celach, rozwoju i&nbsp;budowaniu życia, jakiego pragniesz. Jeśli zmagasz się z&nbsp;poważnymi problemami emocjonalnymi, rekomenduję współpracę z&nbsp;psychoterapeutą.'
+        content: 'Nie, coaching różni się od terapii. Terapia koncentruje się na&nbsp;leczeniu problemów psychicznych i&nbsp;pracy z&nbsp;przeszłością. Coaching jest zorientowany na&nbsp;przyszłość – skupiamy się na&nbsp;celach, rozwoju i&nbsp;budowaniu życia, jakiego pragniesz. Jeśli zmagasz się z&nbsp;poważnymi problemami emocjonalnymi, rekomenduję współpracę z&nbsp;psychoterapeutą.'
       },
       {
         label: 'Jak długo trwa coaching życiowy?',
@@ -65,15 +65,15 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Czy muszę mieć konkretny cel przed rozpoczęciem?',
-        content: 'Nie, nie musisz przychodzić z&nbsp;gotowym celem. Wiele osób zaczyna coaching z&nbsp;ogólnym poczuciem, że czegoś im brakuje lub że chcą więcej od życia. Pierwszą częścią naszej pracy jest właśnie zdefiniowanie, nad czym chcesz pracować.'
+        content: 'Nie, nie musisz przychodzić z&nbsp;gotowym celem. Wiele osób zaczyna coaching z&nbsp;ogólnym poczuciem, że czegoś im brakuje lub&nbsp;że chcą więcej od życia. Pierwszą częścią naszej pracy jest właśnie zdefiniowanie, nad czym chcesz pracować.'
       },
       {
         label: 'Czy sesje mogą być online?',
-        content: 'Tak, oferuję zarówno sesje stacjonarne w&nbsp;Szczecinie, jak i&nbsp;sesje online przez wideokonferencję. Sesje online są równie skuteczne i&nbsp;często wygodniejsze dla osób z&nbsp;napiętym harmonogramem.'
+        content: 'Tak, oferuję zarówno sesje stacjonarne w&nbsp;Szczecinie, jak i&nbsp;sesje online przez wideokonferencję. Sesje online są równie skuteczne i&nbsp;często wygodniejsze dla&nbsp;osób z&nbsp;napiętym harmonogramem.'
       }
     ]
   },
   callToAction: {
-    title: 'Umów się na coaching życiowy w&nbsp;Szczecinie'
+    title: 'Umów się na&nbsp;coaching życiowy w&nbsp;Szczecinie'
   }
 }

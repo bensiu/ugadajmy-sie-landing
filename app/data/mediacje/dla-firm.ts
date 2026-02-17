@@ -2,24 +2,24 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'mediacje-dla-firm-szczecin',
-  title: ['Mediacje dla Firm Szczecin – Rozwiązuj Konflikty w&nbsp;Organizacji'],
+  title: ['Mediacje dla&nbsp;Firm Szczecin – Rozwiązuj Konflikty w&nbsp;Organizacji'],
   description: 'Konflikty w&nbsp;firmie kosztują: spadek produktywności, utrata talentów, toksyczna atmosfera. w&nbsp;Szczecinie pomagam firmom rozwiązywać wewnętrzne spory szybko, dyskretnie i&nbsp;skutecznie.',
 
   whatIsIt: {
-    title: 'Czym są mediacje dla firm?',
+    title: 'Czym są mediacje dla&nbsp;firm?',
     description: [
-      'Mediacja dla firm to profesjonalny sposób rozwiązywania konfliktów wewnątrz organizacji. Spory między pracownikami, działy w&nbsp;konflikcie, nieporozumienia między wspólnikami – to wszystko paraliżuje firmę i&nbsp;generuje realne straty. Jako mediator biznesowy w&nbsp;Szczecinie pomagam firmom przywrócić harmonię i&nbsp;produktywność.',
+      'Mediacja dla&nbsp;firm to profesjonalny sposób rozwiązywania konfliktów wewnątrz organizacji. Spory między pracownikami, działy w&nbsp;konflikcie, nieporozumienia między wspólnikami – to wszystko paraliżuje firmę i&nbsp;generuje realne straty. Jako mediator biznesowy w&nbsp;Szczecinie pomagam firmom przywrócić harmonię i&nbsp;produktywność.',
       'W przeciwieństwie do standardowych metod (dyscyplinarnych, prawnych), mediacja pozwala zachować relacje i&nbsp;zatrzymać wartościowych ludzi. Konflikty rozwiązane mediacyjnie rzadko wracają, bo strony same wypracowują rozwiązanie i&nbsp;czują się za nie odpowiedzialne.',
-      'Prowadzę mediacje dla firm różnej wielkości – od małych rodzinnych przedsiębiorstw po korporacje. Sesje mogą odbywać się w&nbsp;moim gabinecie przy ul. Kapitańskiej 3a w&nbsp;Szczecinie lub w&nbsp;siedzibie firmy – zależnie od potrzeb i&nbsp;dyskrecji.'
+      'Prowadzę mediacje dla&nbsp;firm różnej wielkości – od małych rodzinnych przedsiębiorstw po korporacje. Sesje mogą odbywać się w&nbsp;moim gabinecie przy ul. Kapitańskiej 3a w&nbsp;Szczecinie lub&nbsp;w&nbsp;siedzibie firmy – zależnie od potrzeb i&nbsp;dyskrecji.'
     ]
   },
   whenToUse: {
     title: 'Kiedy firma potrzebuje mediacji?',
     situations: [
       'Dwóch kluczowych pracowników jest w&nbsp;otwartym konflikcie',
-      'Zespoły lub działy nie współpracują ze sobą',
+      'Zespoły lub&nbsp;działy nie współpracują ze sobą',
       'Wspólnicy firmy mają różne wizje rozwoju',
-      'Pojawiają się skargi na mobbing lub dyskryminację',
+      'Pojawiają się skargi na&nbsp;mobbing lub&nbsp;dyskryminację',
       'Reorganizacja wywołuje opór i&nbsp;konflikty',
       'Klient wewnętrzny i&nbsp;dostawca wewnętrzny nie mogą się dogadać',
       'Menedżer ma konflikt z&nbsp;zespołem',
@@ -36,7 +36,7 @@ export const page: DetailPageProps = {
     ]
   },
   listOfBenefits: {
-    title: 'Korzyści z&nbsp;mediacji dla firmy',
+    title: 'Korzyści z&nbsp;mediacji dla&nbsp;firmy',
     items: [
       'Szybkie rozwiązanie – tygodnie, nie miesiące procedur',
       'Poufność – konflikt nie wychodzi poza firmę',
@@ -49,8 +49,8 @@ export const page: DetailPageProps = {
     title: 'Pytania o&nbsp;mediacje sąsiedzkie',
     questions: [
       {
-        label: 'Ile kosztują mediacje dla firm w&nbsp;Szczecinie?',
-        content: 'Koszt mediacji firmowej zależy od skali konfliktu i&nbsp;liczby osób zaangażowanych. Dla małych zespołów (2-3 osoby) to 500-800 zł za sesję. Dla większych konfliktów przygotowuję indywidualną wycenę. Koszt mediacji to ułamek strat generowanych przez konflikt.'
+        label: 'Ile kosztują mediacje dla firm w Szczecinie?',
+        content: 'Koszt mediacji firmowej zależy od skali konfliktu i&nbsp;liczby osób zaangażowanych. dla&nbsp;małych zespołów (2-3 osoby) to 500-800 zł za sesję. dla&nbsp;większych konfliktów przygotowuję indywidualną wycenę. Koszt mediacji to ułamek strat generowanych przez konflikt.'
       },
       {
         label: 'Czy mediacja może zastąpić procedurę dyscyplinarną?',
@@ -62,15 +62,15 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Jak długo trwa mediacja firmowa?',
-        content: 'Typowy konflikt między dwiema osobami rozwiązuję w&nbsp;2-4 sesjach rozłożonych na 2-3 tygodnie. Bardziej złożone sytuacje (konflikty zespołowe) mogą wymagać więcej czasu, ale i&nbsp;tak to znacznie szybciej niż inne metody.'
+        content: 'Typowy konflikt między dwiema osobami rozwiązuję w&nbsp;2-4 sesjach rozłożonych na&nbsp;2-3 tygodnie. Bardziej złożone sytuacje (konflikty zespołowe) mogą wymagać więcej czasu, ale i&nbsp;tak to znacznie szybciej niż inne metody.'
       },
       {
-        label: 'Czy oferujesz szkolenia z&nbsp;zarządzania konfliktami?',
-        content: 'Tak! Oprócz mediacji prowadzę szkolenia dla menedżerów i&nbsp;zespołów z&nbsp;komunikacji i&nbsp;zarządzania konfliktami. To inwestycja w&nbsp;prewencję, która zmniejsza liczbę konfliktów w&nbsp;przyszłości.'
+        label: 'Czy oferujesz szkolenia z zarządzania konfliktami?',
+        content: 'Tak! Oprócz mediacji prowadzę szkolenia dla&nbsp;menedżerów i&nbsp;zespołów z&nbsp;komunikacji i&nbsp;zarządzania konfliktami. To inwestycja w&nbsp;prewencję, która zmniejsza liczbę konfliktów w&nbsp;przyszłości.'
       }
     ]
   },
   callToAction: {
-    title: 'Umów się na mediację firmową w&nbsp;Szczecinie'
+    title: 'Umów się na&nbsp;mediację firmową w&nbsp;Szczecinie'
   }
 }

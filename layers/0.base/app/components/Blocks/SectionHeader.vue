@@ -50,7 +50,7 @@ const props = defineProps<{
           name="lucide-check-circle-2"
           class="h-5 w-5 text-primary flex-shrink-0 mt-0.5"
         />
-        {{ item }}
+        <span v-html="item" />
       </li>
     </ul>
     <slot />

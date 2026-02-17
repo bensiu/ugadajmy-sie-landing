@@ -20,16 +20,16 @@ export const page: DetailPageProps = {
       'Unikasz konfliktów kosztem własnych potrzeb i&nbsp;granic',
       'Konflikty w&nbsp;pracy obniżają Twoją efektywność i&nbsp;samopoczucie',
       'Zarządzasz zespołem i&nbsp;musisz radzić sobie z&nbsp;napięciami między pracownikami',
-      'Konflikty rodzinne wpływają na Twoje codzienne życie',
+      'Konflikty rodzinne wpływają na&nbsp;Twoje codzienne życie',
       'Chcesz nauczyć się asertywnie wyrażać swoje zdanie',
-      'Szukasz sposobów na konstruktywne rozwiązywanie sporów',
-      'Potrzebujesz wsparcia przed trudną rozmową lub negocjacjami'
+      'Szukasz sposobów na&nbsp;konstruktywne rozwiązywanie sporów',
+      'Potrzebujesz wsparcia przed trudną rozmową lub&nbsp;negocjacjami'
     ]
   },
   howProcess: {
     title: 'Jak wygląda proces coachingu konfliktów?',
     steps: [
-      { title: 'Analiza wzorców', description: 'Identyfikujemy Twoje typowe reakcje na konflikt i&nbsp;ich źródła' },
+      { title: 'Analiza wzorców', description: 'Identyfikujemy Twoje typowe reakcje na&nbsp;konflikt i&nbsp;ich źródła' },
       { title: 'Rozwijanie umiejętności', description: 'Pracujemy nad konkretnymi narzędziami komunikacji i&nbsp;zarządzania emocjami' },
       { title: 'Praktyka i&nbsp;ćwiczenia', description: 'Ćwiczymy nowe strategie w&nbsp;bezpiecznym środowisku sesji coachingowej' },
       { title: 'Wdrożenie w&nbsp;życie', description: 'Stosujesz nowe umiejętności w&nbsp;realnych sytuacjach z&nbsp;moim wsparciem' }
@@ -45,7 +45,7 @@ export const page: DetailPageProps = {
       'Lepsze rozumienie perspektywy drugiej strony',
       'Zdrowsze relacje w&nbsp;pracy i&nbsp;życiu prywatnym',
       'Mniej stresu związanego z&nbsp;konfliktami',
-      'Trwałe umiejętności na całe życie'
+      'Trwałe umiejętności na&nbsp;całe życie'
     ]
   },
   frequentlyAskedQuestions: {
@@ -57,11 +57,11 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Czy coaching pomoże, jeśli konflikt jest bardzo zaawansowany?',
-        content: 'Coaching może pomóc na każdym etapie konfliktu. w&nbsp;zaawansowanych przypadkach pracujemy nad strategiami deeskalacji, zarządzaniem emocjami i&nbsp;przygotowaniem do trudnych rozmów. Czasem rekomenduję też mediację jako uzupełnienie.'
+        content: 'Coaching może pomóc na&nbsp;każdym etapie konfliktu. w&nbsp;zaawansowanych przypadkach pracujemy nad strategiami deeskalacji, zarządzaniem emocjami i&nbsp;przygotowaniem do trudnych rozmów. Czasem rekomenduję też mediację jako uzupełnienie.'
       },
       {
         label: 'Ile sesji potrzeba, żeby zauważyć zmiany?',
-        content: 'Pierwsze zmiany w&nbsp;sposobie reagowania na konflikty można zauważyć już po 2-3 sesjach. Budowanie trwałych nawyków wymaga zazwyczaj 6-10 sesji. Tempo zależy od złożoności wyzwań i&nbsp;Twojego zaangażowania w&nbsp;praktykowanie nowych umiejętności.'
+        content: 'Pierwsze zmiany w&nbsp;sposobie reagowania na&nbsp;konflikty można zauważyć już po 2-3 sesjach. Budowanie trwałych nawyków wymaga zazwyczaj 6-10 sesji. Tempo zależy od złożoności wyzwań i&nbsp;Twojego zaangażowania w&nbsp;praktykowanie nowych umiejętności.'
       },
       {
         label: 'Czy coaching konfliktów jest dla mnie, jeśli unikam konfrontacji?',
@@ -74,6 +74,6 @@ export const page: DetailPageProps = {
     ]
   },
   callToAction: {
-    title: 'Umów się na coaching konfliktów w&nbsp;Szczecinie'
+    title: 'Umów się na&nbsp;coaching konfliktów w&nbsp;Szczecinie'
   }
 }

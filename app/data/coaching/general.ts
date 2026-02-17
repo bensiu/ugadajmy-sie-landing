@@ -8,7 +8,7 @@ export const page: DetailPageProps = {
   whatIsIt: {
     title: 'Czym jest coaching?',
     description: [
-      'Coaching to partnerska relacja, która pomaga Ci odkryć własne odpowiedzi na ważne pytania życiowe i&nbsp;zawodowe. Nie daję gotowych rad – pomagam Ci myśleć jaśniej, działać skuteczniej i&nbsp;osiągać cele, które naprawdę mają dla Ciebie znaczenie.',
+      'Coaching to partnerska relacja, która pomaga Ci odkryć własne odpowiedzi na&nbsp;ważne pytania życiowe i&nbsp;zawodowe. Nie daję gotowych rad – pomagam Ci myśleć jaśniej, działać skuteczniej i&nbsp;osiągać cele, które naprawdę mają dla&nbsp;Ciebie znaczenie.',
       'Jako certyfikowany coach z&nbsp;doświadczeniem w&nbsp;mediacji i&nbsp;prawie, oferuję unikalne połączenie kompetencji. Rozumiem złożoność relacji międzyludzkich i&nbsp;wyzwań zawodowych. Pomagam Ci nie tylko określić, czego chcesz, ale też jak to osiągnąć w&nbsp;sposób zgodny z&nbsp;Twoimi wartościami.'
     ]
   },
@@ -63,6 +63,6 @@ export const page: DetailPageProps = {
     ]
   },
   callToAction: {
-    title: 'Umów się na coaching w&nbsp;Szczecinie'
+    title: 'Umów się na&nbsp;coaching w&nbsp;Szczecinie'
   }
 }

@@ -8,21 +8,21 @@ export const page: DetailPageProps = {
   whatIsIt: {
     title: 'Czym są mediacje gospodarcze?',
     description: [
-      'Mediacje gospodarcze to sposób rozwiązywania sporów między przedsiębiorcami poza sądem. w&nbsp;Szczecinie pomagam firmom negocjować porozumienia w&nbsp;sprawach kontraktowych, windykacyjnych czy konfliktów wspólników – szybciej i&nbsp;taniej niż na drodze sądowej.',
+      'Mediacje gospodarcze to sposób rozwiązywania sporów między przedsiębiorcami poza sądem. w&nbsp;Szczecinie pomagam firmom negocjować porozumienia w&nbsp;sprawach kontraktowych, windykacyjnych czy konfliktów wspólników – szybciej i&nbsp;taniej niż na&nbsp;drodze sądowej.',
       'Jako prawnik z&nbsp;wieloletnim doświadczeniem rozumiem specyfikę biznesu. Wiem, że w&nbsp;świecie przedsiębiorców liczy się czas, dyskrecja i&nbsp;konkretne rozwiązania. Spory sądowe ciągną się latami, blokują kapitał i&nbsp;niszczą relacje biznesowe.',
-      'Mój gabinet przy ul. Kapitańskiej 3a w&nbsp;Szczecinie to neutralne miejsce dla negocjacji. Oferuję również mediacje online dla firm spoza regionu. Wszystkie rozmowy są objęte pełną poufnością.'
+      'Mój gabinet przy ul. Kapitańskiej 3a w&nbsp;Szczecinie to neutralne miejsce dla&nbsp;negocjacji. Oferuję również mediacje online dla&nbsp;firm spoza regionu. Wszystkie rozmowy są objęte pełną poufnością.'
     ]
   },
   whenToUse: {
     title: 'Kiedy skorzystać z&nbsp;mediacji gospodarczej?',
     situations: [
       'Masz spór z&nbsp;kontrahentem o&nbsp;realizację umowy',
-      'Klient nie płaci faktur i&nbsp;nie reagujesz na wezwania do zapłaty',
+      'Klient nie płaci faktur i&nbsp;nie reagujesz na&nbsp;wezwania do zapłaty',
       'Masz konflikt ze wspólnikiem w&nbsp;spółce',
       'Negocjujesz warunki rozwiązania współpracy biznesowej',
-      'Masz spór z&nbsp;podwykonawcą lub dostawcą',
+      'Masz spór z&nbsp;podwykonawcą lub&nbsp;dostawcą',
       'Chcesz uniknąć kosztów i&nbsp;rozgłosu procesu sądowego',
-      'Zależy Ci na zachowaniu relacji biznesowych mimo konfliktu',
+      'Zależy Ci na&nbsp;zachowaniu relacji biznesowych mimo konfliktu',
       'Masz konflikt pracowniczy wymagający interwencji'
     ]
   },
@@ -36,11 +36,11 @@ export const page: DetailPageProps = {
     ]
   },
   listOfBenefits: {
-    title: 'Korzyści dla Twojej firmy',
+    title: 'Korzyści dla&nbsp;Twojej firmy',
     items: [
       'Szybkie rozwiązanie – dni/tygodnie zamiast lat w&nbsp;sądzie',
       'Pełna poufność – ochrona reputacji firmy',
-      'Niższe koszty – oszczędność na prawnikach i&nbsp;opłatach sądowych',
+      'Niższe koszty – oszczędność na&nbsp;prawnikach i&nbsp;opłatach sądowych',
       'Zachowanie relacji biznesowych mimo sporu',
       'Elastyczne rozwiązania niemożliwe w&nbsp;sądzie'
     ]
@@ -49,28 +49,28 @@ export const page: DetailPageProps = {
     title: 'Pytania o&nbsp;mediacje gospodarcze',
     questions: [
       {
-        label: 'Ile kosztują mediacje gospodarcze w&nbsp;Szczecinie?',
+        label: 'Ile kosztują mediacje gospodarcze w Szczecinie?',
         content: 'Koszt zależy od wartości sporu i&nbsp;złożoności sprawy. Pierwsze spotkanie organizacyjne jest wliczone w&nbsp;koszt mediacji. Łączny koszt jest znacznie niższy niż proces sądowy, a czas rozwiązania liczony w&nbsp;tygodniach, nie latach.'
       },
       {
-        label: 'Czy ugoda z&nbsp;mediacji jest wiążąca dla firm?',
+        label: 'Czy ugoda z mediacji jest wiążąca dla firm?',
         content: 'Tak! Ugoda zawarta przed mediatorem, po zatwierdzeniu przez sąd, ma moc prawną wyroku sądowego. Można ją egzekwować przez komornika w&nbsp;razie niewykonania zobowiązań.'
       },
       {
         label: 'Czy mediacje gospodarcze są poufne?',
-        content: 'Absolutnie. Wszystko, co powiedziane na mediacji, jest objęte tajemnicą. Mediator nie może zeznawać w&nbsp;sądzie na temat przebiegu mediacji. To chroni reputację firm.'
+        content: 'Absolutnie. Wszystko, co powiedziane na&nbsp;mediacji, jest objęte tajemnicą. Mediator nie może zeznawać w&nbsp;sądzie na&nbsp;temat przebiegu mediacji. To chroni reputację firm.'
       },
       {
-        label: 'Czy konkurencja dowie się o&nbsp;naszym sporze?',
+        label: 'Czy konkurencja dowie się o naszym sporze?',
         content: 'Nie. w&nbsp;przeciwieństwie do procesu sądowego, który jest jawny, mediacje są całkowicie poufne. Żadna informacja nie wychodzi poza pokój mediacyjny.'
       },
       {
-        label: 'Czy mogę prowadzić mediacje zamiast iść do sądu w&nbsp;sprawie windykacyjnej?',
-        content: 'Tak. Mediacja często jest skuteczniejsza niż sąd w&nbsp;sprawach o&nbsp;zapłatę. Dłużnik chętniej negocjuje warunki spłaty niż czeka na wyrok. Można ustalić raty, odroczenia, częściowe umorzenie.'
+        label: 'Czy mogę prowadzić mediacje zamiast iść do sądu w sprawie windykacyjnej?',
+        content: 'Tak. Mediacja często jest skuteczniejsza niż sąd w&nbsp;sprawach o&nbsp;zapłatę. Dłużnik chętniej negocjuje warunki spłaty niż czeka na&nbsp;wyrok. Można ustalić raty, odroczenia, częściowe umorzenie.'
       }
     ]
   },
   callToAction: {
-    title: 'Umów się na mediację gospodarczą w&nbsp;Szczecinie'
+    title: 'Umów się na&nbsp;mediację gospodarczą w&nbsp;Szczecinie'
   }
 }

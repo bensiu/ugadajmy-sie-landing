@@ -37,7 +37,12 @@ const props = withDefaults(
           trigger: 'text-left text-lg font-semibold  px-6 hover:no-underline',
           content: 'py-2 px-6'
         }"
-      />
+      >
+        <template #body="{ item }">
+          <!-- eslint-disable vue/no-v-html -->
+          <span v-html="item.content" />
+        </template>
+      </UAccordion>
     </UContainer>
   </BlocksSectionWrapper>
 </template>

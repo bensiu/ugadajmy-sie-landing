@@ -3,14 +3,14 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'szkolenia-z-mediacji-szczecin',
   title: ['Szkolenia z&nbsp;mediacji w&nbsp;Szczecinie'],
-  description: 'Zostań profesjonalnym mediatorem. Praktyczne szkolenia prowadzone przez doświadczonego mediatora. Certyfikat uprawniający do wpisu na listę mediatorów sądowych.',
+  description: 'Zostań profesjonalnym mediatorem. Praktyczne szkolenia prowadzone przez doświadczonego mediatora. Certyfikat uprawniający do wpisu na&nbsp;listę mediatorów sądowych.',
 
   whatIsIt: {
     title: 'Czym są szkolenia z&nbsp;mediacji?',
     description: [
-      'Szkolenia z&nbsp;mediacji w&nbsp;Szczecinie to profesjonalne kursy dla osób chcących zostać mediatorami lub rozwijać umiejętności mediacyjne w&nbsp;swojej pracy. Jako praktykujący mediator z&nbsp;wieloletnim doświadczeniem, przekazuję wiedzę opartą na realnych przypadkach i&nbsp;sprawdzonych technikach.',
-      'Mediacja to skuteczna metoda rozwiązywania konfliktów, której mogą uczyć się nie tylko przyszli mediatorzy. Umiejętności mediacyjne są nieocenione dla menedżerów, specjalistów HR, prawników, terapeutów i&nbsp;wszystkich, którzy na co dzień pomagają innym rozwiązywać spory.',
-      'Szkolenia prowadzę zgodnie ze standardami szkolenia mediatorów, co oznacza nacisk na praktykę, symulacje sesji mediacyjnych i&nbsp;superwizję. Uczestnicy uczą się przez doświadczenie, prowadząc mediacje pod moją opieką.'
+      'Szkolenia z&nbsp;mediacji w&nbsp;Szczecinie to profesjonalne kursy dla&nbsp;osób chcących zostać mediatorami lub&nbsp;rozwijać umiejętności mediacyjne w&nbsp;swojej pracy. Jako praktykujący mediator z&nbsp;wieloletnim doświadczeniem, przekazuję wiedzę opartą na&nbsp;realnych przypadkach i&nbsp;sprawdzonych technikach.',
+      'Mediacja to skuteczna metoda rozwiązywania konfliktów, której mogą uczyć się nie tylko przyszli mediatorzy. Umiejętności mediacyjne są nieocenione dla&nbsp;menedżerów, specjalistów HR, prawników, terapeutów i&nbsp;wszystkich, którzy na&nbsp;co dzień pomagają innym rozwiązywać spory.',
+      'Szkolenia prowadzę zgodnie ze standardami szkolenia mediatorów, co oznacza nacisk na&nbsp;praktykę, symulacje sesji mediacyjnych i&nbsp;superwizję. Uczestnicy uczą się przez doświadczenie, prowadząc mediacje pod moją opieką.'
     ]
   },
   whenToUse: {
@@ -44,7 +44,7 @@ export const page: DetailPageProps = {
       'Wiedza prawna dotycząca mediacji',
       'Umiejętność sporządzania dokumentacji mediacyjnej',
       'Certyfikat ukończenia szkolenia mediacyjnego',
-      'Możliwość wpisania na listę mediatorów'
+      'Możliwość wpisania na&nbsp;listę mediatorów'
     ]
   },
   frequentlyAskedQuestions: {
@@ -52,27 +52,27 @@ export const page: DetailPageProps = {
     questions: [
       {
         label: 'Czy po szkoleniu mogę zostać mediatorem?',
-        content: 'Tak, szkolenie podstawowe z&nbsp;mediacji (40-60 godzin) uprawnia do ubiegania się o&nbsp;wpis na listę mediatorów sądowych. Po ukończeniu szkolenia otrzymujesz certyfikat, który jest wymagany przez sądy. Dodatkowo rekomenduję praktykę pod superwizją i&nbsp;dalsze szkolenia specjalistyczne.'
+        content: 'Tak, szkolenie podstawowe z&nbsp;mediacji (40-60 godzin) uprawnia do ubiegania się o&nbsp;wpis na&nbsp;listę mediatorów sądowych. Po ukończeniu szkolenia otrzymujesz certyfikat, który jest wymagany przez sądy. Dodatkowo rekomenduję praktykę pod superwizją i&nbsp;dalsze szkolenia specjalistyczne.'
       },
       {
-        label: 'Ile trwa szkolenie z&nbsp;mediacji?',
-        content: 'Podstawowe szkolenie mediacyjne trwa 40-60 godzin dydaktycznych, rozłożonych zazwyczaj na kilka weekendów. Oferuję również szkolenia specjalistyczne (np. mediacja rodzinna, gospodarcza), które trwają 20-40 godzin i&nbsp;są przeznaczone dla osób z&nbsp;ukończonym szkoleniem podstawowym.'
+        label: 'Ile trwa szkolenie z mediacji?',
+        content: 'Podstawowe szkolenie mediacyjne trwa 40-60 godzin dydaktycznych, rozłożonych zazwyczaj na&nbsp;kilka weekendów. Oferuję również szkolenia specjalistyczne (np. mediacja rodzinna, gospodarcza), które trwają 20-40 godzin i&nbsp;są przeznaczone dla&nbsp;osób z&nbsp;ukończonym szkoleniem podstawowym.'
       },
       {
-        label: 'Jakie są wymagania, żeby uczestniczyć w&nbsp;szkoleniu?',
-        content: 'Szkolenie podstawowe z&nbsp;mediacji jest otwarte dla wszystkich osób pełnoletnich. Nie są wymagane wcześniejsze kwalifikacje, choć doświadczenie w&nbsp;pracy z&nbsp;ludźmi jest pomocne. Dla osób chcących pracować jako mediatorzy sądowi wymagane jest wykształcenie wyższe.'
+        label: 'Jakie są wymagania, żeby uczestniczyć  szkoleniu?',
+        content: 'Szkolenie podstawowe z&nbsp;mediacji jest otwarte dla&nbsp;wszystkich osób pełnoletnich. Nie są wymagane wcześniejsze kwalifikacje, choć doświadczenie w&nbsp;pracy z&nbsp;ludźmi jest pomocne. dla&nbsp;osób chcących pracować jako mediatorzy sądowi wymagane jest wykształcenie wyższe.'
       },
       {
         label: 'Czy szkolenie jest akredytowane?',
-        content: 'Tak, szkolenia prowadzę zgodnie ze standardami szkolenia mediatorów przyjętymi przez Społeczną Radę ds. Alternatywnych Metod Rozwiązywania Konfliktów i&nbsp;Sporów przy Ministrze Sprawiedliwości. Certyfikat jest honorowany przez sądy przy wpisie na listę mediatorów.'
+        content: 'Tak, szkolenia prowadzę zgodnie ze standardami szkolenia mediatorów przyjętymi przez Społeczną Radę ds. Alternatywnych Metod Rozwiązywania Konfliktów i&nbsp;Sporów przy Ministrze Sprawiedliwości. Certyfikat jest honorowany przez sądy przy wpisie na&nbsp;listę mediatorów.'
       },
       {
-        label: 'Czy mogę uczestniczyć w&nbsp;szkoleniu online?',
+        label: 'Czy mogę uczestniczyć w szkoleniu online?',
         content: 'Część teoretyczna szkolenia może być realizowana online. Jednak praktyka mediacyjna, symulacje i&nbsp;superwizja wymagają spotkań stacjonarnych. Oferuję formaty hybrydowe, które łączą elastyczność nauki zdalnej z&nbsp;wartością bezpośredniej praktyki.'
       }
     ]
   },
   callToAction: {
-    title: 'Umów się na szkolenie z&nbsp;mediacji w&nbsp;Szczecinie'
+    title: 'Umów się na&nbsp;szkolenie z&nbsp;mediacji w&nbsp;Szczecinie'
   }
 }

@@ -10,7 +10,7 @@ export const page: DetailPageProps = {
     description: [
       'Mediacja to dobrowolny i&nbsp;poufny proces rozwiązywania konfliktów z&nbsp;udziałem bezstronnego mediatora. w&nbsp;przeciwieństwie do postępowania sądowego, to Ty i&nbsp;druga strona macie kontrolę nad ostatecznym rozwiązaniem. w&nbsp;Szczecinie prowadzę mediacje od ponad 15 lat, pomagając setkom osób i&nbsp;firm osiągnąć trwałe porozumienie.',
       'Jako mediator i&nbsp;prawnik łączę znajomość prawa z&nbsp;umiejętnościami komunikacyjnymi. Dzięki temu mogę skutecznie prowadzić nawet najtrudniejsze rozmowy, dbając jednocześnie o&nbsp;to, by wypracowane rozwiązania były zgodne z&nbsp;obowiązującymi przepisami.',
-      'Mój gabinet mieści się w&nbsp;centrum Szczecina przy ul. Kapitańskiej 3a. Oferuję również mediacje online dla osób, które nie mogą stawić się osobiście lub mieszkają poza Szczecinem.'
+      'Mój gabinet mieści się w&nbsp;centrum Szczecina przy ul. Kapitańskiej 3a. Oferuję również mediacje online dla&nbsp;osób, które nie mogą stawić się osobiście lub&nbsp;mieszkają poza Szczecinem.'
     ]
   },
   kinds: {
@@ -60,7 +60,7 @@ export const page: DetailPageProps = {
         icon: 'lucide-building-2'
       },
       {
-        title: 'Mediacje dla firm',
+        title: 'Mediacje dla&nbsp;firm',
         path: '/mediacje-dla-firm-szczecin',
         description: 'Konflikty w&nbsp;zespołach, spory pracownicze, negocjacje',
         icon: 'lucide-users'
@@ -74,7 +74,7 @@ export const page: DetailPageProps = {
       {
         title: 'Mediacje online',
         path: '/mediacje-online-szczecin',
-        description: 'Zdalne sesje mediacyjne dla osób spoza Szczecina',
+        description: 'Zdalne sesje mediacyjne dla&nbsp;osób spoza Szczecina',
         icon: 'lucide-monitor'
       }
     ]
@@ -83,14 +83,14 @@ export const page: DetailPageProps = {
     title: 'Jakie sprawy cywilne nadają się do mediacji?',
     variant: 'default',
     situations: [
-      'Spór o&nbsp;wykonanie lub niewykonanie umowy',
+      'Spór o&nbsp;wykonanie lub&nbsp;niewykonanie umowy',
       'Roszczenia o&nbsp;odszkodowanie za szkodę',
       'Spór o&nbsp;nieruchomość – granice, służebności, własność',
-      'Konflikt z&nbsp;wykonawcą remontu lub budowy',
+      'Konflikt z&nbsp;wykonawcą remontu lub&nbsp;budowy',
       'Spór z&nbsp;ubezpieczycielem o&nbsp;wypłatę odszkodowania',
-      'Roszczenia o&nbsp;zwrot pożyczki lub długu',
+      'Roszczenia o&nbsp;zwrot pożyczki lub&nbsp;długu',
       'Spór konsumencki z&nbsp;przedsiębiorcą',
-      'Konflikt o&nbsp;prawo własności lub współwłasność'
+      'Konflikt o&nbsp;prawo własności lub&nbsp;współwłasność'
     ]
   },
   howProcess: {
@@ -118,27 +118,27 @@ export const page: DetailPageProps = {
     questions: [
       {
         label: 'Czy każda sprawa cywilna nadaje się do mediacji?',
-        content: 'Większość tak. Nie nadają się sprawy, gdzie jedna strona całkowicie odmawia dialogu, lub gdzie rozstrzygnięcie wymaga interpretacji prawa przez sąd. Podczas konsultacji oceniam szanse powodzenia mediacji.'
+        content: 'Większość tak. Nie nadają się sprawy, gdzie jedna strona całkowicie odmawia dialogu, lub&nbsp;gdzie rozstrzygnięcie wymaga interpretacji prawa przez sąd. Podczas konsultacji oceniam szanse powodzenia mediacji.'
       },
       {
-        label: 'Ile kosztuje mediacja cywilna w&nbsp;Szczecinie?',
+        label: 'Ile kosztuje mediacja cywilna w Szczecinie?',
         content: 'Koszt zależy od wartości przedmiotu sporu i&nbsp;złożoności sprawy. Zazwyczaj jest to ułamek kosztów procesu sądowego. Konkretny cennik omawiam podczas pierwszej konsultacji.'
       },
       {
         label: 'Czy mogę przerwać mediację, jeśli nie przynosi efektów?',
-        content: 'Oczywiście. Mediacja jest dobrowolna na każdym etapie. Możesz zrezygnować w&nbsp;dowolnym momencie i&nbsp;skierować sprawę do sądu.'
+        content: 'Oczywiście. Mediacja jest dobrowolna na&nbsp;każdym etapie. Możesz zrezygnować w&nbsp;dowolnym momencie i&nbsp;skierować sprawę do sądu.'
       },
       {
-        label: 'Czy potrzebuję prawnika na mediacji cywilnej?',
+        label: 'Czy potrzebuję prawnika na&nbsp;mediacji cywilnej?',
         content: 'Nie jest to wymagane, ale możesz przyjść z&nbsp;prawnikiem jeśli czujesz taką potrzebę. Jako mediator jestem bezstronny i&nbsp;nie reprezentuję żadnej ze stron.'
       },
       {
-        label: 'Co jeśli druga strona nie zgodzi się na mediację?',
+        label: 'Co jeśli druga strona nie zgodzi się na&nbsp;mediację?',
         content: 'Mediacja wymaga zgody obu stron. Jednak często osoby początkowo sceptyczne zmieniają zdanie, gdy wyjaśnię im korzyści. Pomagam w&nbsp;pierwszym kontakcie z&nbsp;drugą stroną.'
       }
     ]
   },
   callToAction: {
-    title: 'Umów się na mediację cywilną w&nbsp;Szczecinie'
+    title: 'Umów się na&nbsp;mediację cywilną w&nbsp;Szczecinie'
   }
 }

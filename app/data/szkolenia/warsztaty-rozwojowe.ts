@@ -9,7 +9,7 @@ export const page: DetailPageProps = {
     title: 'Czym są warsztaty rozwojowe?',
     description: [
       'Warsztaty rozwojowe w&nbsp;Szczecinie to intensywne spotkania grupowe, które wspierają rozwój osobisty i&nbsp;budowanie lepszych relacji. Łączę wiedzę z&nbsp;psychologii, coachingu i&nbsp;mediacji, tworząc przestrzeń do głębokiej pracy nad sobą w&nbsp;bezpiecznym środowisku.',
-      'Warsztaty prowadzę w&nbsp;małych grupach, co pozwala na indywidualne podejście i&nbsp;głęboką pracę. Uczestnicy uczą się od siebie nawzajem, dzielą doświadczeniami i&nbsp;budują wspierającą społeczność osób zainteresowanych rozwojem.',
+      'Warsztaty prowadzę w&nbsp;małych grupach, co pozwala na&nbsp;indywidualne podejście i&nbsp;głęboką pracę. Uczestnicy uczą się od siebie nawzajem, dzielą doświadczeniami i&nbsp;budują wspierającą społeczność osób zainteresowanych rozwojem.',
       'Każdy warsztat ma określony temat i&nbsp;cele. Pracujemy nad konkretnymi umiejętnościami – od zarządzania emocjami, przez budowanie pewności siebie, po rozwijanie inteligencji emocjonalnej. Teoria stanowi jedynie punkt wyjścia do ćwiczeń praktycznych i&nbsp;refleksji.'
     ]
   },
@@ -35,7 +35,7 @@ export const page: DetailPageProps = {
     ]
   },
   listOfBenefits: {
-    title: 'Co zyskasz na warsztatach?',
+    title: 'Co zyskasz na&nbsp;warsztatach?',
     items: [
       'Głębsze rozumienie siebie i&nbsp;swoich wzorców',
       'Praktyczne narzędzia do pracy z&nbsp;emocjami',
@@ -43,7 +43,7 @@ export const page: DetailPageProps = {
       'Umiejętność radzenia sobie ze stresem',
       'Wsparcie grupy i&nbsp;wymiana doświadczeń',
       'Inspiracja do dalszego rozwoju',
-      'Konkretne techniki do stosowania na co dzień',
+      'Konkretne techniki do stosowania na&nbsp;co dzień',
       'Nowe perspektywy i&nbsp;sposoby myślenia'
     ]
   },
@@ -52,27 +52,27 @@ export const page: DetailPageProps = {
     questions: [
       {
         label: 'Jakie tematy obejmują warsztaty rozwojowe?',
-        content: 'Prowadzę warsztaty o&nbsp;różnej tematyce: inteligencja emocjonalna, zarządzanie stresem, asertywność i&nbsp;granice, komunikacja w&nbsp;relacjach, radzenie sobie z&nbsp;trudnymi emocjami, budowanie pewności siebie. Aktualne tematy i&nbsp;terminy znajdziesz na stronie lub możesz zapytać o&nbsp;indywidualny warsztat.'
+        content: 'Prowadzę warsztaty o&nbsp;różnej tematyce: inteligencja emocjonalna, zarządzanie stresem, asertywność i&nbsp;granice, komunikacja w&nbsp;relacjach, radzenie sobie z&nbsp;trudnymi emocjami, budowanie pewności siebie. Aktualne tematy i&nbsp;terminy znajdziesz na&nbsp;stronie lub&nbsp;możesz zapytać o&nbsp;indywidualny warsztat.'
       },
       {
         label: 'Jak duże są grupy na warsztatach?',
-        content: 'Warsztaty rozwojowe prowadzę w&nbsp;grupach 6-10 osób. Taka wielkość pozwala na indywidualną uwagę dla każdego uczestnika, a jednocześnie daje bogactwo perspektyw i&nbsp;możliwość uczenia się od innych.'
+        content: 'Warsztaty rozwojowe prowadzę w&nbsp;grupach 6-10 osób. Taka wielkość pozwala na&nbsp;indywidualną uwagę dla&nbsp;każdego uczestnika, a jednocześnie daje bogactwo perspektyw i&nbsp;możliwość uczenia się od innych.'
       },
       {
-        label: 'Czy muszę mieć wcześniejsze doświadczenie z&nbsp;pracą rozwojową?',
-        content: 'Nie, warsztaty są otwarte dla wszystkich. Przygotowuję je tak, aby były wartościowe zarówno dla osób rozpoczynających pracę nad sobą, jak i&nbsp;dla tych z&nbsp;doświadczeniem w&nbsp;coachingu czy terapii. Ważna jest otwartość i&nbsp;gotowość do refleksji.'
+        label: 'Czy muszę mieć wcześniejsze doświadczenie z pracą rozwojową?',
+        content: 'Nie, warsztaty są otwarte dla&nbsp;wszystkich. Przygotowuję je tak, aby były wartościowe zarówno dla&nbsp;osób rozpoczynających pracę nad sobą, jak i&nbsp;dla tych z&nbsp;doświadczeniem w&nbsp;coachingu czy terapii. Ważna jest otwartość i&nbsp;gotowość do refleksji.'
       },
       {
         label: 'Ile trwa warsztat rozwojowy?',
-        content: 'Standardowy warsztat trwa od 4 do 8 godzin, zazwyczaj w&nbsp;sobotę lub niedzielę. Organizuję również weekendowe warsztaty intensywne (2 dni) dla osób chcących głębiej pracować nad określonym tematem.'
+        content: 'Standardowy warsztat trwa od 4 do 8 godzin, zazwyczaj w&nbsp;sobotę lub&nbsp;niedzielę. Organizuję również weekendowe warsztaty intensywne (2 dni) dla&nbsp;osób chcących głębiej pracować nad określonym tematem.'
       },
       {
         label: 'Czy warsztat może być zorganizowany dla zamkniętej grupy?',
-        content: 'Tak, organizuję warsztaty dla grup przyjaciół, zespołów w&nbsp;pracy czy społeczności. Temat i&nbsp;program dostosowuję do potrzeb grupy. To świetna opcja na integrację połączoną z&nbsp;rozwojem osobistym.'
+        content: 'Tak, organizuję warsztaty dla&nbsp;grup przyjaciół, zespołów w&nbsp;pracy czy społeczności. Temat i&nbsp;program dostosowuję do potrzeb grupy. To świetna opcja na&nbsp;integrację połączoną z&nbsp;rozwojem osobistym.'
       }
     ]
   },
   callToAction: {
-    title: 'Umów się na warsztat rozwojowy w&nbsp;Szczecinie'
+    title: 'Umów się na&nbsp;warsztat rozwojowy w&nbsp;Szczecinie'
   }
 }

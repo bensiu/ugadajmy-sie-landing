@@ -3,14 +3,14 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'coaching-biznesowy-szczecin',
   title: ['Coaching biznesowy w&nbsp;Szczecinie'],
-  description: 'Strategia, przywództwo, rozwój firmy. Profesjonalne wsparcie dla przedsiębiorców i&nbsp;menedżerów, którzy chcą osiągnąć więcej.',
+  description: 'Strategia, przywództwo, rozwój firmy. Profesjonalne wsparcie dla&nbsp;przedsiębiorców i&nbsp;menedżerów, którzy chcą osiągnąć więcej.',
 
   whatIsIt: {
     title: 'Na czym polega coaching biznesowy?',
     description: [
-      'Coaching biznesowy to strategiczne wsparcie dla przedsiębiorców, właścicieli firm i&nbsp;menedżerów. Pomagam Ci rozwijać biznes, budować skuteczne zespoły i&nbsp;podejmować lepsze decyzje w&nbsp;dynamicznym środowisku biznesowym.',
+      'Coaching biznesowy to strategiczne wsparcie dla&nbsp;przedsiębiorców, właścicieli firm i&nbsp;menedżerów. Pomagam Ci rozwijać biznes, budować skuteczne zespoły i&nbsp;podejmować lepsze decyzje w&nbsp;dynamicznym środowisku biznesowym.',
       'Prowadzenie firmy wymaga nieustannego podejmowania trudnych decyzji. Jako coach biznesowy wspieram Cię w&nbsp;myśleniu strategicznym, rozwiązywaniu problemów i&nbsp;rozwijaniu kompetencji przywódczych. Pracujemy nad tym, co blokuje rozwój Twojego biznesu.',
-      'Moje doświadczenie w&nbsp;mediacji i&nbsp;prawie pozwala mi rozumieć złożoność relacji biznesowych – od negocjacji z&nbsp;kontrahentami, przez zarządzanie konfliktem w&nbsp;zespole, po planowanie strategii rozwoju. Pomagam przedsiębiorcom osiągać cele bez kompromisów na wartościach.'
+      'Moje doświadczenie w&nbsp;mediacji i&nbsp;prawie pozwala mi rozumieć złożoność relacji biznesowych – od negocjacji z&nbsp;kontrahentami, przez zarządzanie konfliktem w&nbsp;zespole, po planowanie strategii rozwoju. Pomagam przedsiębiorcom osiągać cele bez kompromisów na&nbsp;wartościach.'
     ]
   },
   whenToUse: {
@@ -44,8 +44,8 @@ export const page: DetailPageProps = {
       'Rozwój kompetencji przywódczych',
       'Efektywniejsze zarządzanie czasem i&nbsp;priorytetami',
       'Poprawa komunikacji w&nbsp;firmie',
-      'Większa odporność na stres i&nbsp;wypalenie',
-      'Budowanie kultury organizacyjnej opartej na wartościach'
+      'Większa odporność na&nbsp;stres i&nbsp;wypalenie',
+      'Budowanie kultury organizacyjnej opartej na&nbsp;wartościach'
     ]
   },
   frequentlyAskedQuestions: {
@@ -53,18 +53,18 @@ export const page: DetailPageProps = {
     questions: [
       {
         label: 'Dla jakiej wielkości firm jest coaching biznesowy?',
-        content: 'Coaching biznesowy sprawdza się zarówno w&nbsp;jednoosobowych działalnościach, jak i&nbsp;większych firmach. Pracuję z&nbsp;przedsiębiorcami na każdym etapie rozwoju – od start-upów po dojrzałe organizacje. Zawsze dopasowuję podejście do specyfiki Twojego biznesu.'
+        content: 'Coaching biznesowy sprawdza się zarówno w&nbsp;jednoosobowych działalnościach, jak i&nbsp;większych firmach. Pracuję z&nbsp;przedsiębiorcami na&nbsp;każdym etapie rozwoju – od start-upów po dojrzałe organizacje. Zawsze dopasowuję podejście do specyfiki Twojego biznesu.'
       },
       {
         label: 'Czy coaching biznesowy obejmuje doradztwo?',
-        content: 'Coaching koncentruje się na rozwijaniu Twoich kompetencji i&nbsp;znajdowaniu własnych rozwiązań. Nie daję gotowych odpowiedzi, ale pomagam Ci myśleć strategicznie. w&nbsp;razie potrzeby mogę wskazać kierunek lub podzielić się wiedzą – to zależy od Twoich potrzeb.'
+        content: 'Coaching koncentruje się na&nbsp;rozwijaniu Twoich kompetencji i&nbsp;znajdowaniu własnych rozwiązań. Nie daję gotowych odpowiedzi, ale pomagam Ci myśleć strategicznie. w&nbsp;razie potrzeby mogę wskazać kierunek lub&nbsp;podzielić się wiedzą – to zależy od Twoich potrzeb.'
       },
       {
         label: 'Jak często odbywają się sesje coachingu biznesowego?',
-        content: 'Typowo sesje odbywają się co 2-3 tygodnie, co daje czas na wdrożenie zmian między spotkaniami. w&nbsp;intensywnych okresach (np. przed ważnymi decyzjami) możemy spotykać się częściej. Harmonogram zawsze dostosowuję do rytmu Twojego biznesu.'
+        content: 'Typowo sesje odbywają się co 2-3 tygodnie, co daje czas na&nbsp;wdrożenie zmian między spotkaniami. w&nbsp;intensywnych okresach (np. przed ważnymi decyzjami) możemy spotykać się częściej. Harmonogram zawsze dostosowuję do rytmu Twojego biznesu.'
       },
       {
-        label: 'Czy coaching może pomóc w&nbsp;rozwiązywaniu konfliktów w&nbsp;firmie?',
+        label: 'Czy coaching może pomóc w nrozwiązywaniu konfliktów w firmie?',
         content: 'Tak, coaching biznesowy często obejmuje pracę nad konfliktami w&nbsp;zespole. Moje doświadczenie mediacyjne pozwala mi skutecznie wspierać liderów w&nbsp;zarządzaniu trudnymi sytuacjami i&nbsp;budowaniu zdrowszych relacji w&nbsp;organizacji.'
       },
       {
@@ -74,6 +74,6 @@ export const page: DetailPageProps = {
     ]
   },
   callToAction: {
-    title: 'Umów się na coaching biznesowy w&nbsp;Szczecinie'
+    title: 'Umów się na&nbsp;coaching biznesowy w&nbsp;Szczecinie'
   }
 }
