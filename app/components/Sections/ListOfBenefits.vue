@@ -1,15 +1,17 @@
 <script setup lang="ts">
+import type { SectionVariant } from '~/types'
+
 interface ListOdBenefitsProps {
   id: string
   title: string
-  backgroundClass?: string
+  variant?: SectionVariant
   items: string[]
 }
 
 const props = withDefaults(
   defineProps<ListOdBenefitsProps>(),
   {
-    backgroundClass: 'bg-primary-500'
+    variant: 'primary'
   }
 )
 </script>
@@ -17,11 +19,11 @@ const props = withDefaults(
 <template>
   <BlocksSectionWrapper
     :id="props.id"
-    :class="props.backgroundClass"
+    :variant="props.variant"
   >
     <BlocksSectionHeader
       :title="props.title"
-      :title-color="props.backgroundClass === 'bg-primary-500' ? ' ' : ''"
+      :title-color="props.variant === 'primary' ? ' ' : ''"
     />
     <BlocksListOfCards
       :items="props.items"

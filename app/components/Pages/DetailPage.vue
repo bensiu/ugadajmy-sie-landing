@@ -26,14 +26,14 @@ const props = defineProps<DetailPageProps>()
     <BlocksSectionWrapper
       v-if="props.kinds"
       :id="`rodzaje-${props.id}`"
-      class="section-subtle bg-secondary/30"
+      :variant="props.kinds.variant || 'subtle'"
     >
       <BlocksSectionHeader
         :title="props.kinds.title"
         :description="props.kinds.description"
         title-color=" "
       />
-      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <NuxtLink
           v-for="(service, index) in props.kinds.items"
           :key="`service-${index}`"
@@ -48,11 +48,11 @@ const props = defineProps<DetailPageProps>()
     </BlocksSectionWrapper>
 
     <BlocksSectionWrapper
+      v-if="props.whenToUse"
       :id="`kiedy-skorzystac-z-${props.id}`"
-      class="section-subtle bg-secondary/30"
+      :variant="props.whenToUse.variant || 'subtle'"
     >
       <BlocksSectionHeader
-        v-if="props.whenToUse"
         :title="props.whenToUse?.title"
         :items="props.whenToUse.situations"
         class="text-left !mb-2"
@@ -62,6 +62,7 @@ const props = defineProps<DetailPageProps>()
     <BlocksSectionWrapper
       v-if="props.howProcess"
       :id="`process-${props.id}`"
+      :variant="props.howProcess.variant || 'default'"
     >
       <BlocksSectionHeader :title="props.howProcess.title" />
       <BlocksProcessSteps :steps="props.howProcess.steps" />
@@ -71,12 +72,13 @@ const props = defineProps<DetailPageProps>()
       v-if="props.listOfBenefits"
       :id="`korzysci-z-${props.id}`"
       v-bind="props.listOfBenefits"
+      :variant="props.listOfBenefits.variant || 'primary'"
     />
 
     <SectionsFequentlyAskedQuestions
       v-if="props.frequentlyAskedQuestions"
       :id="`pytania-o-${props.id}`"
-      background-class="section-subtle bg-secondary/30"
+      :variant="props.frequentlyAskedQuestions.variant || 'subtle'"
       v-bind="props.frequentlyAskedQuestions"
     />
 
@@ -84,6 +86,7 @@ const props = defineProps<DetailPageProps>()
       v-if="props.callToAction"
       :id="`${props.id}-call-to-action`"
       :title="props.callToAction.title"
+      :variant="props.callToAction.variant || 'default'"
     />
   </div>
 </template>

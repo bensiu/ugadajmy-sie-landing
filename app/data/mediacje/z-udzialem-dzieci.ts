@@ -2,41 +2,41 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'mediacje-z-udzialem-dzieci-szczecin',
-  title: ['Mediacje z Udziałem Dzieci Szczecin – Głos Dziecka Ma Znaczenie'],
-  description: 'Dzieci są często pomijanymi uczestnikami konfliktów rodzinnych. W Szczecinie prowadzę mediacje, w których w bezpieczny sposób głos dziecka jest słyszany i uwzględniany w wypracowanych rozwiązaniach.',
+  title: ['Mediacje z&nbsp;Udziałem Dzieci Szczecin – Głos Dziecka Ma Znaczenie'],
+  description: 'Dzieci są często pomijanymi uczestnikami konfliktów rodzinnych. w&nbsp;Szczecinie prowadzę mediacje, w&nbsp;których w&nbsp;bezpieczny sposób głos dziecka jest słyszany i&nbsp;uwzględniany w&nbsp;wypracowanych rozwiązaniach.',
 
   whatIsIt: {
-    title: 'Czym są mediacje z udziałem dzieci?',
+    title: 'Czym są mediacje z&nbsp;udziałem dzieci?',
     description: [
-      'Mediacja z udziałem dzieci to szczególny rodzaj mediacji rodzinnej, w której głos dziecka jest uwzględniany przy wypracowywaniu rozwiązań. Nie oznacza to stawiania dziecka w roli arbitra czy obciążania go decyzjami dorosłych – chodzi o zrozumienie perspektywy i potrzeb najmłodszych, które często są inne niż zakładają rodzice.',
-      'Jako mediator z doświadczeniem w pracy z dziećmi, stosuję specjalne techniki dostosowane do wieku i rozwoju dziecka. Rozmowa z 7-latkiem wygląda inaczej niż z nastolatkiem. W każdym przypadku dbam o to, by dziecko czuło się bezpieczne i by nie było wciągane w konflikt rodziców.',
-      'Sesje z udziałem dzieci prowadzę w przyjaznej przestrzeni gabinetu przy ul. Kapitańskiej 3a w Szczecinie. Najpierw spotykam się z rodzicami, by ustalić zasady, a dopiero potem, jeśli to wskazane, zapraszam dziecko na rozmowę lub wspólną sesję.'
+      'Mediacja z&nbsp;udziałem dzieci to szczególny rodzaj mediacji rodzinnej, w&nbsp;której głos dziecka jest uwzględniany przy wypracowywaniu rozwiązań. Nie oznacza to stawiania dziecka w&nbsp;roli arbitra czy obciążania go decyzjami dorosłych – chodzi o&nbsp;zrozumienie perspektywy i&nbsp;potrzeb najmłodszych, które często są inne niż zakładają rodzice.',
+      'Jako mediator z&nbsp;doświadczeniem w&nbsp;pracy z&nbsp;dziećmi, stosuję specjalne techniki dostosowane do wieku i&nbsp;rozwoju dziecka. Rozmowa z&nbsp;7-latkiem wygląda inaczej niż z&nbsp;nastolatkiem. w&nbsp;każdym przypadku dbam o&nbsp;to, by dziecko czuło się bezpieczne i&nbsp;by nie było wciągane w&nbsp;konflikt rodziców.',
+      'Sesje z&nbsp;udziałem dzieci prowadzę w&nbsp;przyjaznej przestrzeni gabinetu przy ul. Kapitańskiej 3a w&nbsp;Szczecinie. Najpierw spotykam się z&nbsp;rodzicami, by ustalić zasady, a dopiero potem, jeśli to wskazane, zapraszam dziecko na rozmowę lub wspólną sesję.'
     ]
   },
   whenToUse: {
-    title: 'Kiedy warto włączyć dziecko w mediację?',
+    title: 'Kiedy warto włączyć dziecko w&nbsp;mediację?',
     situations: [
-      'Rodzice rozwodzą się i chcą uwzględnić zdanie dziecka o miejscu zamieszkania',
-      'Nastolatek ma wyraźne preferencje co do kontaktów z rodzicem',
-      'Dziecko jest w konflikcie lojalnościowym między rodzicami',
-      'Potrzebna jest informacja o rzeczywistych doświadczeniach dziecka',
-      'Rodzice mają różne wyobrażenia o potrzebach dziecka',
-      'Dziecko prosi o możliwość wypowiedzenia się',
+      'Rodzice rozwodzą się i&nbsp;chcą uwzględnić zdanie dziecka o&nbsp;miejscu zamieszkania',
+      'Nastolatek ma wyraźne preferencje co do kontaktów z&nbsp;rodzicem',
+      'Dziecko jest w&nbsp;konflikcie lojalnościowym między rodzicami',
+      'Potrzebna jest informacja o&nbsp;rzeczywistych doświadczeniach dziecka',
+      'Rodzice mają różne wyobrażenia o&nbsp;potrzebach dziecka',
+      'Dziecko prosi o&nbsp;możliwość wypowiedzenia się',
       'Plan opieki rodzicielskiej wymaga dopasowania do harmonogramu dziecka',
-      'Nastąpiły zmiany w życiu dziecka i dotychczasowe ustalenia nie działają'
+      'Nastąpiły zmiany w&nbsp;życiu dziecka i&nbsp;dotychczasowe ustalenia nie działają'
     ]
   },
   howProcess: {
-    title: 'Jak przebiega mediacja z udziałem dziecka?',
+    title: 'Jak przebiega mediacja z&nbsp;udziałem dziecka?',
     steps: [
-      { title: 'Przygotowanie rodziców', description: 'Spotykam się z rodzicami, ustalamy zasady i cele' },
-      { title: 'Rozmowa z dzieckiem', description: 'Przeprowadzam indywidualną rozmowę z dzieckiem (opcjonalnie)' },
+      { title: 'Przygotowanie rodziców', description: 'Spotykam się z&nbsp;rodzicami, ustalamy zasady i&nbsp;cele' },
+      { title: 'Rozmowa z&nbsp;dzieckiem', description: 'Przeprowadzam indywidualną rozmowę z&nbsp;dzieckiem (opcjonalnie)' },
       { title: 'Przekazanie perspektywy', description: 'Pomagam rodzicom zrozumieć punkt widzenia dziecka' },
       { title: 'Wspólne rozwiązanie', description: 'Wypracowujemy ustalenia uwzględniające potrzeby dziecka' }
     ]
   },
   listOfBenefits: {
-    title: 'Korzyści z włączenia dziecka w mediację',
+    title: 'Korzyści z&nbsp;włączenia dziecka w&nbsp;mediację',
     items: [
       'Dziecko czuje, że jego głos ma znaczenie',
       'Rozwiązania są lepiej dopasowane do realnych potrzeb dziecka',
@@ -46,31 +46,31 @@ export const page: DetailPageProps = {
     ]
   },
   frequentlyAskedQuestions: {
-    title: 'Pytania o mediacje sąsiedzkie',
+    title: 'Pytania o&nbsp;mediacje sąsiedzkie',
     questions: [
       {
-        label: 'Od jakiego wieku dziecko może uczestniczyć w mediacji?',
-        content: 'Nie ma sztywnej granicy wiekowej. Już 5-6-latki mogą uczestniczyć w uproszczonych formach rozmowy. Im starsze dziecko, tym bardziej może być zaangażowane. Nastolatki często uczestniczą we wspólnych sesjach z rodzicami.'
+        label: 'Od jakiego wieku dziecko może uczestniczyć w&nbsp;mediacji?',
+        content: 'Nie ma sztywnej granicy wiekowej. Już 5-6-latki mogą uczestniczyć w&nbsp;uproszczonych formach rozmowy. Im starsze dziecko, tym bardziej może być zaangażowane. Nastolatki często uczestniczą we wspólnych sesjach z&nbsp;rodzicami.'
       },
       {
-        label: 'Czy dziecko musi brać udział w mediacji?',
-        content: 'Nie, udział dziecka jest zawsze opcjonalny i zależy od sytuacji. Czasami wystarczy, że przeprowadzę z dzieckiem rozmowę i przekażę rodzicom jego perspektywę. Innym razem wspólna sesja jest wskazana.'
+        label: 'Czy dziecko musi brać udział w&nbsp;mediacji?',
+        content: 'Nie, udział dziecka jest zawsze opcjonalny i&nbsp;zależy od sytuacji. Czasami wystarczy, że przeprowadzę z&nbsp;dzieckiem rozmowę i&nbsp;przekażę rodzicom jego perspektywę. Innym razem wspólna sesja jest wskazana.'
       },
       {
-        label: 'Czy dziecko decyduje o wyniku mediacji?',
-        content: 'Absolutnie nie. Decyzje podejmują dorośli. Głos dziecka jest jednym z elementów branych pod uwagę, ale odpowiedzialność za decyzje spoczywa na rodzicach. Chronię dzieci przed byciem rozjemcami.'
+        label: 'Czy dziecko decyduje o&nbsp;wyniku mediacji?',
+        content: 'Absolutnie nie. Decyzje podejmują dorośli. Głos dziecka jest jednym z&nbsp;elementów branych pod uwagę, ale odpowiedzialność za decyzje spoczywa na rodzicach. Chronię dzieci przed byciem rozjemcami.'
       },
       {
         label: 'Czy to, co powie dziecko, jest poufne?',
-        content: 'Ustalamy to z góry z rodzicami. Zazwyczaj przekazuję rodzicom ogólną perspektywę dziecka, ale nie dosłownie każde słowo. Jeśli dziecko poprosi o dyskrecję w jakiejś sprawie, respektuję to, chyba że chodzi o bezpieczeństwo.'
+        content: 'Ustalamy to z&nbsp;góry z&nbsp;rodzicami. Zazwyczaj przekazuję rodzicom ogólną perspektywę dziecka, ale nie dosłownie każde słowo. Jeśli dziecko poprosi o&nbsp;dyskrecję w&nbsp;jakiejś sprawie, respektuję to, chyba że chodzi o&nbsp;bezpieczeństwo.'
       },
       {
-        label: 'Ile kosztuje mediacja z udziałem dziecka w Szczecinie?',
-        content: 'Sesja mediacyjna z udziałem dziecka to koszt 450-550 zł, ponieważ wymaga dodatkowego czasu i przygotowania. Rozmowa wstępna z dzieckiem to ok. 200 zł. Dokładny koszt ustalamy po poznaniu sytuacji.'
+        label: 'Ile kosztuje mediacja z&nbsp;udziałem dziecka w&nbsp;Szczecinie?',
+        content: 'Sesja mediacyjna z&nbsp;udziałem dziecka to koszt 450-550 zł, ponieważ wymaga dodatkowego czasu i&nbsp;przygotowania. Rozmowa wstępna z&nbsp;dzieckiem to ok. 200 zł. Dokładny koszt ustalamy po poznaniu sytuacji.'
       }
     ]
   },
   callToAction: {
-    title: 'Umów się na mediację z udziałem dziecka w&nbsp;Szczecinie'
+    title: 'Umów się na mediację z&nbsp;udziałem dziecka w&nbsp;Szczecinie'
   }
 }

@@ -38,19 +38,21 @@ const props = defineProps<FeatureCardItem>()
     />
 
     <slot name="list">
-      <ul
-        v-if="props.items?.length"
-        class="space-y-1 mb-4 py-3"
-      >
-        <li
-          v-for="(item, index) in props.items"
-          :key="`item-${index}`"
-          class="text-sm text-(--ui-text-muted) flex items-center gap-2"
+      <div class="w-full text-left">
+        <ul
+          v-if="props.items?.length"
+          :class="`space-y-1 py-3 ${props.link ? 'mb-4' : ''}`"
         >
-          <span class="w-1.5 h-1.5 rounded-full bg-(--ui-primary)/60" />
-          {{ item }}
-        </li>
-      </ul>
+          <li
+            v-for="(item, index) in props.items"
+            :key="`item-${index}`"
+            class="text-sm text-(--ui-text-muted) flex items-center gap-2"
+          >
+            <span class="w-1.5 h-1.5 rounded-full bg-(--ui-primary)/60" />
+            {{ item }}
+          </li>
+        </ul>
+      </div>
     </slot>
 
     <slot name="link">
