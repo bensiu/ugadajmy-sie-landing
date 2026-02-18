@@ -3,13 +3,13 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'coaching-kariery-szczecin',
   title: ['Coaching kariery w&nbsp;Szczecinie'],
-  description: 'Zmiana pracy, awans, nowa ścieżka zawodowa – razem znajdziemy drogę do Twoich celów. Profesjonalne wsparcie w&nbsp;budowaniu kariery zgodnej z&nbsp;Twoimi wartościami.',
+  description: 'Zmiana pracy, awans, nowa ścieżka zawodowa – razem znajdziemy drogę do&nbsp;Twoich celów. Profesjonalne wsparcie w&nbsp;budowaniu kariery zgodnej z&nbsp;Twoimi wartościami.',
 
   whatIsIt: {
     title: 'Na czym polega coaching kariery?',
     description: [
       'Coaching kariery to profesjonalne wsparcie w&nbsp;planowaniu i&nbsp;rozwoju ścieżki zawodowej. Niezależnie od tego, czy stoisz przed ważną decyzją o&nbsp;zmianie pracy, czy chcesz osiągnąć awans – pomogę Ci zdefiniować cele i&nbsp;stworzyć strategię ich realizacji.',
-      'W trakcie sesji coachingowych pracujemy nad odkryciem Twoich mocnych stron, wartości zawodowych i&nbsp;unikalnych kompetencji. Identyfikujemy bariery, które blokują Twój rozwój, i&nbsp;wypracowujemy konkretne kroki do osiągnięcia sukcesu.',
+      'W trakcie sesji coachingowych pracujemy nad odkryciem Twoich mocnych stron, wartości zawodowych i&nbsp;unikalnych kompetencji. Identyfikujemy bariery, które blokują Twój rozwój, i&nbsp;wypracowujemy konkretne kroki do&nbsp;osiągnięcia sukcesu.',
       'Jako coach z&nbsp;doświadczeniem w&nbsp;mediacji i&nbsp;prawie, rozumiem złożoność środowiska zawodowego. Pomagam klientom nawigować w&nbsp;trudnych sytuacjach – od negocjacji warunków zatrudnienia, przez konflikty w&nbsp;zespole, po podejmowanie odważnych decyzji o&nbsp;zmianie branży.'
     ]
   },
@@ -30,7 +30,7 @@ export const page: DetailPageProps = {
     steps: [
       { title: 'Analiza obecnej sytuacji', description: 'Wspólnie przyglądamy się Twojej ścieżce zawodowej, kompetencjom i&nbsp;wyzwaniom' },
       { title: 'Definiowanie celów', description: 'Określamy, czego naprawdę chcesz i&nbsp;co jest dla&nbsp;Ciebie możliwe' },
-      { title: 'Strategia działania', description: 'Tworzymy konkretny plan z&nbsp;krokami do realizacji Twoich celów' },
+      { title: 'Strategia działania', description: 'Tworzymy konkretny plan z&nbsp;krokami do&nbsp;realizacji Twoich celów' },
       { title: 'Wdrożenie i&nbsp;wsparcie', description: 'Działasz według planu, a ja wspieram Cię w&nbsp;pokonywaniu przeszkód' }
     ]
   },
@@ -52,7 +52,7 @@ export const page: DetailPageProps = {
     questions: [
       {
         label: 'Ile trwa proces coachingu kariery?',
-        content: 'Typowy proces coachingu kariery trwa od 6 do 12 sesji, rozłożonych na&nbsp;2-4 miesiące. Czasem wystarczy kilka spotkań, żeby uzyskać klarowność w&nbsp;konkretnej kwestii. Zawsze dopasowuję liczbę sesji do Twoich potrzeb i&nbsp;celów.'
+        content: 'Typowy proces coachingu kariery trwa od 6 do&nbsp;12 sesji, rozłożonych na&nbsp;2-4 miesiące. Czasem wystarczy kilka spotkań, żeby uzyskać klarowność w&nbsp;konkretnej kwestii. Zawsze dopasowuję liczbę sesji do&nbsp;Twoich potrzeb i&nbsp;celów.'
       },
       {
         label: 'Czy coaching pomoże mi zmienić pracę?',

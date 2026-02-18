@@ -20,7 +20,7 @@ export const page: DetailPageProps = {
       {
         icon: 'lucide-trending-up',
         title: 'Coaching kariery',
-        description: 'Awans, zmiana ścieżki zawodowej, trudne decyzje w&nbsp;pracy – razem znajdziemy drogę do Twoich celów zawodowych.',
+        description: 'Awans, zmiana ścieżki zawodowej, trudne decyzje w&nbsp;pracy – razem znajdziemy drogę do&nbsp;Twoich celów zawodowych.',
         path: '/coaching-kariery-szczecin'
       },
       {
@@ -44,7 +44,7 @@ export const page: DetailPageProps = {
       {
         icon: 'lucide-heart',
         title: 'Coaching indywidualny',
-        description: 'Każdy ma inne potrzeby. Sesje dopasowane do Twojej unikalnej sytuacji i&nbsp;celów.',
+        description: 'Każdy ma inne potrzeby. Sesje dopasowane do&nbsp;Twojej unikalnej sytuacji i&nbsp;celów.',
         path: '/coaching-indywidualny-szczecin'
       }
     ]

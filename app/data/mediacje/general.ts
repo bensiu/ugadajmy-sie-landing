@@ -8,7 +8,7 @@ export const page: DetailPageProps = {
   whatIsIt: {
     title: 'Czym są mediacje?',
     description: [
-      'Mediacja to dobrowolny i&nbsp;poufny proces rozwiązywania konfliktów z&nbsp;udziałem bezstronnego mediatora. w&nbsp;przeciwieństwie do postępowania sądowego, to Ty i&nbsp;druga strona macie kontrolę nad ostatecznym rozwiązaniem. w&nbsp;Szczecinie prowadzę mediacje od ponad 15 lat, pomagając setkom osób i&nbsp;firm osiągnąć trwałe porozumienie.',
+      'Mediacja to dobrowolny i&nbsp;poufny proces rozwiązywania konfliktów z&nbsp;udziałem bezstronnego mediatora. w&nbsp;przeciwieństwie do&nbsp;postępowania sądowego, to Ty i&nbsp;druga strona macie kontrolę nad ostatecznym rozwiązaniem. w&nbsp;Szczecinie prowadzę mediacje od ponad 15 lat, pomagając setkom osób i&nbsp;firm osiągnąć trwałe porozumienie.',
       'Jako mediator i&nbsp;prawnik łączę znajomość prawa z&nbsp;umiejętnościami komunikacyjnymi. Dzięki temu mogę skutecznie prowadzić nawet najtrudniejsze rozmowy, dbając jednocześnie o&nbsp;to, by wypracowane rozwiązania były zgodne z&nbsp;obowiązującymi przepisami.',
       'Mój gabinet mieści się w&nbsp;centrum Szczecina przy ul. Kapitańskiej 3a. Oferuję również mediacje online dla&nbsp;osób, które nie mogą stawić się osobiście lub&nbsp;mieszkają poza Szczecinem.'
     ]
@@ -80,7 +80,7 @@ export const page: DetailPageProps = {
     ]
   },
   whenToUse: {
-    title: 'Jakie sprawy cywilne nadają się do mediacji?',
+    title: 'Jakie sprawy cywilne nadają się do&nbsp;mediacji?',
     variant: 'default',
     situations: [
       'Spór o&nbsp;wykonanie lub&nbsp;niewykonanie umowy',
@@ -126,7 +126,7 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Czy mogę przerwać mediację, jeśli nie przynosi efektów?',
-        content: 'Oczywiście. Mediacja jest dobrowolna na&nbsp;każdym etapie. Możesz zrezygnować w&nbsp;dowolnym momencie i&nbsp;skierować sprawę do sądu.'
+        content: 'Oczywiście. Mediacja jest dobrowolna na&nbsp;każdym etapie. Możesz zrezygnować w&nbsp;dowolnym momencie i&nbsp;skierować sprawę do&nbsp;sądu.'
       },
       {
         label: 'Czy potrzebuję prawnika na&nbsp;mediacji cywilnej?',

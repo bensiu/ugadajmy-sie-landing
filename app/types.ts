@@ -1,6 +1,7 @@
 export interface ProcessStep {
   title: string
   step?: string | number
+  icon?: string
   description: string
 }
 
@@ -55,5 +56,6 @@ export interface DetailPageProps {
   callToAction?: {
     variant?: SectionVariant
     title: string
+    description?: string
   }
 }

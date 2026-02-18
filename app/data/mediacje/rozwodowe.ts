@@ -10,7 +10,7 @@ export const page: DetailPageProps = {
     description: [
       'Mediacje rozwodowe to alternatywa dla&nbsp;walki w&nbsp;sądzie. Zamiast oddawać decyzję o&nbsp;swoim życiu w&nbsp;ręce sędziego, sami ustalacie warunki rozwodu pod moim przewodnictwem. w&nbsp;Szczecinie od lat pomagam parom przejść przez ten trudny czas z&nbsp;godnością.',
       'Jako mediator sądowy jestem wpisany na&nbsp;listę stałych mediatorów. Oznacza to, że ugoda zawarta przede mną może być zatwierdzona przez sąd i&nbsp;zyskać moc prawną równą wyrokowi. Możecie ją egzekwować tak samo jak orzeczenie sądowe.',
-      'W moim gabinecie przy ul. Kapitańskiej 3a w&nbsp;Szczecinie stwarzam warunki do spokojnej rozmowy. Pomagam obu stronom wyrazić swoje potrzeby i&nbsp;znaleźć rozwiązania, które uwzględniają interesy całej rodziny – szczególnie dzieci.'
+      'W moim gabinecie przy ul. Kapitańskiej 3a w&nbsp;Szczecinie stwarzam warunki do&nbsp;spokojnej rozmowy. Pomagam obu stronom wyrazić swoje potrzeby i&nbsp;znaleźć rozwiązania, które uwzględniają interesy całej rodziny – szczególnie dzieci.'
     ]
   },
   whenToUse: {
@@ -32,7 +32,7 @@ export const page: DetailPageProps = {
       { title: 'Konsultacja', description: 'Poznajemy Waszą sytuację i&nbsp;ustalamy zakres mediacji' },
       { title: 'Sesje indywidualne', description: 'Rozmawiam z&nbsp;każdym osobno, poznaję potrzeby i&nbsp;obawy' },
       { title: 'Negocjacje', description: 'Prowadzę sesje wspólne, szukamy rozwiązań' },
-      { title: 'Ugoda', description: 'Spisujemy porozumienie do zatwierdzenia przez sąd' }
+      { title: 'Ugoda', description: 'Spisujemy porozumienie do&nbsp;zatwierdzenia przez sąd' }
     ]
   },
   listOfBenefits: {
@@ -58,7 +58,7 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Co jeśli nie dogadamy się na&nbsp;mediacji rozwodowej?',
-        content: 'Jeśli mediacja nie zakończy się pełnym porozumieniem, sprawa wraca do sądu. Jednak nawet częściowe ustalenia (np. tylko o&nbsp;dzieciach) przyspieszają proces sądowy.'
+        content: 'Jeśli mediacja nie zakończy się pełnym porozumieniem, sprawa wraca do&nbsp;sądu. Jednak nawet częściowe ustalenia (np. tylko o&nbsp;dzieciach) przyspieszają proces sądowy.'
       },
       {
         label: 'Czy mogę przyjść na mediacje bez małżonka?',

@@ -3,14 +3,14 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'szkolenia-dla-firm-szczecin',
   title: ['Szkolenia dla&nbsp;firm w&nbsp;Szczecinie'],
-  description: 'Rozwijaj kompetencje komunikacyjne swojego zespołu. Dedykowane programy szkoleniowe dopasowane do potrzeb Twojej organizacji. Praktyczna wiedza, która przekłada się na&nbsp;lepszą współpracę.',
+  description: 'Rozwijaj kompetencje komunikacyjne swojego zespołu. Dedykowane programy szkoleniowe dopasowane do&nbsp;potrzeb Twojej organizacji. Praktyczna wiedza, która przekłada się na&nbsp;lepszą współpracę.',
 
   whatIsIt: {
     title: 'Czym są szkolenia firmowe?',
     description: [
       'Szkolenia dla&nbsp;firm w&nbsp;Szczecinie to kompleksowe programy rozwojowe, które pomagają budować silne, efektywnie komunikujące się zespoły. Jako doświadczony trener i&nbsp;mediator, łączę wiedzę teoretyczną z&nbsp;praktycznymi umiejętnościami, które Twoi pracownicy mogą wdrożyć od razu.',
       'Każde szkolenie firmowe poprzedza szczegółowa analiza potrzeb organizacji. Rozmawiam z&nbsp;kadrą zarządzającą, poznaję specyfikę branży i&nbsp;wyzwania, z&nbsp;jakimi mierzy się zespół. na&nbsp;tej podstawie tworzę program szkoleniowy, który odpowiada na&nbsp;realne problemy firmy.',
-      'Prowadzę szkolenia w&nbsp;siedzibie firmy lub&nbsp;w&nbsp;wynajętej sali szkoleniowej. Elastyczne formy współpracy pozwalają dopasować intensywność i&nbsp;czas trwania programu do możliwości organizacji. Oferuję zarówno jednodniowe warsztaty, jak i&nbsp;cykle szkoleniowe rozłożone na&nbsp;kilka miesięcy.'
+      'Prowadzę szkolenia w&nbsp;siedzibie firmy lub&nbsp;w&nbsp;wynajętej sali szkoleniowej. Elastyczne formy współpracy pozwalają dopasować intensywność i&nbsp;czas trwania programu do&nbsp;możliwości organizacji. Oferuję zarówno jednodniowe warsztaty, jak i&nbsp;cykle szkoleniowe rozłożone na&nbsp;kilka miesięcy.'
     ]
   },
   whenToUse: {
@@ -38,7 +38,7 @@ export const page: DetailPageProps = {
   listOfBenefits: {
     title: 'Co zyskuje Twoja firma?',
     items: [
-      'Program dopasowany do specyfiki Twojej firmy',
+      'Program dopasowany do&nbsp;specyfiki Twojej firmy',
       'Szkolenia w&nbsp;siedzibie firmy lub&nbsp;online',
       'Praktyczne ćwiczenia na&nbsp;realnych przypadkach',
       'Materiały szkoleniowe dla&nbsp;uczestników',
@@ -57,7 +57,7 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Jak długo trwa szkolenie firmowe?',
-        content: 'Standardowe szkolenie jednodniowe trwa 6-8 godzin. Oferuję również warsztaty 4-godzinne, dwudniowe programy intensywne oraz cykle szkoleniowe rozłożone na&nbsp;kilka tygodni lub&nbsp;miesięcy. Czas trwania dostosowuję do potrzeb i&nbsp;możliwości organizacji.'
+        content: 'Standardowe szkolenie jednodniowe trwa 6-8 godzin. Oferuję również warsztaty 4-godzinne, dwudniowe programy intensywne oraz cykle szkoleniowe rozłożone na&nbsp;kilka tygodni lub&nbsp;miesięcy. Czas trwania dostosowuję do&nbsp;potrzeb i&nbsp;możliwości organizacji.'
       },
       {
         label: 'Czy szkolenia można przeprowadzić online?',

@@ -2,11 +2,14 @@
 interface CallToActionProps {
   id: string
   title: string
+  description?: string
 }
 
 const props = withDefaults(
   defineProps<CallToActionProps>(),
-  {}
+  {
+    description: 'Aleksandra Dubiel – Mediator, Prawnik, Coach'
+  }
 )
 </script>
 
@@ -16,7 +19,7 @@ const props = withDefaults(
   >
     <BlocksSectionHeader
       :title="props.title"
-      description="Aleksandra Dubiel – Mediator, Prawnik, Coach"
+      :description="props.description"
       class="!mb-6"
       title-color=" "
     />

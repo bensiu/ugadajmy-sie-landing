@@ -17,7 +17,7 @@ export const page: DetailPageProps = {
     title: 'Kiedy skorzystać z&nbsp;mediacji gospodarczej?',
     situations: [
       'Masz spór z&nbsp;kontrahentem o&nbsp;realizację umowy',
-      'Klient nie płaci faktur i&nbsp;nie reagujesz na&nbsp;wezwania do zapłaty',
+      'Klient nie płaci faktur i&nbsp;nie reagujesz na&nbsp;wezwania do&nbsp;zapłaty',
       'Masz konflikt ze wspólnikiem w&nbsp;spółce',
       'Negocjujesz warunki rozwiązania współpracy biznesowej',
       'Masz spór z&nbsp;podwykonawcą lub&nbsp;dostawcą',
@@ -62,7 +62,7 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Czy konkurencja dowie się o naszym sporze?',
-        content: 'Nie. w&nbsp;przeciwieństwie do procesu sądowego, który jest jawny, mediacje są całkowicie poufne. Żadna informacja nie wychodzi poza pokój mediacyjny.'
+        content: 'Nie. w&nbsp;przeciwieństwie do&nbsp;procesu sądowego, który jest jawny, mediacje są całkowicie poufne. Żadna informacja nie wychodzi poza pokój mediacyjny.'
       },
       {
         label: 'Czy mogę prowadzić mediacje zamiast iść do sądu w sprawie windykacyjnej?',

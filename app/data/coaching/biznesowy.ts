@@ -16,7 +16,7 @@ export const page: DetailPageProps = {
   whenToUse: {
     title: 'Dla kogo jest coaching biznesowy?',
     situations: [
-      'Jesteś przedsiębiorcą i&nbsp;potrzebujesz przestrzeni do myślenia strategicznego',
+      'Jesteś przedsiębiorcą i&nbsp;potrzebujesz przestrzeni do&nbsp;myślenia strategicznego',
       'Zarządzasz zespołem i&nbsp;chcesz rozwinąć kompetencje przywódcze',
       'Twój biznes stoi w&nbsp;miejscu i&nbsp;szukasz nowego kierunku rozwoju',
       'Masz trudności z&nbsp;delegowaniem zadań i&nbsp;nadmiernie się obciążasz',
@@ -53,7 +53,7 @@ export const page: DetailPageProps = {
     questions: [
       {
         label: 'Dla jakiej wielkości firm jest coaching biznesowy?',
-        content: 'Coaching biznesowy sprawdza się zarówno w&nbsp;jednoosobowych działalnościach, jak i&nbsp;większych firmach. Pracuję z&nbsp;przedsiębiorcami na&nbsp;każdym etapie rozwoju – od start-upów po dojrzałe organizacje. Zawsze dopasowuję podejście do specyfiki Twojego biznesu.'
+        content: 'Coaching biznesowy sprawdza się zarówno w&nbsp;jednoosobowych działalnościach, jak i&nbsp;większych firmach. Pracuję z&nbsp;przedsiębiorcami na&nbsp;każdym etapie rozwoju – od start-upów po dojrzałe organizacje. Zawsze dopasowuję podejście do&nbsp;specyfiki Twojego biznesu.'
       },
       {
         label: 'Czy coaching biznesowy obejmuje doradztwo?',
@@ -61,7 +61,7 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Jak często odbywają się sesje coachingu biznesowego?',
-        content: 'Typowo sesje odbywają się co 2-3 tygodnie, co daje czas na&nbsp;wdrożenie zmian między spotkaniami. w&nbsp;intensywnych okresach (np. przed ważnymi decyzjami) możemy spotykać się częściej. Harmonogram zawsze dostosowuję do rytmu Twojego biznesu.'
+        content: 'Typowo sesje odbywają się co 2-3 tygodnie, co daje czas na&nbsp;wdrożenie zmian między spotkaniami. w&nbsp;intensywnych okresach (np. przed ważnymi decyzjami) możemy spotykać się częściej. Harmonogram zawsze dostosowuję do&nbsp;rytmu Twojego biznesu.'
       },
       {
         label: 'Czy coaching może pomóc w nrozwiązywaniu konfliktów w firmie?',
@@ -69,7 +69,7 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Ile kosztuje coaching biznesowy?',
-        content: 'Ceny sesji coachingu biznesowego są ustalane indywidualnie, w&nbsp;zależności od zakresu współpracy i&nbsp;specyfiki potrzeb. Skontaktuj się ze mną, żeby omówić szczegóły i&nbsp;otrzymać ofertę dopasowaną do Twojej sytuacji.'
+        content: 'Ceny sesji coachingu biznesowego są ustalane indywidualnie, w&nbsp;zależności od zakresu współpracy i&nbsp;specyfiki potrzeb. Skontaktuj się ze mną, żeby omówić szczegóły i&nbsp;otrzymać ofertę dopasowaną do&nbsp;Twojej sytuacji.'
       }
     ]
   },

@@ -3,13 +3,13 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'szkolenia-propgram-wspolpracy-szczecin',
   title: ['Program stałej współpracy dla&nbsp;firm'],
-  description: 'Długofalowe wsparcie w&nbsp;budowaniu kultury komunikacji. Elastyczny program łączący szkolenia, mediacje i&nbsp;coaching, dopasowany do potrzeb Twojej organizacji.',
+  description: 'Długofalowe wsparcie w&nbsp;budowaniu kultury komunikacji. Elastyczny program łączący szkolenia, mediacje i&nbsp;coaching, dopasowany do&nbsp;potrzeb Twojej organizacji.',
 
   whatIsIt: {
     title: 'Na czym polega program współpracy?',
     description: [
       'Program stałej współpracy dla&nbsp;firm to długofalowe wsparcie w&nbsp;zakresie rozwoju kompetencji komunikacyjnych i&nbsp;rozwiązywania konfliktów w&nbsp;organizacji. Jako zewnętrzny ekspert towarzyszę firmie w&nbsp;procesie budowania zdrowej kultury komunikacji i&nbsp;efektywnej współpracy.',
-      'W ramach programu oferuję regularne szkolenia, mediacje w&nbsp;sytuacjach konfliktowych, coaching dla&nbsp;menedżerów oraz konsultacje dla&nbsp;działu HR. Elastyczny model współpracy pozwala dostosować zakres i&nbsp;intensywność wsparcia do bieżących potrzeb organizacji.',
+      'W ramach programu oferuję regularne szkolenia, mediacje w&nbsp;sytuacjach konfliktowych, coaching dla&nbsp;menedżerów oraz konsultacje dla&nbsp;działu HR. Elastyczny model współpracy pozwala dostosować zakres i&nbsp;intensywność wsparcia do&nbsp;bieżących potrzeb organizacji.',
       'Stała współpraca to gwarancja ciągłości i&nbsp;głębokiego zrozumienia specyfiki firmy. Znam Twoich pracowników, rozumiem kulturę organizacyjną i&nbsp;mogę reagować szybko, gdy pojawia się potrzeba interwencji lub&nbsp;wsparcia.'
     ]
   },
@@ -21,7 +21,7 @@ export const page: DetailPageProps = {
       'Firmy w&nbsp;procesie zmian organizacyjnych',
       'Organizacje budujące kulturę feedbacku i&nbsp;otwartej komunikacji',
       'Firmy potrzebujące wsparcia dla&nbsp;menedżerów w&nbsp;prowadzeniu trudnych rozmów',
-      'Działy HR szukające zewnętrznego partnera do rozwoju pracowników',
+      'Działy HR szukające zewnętrznego partnera do&nbsp;rozwoju pracowników',
       'Firmy chcące obniżyć koszty poprzez długofalową współpracę'
     ]
   },
@@ -37,14 +37,14 @@ export const page: DetailPageProps = {
   listOfBenefits: {
     title: 'Co zyskuje Twoja firma?',
     items: [
-      'Niższy koszt jednostkowy w&nbsp;porównaniu do zleceń jednorazowych',
+      'Niższy koszt jednostkowy w&nbsp;porównaniu do&nbsp;zleceń jednorazowych',
       'Głębokie zrozumienie specyfiki i&nbsp;kultury organizacji',
       'Szybka reakcja w&nbsp;sytuacjach kryzysowych',
       'Spójny, długofalowy program rozwojowy',
       'Dedykowany opiekun znający firmę',
       'Elastyczny zakres współpracy',
       'Regularne raporty i&nbsp;rekomendacje',
-      'Priorytetowy dostęp do terminów'
+      'Priorytetowy dostęp do&nbsp;terminów'
     ]
   },
   frequentlyAskedQuestions: {
@@ -52,7 +52,7 @@ export const page: DetailPageProps = {
     questions: [
       {
         label: 'Jak wygląda model rozliczeń w programie stałej współpracy?',
-        content: 'Oferuję różne modele współpracy: abonament miesięczny z&nbsp;określoną liczbą godzin, pakiety kwartalne lub&nbsp;roczne z&nbsp;gwarantowanym rabatem, lub&nbsp;model success-fee dla&nbsp;konkretnych projektów. Szczegóły ustalamy indywidualnie, dopasowując model do potrzeb i&nbsp;budżetu firmy.'
+        content: 'Oferuję różne modele współpracy: abonament miesięczny z&nbsp;określoną liczbą godzin, pakiety kwartalne lub&nbsp;roczne z&nbsp;gwarantowanym rabatem, lub&nbsp;model success-fee dla&nbsp;konkretnych projektów. Szczegóły ustalamy indywidualnie, dopasowując model do&nbsp;potrzeb i&nbsp;budżetu firmy.'
       },
       {
         label: 'Jaki jest minimalny czas trwania współpracy?',
@@ -64,7 +64,7 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Czy mogę korzystać z usług ad hoc poza programem?',
-        content: 'Tak, w&nbsp;ramach współpracy masz priorytetowy dostęp do dodatkowych usług w&nbsp;preferencyjnych cenach. Jeśli pojawi się nagła potrzeba – np. pilna mediacja czy dodatkowe szkolenie – reaguję szybciej niż przy jednorazowych zleceniach.'
+        content: 'Tak, w&nbsp;ramach współpracy masz priorytetowy dostęp do&nbsp;dodatkowych usług w&nbsp;preferencyjnych cenach. Jeśli pojawi się nagła potrzeba – np. pilna mediacja czy dodatkowe szkolenie – reaguję szybciej niż przy jednorazowych zleceniach.'
       },
       {
         label: 'Jak mierzone są efekty programu?',

@@ -3,12 +3,12 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'mediacje-spadkowe-szczecin',
   title: ['Mediacje Spadkowe Szczecin – Pokojowy Podział Spadku'],
-  description: 'Konflikty spadkowe potrafią rozdzielić rodziny na&nbsp;lata. w&nbsp;Szczecinie pomagam spadkobiercom dojść do porozumienia bez niszących procesów sądowych, zachowując rodzinne więzi.',
+  description: 'Konflikty spadkowe potrafią rozdzielić rodziny na&nbsp;lata. w&nbsp;Szczecinie pomagam spadkobiercom dojść do&nbsp;porozumienia bez niszących procesów sądowych, zachowując rodzinne więzi.',
 
   whatIsIt: {
     title: 'Czym są mediacje spadkowe?',
     description: [
-      'Mediacja spadkowa to sposób na&nbsp;rozwiązanie sporów o&nbsp;spadek bez angażowania sądu. Po śmierci bliskiej osoby emocje często biorą górę nad rozsądkiem, a kwestie finansowe stają się polem do rozgrywania starych rodzinnych konfliktów. Jako mediator w&nbsp;Szczecinie pomagam spadkobiercom przeprowadzić ten trudny proces z&nbsp;szacunkiem dla&nbsp;wszystkich stron.',
+      'Mediacja spadkowa to sposób na&nbsp;rozwiązanie sporów o&nbsp;spadek bez angażowania sądu. Po śmierci bliskiej osoby emocje często biorą górę nad rozsądkiem, a kwestie finansowe stają się polem do&nbsp;rozgrywania starych rodzinnych konfliktów. Jako mediator w&nbsp;Szczecinie pomagam spadkobiercom przeprowadzić ten trudny proces z&nbsp;szacunkiem dla&nbsp;wszystkich stron.',
       'Moje doświadczenie prawnicze jest szczególnie cenne w&nbsp;sprawach spadkowych. Wyjaśniam zawiłości prawa spadkowego, tłumaczę konsekwencje różnych rozwiązań i&nbsp;pomagam wypracować porozumienie zgodne z&nbsp;przepisami. Dzięki temu unikacie kosztownych i&nbsp;wieloletnich procesów sądowych.',
       'W gabinecie przy ul. Kapitańskiej 3a w&nbsp;Szczecinie tworzę neutralną przestrzeń, gdzie spadkobiercy mogą spokojnie omówić podział majątku po zmarłym. Nawet jeśli relacje są napięte, mediacja często pozwala nie tylko podzielić spadek, ale też odbudować zerwane więzi rodzinne.'
     ]
@@ -18,12 +18,12 @@ export const page: DetailPageProps = {
     situations: [
       'Rodzeństwo nie może się dogadać w&nbsp;sprawie podziału spadku po rodzicach',
       'Jeden ze spadkobierców kwestionuje testament',
-      'Dochodzi do sporu o&nbsp;zachowek między spadkobiercami',
+      'Dochodzi do&nbsp;sporu o&nbsp;zachowek między spadkobiercami',
       'W spadku jest nieruchomość i&nbsp;nie wiadomo, kto ją ma otrzymać',
       'Spadkobiercy mieszkają w&nbsp;różnych miastach i&nbsp;trudno o&nbsp;wspólne ustalenia',
       'Istnieje konflikt między dziećmi z&nbsp;różnych związków zmarłego',
       'Konieczny jest podział firmy rodzinnej po śmierci właściciela',
-      'Pojawiają się wątpliwości co do wartości poszczególnych składników spadku'
+      'Pojawiają się wątpliwości co do&nbsp;wartości poszczególnych składników spadku'
     ]
   },
   howProcess: {
@@ -62,7 +62,7 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Czy mediacja jest możliwa przy sporze o ważność testamentu?',
-        content: 'Tak, choć w&nbsp;takich przypadkach ostateczne rozstrzygnięcie prawne należy do sądu. Mediacja może jednak pomóc stronom dojść do porozumienia co do podziału majątku niezależnie od treści testamentu.'
+        content: 'Tak, choć w&nbsp;takich przypadkach ostateczne rozstrzygnięcie prawne należy do&nbsp;sądu. Mediacja może jednak pomóc stronom dojść do&nbsp;porozumienia co do&nbsp;podziału majątku niezależnie od treści testamentu.'
       },
       {
         label: 'Ile sesji potrzeba do zakończenia mediacji spadkowej?',

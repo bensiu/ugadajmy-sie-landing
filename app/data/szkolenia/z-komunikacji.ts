@@ -10,7 +10,7 @@ export const page: DetailPageProps = {
     description: [
       'Szkolenia z&nbsp;komunikacji w&nbsp;Szczecinie to praktyczne warsztaty, które pomagają rozwijać umiejętność skutecznego porozumiewania się w&nbsp;życiu zawodowym i&nbsp;prywatnym. Jako trener i&nbsp;mediator, uczę technik, które pozwalają budować lepsze relacje, unikać nieporozumień i&nbsp;osiągać cele w&nbsp;rozmowach.',
       'Skuteczna komunikacja to fundament sukcesu w&nbsp;każdej dziedzinie życia. na&nbsp;szkoleniach poznajesz mechanizmy, które wpływają na&nbsp;jakość Twoich rozmów, uczysz się rozpoznawać bariery komunikacyjne i&nbsp;ćwiczysz konkretne techniki, które możesz zastosować od razu po szkoleniu.',
-      'Warsztaty prowadzę w&nbsp;formie interaktywnej – większość czasu to ćwiczenia praktyczne, symulacje rozmów i&nbsp;analiza realnych przypadków. Teoria stanowi jedynie punkt wyjścia do rozwijania umiejętności poprzez praktykę.'
+      'Warsztaty prowadzę w&nbsp;formie interaktywnej – większość czasu to ćwiczenia praktyczne, symulacje rozmów i&nbsp;analiza realnych przypadków. Teoria stanowi jedynie punkt wyjścia do&nbsp;rozwijania umiejętności poprzez praktykę.'
     ]
   },
   whenToUse: {
@@ -39,7 +39,7 @@ export const page: DetailPageProps = {
     items: [
       'Umiejętność jasnego wyrażania swoich myśli i&nbsp;potrzeb',
       'Techniki aktywnego słuchania i&nbsp;budowania zrozumienia',
-      'Narzędzia do prowadzenia trudnych rozmów',
+      'Narzędzia do&nbsp;prowadzenia trudnych rozmów',
       'Większa pewność siebie w&nbsp;komunikacji',
       'Umiejętność dawania i&nbsp;przyjmowania feedbacku',
       'Lepsze rozumienie emocji własnych i&nbsp;rozmówców',
@@ -64,7 +64,7 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Czy po szkoleniu otrzymam jakieś materiały?',
-        content: 'Tak, każdy uczestnik otrzymuje komplet materiałów szkoleniowych: podręcznik z&nbsp;opisem technik, karty z&nbsp;narzędziami do codziennego stosowania oraz dostęp do dodatkowych materiałów online. Po szkoleniu oferuję również możliwość konsultacji follow-up.'
+        content: 'Tak, każdy uczestnik otrzymuje komplet materiałów szkoleniowych: podręcznik z&nbsp;opisem technik, karty z&nbsp;narzędziami do&nbsp;codziennego stosowania oraz dostęp do&nbsp;dodatkowych materiałów online. Po szkoleniu oferuję również możliwość konsultacji follow-up.'
       },
       {
         label: 'Dla kogo jest przeznaczone szkolenie z komunikacji?',

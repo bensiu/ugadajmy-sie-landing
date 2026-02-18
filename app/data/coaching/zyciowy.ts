@@ -10,7 +10,7 @@ export const page: DetailPageProps = {
     description: [
       'Coaching życiowy (life coaching) to partnerska relacja, która pomaga Ci żyć pełnią życia. Wspólnie odkrywamy Twoje wartości, pasje i&nbsp;cele, a następnie tworzymy plan ich realizacji w&nbsp;sposób autentyczny i&nbsp;zgodny z&nbsp;tym, kim naprawdę jesteś.',
       'Wielu ludzi czuje, że gdzieś po drodze zagubiło się w&nbsp;codzienności – rutyna, oczekiwania innych, presja społeczna. Coaching życiowy to przestrzeń, w&nbsp;której możesz się zatrzymać, przemyśleć swoje życie i&nbsp;świadomie wybrać kierunek, który ma dla&nbsp;Ciebie sens.',
-      'Jako coach pomagam Ci zadać właściwe pytania, zobaczyć nowe możliwości i&nbsp;pokonać bariery, które Cię ograniczają. Nie daję gotowych odpowiedzi – wierzę, że masz w&nbsp;sobie mądrość potrzebną do zbudowania życia, jakiego pragniesz.'
+      'Jako coach pomagam Ci zadać właściwe pytania, zobaczyć nowe możliwości i&nbsp;pokonać bariery, które Cię ograniczają. Nie daję gotowych odpowiedzi – wierzę, że masz w&nbsp;sobie mądrość potrzebną do&nbsp;zbudowania życia, jakiego pragniesz.'
     ]
   },
   whenToUse: {
@@ -19,7 +19,7 @@ export const page: DetailPageProps = {
       'Czujesz, że Twoje życie nie idzie w&nbsp;kierunku, który Cię satysfakcjonuje',
       'Stoisz przed ważną decyzją życiową i&nbsp;potrzebujesz jasności',
       'Chcesz odkryć swoje wartości i&nbsp;żyć w&nbsp;zgodzie z&nbsp;nimi',
-      'Brakuje Ci motywacji i&nbsp;energii do działania',
+      'Brakuje Ci motywacji i&nbsp;energii do&nbsp;działania',
       'Szukasz równowagi między życiem zawodowym a prywatnym',
       'Chcesz poprawić jakość swoich relacji z&nbsp;bliskimi',
       'Masz marzenia, ale nie wiesz, jak je zrealizować',
@@ -38,10 +38,10 @@ export const page: DetailPageProps = {
   listOfBenefits: {
     title: 'Co zyskasz dzięki coachingowi życiowemu?',
     items: [
-      'Większa jasność co do swoich celów i&nbsp;wartości',
+      'Większa jasność co do&nbsp;swoich celów i&nbsp;wartości',
       'Życie w&nbsp;większej zgodzie ze sobą',
       'Lepsza równowaga życiowa',
-      'Więcej energii i&nbsp;motywacji do działania',
+      'Więcej energii i&nbsp;motywacji do&nbsp;działania',
       'Poprawa jakości relacji z&nbsp;bliskimi',
       'Większa pewność siebie w&nbsp;podejmowaniu decyzji',
       'Umiejętność stawiania i&nbsp;realizowania celów',
@@ -57,11 +57,11 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Jak długo trwa coaching życiowy?',
-        content: 'Typowy proces coachingu życiowego trwa od 3 do 6 miesięcy, z&nbsp;sesjami co 2-3 tygodnie. Niektórzy klienci kontynuują współpracę dłużej, innym wystarczy kilka sesji. Wszystko zależy od Twoich celów i&nbsp;tempa, w&nbsp;jakim chcesz pracować.'
+        content: 'Typowy proces coachingu życiowego trwa od 3 do&nbsp;6 miesięcy, z&nbsp;sesjami co 2-3 tygodnie. Niektórzy klienci kontynuują współpracę dłużej, innym wystarczy kilka sesji. Wszystko zależy od Twoich celów i&nbsp;tempa, w&nbsp;jakim chcesz pracować.'
       },
       {
         label: 'Co jeśli nie wiem, czego chcę od życia?',
-        content: 'To częsta sytuacja i&nbsp;doskonały punkt wyjścia do coachingu! Właśnie od odkrywania tego, czego naprawdę chcesz, zaczynamy naszą współpracę. Poprzez pytania i&nbsp;ćwiczenia coachingowe stopniowo wyłania się jaśniejszy obraz Twoich pragnień i&nbsp;wartości.'
+        content: 'To częsta sytuacja i&nbsp;doskonały punkt wyjścia do&nbsp;coachingu! Właśnie od odkrywania tego, czego naprawdę chcesz, zaczynamy naszą współpracę. Poprzez pytania i&nbsp;ćwiczenia coachingowe stopniowo wyłania się jaśniejszy obraz Twoich pragnień i&nbsp;wartości.'
       },
       {
         label: 'Czy muszę mieć konkretny cel przed rozpoczęciem?',

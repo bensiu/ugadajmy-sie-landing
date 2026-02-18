@@ -14,7 +14,7 @@ export const page: DetailPageProps = {
     ]
   },
   whenToUse: {
-    title: 'Jakie sprawy cywilne nadają się do mediacji?',
+    title: 'Jakie sprawy cywilne nadają się do&nbsp;mediacji?',
     situations: [
       'Spór o&nbsp;wykonanie lub&nbsp;niewykonanie umowy',
       'Roszczenia o&nbsp;odszkodowanie za szkodę',
@@ -58,7 +58,7 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Czy mogę przerwać mediację, jeśli nie przynosi efektów?',
-        content: 'Oczywiście. Mediacja jest dobrowolna na&nbsp;każdym etapie. Możesz zrezygnować w&nbsp;dowolnym momencie i&nbsp;skierować sprawę do sądu.'
+        content: 'Oczywiście. Mediacja jest dobrowolna na&nbsp;każdym etapie. Możesz zrezygnować w&nbsp;dowolnym momencie i&nbsp;skierować sprawę do&nbsp;sądu.'
       },
       {
         label: 'Czy potrzebuję prawnika na&nbsp;mediacji cywilnej?',

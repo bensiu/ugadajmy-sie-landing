@@ -12,18 +12,18 @@ const serviceCategories = [
       'Mediacje spadkowe',
       'Mediacje online'
     ]
-  // },
-  // {
-  //   title: 'Terapia dla par',
-  //   path: '/terapia-dla-par-szczecin',
-  //   description: 'Profesjonalne wsparcie relacji. Poprawa komunikacji, rozwiązywanie kryzysów, program \'Razem czy osobno?\'.',
-  //   icon: Heart,
-  //   services: [
-  //     'Terapia małżeńska',
-  //     'Program dla par',
-  //     'Warsztaty dla par',
-  //     'Konsultacje przedrozwodowe'
-  //   ]
+  },
+  {
+    title: 'Terapia dla par',
+    path: '/terapia-dla-par-szczecin',
+    description: 'Profesjonalne wsparcie relacji. Poprawa komunikacji, rozwiązywanie kryzysów, program \'Razem czy osobno?\'.',
+    icon: 'lucide-heart',
+    items: [
+      'Terapia małżeńska',
+      'Program dla par',
+      'Warsztaty dla par',
+      'Konsultacje przedrozwodowe'
+    ]
   },
   {
     title: 'Coaching',

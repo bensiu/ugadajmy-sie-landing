@@ -21,7 +21,7 @@ export const page: DetailPageProps = {
       'Nie możesz dogadać się z&nbsp;byłym partnerem w&nbsp;sprawie dzieci',
       'Twoje dorosłe dzieci nie rozmawiają ze sobą',
       'Masz konflikt z&nbsp;teściami, który niszczy Twoje małżeństwo',
-      'Opiekujesz się starszym rodzicem i&nbsp;nie zgadzasz się z&nbsp;rodzeństwem co do dalszych działań',
+      'Opiekujesz się starszym rodzicem i&nbsp;nie zgadzasz się z&nbsp;rodzeństwem co do&nbsp;dalszych działań',
       'Chcesz przeprowadzić podział majątku rodzinnego bez sądu',
       'Twoje relacje z&nbsp;dorosłymi dziećmi są napięte'
     ]
@@ -42,7 +42,7 @@ export const page: DetailPageProps = {
       'Dzieci nie są wciągane w&nbsp;wojnę między dorosłymi',
       'Rozwiązanie jest szyte na&nbsp;miarę Twojej rodziny',
       'Proces jest poufny – co powiedziane, zostaje między nami',
-      'Oszczędzasz pieniądze i&nbsp;nerwy w&nbsp;porównaniu do sądu'
+      'Oszczędzasz pieniądze i&nbsp;nerwy w&nbsp;porównaniu do&nbsp;sądu'
     ]
   },
   frequentlyAskedQuestions: {

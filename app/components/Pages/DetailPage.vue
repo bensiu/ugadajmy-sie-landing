@@ -85,7 +85,7 @@ const props = defineProps<DetailPageProps>()
     <SectionsCallToAction
       v-if="props.callToAction"
       :id="`${props.id}-call-to-action`"
-      :title="props.callToAction.title"
+      v-bind="props.callToAction"
       :variant="props.callToAction.variant || 'default'"
     />
   </div>

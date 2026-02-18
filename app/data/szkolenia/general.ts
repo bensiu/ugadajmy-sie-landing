@@ -5,17 +5,10 @@ export const page: DetailPageProps = {
   title: ['Szkolenia w&nbsp;Szczecinie'],
   description: 'Rozwijaj kompetencje komunikacyjne z&nbsp;doświadczonym trenerem. Oferuję szkolenia dla&nbsp;firm, warsztaty otwarte i&nbsp;programy indywidualne. Praktyczna wiedza, która zmienia sposób budowania relacji.',
 
-  // whatIsIt: {
-  //   title: 'Oferta szkoleniowa',
-  //   description: [
-  //     'Coaching to partnerska relacja, która pomaga Ci odkryć własne odpowiedzi na&nbsp;ważne pytania życiowe i&nbsp;zawodowe. Nie daję gotowych rad – pomagam Ci myśleć jaśniej, działać skuteczniej i&nbsp;osiągać cele, które naprawdę mają dla&nbsp;Ciebie znaczenie.',
-  //     'Jako certyfikowany coach z&nbsp;doświadczeniem w&nbsp;mediacji i&nbsp;prawie, oferuję unikalne połączenie kompetencji. Rozumiem złożoność relacji międzyludzkich i&nbsp;wyzwań zawodowych. Pomagam Ci nie tylko określić, czego chcesz, ale też jak to osiągnąć w&nbsp;sposób zgodny z&nbsp;Twoimi wartościami.'
-  //   ]
-  // },
   kinds: {
     title: 'Oferta szkoleniowa',
+    variant: 'default',
     description: 'Wybierz szkolenie dopasowane do Twoich potrzeb lub&nbsp;skontaktuj się, aby omówić indywidualny program',
-    // class: 'sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4',
     items: [
       {
         icon: 'lucide-building-2',
@@ -54,19 +47,15 @@ export const page: DetailPageProps = {
       }
     ]
   },
-  // listOfBenefits: {
-  //   title: 'Dlaczego warto wybrać coaching?',
-  //   items: [
-  //     'Klarowność w&nbsp;podejmowaniu decyzji',
-  //     'Skuteczniejsze osiąganie celów',
-  //     'Lepsze zarządzanie czasem i&nbsp;priorytetami',
-  //     'Rozwój kompetencji przywódczych',
-  //     'Poprawa komunikacji i&nbsp;relacji',
-  //     'Większa pewność siebie i&nbsp;motywacja',
-  //     'Lepsze radzenie sobie ze stresem',
-  //     'Odkrycie własnego potencjału'
-  //   ]
-  // },
+  howProcess: {
+    title: 'Dlaczego warto wybrać moje szkolenia?',
+    variant: 'subtle',
+    steps: [
+      { icon: 'lucide-graduation-cap', title: 'Praktyczne podejście', description: 'Każde szkolenie opiera się na&nbsp;ćwiczeniach praktycznych i&nbsp;realnych przypadkach' },
+      { icon: 'lucide-users', title: 'Małe grupy', description: 'Pracuję w&nbsp;małych grupach, co&nbsp;gwarantuje indywidualne podejście do&nbsp;każdego uczestnika' },
+      { icon: 'lucide-heart', title: 'Wsparcie po&nbsp;szkoleniu', description: 'Oferuję materiały poszkoleniowe i&nbsp;możliwość konsultacji po&nbsp;zakończeniu kursu' }
+    ]
+  },
   callToAction: {
     title: 'Umów się na&nbsp;szkolenie w&nbsp;Szczecinie'
   }

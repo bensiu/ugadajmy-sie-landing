@@ -8,16 +8,16 @@ export const page: DetailPageProps = {
   whatIsIt: {
     title: 'Czym są warsztaty rozwojowe?',
     description: [
-      'Warsztaty rozwojowe w&nbsp;Szczecinie to intensywne spotkania grupowe, które wspierają rozwój osobisty i&nbsp;budowanie lepszych relacji. Łączę wiedzę z&nbsp;psychologii, coachingu i&nbsp;mediacji, tworząc przestrzeń do głębokiej pracy nad sobą w&nbsp;bezpiecznym środowisku.',
+      'Warsztaty rozwojowe w&nbsp;Szczecinie to intensywne spotkania grupowe, które wspierają rozwój osobisty i&nbsp;budowanie lepszych relacji. Łączę wiedzę z&nbsp;psychologii, coachingu i&nbsp;mediacji, tworząc przestrzeń do&nbsp;głębokiej pracy nad sobą w&nbsp;bezpiecznym środowisku.',
       'Warsztaty prowadzę w&nbsp;małych grupach, co pozwala na&nbsp;indywidualne podejście i&nbsp;głęboką pracę. Uczestnicy uczą się od siebie nawzajem, dzielą doświadczeniami i&nbsp;budują wspierającą społeczność osób zainteresowanych rozwojem.',
-      'Każdy warsztat ma określony temat i&nbsp;cele. Pracujemy nad konkretnymi umiejętnościami – od zarządzania emocjami, przez budowanie pewności siebie, po rozwijanie inteligencji emocjonalnej. Teoria stanowi jedynie punkt wyjścia do ćwiczeń praktycznych i&nbsp;refleksji.'
+      'Każdy warsztat ma określony temat i&nbsp;cele. Pracujemy nad konkretnymi umiejętnościami – od zarządzania emocjami, przez budowanie pewności siebie, po rozwijanie inteligencji emocjonalnej. Teoria stanowi jedynie punkt wyjścia do&nbsp;ćwiczeń praktycznych i&nbsp;refleksji.'
     ]
   },
   whenToUse: {
     title: 'Dla kogo są warsztaty rozwojowe?',
     situations: [
       'Osoby chcące lepiej rozumieć swoje emocje i&nbsp;reakcje',
-      'Każdy, kto szuka przestrzeni do rozwoju osobistego',
+      'Każdy, kto szuka przestrzeni do&nbsp;rozwoju osobistego',
       'Osoby pracujące nad pewnością siebie i&nbsp;asertywnością',
       'Ludzie chcący budować głębsze, autentyczne relacje',
       'Osoby przechodzące przez trudne zmiany życiowe',
@@ -38,12 +38,12 @@ export const page: DetailPageProps = {
     title: 'Co zyskasz na&nbsp;warsztatach?',
     items: [
       'Głębsze rozumienie siebie i&nbsp;swoich wzorców',
-      'Praktyczne narzędzia do pracy z&nbsp;emocjami',
+      'Praktyczne narzędzia do&nbsp;pracy z&nbsp;emocjami',
       'Większa pewność siebie w&nbsp;relacjach',
       'Umiejętność radzenia sobie ze stresem',
       'Wsparcie grupy i&nbsp;wymiana doświadczeń',
-      'Inspiracja do dalszego rozwoju',
-      'Konkretne techniki do stosowania na&nbsp;co dzień',
+      'Inspiracja do&nbsp;dalszego rozwoju',
+      'Konkretne techniki do&nbsp;stosowania na&nbsp;co dzień',
       'Nowe perspektywy i&nbsp;sposoby myślenia'
     ]
   },
@@ -60,15 +60,15 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Czy muszę mieć wcześniejsze doświadczenie z pracą rozwojową?',
-        content: 'Nie, warsztaty są otwarte dla&nbsp;wszystkich. Przygotowuję je tak, aby były wartościowe zarówno dla&nbsp;osób rozpoczynających pracę nad sobą, jak i&nbsp;dla tych z&nbsp;doświadczeniem w&nbsp;coachingu czy terapii. Ważna jest otwartość i&nbsp;gotowość do refleksji.'
+        content: 'Nie, warsztaty są otwarte dla&nbsp;wszystkich. Przygotowuję je tak, aby były wartościowe zarówno dla&nbsp;osób rozpoczynających pracę nad sobą, jak i&nbsp;dla tych z&nbsp;doświadczeniem w&nbsp;coachingu czy terapii. Ważna jest otwartość i&nbsp;gotowość do&nbsp;refleksji.'
       },
       {
         label: 'Ile trwa warsztat rozwojowy?',
-        content: 'Standardowy warsztat trwa od 4 do 8 godzin, zazwyczaj w&nbsp;sobotę lub&nbsp;niedzielę. Organizuję również weekendowe warsztaty intensywne (2 dni) dla&nbsp;osób chcących głębiej pracować nad określonym tematem.'
+        content: 'Standardowy warsztat trwa od 4 do&nbsp;8 godzin, zazwyczaj w&nbsp;sobotę lub&nbsp;niedzielę. Organizuję również weekendowe warsztaty intensywne (2 dni) dla&nbsp;osób chcących głębiej pracować nad określonym tematem.'
       },
       {
         label: 'Czy warsztat może być zorganizowany dla zamkniętej grupy?',
-        content: 'Tak, organizuję warsztaty dla&nbsp;grup przyjaciół, zespołów w&nbsp;pracy czy społeczności. Temat i&nbsp;program dostosowuję do potrzeb grupy. To świetna opcja na&nbsp;integrację połączoną z&nbsp;rozwojem osobistym.'
+        content: 'Tak, organizuję warsztaty dla&nbsp;grup przyjaciół, zespołów w&nbsp;pracy czy społeczności. Temat i&nbsp;program dostosowuję do&nbsp;potrzeb grupy. To świetna opcja na&nbsp;integrację połączoną z&nbsp;rozwojem osobistym.'
       }
     ]
   },

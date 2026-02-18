@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'szkolenia-z-mediacji-szczecin',
   title: ['Szkolenia z&nbsp;mediacji w&nbsp;Szczecinie'],
-  description: 'Zostań profesjonalnym mediatorem. Praktyczne szkolenia prowadzone przez doświadczonego mediatora. Certyfikat uprawniający do wpisu na&nbsp;listę mediatorów sądowych.',
+  description: 'Zostań profesjonalnym mediatorem. Praktyczne szkolenia prowadzone przez doświadczonego mediatora. Certyfikat uprawniający do&nbsp;wpisu na&nbsp;listę mediatorów sądowych.',
 
   whatIsIt: {
     title: 'Czym są szkolenia z&nbsp;mediacji?',
@@ -40,7 +40,7 @@ export const page: DetailPageProps = {
       'Znajomość procedury i&nbsp;etapów mediacji',
       'Umiejętność prowadzenia sesji mediacyjnych',
       'Techniki radzenia sobie z&nbsp;trudnymi emocjami stron',
-      'Narzędzia do wypracowywania porozumień',
+      'Narzędzia do&nbsp;wypracowywania porozumień',
       'Wiedza prawna dotycząca mediacji',
       'Umiejętność sporządzania dokumentacji mediacyjnej',
       'Certyfikat ukończenia szkolenia mediacyjnego',
@@ -52,7 +52,7 @@ export const page: DetailPageProps = {
     questions: [
       {
         label: 'Czy po szkoleniu mogę zostać mediatorem?',
-        content: 'Tak, szkolenie podstawowe z&nbsp;mediacji (40-60 godzin) uprawnia do ubiegania się o&nbsp;wpis na&nbsp;listę mediatorów sądowych. Po ukończeniu szkolenia otrzymujesz certyfikat, który jest wymagany przez sądy. Dodatkowo rekomenduję praktykę pod superwizją i&nbsp;dalsze szkolenia specjalistyczne.'
+        content: 'Tak, szkolenie podstawowe z&nbsp;mediacji (40-60 godzin) uprawnia do&nbsp;ubiegania się o&nbsp;wpis na&nbsp;listę mediatorów sądowych. Po ukończeniu szkolenia otrzymujesz certyfikat, który jest wymagany przez sądy. Dodatkowo rekomenduję praktykę pod superwizją i&nbsp;dalsze szkolenia specjalistyczne.'
       },
       {
         label: 'Ile trwa szkolenie z mediacji?',

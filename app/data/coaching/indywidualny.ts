@@ -3,25 +3,25 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'coaching-indywidualny-szczecin',
   title: ['Coaching indywidualny w&nbsp;Szczecinie'],
-  description: 'Sesje 1:1 w&nbsp;pełni dopasowane do Twoich unikalnych potrzeb. Profesjonalne wsparcie w&nbsp;każdym obszarze życia – zawodowym, osobistym i&nbsp;relacyjnym.',
+  description: 'Sesje 1:1 w&nbsp;pełni dopasowane do&nbsp;Twoich unikalnych potrzeb. Profesjonalne wsparcie w&nbsp;każdym obszarze życia – zawodowym, osobistym i&nbsp;relacyjnym.',
 
   whatIsIt: {
     title: 'Na czym polega coaching indywidualny?',
     description: [
-      'Coaching indywidualny to sesje 1:1 w&nbsp;pełni dostosowane do Twoich unikalnych potrzeb i&nbsp;celów. Niezależnie od tego, czy chodzi o&nbsp;życie zawodowe, relacje, rozwój osobisty czy konkretne wyzwania – tworzę przestrzeń, w&nbsp;której możesz skupić się wyłącznie na&nbsp;tym, co jest dla&nbsp;Ciebie najważniejsze.',
-      'Każdy człowiek jest inny i&nbsp;ma inne potrzeby. Dlatego nie stosuję szablonowych rozwiązań. na&nbsp;początku naszej współpracy dokładnie poznaję Twoją sytuację, cele i&nbsp;styl uczenia się, żeby dopasować podejście coachingowe do Ciebie.',
+      'Coaching indywidualny to sesje 1:1 w&nbsp;pełni dostosowane do&nbsp;Twoich unikalnych potrzeb i&nbsp;celów. Niezależnie od tego, czy chodzi o&nbsp;życie zawodowe, relacje, rozwój osobisty czy konkretne wyzwania – tworzę przestrzeń, w&nbsp;której możesz skupić się wyłącznie na&nbsp;tym, co jest dla&nbsp;Ciebie najważniejsze.',
+      'Każdy człowiek jest inny i&nbsp;ma inne potrzeby. Dlatego nie stosuję szablonowych rozwiązań. na&nbsp;początku naszej współpracy dokładnie poznaję Twoją sytuację, cele i&nbsp;styl uczenia się, żeby dopasować podejście coachingowe do&nbsp;Ciebie.',
       'Sesje indywidualne to Twój prywatny czas na&nbsp;refleksję, planowanie i&nbsp;działanie. Jako coach pomagam Ci myśleć jaśniej, odkrywać nowe perspektywy i&nbsp;podejmować decyzje z&nbsp;większą pewnością siebie. Wszystko w&nbsp;atmosferze całkowitej poufności i&nbsp;wzajemnego szacunku.'
     ]
   },
   whenToUse: {
     title: 'Dla kogo jest coaching indywidualny?',
     situations: [
-      'Masz unikalne wyzwanie, które nie pasuje do standardowych kategorii',
-      'Potrzebujesz elastycznego podejścia dopasowanego do Twojego rytmu',
+      'Masz unikalne wyzwanie, które nie pasuje do&nbsp;standardowych kategorii',
+      'Potrzebujesz elastycznego podejścia dopasowanego do&nbsp;Twojego rytmu',
       'Cenisz prywatność i&nbsp;indywidualną uwagę',
       'Chcesz pracować nad wieloma obszarami życia jednocześnie',
       'Potrzebujesz wsparcia w&nbsp;okresie intensywnych zmian',
-      'Szukasz partnera do myślenia strategicznego',
+      'Szukasz partnera do&nbsp;myślenia strategicznego',
       'Chcesz rozwinąć samoświadomość i&nbsp;lepiej się poznać',
       'Potrzebujesz regularnej przestrzeni na&nbsp;refleksję i&nbsp;planowanie'
     ]
@@ -39,7 +39,7 @@ export const page: DetailPageProps = {
     title: 'Co zyskasz dzięki coachingowi indywidualnemu?',
     items: [
       'Pełna personalizacja procesu coachingowego',
-      'Elastyczny harmonogram dopasowany do Twojego życia',
+      'Elastyczny harmonogram dopasowany do&nbsp;Twojego życia',
       'Głęboka praca nad tym, co naprawdę ważne',
       'Całkowita poufność i&nbsp;prywatność',
       'Indywidualna uwaga podczas każdej sesji',
@@ -61,7 +61,7 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Jak często powinny odbywać się sesje?',
-        content: 'Najczęściej spotykamy się co 2-3 tygodnie. Ten rytm daje wystarczająco czasu na&nbsp;wdrażanie zmian między sesjami, a jednocześnie utrzymuje momentum. Częstotliwość możemy dostosować do Twoich potrzeb.'
+        content: 'Najczęściej spotykamy się co 2-3 tygodnie. Ten rytm daje wystarczająco czasu na&nbsp;wdrażanie zmian między sesjami, a jednocześnie utrzymuje momentum. Częstotliwość możemy dostosować do&nbsp;Twoich potrzeb.'
       },
       {
         label: 'Czy mogę zmienić temat w trakcie procesu coachingowego?',
