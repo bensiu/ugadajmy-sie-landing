@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'terapia-dla-par-po-zdradzie-szczecin',
+  seo: {
+    title: 'Terapia po Zdradzie Szczecin | Odbudowa zaufania w związku',
+    description: 'Profesjonalna terapia po zdradzie w Szczecinie. Pomoc w odbudowie zaufania, pracy nad przebaczeniem i podjęciu decyzji o przyszłości związku. Aleksandra Dubiel.'
+  },
+  breadCrumbsLabel: 'Terapia po zdradzie',
+
   title: ['Terapia po zdradzie w&nbsp;Szczecinie'],
   description: 'Zdrada to jeden z&nbsp;najtrudniejszych kryzysów w&nbsp;związku. Ale nie musi oznaczać końca. Z&nbsp;profesjonalnym wsparciem możliwe jest odbudowanie zaufania i&nbsp;stworzenie nowej, silniejszej relacji.',
 

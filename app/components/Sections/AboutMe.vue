@@ -27,7 +27,7 @@ const credentials = [
   <BlocksSectionWrapper id="o-mnie">
     <div class="grid lg:grid-cols-2 gap-12 lg:gap-16">
       <div class="relative rounded-2xl animate-fade-up">
-        <div className="relative rounded-2xl shadow-elevated">
+        <div class="relative rounded-2xl shadow-elevated">
           <div>
             <img
               src="/images/Aleksandra_Dubiel_zdjecie_glowne.JPG"
@@ -62,7 +62,7 @@ const credentials = [
             :key="credential.title"
             :title="credential.title"
             :icon="credential.icon"
-            :desc="credential.description"
+            :description="credential.description"
             :style="{ animationDelay: `${index * 100}ms` }"
           />
         </div>

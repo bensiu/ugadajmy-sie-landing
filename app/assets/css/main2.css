@@ -148,10 +148,15 @@
   width: 100%;
   height: max-content; /* Or min-h-screen */
   
-  background-image: url('/images/hero-hands-3.png');
+  background-image: url('/images/hero-hands-pt.png');
   background-repeat: no-repeat;
   
   /* The Magic Duo */
   background-position: right bottom;
   background-size: 100%; /* Image scales to 40% of the container width */
+}
+@media (min-width: 768px) {
+  .hero-container-background {
+    background-image: url('/images/hero-hands-sq.png');
+  }
 }

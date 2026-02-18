@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'program-razem-czy-osobno-szczecin',
+  seo: {
+    title: 'Program dla Par „Razem czy osobno?" Szczecin | 13-modułowy program terapeutyczny',
+    description: 'Program „Razem czy osobno?" - 13-modułowy program dla par oparty na strukturze mediacji. Konkretne ramy, jasny plan pracy i moduły dostosowane do Waszych potrzeb.'
+  },
+  breadCrumbsLabel: '„Razem czy osobno?"',
+
   title: ['Program „Razem czy osobno?" w&nbsp;Szczecinie'],
   description: 'Autorski 13-modułowy program dla par, który łączy strukturę mediacji z&nbsp;narzędziami coachingowymi. Konkretne ramy, jasny plan i&nbsp;moduły dostosowane do&nbsp;Waszych potrzeb.',
 

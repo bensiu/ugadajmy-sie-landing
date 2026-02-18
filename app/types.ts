@@ -7,8 +7,22 @@ export interface ProcessStep {
 
 export type SectionVariant = 'default' | 'subtle' | 'primary'
 
+export interface SEO {
+  title: string
+  description: string
+  author?: string
+}
+
+export interface BreadCrumbsItem {
+  label: string
+  href?: string
+}
+
 export interface DetailPageProps {
   id: string
+  seo?: SEO
+  breadCrumbsLabel?: string
+  breadCrumbs?: BreadCrumbsItem[] | null
   title: string[]
   description: string
 

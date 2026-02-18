@@ -34,14 +34,11 @@ useHead({
 })
 
 const navLinks = [
-  { href: '/program-dla-par', label: 'Program dla par' },
-  { href: '/#o-mnie', label: 'Kim jestem' },
-  { href: '/#w-czym-pomagam', label: 'W czym pomagam' },
-  { href: '/#mediation', label: 'Mediacje' },
-  { href: '/#coaching', label: 'Coaching' },
-  { href: '/#szkolenia-i-programy', label: 'Szkolenia' },
-  // { href: '#business', label: 'Dla firm' },
-  { href: '/#contact', label: 'Kontakt' }
+  { href: '/mediacje-szczecin', label: 'Mediacje' },
+  { href: '/terapia-dla-par-szczecin', label: 'Terapia dla par' },
+  { href: '/coaching-szczecin', label: 'Coaching' },
+  { href: '/szkolenia-szczecin', label: 'Szkolenia' }
+  // { href: '/#contact', label: 'Kontakt' }
 ]
 
 const isMenuOpen = ref(false)
@@ -68,10 +65,10 @@ onUnmounted(() => {
     <UHeader
       :open="isMenuOpen"
       :ui="{
-        left: 'lg:flex-1 xl:flex-none pr-4 lg:pr-8'
+        left: 'lg:flex-none pr-4 lg:pr-8'
       }"
       :class="[
-        'absolute w-full fixed left-0 top-0 right-0',
+        'absolute w-full fixed left-0 top-0 right-0 flex',
         isScrolled
           ? 'bg-background backdrop-blur-md shadow-soft border-b py-5'
           : 'bg-transparent py-5'
@@ -90,13 +87,13 @@ onUnmounted(() => {
         </NuxtLink>
       </template>
 
-      <nav class="hidden lg:flex items-center gap-6">
+      <nav class="hidden lg:flex items-center justify-between gap-6">
         <NuxtLink
           v-for="link in navLinks"
           :key="link.href"
           :to="link.href"
           :class="[
-            'text-sm font-medium transition-colors',
+            'text-md font-bold transition-colors',
             isScrolled ? 'text-foreground/70 hover:text-primary' : 'text-white/80 hover:text-white'
           ]"
         >
@@ -105,13 +102,13 @@ onUnmounted(() => {
       </nav>
 
       <template #right>
-        <div class="hidden xl:flex items-center gap-4">
+        <div class="hidden lg:flex items-center gap-4">
           <UButton
             to="tel:+48796245605"
             variant="ghost"
             color="neutral"
             :class="[
-              'transition-colors',
+              'text-md font-bold transition-colors p-3',
               isScrolled ? 'text-muted-foreground hover:text-primary' : 'text-white/80 hover:text-white hover:bg-white/10'
             ]"
           >
@@ -128,7 +125,7 @@ onUnmounted(() => {
             to="#contact"
             size="sm"
             :class="[
-              'font-semibold transition-all p-4',
+              'text-md font-bold transition-all p-3 px-5',
               isScrolled
                 ? ''
                 : 'bg-[hsl(40,90%,55%)] text-[hsl(210,30%,12%)] hover:bg-[hsl(40,90%,50%)] border-none'

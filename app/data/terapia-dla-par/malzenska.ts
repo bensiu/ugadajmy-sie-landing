@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'terapia-dla-par-malzenska-szczecin',
+  seo: {
+    title: 'Terapia Małżeńska Szczecin | Odbuduj relację z partnerem',
+    description: 'Profesjonalna terapia małżeńska w Szczecinie. Poprawa komunikacji, odbudowa zaufania, rozwiązywanie konfliktów. Aleksandra Dubiel - mediator i coach.'
+  },
+  breadCrumbsLabel: 'Terapia małżeńska',
+
   title: ['Terapia małżeńska w&nbsp;Szczecinie'],
   description: 'Każde małżeństwo przechodzi trudne momenty. Terapia małżeńska to&nbsp;przestrzeń, w&nbsp;której możecie bezpiecznie porozmawiać, zrozumieć się nawzajem i&nbsp;odbudować więź.',
 

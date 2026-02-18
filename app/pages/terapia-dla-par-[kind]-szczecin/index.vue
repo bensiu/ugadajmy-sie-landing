@@ -12,6 +12,10 @@ if (!pages[kind]) {
   })
 }
 const page = pages[kind]
+
+if (page?.seo) {
+  usePageSpecificSeoMeta(page.seo)
+}
 </script>
 
 <template>

@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'warsztaty-dla-par-szczecin',
+  seo: {
+    title: 'Warsztaty dla Par Szczecin | Komunikacja i budowanie relacji',
+    description: 'Intensywne warsztaty dla par w Szczecinie. Praktyczne narzędzia komunikacji, rozwiązywanie konfliktów, wzmacnianie więzi. Aleksandra Dubiel - mediator i coach.'
+  },
+  breadCrumbsLabel: 'Warsztaty dla par',
+
   title: ['Warsztaty dla par w&nbsp;Szczecinie'],
   description: 'Intensywne warsztaty komunikacyjne, które dadzą Wam praktyczne narzędzia do&nbsp;lepszego porozumienia. Nauka przez doświadczenie w&nbsp;bezpiecznej atmosferze.',
 
