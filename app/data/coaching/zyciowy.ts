@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'coaching-zyciowy-szczecin',
+  seo: {
+    title: 'Coaching życiowy Szczecin | Life coaching - odkryj swój potencjał',
+    description: 'Life coaching w Szczecinie. Odkryj swoje wartości, zdefiniuj cele i żyj pełnią życia. Profesjonalne wsparcie w budowaniu życia zgodnego z Twoimi marzeniami.'
+  },
+  breadCrumbsLabel: 'Coaching życiowy',
+
   title: ['Coaching życiowy w&nbsp;Szczecinie'],
   description: 'Odkryj swoje wartości, zdefiniuj cele i&nbsp;żyj pełnią życia. Profesjonalne wsparcie w&nbsp;budowaniu życia zgodnego z&nbsp;Twoimi marzeniami.',
 

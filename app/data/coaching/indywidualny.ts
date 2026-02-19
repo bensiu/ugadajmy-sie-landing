@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'coaching-indywidualny-szczecin',
+  seo: {
+    title: 'Coaching indywidualny Szczecin | Sesje 1:1 dopasowane do Ciebie',
+    description: 'Coaching indywidualny w Szczecinie. Sesje 1:1 w pełni dopasowane do Twoich potrzeb i celów. Profesjonalne wsparcie w każdym obszarze życia. Umów się!'
+  },
+  breadCrumbsLabel: 'Coaching indywidualny',
+
   title: ['Coaching indywidualny w&nbsp;Szczecinie'],
   description: 'Sesje 1:1 w&nbsp;pełni dopasowane do&nbsp;Twoich unikalnych potrzeb. Profesjonalne wsparcie w&nbsp;każdym obszarze życia – zawodowym, osobistym i&nbsp;relacyjnym.',
 

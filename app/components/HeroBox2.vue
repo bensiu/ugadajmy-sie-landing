@@ -25,7 +25,7 @@ const justWithLinks = (i: BreadCrumbsItem) => !!i.href
       class="hero-container-background"
       :ui="{
         wrapper: 'w-full page-container text-left',
-        container: 'mx-0 py-3 sm:py-4 md:py-6 lg:py-8 max-w-5xl text-left',
+        container: 'mx-0 py-3 sm:py-4 md:py-6 lg:py-8 max-w-5xl text-left max-w-(--ui-container) mx-auto',
         title: 'text-3xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl font-semibold leading-tight mb-6 text-white animate-fade-up delay-100',
         description: 'text-lg sm:text-xl text-white/80 leading-relaxed mb-8 max-w-4xl animate-fade-up delay-200',
         footer: 'text-left'
@@ -34,7 +34,7 @@ const justWithLinks = (i: BreadCrumbsItem) => !!i.href
       <template #top>
         <div
           v-if="props.topBadges"
-          class="px-4 sm:px-6 lg:px-8 pt-24 sm:pt-24 md:pt-24 lg:pt-28"
+          class="max-w-(--ui-container) mx-auto px-4 sm:px-6 lg:px-8 pt-24 sm:pt-24 md:pt-24 lg:pt-28 "
         >
           <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white/90 text-sm font-semibold mb-8 backdrop-blur-sm animate-fade-up">
             <span>{{ props.topBadges }}</span>
@@ -42,7 +42,7 @@ const justWithLinks = (i: BreadCrumbsItem) => !!i.href
         </div>
         <div
           v-else-if="props.breadCrumbs"
-          class="px-4 sm:px-6 lg:px-8 pt-24 sm:pt-24 md:pt-24 lg:pt-28"
+          class="max-w-(--ui-container) mx-auto px-4 sm:px-6 lg:px-8 pt-24 sm:pt-24 md:pt-24 lg:pt-28"
         >
           <div class="inline-flex justify-center items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white/90 text-sm font-semibold mb-8 backdrop-blur-sm animate-fade-up">
             <div
@@ -67,7 +67,7 @@ const justWithLinks = (i: BreadCrumbsItem) => !!i.href
         </div>
         <div
           v-else
-          class="pt-16 sm:pt-20 md:pt-24 lg:pt-28"
+          class="max-w-(--ui-container) mx-auto pt-16 sm:pt-20 md:pt-24 lg:pt-28"
         />
       </template>
 
@@ -127,6 +127,10 @@ const justWithLinks = (i: BreadCrumbsItem) => !!i.href
             </p>
           </div>
         </div>
+        <div
+          v-else
+          class="my-2 md:my-3"
+        />
       </template>
     </UPageHero>
 

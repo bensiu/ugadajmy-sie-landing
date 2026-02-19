@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'coaching-biznesowy-szczecin',
+  seo: {
+    title: 'Coaching biznesowy Szczecin | Rozwój firmy i przywództwo',
+    description: 'Coaching biznesowy w Szczecinie dla przedsiębiorców i menedżerów. Strategia, przywództwo, zarządzanie zespołem. Rozwijaj biznes z certyfikowanym coachem!'
+  },
+  breadCrumbsLabel: 'Coaching biznesowy',
+
   title: ['Coaching biznesowy w&nbsp;Szczecinie'],
   description: 'Strategia, przywództwo, rozwój firmy. Profesjonalne wsparcie dla&nbsp;przedsiębiorców i&nbsp;menedżerów, którzy chcą osiągnąć więcej.',
 

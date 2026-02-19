@@ -39,7 +39,7 @@ export const page: DetailPageProps = {
         icon: 'lucide-compass',
         title: 'Coaching życiowy',
         description: 'Odkryj swoje wartości, zdefiniuj cele i&nbsp;stwórz plan życia zgodnego z&nbsp;Twoimi marzeniami.',
-        path: '/coaching-life-szczecin'
+        path: '/coaching-zyciowy-szczecin'
       },
       {
         icon: 'lucide-heart',

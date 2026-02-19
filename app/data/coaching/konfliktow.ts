@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'coaching-konfliktow-szczecin',
+  seo: {
+    title: 'Coaching konfliktów Szczecin | Zarządzanie konfliktami i komunikacja',
+    description: 'Coaching konfliktów w Szczecinie. Naucz się skutecznie radzić sobie z konfliktami w pracy i życiu prywatnym. Asertywność, komunikacja, rozwiązywanie sporów.'
+  },
+  breadCrumbsLabel: 'Coaching konfliktów',
+
   title: ['Coaching konfliktów w&nbsp;Szczecinie'],
   description: 'Naucz się skutecznie radzić sobie z&nbsp;konfliktami. Rozwijaj umiejętności komunikacji i&nbsp;buduj zdrowsze relacje – w&nbsp;pracy i&nbsp;życiu prywatnym.',
 

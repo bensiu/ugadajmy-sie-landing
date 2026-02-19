@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'coaching-kariery-szczecin',
+  seo: {
+    title: 'Coaching kariery Szczecin | Rozwój zawodowy i planowanie kariery',
+    description: 'Coaching kariery w Szczecinie. Zmiana pracy, awans, rozwój zawodowy. Odkryj swój potencjał i osiągnij cele z certyfikowanym coachem. Umów się na sesję!'
+  },
+  breadCrumbsLabel: 'Coaching kariery',
+
   title: ['Coaching kariery w&nbsp;Szczecinie'],
   description: 'Zmiana pracy, awans, nowa ścieżka zawodowa – razem znajdziemy drogę do&nbsp;Twoich celów. Profesjonalne wsparcie w&nbsp;budowaniu kariery zgodnej z&nbsp;Twoimi wartościami.',
 
