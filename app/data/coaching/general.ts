@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'coaching-szczecin',
+  seo: {
+    title: 'Coaching Szczecin | Aleksandra Dubiel - Coach certyfikowany',
+    description: 'Profesjonalny coaching w Szczecinie. Coaching kariery, biznesowy, życiowy i indywidualny. Osiągnij swoje cele z certyfikowanym coachem. Umów się na sesję!'
+  },
+  breadCrumbsLabel: 'Coaching',
+
   title: ['Coaching w&nbsp;Szczecinie'],
   description: 'Odkryj swój potencjał i&nbsp;osiągnij więcej. Profesjonalne sesje coachingowe, które pomogą Ci zdefiniować cele i&nbsp;skutecznie je realizować.',
 

@@ -38,12 +38,11 @@ const topics = [
     />
     <div className="grid md:grid-cols-3 gap-6 mb-8">
       <BlocksFeatureCard
-        v-for="(training, index) in trainings"
+        v-for="training in trainings"
         :key="training.title"
         :title="training.title"
         :icon="training.icon"
-        :desc="training.description"
-        :style="{ animationDelay: `${index * 100}ms` }"
+        :description="training.description"
       />
     </div>
     <div class="bg-primary rounded-2xl p-8 lg:p-12 animate-fade-up delay-200 mt-16">
