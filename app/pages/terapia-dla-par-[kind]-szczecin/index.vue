@@ -1,21 +1,7 @@
 <script setup lang="ts">
 import { pages } from '~/data/terapia-dla-par/'
 
-const { params } = useRoute()
-const kind = (params['kind'] as string).replaceAll('-', '_')
-
-if (!pages[kind]) {
-  console.log('No such kind of page :', kind)
-  throw createError({
-    statusMessage: 'Page Not Found',
-    statusCode: 404
-  })
-}
-const page = pages[kind]
-
-if (page?.seo) {
-  usePageSpecificSeoMeta(page.seo)
-}
+const page = usePageDataHandling(pages)
 </script>
 
 <template>

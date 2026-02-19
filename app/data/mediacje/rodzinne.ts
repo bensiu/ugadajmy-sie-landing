@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'mediacje-rodzinne-szczecin',
+  seo: {
+    title: 'Mediacje Rodzinne Szczecin – Rozwiązywanie Konfliktów w Rodzinie | Ugadajmy się',
+    description: 'Profesjonalne mediacje rodzinne w Szczecinie. Pomagam rozwiązywać konflikty rodzinne, ustalać opiekę nad dziećmi, dzielić majątek. Mediator z 15-letnim doświadczeniem.'
+  },
+  breadCrumbsLabel: 'Mediacje rodzinne',
+
   title: ['Mediacje Rodzinne Szczecin – Odbuduj Relacje w&nbsp;Rodzinie'],
   description: 'Pomagam rodzinom w&nbsp;Szczecinie rozwiązywać konflikty i&nbsp;budować porozumienie. Dzięki mediacji rodzinnej możesz uniknąć traumatycznych procesów sądowych i&nbsp;zachować relacje rodzinne.',
 

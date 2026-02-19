@@ -55,7 +55,7 @@ export const page: DetailPageProps = {
       },
       {
         title: 'Mediacje sąsiedzkie',
-        path: '/mediacje-sassiedzkie-szczecin',
+        path: '/mediacje-sasiedzkie-szczecin',
         description: 'Konflikty sąsiedzkie, immisje, granice działek',
         icon: 'lucide-building-2'
       },

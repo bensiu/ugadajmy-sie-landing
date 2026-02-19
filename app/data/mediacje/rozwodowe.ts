@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'mediacje-rozwodowe-szczecin',
+  seo: {
+    title: 'Mediacje Rozwodowe Szczecin – Rozwód Bez Walki w Sądzie | Ugadajmy się',
+    description: 'Mediacje rozwodowe w Szczecinie. Pomogę ustalić alimenty, opiekę nad dziećmi i podział majątku. Rozwód za porozumieniem stron. Doświadczony mediator sądowy.'
+  },
+  breadCrumbsLabel: 'Mediacje rozwodowe',
+
   title: ['Mediacje Rozwodowe Szczecin – Rozwód z&nbsp;Godnością i&nbsp;Szacunkiem'],
   description: 'Rozwód nie musi oznaczać wojny. Jako doświadczony mediator sądowy w&nbsp;Szczecinie pomagam parom rozwiązać najważniejsze kwestie polubownie – dla&nbsp;dobra Was i&nbsp;Waszych dzieci.',
 
