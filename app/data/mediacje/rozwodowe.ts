@@ -63,7 +63,7 @@ export const page: DetailPageProps = {
         content: 'W Polsce mediacje są dobrowolne, ale sąd może na&nbsp;nie skierować. Jeśli sąd skieruje Was na&nbsp;mediacje, warto z&nbsp;nich skorzystać – pokazuje to dobrą wolę i&nbsp;może przyspieszyć proces.'
       },
       {
-        label: 'Co jeśli nie dogadamy się na&nbsp;mediacji rozwodowej?',
+        label: 'Co jeśli nie dogadamy się na mediacji rozwodowej?',
         content: 'Jeśli mediacja nie zakończy się pełnym porozumieniem, sprawa wraca do&nbsp;sądu. Jednak nawet częściowe ustalenia (np. tylko o&nbsp;dzieciach) przyspieszają proces sądowy.'
       },
       {

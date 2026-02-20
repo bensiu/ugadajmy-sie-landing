@@ -76,7 +76,7 @@ onUnmounted(() => {
     >
       <template #left>
         <NuxtLink
-          to="/#home"
+          to="/"
           class="flex items-center group"
         >
           <img
@@ -153,10 +153,14 @@ onUnmounted(() => {
       </template>
     </UHeader>
 
-    <!-- <TheHeader :nav-links="navLinks" /> -->
     <main class="relative">
       <NuxtPage />
     </main>
     <TheFooter :nav-links="navLinks" />
+    <div
+      :class="[
+        'md:grid-cols-3 md:grid-cols-4'
+      ]"
+    />
   </UApp>
 </template>

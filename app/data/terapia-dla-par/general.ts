@@ -32,7 +32,7 @@ export const page: DetailPageProps = {
       },
       {
         icon: 'lucide-sparkles',
-        title: 'Program \'Razem czy&nbsp;osobno?\'',
+        title: 'Program „Razem czy osobno?"',
         description: '13-modułowy program dla par oparty na strukturze mediacji. Konkretne ramy i&nbsp;jasny plan pracy nad relacją.',
         path: '/program-razem-czy-osobno-szczecin'
         // items: ['Komunikacja interpersonalna', 'Asertywność', 'Aktywne słuchanie']

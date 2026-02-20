@@ -32,6 +32,7 @@ export interface DetailPageProps {
     variant?: SectionVariant
   }
   kinds?: {
+    lead?: string
     title: string
     description: string
     variant?: SectionVariant

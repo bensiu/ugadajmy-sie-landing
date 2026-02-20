@@ -26,7 +26,7 @@ const props = defineProps<{
         <div class="lg:col-span-2">
           <div class="flex items-center gap-2 mb-4">
             <NuxtLink
-              to="/#home"
+              to="/"
               class="flex items-center group"
             >
               <img
@@ -87,10 +87,10 @@ const props = defineProps<{
             </li>
             <li class="text-slate-400">
               <a
-                href="mailto:Aleksandra_Dubiel@wp.pl"
+                href="mailto:kontakt@ugadajmysie.pl"
                 class="hover:text-white transition-colors"
               >
-                Aleksandra_Dubiel@wp.pl
+                kontakt@ugadajmysie.pl
               </a>
             </li>
             <li class="text-slate-400">

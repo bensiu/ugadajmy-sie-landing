@@ -135,11 +135,11 @@ export const page: DetailPageProps = {
         content: 'Oczywiście. Mediacja jest dobrowolna na&nbsp;każdym etapie. Możesz zrezygnować w&nbsp;dowolnym momencie i&nbsp;skierować sprawę do&nbsp;sądu.'
       },
       {
-        label: 'Czy potrzebuję prawnika na&nbsp;mediacji cywilnej?',
+        label: 'Czy potrzebuję prawnika na mediacji cywilnej?',
         content: 'Nie jest to wymagane, ale możesz przyjść z&nbsp;prawnikiem jeśli czujesz taką potrzebę. Jako mediator jestem bezstronny i&nbsp;nie reprezentuję żadnej ze stron.'
       },
       {
-        label: 'Co jeśli druga strona nie zgodzi się na&nbsp;mediację?',
+        label: 'Co jeśli druga strona nie zgodzi się na mediację?',
         content: 'Mediacja wymaga zgody obu stron. Jednak często osoby początkowo sceptyczne zmieniają zdanie, gdy wyjaśnię im korzyści. Pomagam w&nbsp;pierwszym kontakcie z&nbsp;drugą stroną.'
       }
     ]

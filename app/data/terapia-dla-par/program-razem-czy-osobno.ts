@@ -1,6 +1,27 @@
 import type { DetailPageProps } from '~/types'
 
-export const page: DetailPageProps = {
+interface ProgramRazemCzyOsobnoDetails {
+  programDlaPar: {
+    lead: string
+    title: string
+    description: string
+    features: string[]
+    why: {
+      title: string
+      items: string[]
+    }
+    what: {
+      icon: string
+      title: string
+      description: string
+      price: string
+      duration: string
+    }[]
+    discount?: string
+  }
+}
+
+export const page: DetailPageProps & ProgramRazemCzyOsobnoDetails = {
   id: 'program-razem-czy-osobno-szczecin',
   seo: {
     title: 'Program dla Par „Razem czy osobno?" Szczecin | 13-modułowy program terapeutyczny',
@@ -50,5 +71,49 @@ export const page: DetailPageProps = {
   },
   callToAction: {
     title: 'Umów się na program „Razem czy osobno?" w&nbsp;Szczecinie'
+  },
+
+  programDlaPar: {
+    lead: 'Program dla par',
+    title: '„Razem czy osobno?"',
+    description: 'Program zbudowany na strukturze mediacji, który przywraca komunikację w relacji, pozwala dostrzec różne role w związku i uświadamia potrzeby emocjonalne partnerów',
+    features: [
+      'Przywraca komunikację w relacji',
+      'Pozwala dostrzec różne role w związku',
+      'Uświadamia potrzeby emocjonalne partnerów'
+    ],
+    why: {
+      title: 'Dlaczego stworzyłam Program „Razem czy osobno?"',
+      items: [
+        'Aby ubrać proces terapeutyczny w konkretne ramy',
+        'Abyście wiedzieli o czym będzie spotkanie i ile ich będzie',
+        'Abyście mogli przygotować się do każdego spotkania',
+        'Abyście mogli wybrać tematy, które Was dotyczą'
+      ]
+    },
+    what: [
+      {
+        icon: 'lucide-message-circle',
+        title: 'Konsultacja',
+        description: 'Poznajemy się i sprawdzamy, czy jesteśmy dla siebie. Możemy stworzyć plan spotkań dopasowany do Waszych potrzeb.',
+        price: '220 zł',
+        duration: '60 minut'
+      },
+      {
+        icon: 'lucide-users',
+        title: 'Spotkania indywidualne',
+        description: 'Każdy partner przychodzi na osobne, poufne spotkanie. Poznaję perspektywę każdej strony z osobna.',
+        price: '390 zł',
+        duration: '2 godziny'
+      },
+      {
+        icon: 'lucide-heart',
+        title: 'Spotkania wspólne',
+        description: 'Tematycznie uporządkowane sesje. Przed każdym spotkaniem otrzymujecie zadania domowe do przygotowania.',
+        price: '490 zł',
+        duration: '2 godziny'
+      }
+    ],
+    discount: '💡 Przy płatności jednorazowej za wszystkie spotkania otrzymacie rabat 10%'
   }
 }

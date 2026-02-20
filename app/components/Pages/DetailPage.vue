@@ -13,6 +13,8 @@ const props = defineProps<DetailPageProps>()
       :bread-crumbs="props.breadCrumbs"
     />
 
+    <slot name="before" />
+
     <BlocksSectionWrapper
       v-if="props.whatIsIt"
       :id="`czym-sa-${props.id}`"
