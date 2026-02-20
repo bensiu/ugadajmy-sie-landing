@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'szkolenia-warsztaty-rozwojowe-szczecin',
+  seo: {
+    title: 'Warsztaty rozwojowe Szczecin | Rozwój osobisty | Aleksandra Dubiel',
+    description: 'Warsztaty rozwojowe w Szczecinie: inteligencja emocjonalna, radzenie ze stresem, budowanie relacji. Intensywne spotkania wspierające rozwój osobisty w małych grupach.'
+  },
+  breadCrumbsLabel: 'Warsztaty rozwojowe',
+
   title: ['Warsztaty rozwojowe w&nbsp;Szczecinie'],
   description: 'Odkryj swój potencjał w&nbsp;bezpiecznej przestrzeni grupowej. Intensywne warsztaty łączące wiedzę z&nbsp;praktyką, wspierające rozwój osobisty i&nbsp;budowanie autentycznych relacji.',
 

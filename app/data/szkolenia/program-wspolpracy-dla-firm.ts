@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'szkolenia-propgram-wspolpracy-szczecin',
+  seo: {
+    title: 'Program współpracy dla firm Szczecin | Stałe wsparcie | Aleksandra Dubiel',
+    description: 'Program stałej współpracy dla firm w Szczecinie: szkolenia, mediacje, coaching. Długofalowe wsparcie w budowaniu kultury komunikacji. Elastyczne warunki.'
+  },
+  breadCrumbsLabel: 'Program współpracy dla firm',
+
   title: ['Program stałej współpracy dla&nbsp;firm'],
   description: 'Długofalowe wsparcie w&nbsp;budowaniu kultury komunikacji. Elastyczny program łączący szkolenia, mediacje i&nbsp;coaching, dopasowany do&nbsp;potrzeb Twojej organizacji.',
 

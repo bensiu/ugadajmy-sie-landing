@@ -2,6 +2,12 @@ import type { DetailPageProps } from '~/types'
 
 export const page: DetailPageProps = {
   id: 'szkolenia-z-komunikacji-szczecin',
+  seo: {
+    title: 'Szkolenia z komunikacji Szczecin | Komunikacja interpersonalna | Aleksandra Dubiel',
+    description: 'Szkolenia z komunikacji w Szczecinie: asertywność, aktywne słuchanie, trudne rozmowy. Praktyczne warsztaty rozwijające umiejętności interpersonalne. Certyfikowany trener.'
+  },
+  breadCrumbsLabel: 'Szkolenia z komunikacji',
+
   title: ['Szkolenia z&nbsp;komunikacji w&nbsp;Szczecinie'],
   description: 'Naucz się skutecznie porozumiewać. Praktyczne warsztaty, które rozwijają umiejętność jasnego wyrażania myśli, aktywnego słuchania i&nbsp;prowadzenia trudnych rozmów.',
 
