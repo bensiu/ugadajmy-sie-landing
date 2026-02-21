@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'mediacje-sasiedzkie-szczecin',
   seo: {
     title: 'Mediacje Sąsiedzkie Szczecin – Rozwiązywanie Konfliktów Sąsiedzkich | Ugadajmy się',
-    description: 'Mediacje sąsiedzkie w Szczecinie. Pomagam rozwiązywać spory między sąsiadami: hałas, immisje, granice działek. Pokojowe rozwiązania bez angażowania sądu.'
+    description: 'Mediacje sąsiedzkie w Szczecinie. Pomagam rozwiązywać spory między sąsiadami: hałas, immisje, granice działek. Pokojowe rozwiązania bez angażowania sądu.',
+    markup: {
+      serviceType: 'Mediacje sąsiedzkie',
+      name: 'Mediacje sąsiedzkie Szczecin',
+      description: 'Profesjonalne mediacje sąsiedzkie w Szczecinie - rozwiązywanie konfliktów między sąsiadami.'
+    }
   },
   breadCrumbsLabel: 'Mediacje sasiedzkie',
 

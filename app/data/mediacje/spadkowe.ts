@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'mediacje-spadkowe-szczecin',
   seo: {
     title: 'Mediacje Spadkowe Szczecin – Podział Spadku i Dziedziczenie | Ugadajmy się',
-    description: 'Mediacje spadkowe w Szczecinie. Pomagam w pokojowym podziale spadku, rozstrzygnięciu sporów o zachowek i dziedziczenie. Mediator z doświadczeniem prawniczym.'
+    description: 'Mediacje spadkowe w Szczecinie. Pomagam w pokojowym podziale spadku, rozstrzygnięciu sporów o zachowek i dziedziczenie. Mediator z doświadczeniem prawniczym.',
+    markup: {
+      serviceType: 'Mediacje spadkowe',
+      name: 'Mediacje spadkowe Szczecin',
+      description: 'Profesjonalne mediacje spadkowe w Szczecinie - podział spadku i rozwiązywanie sporów dziedziczenia.'
+    }
   },
   breadCrumbsLabel: 'Mediacje spadkowe',
 

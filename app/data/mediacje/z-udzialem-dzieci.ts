@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'mediacje-z-udzialem-dzieci-szczecin',
   seo: {
     title: 'Mediacje z Udziałem Dzieci Szczecin – Głos Dziecka w Mediacji | Ugadajmy się',
-    description: 'Mediacje z udziałem dzieci w Szczecinie. Profesjonalne włączanie głosu dziecka w procesy mediacyjne. Bezpieczna przestrzeń dla najmłodszych uczestników konfliktów rodzinnych.'
+    description: 'Mediacje z udziałem dzieci w Szczecinie. Profesjonalne włączanie głosu dziecka w procesy mediacyjne. Bezpieczna przestrzeń dla najmłodszych uczestników konfliktów rodzinnych.',
+    markup: {
+      serviceType: 'Mediacje z udziałem dzieci',
+      name: 'Mediacje z udziałem dzieci Szczecin',
+      description: 'Profesjonalne mediacje z udziałem dzieci w Szczecinie - włączanie głosu dziecka w procesy mediacyjne.'
+    }
   },
   breadCrumbsLabel: 'Mediacje z udziałem dzieci',
 

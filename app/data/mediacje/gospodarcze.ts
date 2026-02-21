@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'mediacje-gospodarcze-szczecin',
   seo: {
     title: 'Mediacje Gospodarcze Szczecin – Rozwiązywanie Sporów Biznesowych | Ugadajmy się',
-    description: 'Mediacje gospodarcze w Szczecinie dla firm i przedsiębiorców. Rozwiązuję spory kontraktowe, windykacyjne, między wspólnikami. Szybko i dyskretnie.'
+    description: 'Mediacje gospodarcze w Szczecinie dla firm i przedsiębiorców. Rozwiązuję spory kontraktowe, windykacyjne, między wspólnikami. Szybko i dyskretnie.',
+    markup: {
+      serviceType: 'Mediacje gospodarcze',
+      name: 'Mediacje gospodarcze Szczecin',
+      description: 'Profesjonalne mediacje gospodarcze dla firm w Szczecinie.'
+    }
   },
   breadCrumbsLabel: 'Mediacje gospodarcze',
 

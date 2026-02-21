@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'mediacje-cywilne-szczecin',
   seo: {
     title: 'Mediacje Cywilne Szczecin – Sprawy Majątkowe i Umowy | Ugadajmy się',
-    description: 'Mediacje cywilne w Szczecinie. Sprawy majątkowe, odszkodowania, spory o umowy, nieruchomości. Profesjonalny mediator sądowy. Szybkie rozwiązywanie sporów.'
+    description: 'Mediacje cywilne w Szczecinie. Sprawy majątkowe, odszkodowania, spory o umowy, nieruchomości. Profesjonalny mediator sądowy. Szybkie rozwiązywanie sporów.',
+    markup: {
+      serviceType: 'Mediacje cywilne',
+      name: 'Mediacje cywilne Szczecin',
+      description: 'Profesjonalne mediacje cywilne w Szczecinie.'
+    }
   },
   breadCrumbsLabel: 'Mediacje cywilne',
 

@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'mediacje-rozwodowe-szczecin',
   seo: {
     title: 'Mediacje Rozwodowe Szczecin – Rozwód Bez Walki w Sądzie | Ugadajmy się',
-    description: 'Mediacje rozwodowe w Szczecinie. Pomogę ustalić alimenty, opiekę nad dziećmi i podział majątku. Rozwód za porozumieniem stron. Doświadczony mediator sądowy.'
+    description: 'Mediacje rozwodowe w Szczecinie. Pomogę ustalić alimenty, opiekę nad dziećmi i podział majątku. Rozwód za porozumieniem stron. Doświadczony mediator sądowy.',
+    markup: {
+      serviceType: 'Mediacje rozwodowe',
+      name: 'Mediacje rozwodowe Szczecin',
+      description: 'Profesjonalne mediacje rozwodowe w Szczecinie.'
+    }
   },
   breadCrumbsLabel: 'Mediacje rozwodowe',
 

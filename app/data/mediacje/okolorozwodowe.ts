@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'mediacje-okolorozwodowe-szczecin',
   seo: {
     title: 'Mediacje Okołorozwodowe Szczecin – Przygotowanie do Rozwodu | Ugadajmy się',
-    description: 'Mediacje okołorozwodowe w Szczecinie. Pomoc w ustaleniach przed rozwodem - alimenty, opieka nad dziećmi, podział majątku. Profesjonalny mediator z doświadczeniem prawniczym.'
+    description: 'Mediacje okołorozwodowe w Szczecinie. Pomoc w ustaleniach przed rozwodem - alimenty, opieka nad dziećmi, podział majątku. Profesjonalny mediator z doświadczeniem prawniczym.',
+    markup: {
+      serviceType: 'Mediacje okołorozwodowe',
+      name: 'Mediacje okołorozwodowe Szczecin',
+      description: 'Profesjonalne mediacje okołorozwodowe w Szczecinie.'
+    }
   },
   breadCrumbsLabel: 'Mediacje okołorozwodowe',
 

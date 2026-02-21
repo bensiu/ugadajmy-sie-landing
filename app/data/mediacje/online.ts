@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'mediacje-online-szczecin',
   seo: {
     title: 'Mediacje Online Szczecin – Zdalne Rozwiązywanie Konfliktów | Ugadajmy się',
-    description: 'Mediacje online dla mieszkańców Szczecina i okolic. Zdalne sesje mediacyjne przez wideokonferencję. Skuteczne rozwiązywanie konfliktów bez wychodzenia z domu.'
+    description: 'Mediacje online dla mieszkańców Szczecina i okolic. Zdalne sesje mediacyjne przez wideokonferencję. Skuteczne rozwiązywanie konfliktów bez wychodzenia z domu.',
+    markup: {
+      serviceType: 'Mediacje online',
+      name: 'Mediacje online Szczecin',
+      description: 'Profesjonalne mediacje online w Szczecinie - zdalne sesje mediacyjne przez wideokonferencję.'
+    }
   },
   breadCrumbsLabel: 'Mediacje online',
 

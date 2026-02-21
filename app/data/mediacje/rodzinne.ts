@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'mediacje-rodzinne-szczecin',
   seo: {
     title: 'Mediacje Rodzinne Szczecin – Rozwiązywanie Konfliktów w Rodzinie | Ugadajmy się',
-    description: 'Profesjonalne mediacje rodzinne w Szczecinie. Pomagam rozwiązywać konflikty rodzinne, ustalać opiekę nad dziećmi, dzielić majątek. Mediator z 15-letnim doświadczeniem.'
+    description: 'Profesjonalne mediacje rodzinne w Szczecinie. Pomagam rozwiązywać konflikty rodzinne, ustalać opiekę nad dziećmi, dzielić majątek. Mediator z 15-letnim doświadczeniem.',
+    markup: {
+      serviceType: 'Mediacje rodzinne',
+      name: 'Mediacje rodzinne Szczecin',
+      description: 'Profesjonalne mediacje rodzinne w Szczecinie - rozwiązywanie konfliktów w rodzinie.'
+    }
   },
   breadCrumbsLabel: 'Mediacje rodzinne',
 

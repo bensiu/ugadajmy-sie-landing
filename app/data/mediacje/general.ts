@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'mediacje-szczecin',
   seo: {
     title: 'Mediacje Szczecin – Rodzinne, Rozwodowe, Gospodarcze | Ugadajmy się',
-    description: 'Profesjonalne mediacje w Szczecinie. Mediator z 15-letnim doświadczeniem. Mediacje rodzinne, rozwodowe, gospodarcze i cywilne. Skuteczne rozwiązywanie konfliktów.'
+    description: 'Profesjonalne mediacje w Szczecinie. Mediator z 15-letnim doświadczeniem. Mediacje rodzinne, rozwodowe, gospodarcze i cywilne. Skuteczne rozwiązywanie konfliktów.',
+    markup: {
+      serviceType: 'Mediacje',
+      name: 'Mediacje Szczecin',
+      description: 'Profesjonalne usługi mediacyjne w Szczecinie - mediacje rodzinne, rozwodowe, gospodarcze i cywilne.'
+    }
   },
   breadCrumbsLabel: 'Mediacje',
 

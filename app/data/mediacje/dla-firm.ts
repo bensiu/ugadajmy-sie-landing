@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'mediacje-dla-firm-szczecin',
   seo: {
     title: 'Mediacje dla Firm Szczecin – Konflikty Pracownicze i Spory Wewnętrzne | Ugadajmy się',
-    description: 'Mediacje dla firm w Szczecinie. Rozwiązywanie konfliktów w zespołach, sporów pracowniczych, nieporozumień między wspólnikami. Mediator z doświadczeniem biznesowym.'
+    description: 'Mediacje dla firm w Szczecinie. Rozwiązywanie konfliktów w zespołach, sporów pracowniczych, nieporozumień między wspólnikami. Mediator z doświadczeniem biznesowym.',
+    markup: {
+      serviceType: 'Mediacje dla firm',
+      name: 'Mediacje dla firm Szczecin',
+      description: 'Profesjonalne mediacje dla firm w Szczecinie - rozwiązywanie konfliktów w organizacjach.'
+    }
   },
   breadCrumbsLabel: 'Mediacje dla firm',
 
