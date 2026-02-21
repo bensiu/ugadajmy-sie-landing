@@ -71,6 +71,23 @@ const props = defineProps<DetailPageProps>()
       <BlocksProcessSteps :steps="props.howProcess.steps" />
     </BlocksSectionWrapper>
 
+    <BlocksSectionWrapper
+      v-if="props.options"
+      :id="`opcje-${props.id}`"
+      :variant="props.options.variant || 'subtle'"
+    >
+      <BlocksSectionHeader
+        :title="props.options.title"
+        class="!mb-6 text-left"
+      />
+      <BlockOptionCard
+        v-for="option in props.options.items"
+        :key="option.title"
+        v-bind="option"
+        class="my-4"
+      />
+    </BlocksSectionWrapper>
+
     <SectionsListOfBenefits
       v-if="props.listOfBenefits"
       :id="`korzysci-z-${props.id}`"

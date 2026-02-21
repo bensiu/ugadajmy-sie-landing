@@ -7,6 +7,10 @@ const props = defineProps<{
   asH1?: boolean
   titleColor?: string
   descriptionColor?: string
+  ui?: {
+    title?: string
+    description?: string
+  }
 }>()
 </script>
 
@@ -21,20 +25,30 @@ const props = defineProps<{
     <!-- eslint-disable vue/no-v-html -->
     <h1
       v-if="props.asH1"
-      class="text-2xl sm:text-3xl lg:text-4xl font-display font-bold mb-6"
+      :class="[
+        'text-2xl sm:text-3xl lg:text-4xl font-display font-bold mb-6',
+        props.titleColor ? props.titleColor : 'text-primary',
+        props.ui?.title ? props.ui?.title : ''
+      ]"
       v-html="props.title"
     />
     <!-- eslint-disable vue/no-v-html -->
     <h2
       v-else
-      class="text-2xl sm:text-3xl lg:text-4xl font-display font-bold mb-6"
-      :class="props.titleColor ? props.titleColor : 'text-primary'"
+      :class="[
+        'text-2xl sm:text-3xl lg:text-4xl font-display font-bold mb-6',
+        props.titleColor ? props.titleColor : 'text-primary',
+        props.ui?.title ? props.ui?.title : ''
+      ]"
       v-html="props.title"
     />
     <!-- eslint-disable vue/no-v-html -->
     <p
       v-if="props.description"
-      :class="`text-lg ${props.descriptionColor || 'text-muted-foreground'}`"
+      :class="[
+        `text-lg ${props.descriptionColor || 'text-muted-foreground'}`,
+        props.ui?.description ? props.ui?.description : ''
+      ]"
       v-html="props.description"
     />
     <ul

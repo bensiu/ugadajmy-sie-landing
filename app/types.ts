@@ -20,7 +20,7 @@ export interface BreadCrumbsItem {
 
 export interface DetailPageProps {
   id: string
-  seo?: SEO
+  seo: SEO
   breadCrumbsLabel?: string
   breadCrumbs?: BreadCrumbsItem[] | null
   title: string[]
@@ -54,6 +54,15 @@ export interface DetailPageProps {
     title: string
     variant?: SectionVariant
     steps: ProcessStep[]
+  }
+  options?: {
+    title: string
+    variant?: SectionVariant
+    items: {
+      title: string
+      description?: string
+      detail?: string
+    }[]
   }
   listOfBenefits?: {
     title: string

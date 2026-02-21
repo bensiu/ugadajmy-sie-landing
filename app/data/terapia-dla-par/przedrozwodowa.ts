@@ -41,6 +41,23 @@ export const page: DetailPageProps = {
       { title: 'Plan działania', description: 'Wypracowujemy konkretne następne kroki, niezależnie od podjętej decyzji' }
     ]
   },
+  options: {
+    title: 'Możliwe scenariusze po konsultacjach',
+    items: [
+      {
+        title: 'Scenariusz 1: Decyzja o ratowaniu związku',
+        description: 'Jeśli zdecydujecie, że&nbsp;chcecie walczyć o relację, mogę zaproponować program terapeutyczny lub mediację, która pomoże Wam odbudować więź. Konsultacje stają&nbsp;się początkiem większego procesu.'
+      },
+      {
+        title: 'Scenariusz 2: Decyzja o rozstaniu',
+        description: 'Jeśli zdecydujesz się na&nbsp;rozwód, mogę pomóc przeprowadzić go w sposób cywilizowany przez mediację rozwodową. Szczególnie ważne, gdy&nbsp;macie dzieci – możemy zadbać o&nbsp;ich&nbsp;dobrostan.'
+      },
+      {
+        title: 'Scenariusz 3: Potrzeba więcej czasu',
+        description: 'Nie ma presji na&nbsp;natychmiastową decyzję. Możemy ustalić okres próbny z&nbsp;konkretnymi warunkami, który da&nbsp;Wam więcej danych do&nbsp;podjęcia ostatecznej decyzji.'
+      }
+    ]
+  },
   listOfBenefits: {
     title: 'Co zyskasz dzięki konsultacjom?',
     items: [

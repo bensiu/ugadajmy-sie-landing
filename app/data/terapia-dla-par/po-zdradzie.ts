@@ -41,6 +41,23 @@ export const page: DetailPageProps = {
       { title: 'Faza przyszłości', description: 'Budujemy nowy fundament związku z&nbsp;lepszą komunikacją i&nbsp;jasnymi granicami' }
     ]
   },
+  options: {
+    title: 'Ważne zasady terapii po zdradzie',
+    items: [
+      {
+        title: 'Zdrada musi się skończyć',
+        description: 'Terapia ma sens tylko wtedy, gdy romans został zakończony. Osoba, która zdradziła, musi podjąć jednoznaczną decyzję o&nbsp;zakończeniu relacji pozamałżeńskiej.'
+      },
+      {
+        title: 'Pełna przejrzystość',
+        description: 'W fazie odbudowy potrzebna jest transparentność. Ukrywanie informacji uniemożliwia odbudowę zaufania. Będziemy pracować nad tym, jak mądrze dzielić się informacjami.'
+      },
+      {
+        title: 'Cierpliwość',
+        description: 'Odbudowa zaufania trwa. To nie jest proces na kilka tygodni, ale na miesiące, czasem lata. Ważne, żeby oboje partnerzy byli na&nbsp;to&nbsp;gotowi.'
+      }
+    ]
+  },
   listOfBenefits: {
     title: 'Co możecie zyskać dzięki terapii?',
     items: [

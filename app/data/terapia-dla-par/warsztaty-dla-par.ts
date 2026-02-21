@@ -40,6 +40,36 @@ export const page: DetailPageProps = {
       { title: 'Follow-up', description: 'Po 2-3 tygodniach krótkie spotkanie, na&nbsp;którym omówimy postępy i&nbsp;rozwiejemy wątpliwości' }
     ]
   },
+  options: {
+    title: 'Dostępne warsztaty',
+    items: [
+      {
+        title: 'Komunikacja bez przemocy w związku',
+        detail: '4 godziny',
+        description: 'Nauka wyrażania potrzeb bez atakowania, aktywnego słuchania i reagowania na emocje partnera.'
+      },
+      {
+        title: 'Rozwiązywanie konfliktów',
+        detail: '3 godziny',
+        description: 'Jak przejść od kłótni do konstruktywnej rozmowy. Praktyczne narzędzia deeskalacji.'
+      },
+      {
+        title: 'Intymność i bliskość',
+        detail: '4 godziny',
+        description: 'Jak rozmawiać o&nbsp;potrzebach, przełamywać bariery i&nbsp;odbudowywać bliskość fizyczną i&nbsp;emocjonalną.'
+      },
+      {
+        title: 'Rodzicielstwo zespołowe',
+        detail: '4 godziny',
+        description: 'Jak być zespołem w wychowaniu dzieci, dzielić obowiązki i&nbsp;wspierać się nawzajem.'
+      },
+      {
+        title: 'Warsztat przedślubny',
+        detail: '6 godzin',
+        description: 'Rozmowy o oczekiwaniach, wartościach, finansach i&nbsp;planach na&nbsp;przyszłość przed&nbsp;podjęciem decyzji o&nbsp;ślubie.'
+      }
+    ]
+  },
   listOfBenefits: {
     title: 'Co zyskacie po warsztatach?',
     items: [

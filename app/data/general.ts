@@ -1,22 +1,23 @@
 import type { DetailPageProps, SectionVariant } from '~/types'
 
-interface WhyMeDetails {
-  whyMe: {
-    lead?: string
+interface SectionMeDetails {
+  lead?: string
+  title: string
+  description: string
+  variant?: SectionVariant
+  class?: string
+  items: {
     title: string
+    path?: string
     description: string
-    variant?: SectionVariant
-    class?: string
-    items: {
-      title: string
-      path?: string
-      description: string
-      icon: string
-    }[]
-  }
+    icon: string
+  }[]
 }
 
-export const page: DetailPageProps & WhyMeDetails = {
+export const page: DetailPageProps & {
+  whyMe: SectionMeDetails
+  aboutMe: SectionMeDetails
+} = {
   id: 'ugadajmy-sie-szczecin',
   seo: {
     title: 'Mediacje, Terapia dla Par, Coaching Szczecin | Ugadajmy się – Aleksandra Dubiel',
@@ -127,6 +128,36 @@ export const page: DetailPageProps & WhyMeDetails = {
       }
     ]
   },
+  aboutMe: {
+    lead: 'Kim jestem',
+    title: 'Aleksandra Dubiel',
+    description: [
+      'Witaj! Jestem certyfikowanym mediatorem, coachem i&nbsp;prawnikiem. To&nbsp;unikalne połączenie kompetencji pozwala mi patrzeć na&nbsp;konflikty z&nbsp;wielu perspektyw i&nbsp;znajdować rozwiązania, które naprawdę działają.',
+      'Wierzę, że każdy konflikt można rozwiązać - potrzeba do&nbsp;tego bezpiecznej przestrzeni, profesjonalnego wsparcia i&nbsp;gotowości do&nbsp;dialogu. Moją rolą jest być Twoim przewodnikiem na&nbsp;drodze do&nbsp;porozumienia.'
+    ].join('<br><br>'),
+    items: [
+      {
+        icon: 'lucide-scale',
+        title: 'Prawnik',
+        description: 'Wieloletnie doświadczenie w&nbsp;prawie rodzinnym i&nbsp;gospodarczym'
+      },
+      {
+        icon: 'lucide-heart',
+        title: 'Mediator',
+        description: 'Certyfikowany mediator wpisany na listę stałych mediatorów'
+      },
+      {
+        icon: 'lucide-target',
+        title: 'Coach',
+        description: 'Akredytowany coach wspierający rozwój osobisty i&nbsp;zawodowy'
+      },
+      {
+        icon: 'lucide-award',
+        title: 'Trener',
+        description: 'Prowadzę szkolenia z&nbsp;komunikacji i&nbsp;rozwiązywania konfliktów'
+      }
+    ]
+  },
   // whenToUse: {
   //   title: 'Jakie sprawy cywilne nadają się do&nbsp;mediacji?',
   //   variant: 'default',
@@ -187,6 +218,7 @@ export const page: DetailPageProps & WhyMeDetails = {
   //   ]
   // },
   callToAction: {
-    title: 'Umów się na&nbsp;!!!! w&nbsp;Szczecinie'
+    title: 'Gotowy na pierwszy krok?',
+    description: 'Pierwsza rozmowa jest po to, by zrozumieć Twoją sytuację i wspólnie ocenić, jak mogę Ci pomóc. Zadzwoń lub napisz – bez zobowiązań.'
   }
 }
