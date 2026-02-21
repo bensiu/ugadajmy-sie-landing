@@ -101,7 +101,7 @@ const justWithLinks = (i: BreadCrumbsItem) => !!i.href
             }"
           />
           <UButton
-            to="#about"
+            to="/#kim-jestem-Aleksandra-Dubiel"
             size="lg"
             variant="outline"
             label="Poznaj mnie"

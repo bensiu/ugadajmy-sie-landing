@@ -7,10 +7,17 @@ export interface ProcessStep {
 
 export type SectionVariant = 'default' | 'subtle' | 'primary'
 
+export interface MarkupSEO {
+  serviceType: string
+  name?: string
+  description?: string
+}
+
 export interface SEO {
   title: string
   description: string
   author?: string
+  markup?: MarkupSEO
 }
 
 export interface BreadCrumbsItem {

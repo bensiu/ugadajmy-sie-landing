@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'coaching-szczecin',
   seo: {
     title: 'Coaching Szczecin | Aleksandra Dubiel - Coach certyfikowany',
-    description: 'Profesjonalny coaching w Szczecinie. Coaching kariery, biznesowy, życiowy i indywidualny. Osiągnij swoje cele z certyfikowanym coachem. Umów się na sesję!'
+    description: 'Profesjonalny coaching w Szczecinie. Coaching kariery, biznesowy, życiowy i indywidualny. Osiągnij swoje cele z certyfikowanym coachem. Umów się na sesję!',
+    markup: {
+      serviceType: 'Coaching',
+      name: 'Coaching Szczecin',
+      description: 'Profesjonalne sesje coachingowe w Szczecinie - coaching kariery, biznesowy, życiowy i indywidualny.'
+    }
   },
   breadCrumbsLabel: 'Coaching',
 

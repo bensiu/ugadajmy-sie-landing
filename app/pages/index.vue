@@ -50,7 +50,7 @@ if (page?.seo) {
 
     <BlocksSectionWrapper
       v-if="page.aboutMe"
-      :id="`dlaczego-${page.id}`"
+      id="kim-jestem-Aleksandra-Dubiel"
       :variant="page.aboutMe.variant || 'default'"
     >
       <div class="grid md:grid-cols-12 gap-8">

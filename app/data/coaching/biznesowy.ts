@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'coaching-biznesowy-szczecin',
   seo: {
     title: 'Coaching biznesowy Szczecin | Rozwój firmy i przywództwo',
-    description: 'Coaching biznesowy w Szczecinie dla przedsiębiorców i menedżerów. Strategia, przywództwo, zarządzanie zespołem. Rozwijaj biznes z certyfikowanym coachem!'
+    description: 'Coaching biznesowy w Szczecinie dla przedsiębiorców i menedżerów. Strategia, przywództwo, zarządzanie zespołem. Rozwijaj biznes z certyfikowanym coachem!',
+    markup: {
+      serviceType: 'Coaching biznesowy',
+      name: 'Coaching biznesowy Szczecin',
+      description: 'Profesjonalny coaching biznesowy w Szczecinie - wsparcie dla przedsiębiorców i menedżerów w rozwoju firmy.'
+    }
   },
   breadCrumbsLabel: 'Coaching biznesowy',
 

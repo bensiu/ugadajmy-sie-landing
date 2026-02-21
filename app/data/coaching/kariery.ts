@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'coaching-kariery-szczecin',
   seo: {
     title: 'Coaching kariery Szczecin | Rozwój zawodowy i planowanie kariery',
-    description: 'Coaching kariery w Szczecinie. Zmiana pracy, awans, rozwój zawodowy. Odkryj swój potencjał i osiągnij cele z certyfikowanym coachem. Umów się na sesję!'
+    description: 'Coaching kariery w Szczecinie. Zmiana pracy, awans, rozwój zawodowy. Odkryj swój potencjał i osiągnij cele z certyfikowanym coachem. Umów się na sesję!',
+    markup: {
+      serviceType: 'Coaching kariery',
+      name: 'Coaching kariery Szczecin',
+      description: 'Profesjonalny coaching kariery w Szczecinie - wsparcie w rozwoju zawodowym, zmianie pracy i planowaniu kariery.'
+    }
   },
   breadCrumbsLabel: 'Coaching kariery',
 

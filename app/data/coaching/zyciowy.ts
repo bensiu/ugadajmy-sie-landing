@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'coaching-zyciowy-szczecin',
   seo: {
     title: 'Coaching życiowy Szczecin | Life coaching - odkryj swój potencjał',
-    description: 'Life coaching w Szczecinie. Odkryj swoje wartości, zdefiniuj cele i żyj pełnią życia. Profesjonalne wsparcie w budowaniu życia zgodnego z Twoimi marzeniami.'
+    description: 'Life coaching w Szczecinie. Odkryj swoje wartości, zdefiniuj cele i żyj pełnią życia. Profesjonalne wsparcie w budowaniu życia zgodnego z Twoimi marzeniami.',
+    markup: {
+      serviceType: 'Coaching życiowy',
+      name: 'Coaching życiowy Szczecin',
+      description: 'Profesjonalny life coaching w Szczecinie - wsparcie w odkrywaniu siebie i budowaniu satysfakcjonującego życia.'
+    }
   },
   breadCrumbsLabel: 'Coaching życiowy',
 

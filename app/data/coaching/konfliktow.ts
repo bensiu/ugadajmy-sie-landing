@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'coaching-konfliktow-szczecin',
   seo: {
     title: 'Coaching konfliktów Szczecin | Zarządzanie konfliktami i komunikacja',
-    description: 'Coaching konfliktów w Szczecinie. Naucz się skutecznie radzić sobie z konfliktami w pracy i życiu prywatnym. Asertywność, komunikacja, rozwiązywanie sporów.'
+    description: 'Coaching konfliktów w Szczecinie. Naucz się skutecznie radzić sobie z konfliktami w pracy i życiu prywatnym. Asertywność, komunikacja, rozwiązywanie sporów.',
+    markup: {
+      serviceType: 'Coaching konfliktów',
+      name: 'Coaching konfliktów Szczecin',
+      description: 'Profesjonalny coaching w zakresie zarządzania konfliktami i komunikacji w Szczecinie.'
+    }
   },
   breadCrumbsLabel: 'Coaching konfliktów',
 

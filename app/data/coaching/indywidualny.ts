@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'coaching-indywidualny-szczecin',
   seo: {
     title: 'Coaching indywidualny Szczecin | Sesje 1:1 dopasowane do Ciebie',
-    description: 'Coaching indywidualny w Szczecinie. Sesje 1:1 w pełni dopasowane do Twoich potrzeb i celów. Profesjonalne wsparcie w każdym obszarze życia. Umów się!'
+    description: 'Coaching indywidualny w Szczecinie. Sesje 1:1 w pełni dopasowane do Twoich potrzeb i celów. Profesjonalne wsparcie w każdym obszarze życia. Umów się!',
+    markup: {
+      serviceType: 'Coaching indywidualny',
+      name: 'Coaching indywidualny Szczecin',
+      description: 'Indywidualne sesje coachingowe w Szczecinie - pełna personalizacja i wsparcie dopasowane do Twoich potrzeb.'
+    }
   },
   breadCrumbsLabel: 'Coaching indywidualny',
 
