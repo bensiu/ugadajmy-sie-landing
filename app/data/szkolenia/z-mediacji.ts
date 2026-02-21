@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'szkolenia-z-mediacji-szczecin',
   seo: {
     title: 'Szkolenia z mediacji Szczecin | Kurs mediatora | Aleksandra Dubiel',
-    description: 'Profesjonalne szkolenia z mediacji w Szczecinie. Kurs mediatora zgodny ze standardami. Certyfikat uprawniający do wpisu na listę mediatorów sądowych.'
+    description: 'Profesjonalne szkolenia z mediacji w Szczecinie. Kurs mediatora zgodny ze standardami. Certyfikat uprawniający do wpisu na listę mediatorów sądowych.',
+    markup: {
+      serviceType: 'Szkolenia z mediacji',
+      name: 'Szkolenia z mediacji Szczecin',
+      description: 'Profesjonalne kursy mediacyjne dla przyszłych mediatorów i specjalistów.'
+    }
   },
   breadCrumbsLabel: 'Szkolenia z mediacji',
 

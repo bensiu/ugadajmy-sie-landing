@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'szkolenia-propgram-wspolpracy-szczecin',
   seo: {
     title: 'Program współpracy dla firm Szczecin | Stałe wsparcie | Aleksandra Dubiel',
-    description: 'Program stałej współpracy dla firm w Szczecinie: szkolenia, mediacje, coaching. Długofalowe wsparcie w budowaniu kultury komunikacji. Elastyczne warunki.'
+    description: 'Program stałej współpracy dla firm w Szczecinie: szkolenia, mediacje, coaching. Długofalowe wsparcie w budowaniu kultury komunikacji. Elastyczne warunki.',
+    markup: {
+      serviceType: 'Program współpracy dla firm',
+      name: 'Program współpracy dla firm Szczecin',
+      description: 'Długofalowe wsparcie w zakresie rozwoju kompetencji komunikacyjnych dla organizacji.'
+    }
   },
   breadCrumbsLabel: 'Program współpracy dla firm',
 

@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'szkolenia-z-komunikacji-szczecin',
   seo: {
     title: 'Szkolenia z komunikacji Szczecin | Komunikacja interpersonalna | Aleksandra Dubiel',
-    description: 'Szkolenia z komunikacji w Szczecinie: asertywność, aktywne słuchanie, trudne rozmowy. Praktyczne warsztaty rozwijające umiejętności interpersonalne. Certyfikowany trener.'
+    description: 'Szkolenia z komunikacji w Szczecinie: asertywność, aktywne słuchanie, trudne rozmowy. Praktyczne warsztaty rozwijające umiejętności interpersonalne. Certyfikowany trener.',
+    markup: {
+      serviceType: 'Szkolenia z komunikacji',
+      name: 'Szkolenia z komunikacji Szczecin',
+      description: 'Praktyczne warsztaty rozwijające umiejętności skutecznej komunikacji interpersonalnej.'
+    }
   },
   breadCrumbsLabel: 'Szkolenia z komunikacji',
 

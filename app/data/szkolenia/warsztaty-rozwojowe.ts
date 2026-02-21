@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'szkolenia-warsztaty-rozwojowe-szczecin',
   seo: {
     title: 'Warsztaty rozwojowe Szczecin | Rozwój osobisty | Aleksandra Dubiel',
-    description: 'Warsztaty rozwojowe w Szczecinie: inteligencja emocjonalna, radzenie ze stresem, budowanie relacji. Intensywne spotkania wspierające rozwój osobisty w małych grupach.'
+    description: 'Warsztaty rozwojowe w Szczecinie: inteligencja emocjonalna, radzenie ze stresem, budowanie relacji. Intensywne spotkania wspierające rozwój osobisty w małych grupach.',
+    markup: {
+      serviceType: 'Warsztaty rozwojowe',
+      name: 'Warsztaty rozwojowe Szczecin',
+      description: 'Intensywne warsztaty wspierające rozwój osobisty i budowanie lepszych relacji.'
+    }
   },
   breadCrumbsLabel: 'Warsztaty rozwojowe',
 

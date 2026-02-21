@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'szkolenia-dla-firm-szczecin',
   seo: {
     title: 'Szkolenia dla firm Szczecin | Komunikacja w zespole | Aleksandra Dubiel',
-    description: 'Szkolenia firmowe w Szczecinie: komunikacja w zespole, rozwiązywanie konfliktów, budowanie współpracy. Programy dedykowane dla organizacji. Certyfikowany trener.'
+    description: 'Szkolenia firmowe w Szczecinie: komunikacja w zespole, rozwiązywanie konfliktów, budowanie współpracy. Programy dedykowane dla organizacji. Certyfikowany trener.',
+    markup: {
+      serviceType: 'Szkolenia dla firm',
+      name: 'Szkolenia dla firm Szczecin',
+      description: 'Dedykowane programy szkoleniowe dla firm w zakresie komunikacji i rozwiązywania konfliktów.'
+    }
   },
   breadCrumbsLabel: 'Szkolenia dla firm',
 
