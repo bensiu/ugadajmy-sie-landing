@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'terapia-dla-par-przedrozwodowe-szczecin',
   seo: {
     title: 'Konsultacje Przedrozwodowe Szczecin | Pomoc w podjęciu decyzji',
-    description: 'Konsultacje przedrozwodowe w Szczecinie. Pomoc w podjęciu świadomej decyzji o przyszłości związku. Obiektywna perspektywa i wsparcie. Aleksandra Dubiel - mediator i coach.'
+    description: 'Konsultacje przedrozwodowe w Szczecinie. Pomoc w podjęciu świadomej decyzji o przyszłości związku. Obiektywna perspektywa i wsparcie. Aleksandra Dubiel - mediator i coach.',
+    markup: {
+      serviceType: 'Konsultacje przedrozwodowe',
+      name: 'Konsultacje przedrozwodowe Szczecin',
+      description: 'Profesjonalne wsparcie w podjęciu decyzji o przyszłości związku. Obiektywna perspektywa bez oceniania.'
+    }
   },
   breadCrumbsLabel: 'Konsultacje przedrozwodowe',
 

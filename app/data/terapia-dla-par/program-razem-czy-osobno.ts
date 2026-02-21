@@ -25,7 +25,12 @@ export const page: DetailPageProps & ProgramRazemCzyOsobnoDetails = {
   id: 'program-razem-czy-osobno-szczecin',
   seo: {
     title: 'Program dla Par „Razem czy osobno?" Szczecin | 13-modułowy program terapeutyczny',
-    description: 'Program „Razem czy osobno?" - 13-modułowy program dla par oparty na strukturze mediacji. Konkretne ramy, jasny plan pracy i moduły dostosowane do Waszych potrzeb.'
+    description: 'Program „Razem czy osobno?" - 13-modułowy program dla par oparty na strukturze mediacji. Konkretne ramy, jasny plan pracy i moduły dostosowane do Waszych potrzeb.',
+    markup: {
+      serviceType: 'Program terapeutyczny dla par',
+      name: 'Program terapeutyczny dla par Szczecin',
+      description: '13-modułowy program dla par oparty na strukturze mediacji. Przywraca komunikację i pomaga podjąć decyzję o przyszłości związku.'
+    }
   },
   breadCrumbsLabel: '„Razem czy osobno?"',
 

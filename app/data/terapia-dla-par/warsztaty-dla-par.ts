@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'warsztaty-dla-par-szczecin',
   seo: {
     title: 'Warsztaty dla Par Szczecin | Komunikacja i budowanie relacji',
-    description: 'Intensywne warsztaty dla par w Szczecinie. Praktyczne narzędzia komunikacji, rozwiązywanie konfliktów, wzmacnianie więzi. Aleksandra Dubiel - mediator i coach.'
+    description: 'Intensywne warsztaty dla par w Szczecinie. Praktyczne narzędzia komunikacji, rozwiązywanie konfliktów, wzmacnianie więzi. Aleksandra Dubiel - mediator i coach.',
+    markup: {
+      serviceType: 'Warsztaty dla par',
+      name: 'Warsztaty dla par Szczecin',
+      description: 'Intensywne warsztaty komunikacyjne dla par. Praktyczne narzędzia do lepszego porozumienia.'
+    }
   },
   breadCrumbsLabel: 'Warsztaty dla par',
 

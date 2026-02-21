@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'terapia-dla-par-szczecin',
   seo: {
     title: 'Terapia dla Par Szczecin | Aleksandra Dubiel – Mediator, Coach',
-    description: 'Profesjonalna terapia dla par w Szczecinie. Terapia małżeńska, program „Razem czy osobno?", warsztaty dla par. Poprawa komunikacji i rozwiązywanie kryzysów.'
+    description: 'Profesjonalna terapia dla par w Szczecinie. Terapia małżeńska, program „Razem czy osobno?", warsztaty dla par. Poprawa komunikacji i rozwiązywanie kryzysów.',
+    markup: {
+      serviceType: 'Terapia dla par',
+      name: 'Terapia dla par Szczecin',
+      description: 'Profesjonalna terapia dla par w Szczecinie. Poprawa komunikacji, rozwiązywanie kryzysów, program dla par.'
+    }
   },
   breadCrumbsLabel: 'Terapia dla par',
 

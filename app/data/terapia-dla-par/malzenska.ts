@@ -4,7 +4,12 @@ export const page: DetailPageProps = {
   id: 'terapia-dla-par-malzenska-szczecin',
   seo: {
     title: 'Terapia Małżeńska Szczecin | Odbuduj relację z partnerem',
-    description: 'Profesjonalna terapia małżeńska w Szczecinie. Poprawa komunikacji, odbudowa zaufania, rozwiązywanie konfliktów. Aleksandra Dubiel - mediator i coach.'
+    description: 'Profesjonalna terapia małżeńska w Szczecinie. Poprawa komunikacji, odbudowa zaufania, rozwiązywanie konfliktów. Aleksandra Dubiel - mediator i coach.',
+    markup: {
+      serviceType: 'Terapia małżeńska',
+      name: 'Terapia małżeńska Szczecin',
+      description: 'Profesjonalna terapia małżeńska w Szczecinie. Poprawa komunikacji i odbudowa relacji.'
+    }
   },
   breadCrumbsLabel: 'Terapia małżeńska',
 
