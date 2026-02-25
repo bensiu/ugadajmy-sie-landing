@@ -10,6 +10,7 @@ const props = defineProps<DetailPageProps>()
       :id="`${props.id}-poczatek`"
       :titles="props.title"
       :description="props.description"
+      :background-image-class="props.backgroundImageClass"
       :bread-crumbs="props.breadCrumbs"
     />
 

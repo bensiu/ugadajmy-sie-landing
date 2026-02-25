@@ -219,6 +219,6 @@ export const page: DetailPageProps & {
   // },
   callToAction: {
     title: 'Gotowy na pierwszy krok?',
-    description: 'Pierwsza rozmowa jest po to, by zrozumieć Twoją sytuację i wspólnie ocenić, jak mogę Ci pomóc. Zadzwoń lub napisz – bez zobowiązań.'
+    description: 'Pierwsza rozmowa jest po&nbsp;to, by&nbsp;zrozumieć Twoją sytuację i&nbsp;wspólnie ocenić, jak mogę Ci pomóc. Zadzwoń lub napisz – bez&nbsp;zobowiązań.'
   }
 }

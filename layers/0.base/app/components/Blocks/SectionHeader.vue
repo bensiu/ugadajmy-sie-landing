@@ -15,7 +15,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <div class="text-center max-w-4xl mx-auto mb-16 animate-fade-up">
+  <div class="text-center max-w-4xl mx-auto mb-12 animate-fade-up">
     <span
       v-if="props.lead"
       class="inline-block text-sm font-semibold text-primary uppercase tracking-wider mb-4"

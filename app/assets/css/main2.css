@@ -148,15 +148,34 @@
   width: 100%;
   height: max-content; /* Or min-h-screen */
   
-  background-image: url('/images/hero-hands-pt.png');
+  /* background-image: url('/images/hero-hands-pt.png');
   background-repeat: no-repeat;
-  
-  /* The Magic Duo */
-  background-position: right bottom;
+  background-position: right bottom; */
   background-size: 100%; /* Image scales to 40% of the container width */
 }
+
+
+.hero-container-background-main {
+  background-image: url('/images/hero-hands-pt.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.hero-container-background-terapia {
+  background-image: url('/images/hero-abstract-terapia.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  margin-top: 5rem;
+}
+
+.hero-container-background-terapia-wrapper {
+  background-color: #fef4e8;
+}
+
+
 @media (min-width: 768px) {
-  .hero-container-background {
-    background-image: url('/images/hero-hands-sq.png');
+  .hero-container-background-main {
+    background-image: url('/images/hero-hands-sq.jpg');
   }
 }

@@ -1,17 +1,23 @@
 <script setup lang="ts">
 import type { BreadCrumbsItem } from '~/types'
 
-const props = defineProps<{
-  id: string
-  topBadges?: string
-  breadCrumbs?: BreadCrumbsItem[] | null
-  titles: string[]
-  description?: string
-  stats?: {
-    value: string
-    label: string
-  }[]
-}>()
+const props = withDefaults(
+  defineProps<{
+    id: string
+    topBadges?: string
+    breadCrumbs?: BreadCrumbsItem[] | null
+    titles: string[]
+    description?: string
+    backgroundImageClass?: string
+    stats?: {
+      value: string
+      label: string
+    }[]
+  }>(),
+  {
+    backgroundImageClass: 'hero-container-background-main'
+  }
+)
 
 const justWithLinks = (i: BreadCrumbsItem) => !!i.href
 </script>
@@ -19,10 +25,10 @@ const justWithLinks = (i: BreadCrumbsItem) => !!i.href
 <template>
   <section
     :id="props.id"
-    class="flex items-center overflow-hidden scroll-mt-20"
+    :class="`lex items-center overflow-hidden scroll-mt-20 ${props.backgroundImageClass}-wrapper`"
   >
     <UPageHero
-      class="hero-container-background"
+      :class="['hero-container-background', props.backgroundImageClass]"
       :ui="{
         wrapper: 'w-full page-container text-left',
         container: 'mx-0 py-3 sm:py-4 md:py-6 lg:py-8 max-w-5xl text-left max-w-(--ui-container) mx-auto',

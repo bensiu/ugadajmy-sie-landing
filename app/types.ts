@@ -32,6 +32,7 @@ export interface DetailPageProps {
   breadCrumbs?: BreadCrumbsItem[] | null
   title: string[]
   description: string
+  backgroundImageClass?: string
 
   whatIsIt?: {
     title: string

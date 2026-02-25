@@ -156,7 +156,11 @@ onUnmounted(() => {
     <main class="relative">
       <NuxtPage />
     </main>
-    <TheFooter :nav-links="navLinks" />
+    <TheFooter
+      :nav-links="[
+        ...navLinks,
+        { href: '/wiadomosci-o-mediacjach', label: 'Wiadomości' }
+      ]" />
     <div
       :class="[
         'md:grid-cols-3 md:grid-cols-4'
