@@ -2,7 +2,7 @@ import type { H3Event, EventHandlerRequest } from 'h3'
 import type { TableItem } from './types'
 import DynamoDb from './aws/dynamodb'
 
-const APP_DATA_TABLE_NAME = process.env.APP_DATA_TABLE_NAME || 'ugadajmy-sie-landing-dev-eu-central-1-data'
+const APP_DATA_TABLE_NAME = process.env.APP_DATA_TABLE_NAME || 'ugadajmy-sie-landing-dev-data'
 
 interface PostRecordOptions {
   domain: string

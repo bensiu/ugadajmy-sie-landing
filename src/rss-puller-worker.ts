@@ -1,7 +1,7 @@
 import type { ScheduledEvent } from 'aws-lambda'
 import dynamodb from './services/aws/dynamodb'
 
-const APP_DATA_TABLE_NAME = process.env.APP_DATA_TABLE_NAME || 'ugadajmy-sie-landing-dev-eu-central-1-data'
+const APP_DATA_TABLE_NAME = process.env.APP_DATA_TABLE_NAME || 'ugadajmy-sie-landing-dev-data'
 
 const decodeHtmlEntities = (text: string): string => {
   return text
@@ -45,14 +45,14 @@ export const handler = async (event: ScheduledEvent) => {
     const entry = match[1]
     const isMatch = entry.match(/<id[^>]*>([\s\S]*?)<\/id>/)
     const titleMatch = entry.match(/<title[^>]*>([\s\S]*?)<\/title>/)
-    const linkMatch = entry.match(/<link[^>]*href="([^"]*)"[^>]*\/>/)
+    const linkMatch = entry.match(/<link\s+href="([^"]+)"/)
     const publishedMatch = entry.match(/<published>([\s\S]*?)<\/published>/) || entry.match(/<updated>([\s\S]*?)<\/updated>/)
     const contentMatch = entry.match(/<content[^>]*>([\s\S]*?)<\/content>/)
 
     entries.push({
       id: isMatch ? isMatch[1].trim().split(':').at(-1) || '' : '',
       title: titleMatch ? decodeHtmlEntities(titleMatch[1].trim()) : '',
-      link: linkMatch ? linkMatch[1] : '',
+      link: linkMatch ? decodeHtmlEntities(linkMatch[1].trim()) : '',
       published: publishedMatch ? publishedMatch[1].trim() : '',
       content: contentMatch ? decodeHtmlEntities(contentMatch[1].trim()) : ''
     })
@@ -86,7 +86,8 @@ export const handler = async (event: ScheduledEvent) => {
           SK1: `ID:${entry.id}`,
           ...entry,
           ttl: Math.floor(Date.now() / 1000) + NINETY_DAYS_IN_SECONDS
-        }
+        },
+        'WIADOMOSCI-MEDIACJE'
       )
     )
   )

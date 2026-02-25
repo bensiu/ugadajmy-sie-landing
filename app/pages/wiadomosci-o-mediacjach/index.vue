@@ -1,8 +1,24 @@
 <script setup lang="ts">
 import { page } from '~/data/wiadomosci'
 
+interface NewsItem {
+  title: string
+  link?: string
+  content: string
+  published: string
+}
+
 if (page?.seo) {
   usePageSpecificSeoMeta(page.seo)
+}
+
+const { data, error } = await useFetch('/api/wiadomosci')
+const news = ref<NewsItem[]>([])
+
+if (error.value) {
+  news.value = []
+} else {
+  news.value = data as unknown as NewsItem[]
 }
 </script>
 
@@ -26,17 +42,16 @@ if (page?.seo) {
         :lead="page.news.lead"
         title-color=" "
       />
-      <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+      <div class="grid gap-4 xl:grid-cols-2">
         <NuxtLink
-          v-for="(service, index) in page.news.items"
-          :key="`service-${index}`"
-          :to="service.path"
+          v-for="(item, index) in (data as unknown as NewsItem[])"
+          :key="`news-${index}`"
+          :to="item.link"
           target="_blank"
         >
-          <BlocksFeatureCard
-            v-bind="service"
-            class="h-full flex flex-col items-center text-left"
-            link="Zobacz szczegóły"
+          <BlockNewsCard
+            icon="lucide-external-link"
+            v-bind="item"
           />
         </NuxtLink>
       </div>

@@ -3,12 +3,14 @@ import type { TableItem } from './types'
 import DynamoDb from './aws/dynamodb'
 import { cleanDynamoDbIndexes } from './cleanDynamoDbIndexes'
 
-const APP_DATA_TABLE_NAME = process.env.APP_DATA_TABLE_NAME || 'ugadajmy-sie-landing-dev-eu-central-1-data'
+const APP_DATA_TABLE_NAME = process.env.APP_DATA_TABLE_NAME || 'ugadajmy-sie-landing-dev-data'
 
 interface GetRecordsListOptions {
   domain: string
   sorting?: ((a: TableItem, b: TableItem) => number)
 }
+
+console.log('APP_DATA_TABLE_NAME : ', APP_DATA_TABLE_NAME)
 
 export async function getRecordsList(
   event: H3Event<EventHandlerRequest>,

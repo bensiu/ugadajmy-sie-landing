@@ -9,8 +9,8 @@ interface SectionMeDetails {
   items: {
     title: string
     path?: string
-    description: string
-    icon: string
+    content: string
+    published: string
   }[]
 }
 
