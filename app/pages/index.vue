@@ -128,6 +128,47 @@ if (page?.seo) {
       v-bind="page.callToAction"
     />
 
+    <BlocksSectionWrapper
+      v-if="page.contact"
+      :id="`kontakt-${page.id}`"
+      :variant="page.contact.variant || 'subtle'"
+    >
+      <BlocksSectionHeader
+        :title="page.contact.title"
+        :description="page.contact.description"
+        :lead="page.contact.lead"
+        title-color=" "
+      />
+
+      <div class="grid lg:grid-cols-5 gap-5">
+        <div class="lg:col-span-2 animate-fade-up flex flex-col">
+          <BlockContactCard
+            v-for="item in page.contact.items"
+            :key="item.icon"
+            :item="item"
+            class="mb-3"
+          />
+          <div class="flex-grow" />
+          <div class="p-3 bg-primary rounded-xl text-white rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-shadow transition-all duration-300 group">
+            <!-- eslint-disable vue/no-v-html -->
+            <h3
+              class="font-display font-bold text-lg mb-2"
+              v-html="page.contact.footer.title"
+            />
+            <p
+              class="text-white/80 text-sm"
+              v-html="page.contact.footer.description"
+            />
+          </div>
+        </div>
+        <div class="lg:col-span-3 animate-fade-up">
+          <ContactForm
+            class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-shadow transition-all duration-300 group"
+          />
+        </div>
+      </div>
+    </BlocksSectionWrapper>
+
     <!-- <SectionsHowICanHelp /> -->
     <!-- <SectionsCouplesProgram>
       <BlockButtonLink

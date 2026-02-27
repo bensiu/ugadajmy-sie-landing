@@ -14,9 +14,17 @@ interface SectionMeDetails {
   }[]
 }
 
+interface ContactDetails {
+  footer: {
+    title: string
+    description: string
+  }
+}
+
 export const page: DetailPageProps & {
   whyMe: SectionMeDetails
   aboutMe: SectionMeDetails
+  contact: SectionMeDetails & ContactDetails
 } = {
   id: 'ugadajmy-sie-szczecin',
   seo: {
@@ -28,14 +36,6 @@ export const page: DetailPageProps & {
   title: ['Rozwiązuję konflikty.', 'Buduję porozumienie.'],
   description: 'Jestem Aleksandra Dubiel – łączę doświadczenie prawnika, mediatora i coacha, by pomagać Ci wyjść z konfliktów z poczuciem ulgi i konkretnym rozwiązaniem. Dla osób prywatnych i firm.',
 
-  // whatIsIt: {
-  //   title: 'Czym są mediacje?',
-  //   description: [
-  //     'Mediacja to dobrowolny i&nbsp;poufny proces rozwiązywania konfliktów z&nbsp;udziałem bezstronnego mediatora. w&nbsp;przeciwieństwie do&nbsp;postępowania sądowego, to Ty i&nbsp;druga strona macie kontrolę nad ostatecznym rozwiązaniem. w&nbsp;Szczecinie prowadzę mediacje od ponad 15 lat, pomagając setkom osób i&nbsp;firm osiągnąć trwałe porozumienie.',
-  //     'Jako mediator i&nbsp;prawnik łączę znajomość prawa z&nbsp;umiejętnościami komunikacyjnymi. Dzięki temu mogę skutecznie prowadzić nawet najtrudniejsze rozmowy, dbając jednocześnie o&nbsp;to, by wypracowane rozwiązania były zgodne z&nbsp;obowiązującymi przepisami.',
-  //     'Mój gabinet mieści się w&nbsp;centrum Szczecina przy ul. Kapitańskiej 3a. Oferuję również mediacje online dla&nbsp;osób, które nie mogą stawić się osobiście lub&nbsp;mieszkają poza Szczecinem.'
-  //   ]
-  // },
   kinds: {
     lead: 'Moje usługi',
     title: 'Jak mogę Ci pomóc?',
@@ -158,67 +158,41 @@ export const page: DetailPageProps & {
       }
     ]
   },
-  // whenToUse: {
-  //   title: 'Jakie sprawy cywilne nadają się do&nbsp;mediacji?',
-  //   variant: 'default',
-  //   situations: [
-  //     'Spór o&nbsp;wykonanie lub&nbsp;niewykonanie umowy',
-  //     'Roszczenia o&nbsp;odszkodowanie za szkodę',
-  //     'Spór o&nbsp;nieruchomość – granice, służebności, własność',
-  //     'Konflikt z&nbsp;wykonawcą remontu lub&nbsp;budowy',
-  //     'Spór z&nbsp;ubezpieczycielem o&nbsp;wypłatę odszkodowania',
-  //     'Roszczenia o&nbsp;zwrot pożyczki lub&nbsp;długu',
-  //     'Spór konsumencki z&nbsp;przedsiębiorcą',
-  //     'Konflikt o&nbsp;prawo własności lub&nbsp;współwłasność'
-  //   ]
-  // },
-  // howProcess: {
-  //   title: 'Jak przebiegają mediacje cywilne?',
-  //   variant: 'subtle',
-  //   steps: [
-  //     { title: 'Zgłoszenie sprawy', description: 'Jedna ze stron zgłasza chęć mediacji' },
-  //     { title: 'Zaproszenie drugiej strony', description: 'Kontaktuję się z&nbsp;drugą stroną sporu' },
-  //     { title: 'Sesje mediacyjne', description: 'Prowadzę negocjacje między stronami' },
-  //     { title: 'Ugoda cywilna', description: 'Spisujemy porozumienie z&nbsp;mocą prawną' }
-  //   ]
-  // },
-  // listOfBenefits: {
-  //   title: 'Korzyści z&nbsp;mediacji cywilnych',
-  //   items: [
-  //     'Szybkość – rozwiązanie w&nbsp;tygodniach, nie latach',
-  //     'Oszczędność – znacznie niższe koszty niż proces sądowy',
-  //     'Elastyczność – rozwiązania niemożliwe w&nbsp;sądzie',
-  //     'Poufność – brak publicznego procesu',
-  //     'Ugoda z&nbsp;mocą wyroku sądowego'
-  //   ]
-  // },
-  // frequentlyAskedQuestions: {
-  //   title: 'Pytania o&nbsp;mediacje cywilne',
-  //   questions: [
-  //     {
-  //       label: 'Czy każda sprawa cywilna nadaje się do mediacji?',
-  //       content: 'Większość tak. Nie nadają się sprawy, gdzie jedna strona całkowicie odmawia dialogu, lub&nbsp;gdzie rozstrzygnięcie wymaga interpretacji prawa przez sąd. Podczas konsultacji oceniam szanse powodzenia mediacji.'
-  //     },
-  //     {
-  //       label: 'Ile kosztuje mediacja cywilna w Szczecinie?',
-  //       content: 'Koszt zależy od wartości przedmiotu sporu i&nbsp;złożoności sprawy. Zazwyczaj jest to ułamek kosztów procesu sądowego. Konkretny cennik omawiam podczas pierwszej konsultacji.'
-  //     },
-  //     {
-  //       label: 'Czy mogę przerwać mediację, jeśli nie przynosi efektów?',
-  //       content: 'Oczywiście. Mediacja jest dobrowolna na&nbsp;każdym etapie. Możesz zrezygnować w&nbsp;dowolnym momencie i&nbsp;skierować sprawę do&nbsp;sądu.'
-  //     },
-  //     {
-  //       label: 'Czy potrzebuję prawnika na mediacji cywilnej?',
-  //       content: 'Nie jest to wymagane, ale możesz przyjść z&nbsp;prawnikiem jeśli czujesz taką potrzebę. Jako mediator jestem bezstronny i&nbsp;nie reprezentuję żadnej ze stron.'
-  //     },
-  //     {
-  //       label: 'Co jeśli druga strona nie zgodzi się na mediację?',
-  //       content: 'Mediacja wymaga zgody obu stron. Jednak często osoby początkowo sceptyczne zmieniają zdanie, gdy wyjaśnię im korzyści. Pomagam w&nbsp;pierwszym kontakcie z&nbsp;drugą stroną.'
-  //     }
-  //   ]
-  // },
   callToAction: {
     title: 'Gotowy na pierwszy krok?',
     description: 'Pierwsza rozmowa jest po&nbsp;to, by&nbsp;zrozumieć Twoją sytuację i&nbsp;wspólnie ocenić, jak mogę Ci pomóc. Zadzwoń lub napisz – bez&nbsp;zobowiązań.'
+  },
+  contact: {
+    lead: 'Kontakt',
+    title: 'Porozmawiajmy',
+    description: 'Masz pytania? Chcesz umówić konsultację? Napisz lub zadzwoń – pierwsza rozmowa jest zawsze bezpłatna i&nbsp;niezobowiązująca.',
+    items: [
+      {
+        icon: 'i-lucide-phone',
+        title: 'Telefon',
+        description: '+48 796 245 605',
+        path: 'tel:+48796245605'
+      },
+      {
+        icon: 'i-lucide-mail',
+        title: 'Email',
+        description: 'Aleksandra_Dubiel@wp.pl',
+        path: 'mailto:Aleksandra_Dubiel@wp.pl'
+      },
+      {
+        icon: 'i-lucide-map-pin',
+        title: 'Adres',
+        description: 'ul. Kapitańska 3a, Szczecin'
+      },
+      {
+        icon: 'i-lucide-clock',
+        title: 'Godziny',
+        description: 'Pon. – Pt.: 9:00-18:00'
+      }
+    ],
+    footer: {
+      title: 'Rozmowa wstępna',
+      description: 'Pierwsza konsultacja jest po&nbsp;to, by&nbsp;zrozumieć i&nbsp;wskazać dalsze wskazówki. To 60&nbsp;minut na&nbsp;poznanie Twojej sytuacji i&nbsp;wspólne ocenienie, jak mogę Ci&nbsp;pomóc.'
+    }
   }
 }

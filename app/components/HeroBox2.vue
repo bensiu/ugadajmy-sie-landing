@@ -101,7 +101,7 @@ const justWithLinks = (i: BreadCrumbsItem) => !!i.href
             to="#contact"
             size="lg"
             label="Umów się na rozmowę"
-            trailing-icon="i-heroicons-arrow-right"
+            trailing-icon="i-lucide-arrow-right"
             :ui="{
               base: 'font-semibold px-8 py-4 group bg-[#eab308] hover:bg-[#d4a007] text-[#0f172a]'
             }"
