@@ -102,6 +102,9 @@ const { isSubmitted, isSubmitting, handleSubmit } = useContactForm()
     :is-submitting="isSubmitting"
     button-label="Wyślij wiadomość"
     :ui="{
+      checkbox: {
+        color: 'primary'
+      },
       button: {
         color: 'primary'
       }

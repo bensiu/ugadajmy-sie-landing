@@ -1,5 +1,5 @@
 <script setup lang="ts" generic="T">
-import type { ButtonProps, FormSubmitEvent } from '@nuxt/ui'
+import type { ButtonProps, CheckboxProps, FormSubmitEvent } from '@nuxt/ui'
 import type { GenericSchema, InferOutput } from 'valibot'
 import { safeParse } from 'valibot'
 
@@ -25,6 +25,7 @@ interface ContactFormCardProps {
   isSubmitting: boolean
   buttonLabel: string
   ui?: {
+    checkbox: CheckboxProps
     button: ButtonProps
   }
 }
@@ -90,27 +91,30 @@ async function _handleSubmit(event: FormSubmitEvent<InferOutput<typeof props.sch
           required
           color="secondary"
           size="xl"
+          v-bind="props.ui?.checkbox || {}"
         >
           <template #label>
-            <span class="leading-tight ml-2">
+            <span class="text-sm leading-tight ml-2">
               {{ field.checkboxLabel }}
             </span>
           </template>
         </UCheckbox>
       </UFormField>
-    </div>
 
-    <UButton
-      type="submit"
-      size="xl"
-      block
-      :loading="props.isSubmitting"
-      color="secondary"
-      :class="`font-bold text-lg shadow-lg ${props.ui?.button?.class || ''}`"
-      :disabled="!safeParse(props.schema, state).success"
-      v-bind="props.ui?.button || {}"
-    >
-      {{ props.buttonLabel }}
-    </UButton>
+      <slot name="submit">
+        <UButton
+          type="submit"
+          size="xl"
+          block
+          :loading="props.isSubmitting"
+          color="secondary"
+          :class="`col-span-12 sm:col-span-12 font-bold text-lg shadow-lg ${props.ui?.button?.class || ''}`"
+          :disabled="!safeParse(props.schema, state).success"
+          v-bind="props.ui?.button || {}"
+        >
+          {{ props.buttonLabel }}
+        </UButton>
+      </slot>
+    </div>
   </UForm>
 </template>

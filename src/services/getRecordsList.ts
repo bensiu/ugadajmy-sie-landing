@@ -10,8 +10,6 @@ interface GetRecordsListOptions {
   sorting?: ((a: TableItem, b: TableItem) => number)
 }
 
-console.log('APP_DATA_TABLE_NAME : ', APP_DATA_TABLE_NAME)
-
 export async function getRecordsList(
   event: H3Event<EventHandlerRequest>,
   options: GetRecordsListOptions

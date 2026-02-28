@@ -15,7 +15,7 @@ const props = withDefaults(
     }[]
   }>(),
   {
-    backgroundImageClass: 'hero-container-background-main'
+    backgroundImageClass: 'hero-container-background-main-solid'
   }
 )
 

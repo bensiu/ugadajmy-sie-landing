@@ -15,7 +15,7 @@ export const page: DetailPageProps = {
 
   title: ['Odbuduj relację z&nbsp;partnerem. Zacznij od rozmowy.'],
   description: 'Każdy związek przechodzi kryzysy. Jako mediator i&nbsp;coach pomagam parom przywrócić komunikację, zrozumieć potrzeby partnera i&nbsp;podjąć świadome decyzje o&nbsp;przyszłości relacji.',
-  backgroundImageClass: 'hero-container-background-terapia',
+  // backgroundImageClass: 'hero-container-background-terapia',
 
   whatIsIt: {
     title: 'Czym jest terapia dla par?',

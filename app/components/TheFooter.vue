@@ -7,10 +7,10 @@ interface NavLink {
 const currentYear = new Date().getFullYear()
 
 const socialLinks = [
-  { icon: 'i-heroicons-envelope', label: 'Email', href: 'mailto:Aleksandra_Dubiel@wp.pl' },
-  { icon: 'i-heroicons-phone', label: 'Telefon', href: 'tel:+48796245605' },
-  { icon: 'i-simple-icons-facebook', label: 'Facebook', href: 'https://www.facebook.com/share/1LGSATGs2M/?mibextid=wwXIfr' },
-  { icon: 'i-simple-icons-instagram', label: 'Instagram', href: 'https://www.instagram.com/ugadajmy.sie' }
+  { icon: 'i-lucide-mail', label: 'Email', href: 'mailto:Aleksandra_Dubiel@wp.pl' },
+  { icon: 'i-lucide-phone', label: 'Telefon', href: 'tel:+48796245605' },
+  { icon: 'i-lucide-facebook', label: 'Facebook', href: 'https://www.facebook.com/share/1LGSATGs2M/?mibextid=wwXIfr' },
+  { icon: 'i-lucide-instagram', label: 'Instagram', href: 'https://www.instagram.com/ugadajmy.sie' }
   // { icon: 'i-simple-icons-linkedin', label: 'LinkedIn', href: '#' }
 ]
 

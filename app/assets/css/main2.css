@@ -129,7 +129,6 @@
   background-color: hsl(var(--section-subtle));
 }
 
-
 .flexy-custom-column-row {
   @apply flex flex-row;
 }
@@ -155,7 +154,7 @@
 }
 
 
-.hero-container-background-main {
+/* .hero-container-background-main {
   background-image: url('/images/hero-hands-pt.jpg');
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -171,11 +170,18 @@
 
 .hero-container-background-terapia-wrapper {
   background-color: #fef4e8;
-}
+} */
 
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .hero-container-background-main {
     background-image: url('/images/hero-hands-sq.jpg');
   }
+} */
+
+.hero-container-background-main-solid {
+  background-color: hsl(var(--primary));
+}
+.hero-container-background-main-solid-wrapper {
+  background-color: hsl(var(--primary));
 }

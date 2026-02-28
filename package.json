@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "analyze": "nuxt analyze",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "esbuild:rss-puller-worker": "esbuild --bundle --external:@aws-sdk --format=cjs src/rss-puller-worker.ts > src/rss-puller-worker.js",

@@ -58,7 +58,7 @@ if (page?.seo) {
           <div class="relative">
             <div>
               <img
-                src="/images/Aleksandra_Dubiel_zdjecie_glowne.JPG"
+                src="/images/Aleksandra_Dubiel.jpg"
                 alt="Aleksandra Dubiel - Mediator, Prawnik, Coach"
                 class="w-full aspect-[4/5] object-cover rounded-4xl shadow-lg shadow-elevated p-3 border-1"
               >

@@ -38,7 +38,9 @@ const navLinks = [
   { href: '/terapia-dla-par-szczecin', label: 'Terapia dla par' },
   { href: '/coaching-szczecin', label: 'Coaching' },
   { href: '/szkolenia-szczecin', label: 'Szkolenia' }
-  // { href: '/#contact', label: 'Kontakt' }
+]
+const navLinkAdditional = [
+  { href: '/wiadomosci-o-mediacjach', label: 'Wiadomości' }
 ]
 
 const isMenuOpen = ref(false)
@@ -140,7 +142,7 @@ onUnmounted(() => {
         <div class="p-2 flex flex-col h-full">
           <div class="flex flex-col gap-2">
             <UButton
-              v-for="link in navLinks"
+              v-for="link in [...navLinks, ...navLinkAdditional]"
               :key="link.href"
               variant="ghost"
               :to="link.href"
@@ -156,11 +158,7 @@ onUnmounted(() => {
     <main class="relative">
       <NuxtPage />
     </main>
-    <TheFooter
-      :nav-links="[
-        ...navLinks,
-        { href: '/wiadomosci-o-mediacjach', label: 'Wiadomości' }
-      ]" />
+    <TheFooter :nav-links="[...navLinks, ...navLinkAdditional]" />
     <div
       :class="[
         'md:grid-cols-3 md:grid-cols-4'
