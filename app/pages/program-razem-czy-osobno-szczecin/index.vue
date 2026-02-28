@@ -85,6 +85,16 @@ if (page?.seo) {
             Miejsce: Szczecin, ul. Kapitańska 3a | Dla par spoza Szczecina – spotkania online
           </p>
         </div>
+
+        <BlocksSectionHeader
+          :title="page.programDlaPar.modules.title"
+          title-color=" "
+          class="!mb-4"
+        />
+        <ProgramModules
+          :modules="page.programDlaPar.modules.items"
+          class="w-full"
+        />
       </BlocksSectionWrapper>
     </template>
   </PagesDetailPage>
