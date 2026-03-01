@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import type { ConfigItems } from '~/types'
+
 interface NavLink {
   href: string
   label: string
@@ -6,17 +8,18 @@ interface NavLink {
 
 const currentYear = new Date().getFullYear()
 
+const props = defineProps<{
+  navLinks: NavLink[]
+  config: ConfigItems
+}>()
+
 const socialLinks = [
-  { icon: 'i-lucide-mail', label: 'Email', href: 'mailto:Aleksandra_Dubiel@wp.pl' },
-  { icon: 'i-lucide-phone', label: 'Telefon', href: 'tel:+48796245605' },
+  { icon: 'i-lucide-mail', label: 'Email', href: `mailto:${props.config.email}` },
+  { icon: 'i-lucide-phone', label: 'Telefon', href: `tel:${props.config.phone.replaceAll(' ', '')}` },
   { icon: 'i-lucide-facebook', label: 'Facebook', href: 'https://www.facebook.com/share/1LGSATGs2M/?mibextid=wwXIfr' },
   { icon: 'i-lucide-instagram', label: 'Instagram', href: 'https://www.instagram.com/ugadajmy.sie' }
   // { icon: 'i-simple-icons-linkedin', label: 'LinkedIn', href: '#' }
 ]
-
-const props = defineProps<{
-  navLinks: NavLink[]
-}>()
 </script>
 
 <template>
@@ -79,18 +82,18 @@ const props = defineProps<{
           <ul class="space-y-3 text-sm">
             <li class="text-slate-400">
               <a
-                href="tel:+48796245605"
+                :href="`tel:${props.config.phone.replaceAll(' ', '')}`"
                 class="hover:text-white transition-colors"
               >
-                +48 796 245 605
+                {{ props.config.phone }}
               </a>
             </li>
             <li class="text-slate-400">
               <a
-                href="mailto:kontakt@ugadajmysie.pl"
+                :href="`mailto:${props.config.email}`"
                 class="hover:text-white transition-colors"
               >
-                kontakt@ugadajmysie.pl
+                {{ props.config.email }}
               </a>
             </li>
             <li class="text-slate-400">

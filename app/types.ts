@@ -91,3 +91,9 @@ export interface DetailPageProps {
     description?: string
   }
 }
+
+export interface ConfigItems {
+  phone: string
+  email: string
+  address: string
+}

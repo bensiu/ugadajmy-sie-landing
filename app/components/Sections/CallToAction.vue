@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { config } from '../../data/config'
+
 interface CallToActionProps {
   id: string
   title: string
@@ -38,10 +40,10 @@ const props = withDefaults(
           class="h-5 w-5 text-primary"
         />
         <a
-          href="tel:+48796245605"
+          :href="`tel:${config.phone.replaceAll(' ', '')}`"
           class="hover:text-primary transition-colors"
         >
-          +48 796 245 605
+          {{ config.phone }}
         </a>
       </div>
       <div className="flex items-center gap-2 text-muted-foreground">
@@ -50,17 +52,17 @@ const props = withDefaults(
           class="h-5 w-5 text-primary"
         />
         <a
-          href="mailto:kontakt@ugadajmysie.pl"
+          :href="`mailto:${config.email}`"
           class="hover:text-primary transition-colors"
         >
-          kontakt@ugadajmysie.pl
+          {{ config.email }}
         </a>
       </div>
     </div>
 
     <div class="flex flex-col sm:flex-row gap-4 items-center justify-center animate-fade-up delay-300">
       <UButton
-        to="tel:+48796245605"
+        :to="`tel:${config.phone.replaceAll(' ', '')}`"
         trailing-icon="lucide-phone"
         :ui="{
           trailingIcon: 'ml-4 transition-transform group-hover:translate-x-1',
@@ -71,7 +73,7 @@ const props = withDefaults(
       </UButton>
 
       <UButton
-        to="mailto:kontakt@ugadajmysie.pl"
+        :to="`mailto:${config.email}`"
         variant="outline"
         trailing-icon="lucide-arrow-right"
         :ui="{

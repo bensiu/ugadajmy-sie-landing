@@ -98,7 +98,7 @@ const justWithLinks = (i: BreadCrumbsItem) => !!i.href
       <template #footer>
         <div class="flex flex-col sm:flex-row gap-8 animate-fade-up delay-300">
           <UButton
-            to="#contact"
+            to="/#kontakt-ugadajmy-sie-szczecin"
             size="lg"
             label="Umów się na rozmowę"
             trailing-icon="i-lucide-arrow-right"
@@ -139,7 +139,5 @@ const justWithLinks = (i: BreadCrumbsItem) => !!i.href
         />
       </template>
     </UPageHero>
-
-    <!-- <pre>{{ JSON.stringify(props, null, 4) }}</pre> -->
   </section>
 </template>

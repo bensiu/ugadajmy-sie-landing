@@ -76,15 +76,16 @@ const props = defineProps<{
 </script>
 
 <template>
-  <div class="rounded-xl border bg-background">
+  <div class="rounded-xl border border-1 shadow-lg">
     <UTable
       :data="props.modules"
       :columns="columns"
+      class="rounded-xl border border-1"
       :ui="{
         thead: 'hidden sm:table-header-group bg-primary/5', // Hide headers on mobile
         tr: 'grid grid-cols-3 gap-x-4 gap-y-1 p-4 sm:p-0 sm:table-row border-b last:border-0',
         th: 'text-foreground font-semibold',
-        td: 'align-middle'
+        td: 'align-middle bg-background'
       }"
     />
   </div>

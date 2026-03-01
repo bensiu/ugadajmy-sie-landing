@@ -168,19 +168,5 @@ if (page?.seo) {
         </div>
       </div>
     </BlocksSectionWrapper>
-
-    <!-- <SectionsHowICanHelp /> -->
-    <!-- <SectionsCouplesProgram>
-      <BlockButtonLink
-        href="/program-dla-par"
-        label="Więcej o programie"
-      />
-    </SectionsCouplesProgram> -->
-    <!-- <SectionsHowIHelp />
-    <TheMediation />
-    <TheCoaching />
-    <SectionsTheTrainings />
-    <FinalCallToAction />
-    <ContactMe /> -->
   </div>
 </template>

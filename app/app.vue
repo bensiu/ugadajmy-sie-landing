@@ -1,5 +1,6 @@
 <script lang="ts" setup>
-// 1. Logic for SEO Tags
+import { config } from './data/config'
+
 useSeoMeta({
   title: 'Ugadajmy się - Aleksandra Dubiel | Mediator, Coach | Szczecin',
   description: 'Rozwiązuję konflikty. Buduję porozumienie. Aleksandra Dubiel – mediator, prawnik i coach. Mediacje rodzinne, spadkowe i dla firm. Coaching i szkolenia. Szczecin.',
@@ -106,7 +107,7 @@ onUnmounted(() => {
       <template #right>
         <div class="hidden lg:flex items-center gap-4">
           <UButton
-            to="tel:+48796245605"
+            :to="`tel:${config.phone.replaceAll(' ', '')}`"
             variant="ghost"
             color="neutral"
             :class="[
@@ -120,11 +121,11 @@ onUnmounted(() => {
                 class="h-4 w-4"
               />
             </template>
-            +48 796 245 605
+            {{ config.phone }}
           </UButton>
 
           <UButton
-            to="#contact"
+            to="/#kontakt-ugadajmy-sie-szczecin"
             size="sm"
             :class="[
               'text-md font-bold transition-all p-3 px-5',
@@ -158,7 +159,10 @@ onUnmounted(() => {
     <main class="relative">
       <NuxtPage />
     </main>
-    <TheFooter :nav-links="[...navLinks, ...navLinkAdditional]" />
+    <TheFooter
+      :nav-links="[...navLinks, ...navLinkAdditional]"
+      :config="config"
+    />
     <div
       :class="[
         'md:grid-cols-3 md:grid-cols-4'

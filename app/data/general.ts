@@ -1,4 +1,5 @@
 import type { DetailPageProps, SectionVariant } from '~/types'
+import { config } from './config'
 
 interface SectionMeDetails {
   lead?: string
@@ -170,14 +171,14 @@ export const page: DetailPageProps & {
       {
         icon: 'i-lucide-phone',
         title: 'Telefon',
-        description: '+48 796 245 605',
-        path: 'tel:+48796245605'
+        description: config.phone,
+        path: `tel:${config.phone.replaceAll(' ', '')}`
       },
       {
         icon: 'i-lucide-mail',
         title: 'Email',
-        description: 'Aleksandra_Dubiel@wp.pl',
-        path: 'mailto:Aleksandra_Dubiel@wp.pl'
+        description: config.email,
+        path: `mailto:${config.email}`
       },
       {
         icon: 'i-lucide-map-pin',

@@ -1,4 +1,5 @@
 import type { MarkupSEO } from './types'
+import { config } from './data/config'
 
 export const schemaMarkup = (markup: MarkupSEO) => {
   const schema = {
@@ -13,13 +14,13 @@ export const schemaMarkup = (markup: MarkupSEO) => {
       'image': 'https://ugadajmysie.pl/logo.png',
       'address': {
         '@type': 'PostalAddress',
-        'streetAddress': 'ul. Kapitańska 3a',
+        'streetAddress': config.address,
         'addressLocality': 'Szczecin',
         'postalCode': '70-001',
         'addressCountry': 'PL'
       },
-      'telephone': '+48796245605',
-      'email': 'kontakt@ugadajmysie.pl',
+      'telephone': config.phone.replaceAll(' ', ''),
+      'email': config.email,
       'areaServed': 'Szczecin',
       'priceRange': '$$'
     },
