@@ -94,6 +94,7 @@ export interface DetailPageProps {
 
 export interface ConfigItems {
   phone: string
-  email: string
+  email?: string
   address: string
+  fullAddress: string
 }

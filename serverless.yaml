@@ -66,8 +66,8 @@ custom:
     # add custom hooks
     hooks:
       before:package:createDeploymentArtifacts:
-        - 'pnpm run build'
-  #       - 'pnpm run esbuild:data-loader'
+        - "STAGE=${opt:stage, sls:stage, 'dev'} pnpm run build"
+        - 'pnpm run esbuild:rss-puller-worker'
   #       - 'pnpm run esbuild:trigger-worker'
 
 
@@ -106,7 +106,33 @@ functions:
       # BASIC_AUTH_PASS: ${env:BASIC_AUTH_PASS}
       APP_DATA_CONTACT_NOTIFICATION_TOPIC_ARN: !Ref ContactNotificationTopic
 
+  rss-puller-worker:
+    handler: src/rss-puller-worker.handler
+    timeout: 90
+    memorySize: 1024
+
+    package:
+      individually: true
+      patterns:
+        - '!**'
+        - 'src/rss-puller-worker.js'
+    events:
+      - schedule:
+          # enabled: ${self:custom.scheduleEvent.${opt:stage, sls:stage, 'dev'}}
+          rate: rate(3 hours)
+    environment:
+      AWS_SERVICE_REGION: ${self:provider.region}
+      # APP_DATA_BUCKET_NAME: ${self:custom.PROJECT_NAME}-${self:provider.region}-data
+      APP_DATA_TABLE_NAME: ${self:custom.PROJECT_NAME}-data
+
 resources:
+  Conditions:
+    IsProdStage:
+      Fn::Equals: 
+        - ${opt:stage, sls:stage, 'dev'}
+        - prod
+
+
   Resources:
 
     ApplicationDataBucket:
@@ -167,15 +193,25 @@ resources:
         TopicName: ${self:custom.PROJECT_NAME}-${self:provider.region}-contact-alert-topic
         DisplayName: "System Alerts"
 
-    # ContactNotificationTopicSubscription:
-    #   Type: AWS::SNS::Subscription
-    #   Properties:
-    #     TopicArn: !Ref ContactNotificationTopic
-    #     Protocol: email
-    #     Endpoint: ${env:CONTACT_NOTIFICATION_EMAIL}
+    ContactNotificationTopicSubscription:
+      Type: AWS::SNS::Subscription
+      Properties:
+        TopicArn: !Ref ContactNotificationTopic
+        Protocol: email
+        Endpoint: ${env:CONTACT_NOTIFICATION_EMAIL}
+
+    MainContactNotificationTopicSubscription:
+      Type: AWS::SNS::Subscription
+      Condition: IsProdStage
+      Properties:
+        TopicArn: !Ref ContactNotificationTopic
+        Protocol: email
+        Endpoint: 'Aleksandra_Dubiel@wp.pl'
+  
 
     ApiCloudFrontDistribution:
       Type: AWS::CloudFront::Distribution
+      Condition: IsProdStage
       Properties:
         DistributionConfig:
           Enabled: true
@@ -203,7 +239,7 @@ resources:
             # Use the Managed Origin Request Policy 'AllViewerExceptHostHeader'
             OriginRequestPolicyId: b689b0a8-53d0-40ab-baf2-68738e2966ac # Managed-AllViewerExceptHostHeader
 
-  Outputs:
-    CloudFrontUrl:
-      Value: !GetAtt ApiCloudFrontDistribution.DomainName
-      Description: "The domain name of the CloudFront distribution"
+  # Outputs:
+  #   CloudFrontUrl:
+  #     Value: !GetAtt ApiCloudFrontDistribution.DomainName
+  #     Description: "The domain name of the CloudFront distribution"

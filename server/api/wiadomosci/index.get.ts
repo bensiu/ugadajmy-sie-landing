@@ -6,7 +6,7 @@ export default defineEventHandler(async (event): Promise<Omit<TableItem, 'PK1' |
     event,
     {
       domain: 'WIADOMOSCI-MEDIACJE',
-      sorting: (a, b) => (a.published as string) > (b.published as string) ? 1 : -1
+      sorting: (a, b) => (a.published as string) < (b.published as string) ? 1 : -1
     }
   )
 })

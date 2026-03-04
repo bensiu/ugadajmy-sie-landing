@@ -35,7 +35,7 @@ export const page: DetailPageProps & {
   // breadCrumbsLabel: 'Mediacje',
 
   title: ['Rozwiązuję konflikty.', 'Buduję porozumienie.'],
-  description: 'Jestem Aleksandra Dubiel – łączę doświadczenie prawnika, mediatora i coacha, by pomagać Ci wyjść z konfliktów z poczuciem ulgi i konkretnym rozwiązaniem. Dla osób prywatnych i firm.',
+  description: 'Jestem Aleksandra Dubiel – łączę doświadczenie prawnika, mediatora i&nbsp;coacha, by pomagać Ci wyjść z&nbsp;konfliktów z poczuciem ulgi i&nbsp;konkretnym rozwiązaniem. Dla&nbsp;osób prywatnych i&nbsp;firm.',
 
   kinds: {
     lead: 'Moje usługi',

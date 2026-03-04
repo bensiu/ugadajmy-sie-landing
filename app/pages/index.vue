@@ -52,6 +52,7 @@ if (page?.seo) {
       v-if="page.aboutMe"
       id="kim-jestem-Aleksandra-Dubiel"
       :variant="page.aboutMe.variant || 'default'"
+      style="scroll-margin-top: 32px;"
     >
       <div class="grid md:grid-cols-12 gap-8">
         <div class="relative animate-fade-up md:col-span-5">
@@ -132,6 +133,7 @@ if (page?.seo) {
       v-if="page.contact"
       :id="`kontakt-${page.id}`"
       :variant="page.contact.variant || 'subtle'"
+      style="scroll-margin-top: 32px;"
     >
       <BlocksSectionHeader
         :title="page.contact.title"

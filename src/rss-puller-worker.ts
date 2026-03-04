@@ -73,7 +73,7 @@ export const handler = async (event: ScheduledEvent) => {
   )
 
   const filteredNewOnes = entries.filter(item => !approvedIds.has(item.id))
-  const NINETY_DAYS_IN_SECONDS = 90 * 24 * 60 * 60
+  const NINETY_DAYS_IN_SECONDS = 30 * 24 * 60 * 60
 
   await Promise.all(
     filteredNewOnes.map(

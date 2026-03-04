@@ -1,5 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
+const isGoogleAnalytics = process.env.NODE_ENV !== 'development' && process.env.STAGE === 'prod'
+  ? {
+      googleAnalytics: {
+        id: 'G-V511SC00K4'
+      }
+    }
+  : {}
+
 export default defineNuxtConfig({
   extends: [
     '0.base'
@@ -69,12 +77,18 @@ export default defineNuxtConfig({
     }
   },
 
+  icon: {
+    clientBundle: {
+      scan: true
+    },
+    serverBundle: {
+      externalizeIconsJson: true
+    }
+  },
+
   scripts: {
     registry: {
-      googleAnalytics: {
-        enabled: process.env.NODE_ENV !== 'development',
-        id: 'G-V511SC00K4'
-      }
+      ...isGoogleAnalytics
     }
   }
 })

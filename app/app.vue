@@ -41,7 +41,9 @@ const navLinks = [
   { href: '/szkolenia-szczecin', label: 'Szkolenia' }
 ]
 const navLinkAdditional = [
-  { href: '/wiadomosci-o-mediacjach', label: 'Wiadomości' }
+  { href: '/wiadomosci-o-mediacjach', label: 'Wiadomości' },
+  { href: '/#kim-jestem-Aleksandra-Dubiel', label: 'Kim jestem' },
+  { href: '/#kontakt-ugadajmy-sie-szczecin', label: 'Kontakt' }
 ]
 
 const isMenuOpen = ref(false)
@@ -59,6 +61,8 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
 })
+const router = useRouter()
+const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-prywatnosci'))
 </script>
 
 <template>
@@ -72,7 +76,7 @@ onUnmounted(() => {
       }"
       :class="[
         'absolute w-full fixed left-0 top-0 right-0 flex',
-        isScrolled
+        isScrolled || isRodo
           ? 'bg-background backdrop-blur-md shadow-soft border-b py-5'
           : 'bg-transparent py-5'
       ]"
@@ -85,7 +89,12 @@ onUnmounted(() => {
           <img
             src="/images/logo.png"
             alt="Ugadajmy się - Aleksandra Dubiel"
-            :class="['h-10 w-auto transition-all', !isScrolled ? 'brightness-0 invert' : '']"
+            :class="[
+              'h-10 w-auto transition-all',
+              !isScrolled && !isRodo
+                ? 'brightness-0 invert'
+                : ''
+            ]"
           >
         </NuxtLink>
       </template>
@@ -97,7 +106,9 @@ onUnmounted(() => {
           :to="link.href"
           :class="[
             'text-md font-bold transition-colors',
-            isScrolled ? 'text-foreground/70 hover:text-primary' : 'text-white/80 hover:text-white'
+            isScrolled || isRodo
+              ? 'text-foreground/70 hover:text-primary'
+              : 'text-white/80 hover:text-white'
           ]"
         >
           {{ link.label }}
@@ -112,7 +123,9 @@ onUnmounted(() => {
             color="neutral"
             :class="[
               'text-md font-bold transition-colors p-3',
-              isScrolled ? 'text-muted-foreground hover:text-primary' : 'text-white/80 hover:text-white hover:bg-white/10'
+              isScrolled || isRodo
+                ? 'text-muted-foreground hover:text-primary'
+                : 'text-white/80 hover:text-white hover:bg-white/10'
             ]"
           >
             <template #leading>
@@ -131,7 +144,7 @@ onUnmounted(() => {
               'text-md font-bold transition-all p-3 px-5',
               isScrolled
                 ? ''
-                : 'bg-[hsl(40,90%,55%)] text-[hsl(210,30%,12%)] hover:bg-[hsl(40,90%,50%)] border-none'
+                : 'bg-secondary text-secondary-foreground hover:bg-[hsl(40,90%,50%)] border-none'
             ]"
           >
             Umów rozmowę
@@ -151,6 +164,26 @@ onUnmounted(() => {
             >
               {{ link.label }}
             </UButton>
+          </div>
+          <div class="my-3">
+            <UButton
+              :to="`tel:${config.phone.replaceAll(' ', '')}`"
+              :class="[
+                'text-md font-bold transition-colors p-4 w-full flex justify-center',
+                'bg-secondary text-secondary-foreground hover:bg-[hsl(40,90%,50%)] border-none'
+              ]"
+            >
+              <template #leading>
+                <UIcon
+                  name="i-lucide-phone"
+                  class="h-4 w-4"
+                />
+              </template>
+              {{ config.phone }}
+            </UButton>
+            <div class="mb-4">
+              &nbsp;
+            </div>
           </div>
         </div>
       </template>

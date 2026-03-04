@@ -23,25 +23,27 @@ const socialLinks = [
 </script>
 
 <template>
-  <footer class="bg-[hsl(210,35%,12%)] text-slate-300 py-8 lg:py-12">
+  <footer class="bg-secondary-foreground text-slate-300 py-8 lg:py-12">
     <UContainer>
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-12">
-        <div class="lg:col-span-2">
-          <div class="flex items-center gap-2 mb-4">
-            <NuxtLink
-              to="/"
-              class="flex items-center group"
-            >
-              <img
-                src="/images/logo.png"
-                alt="Ugadajmy się - Aleksandra Dubiel"
-                :class="['h-10 w-auto transition-all brightness-0 invert']"
+      <div class="grid grid-cols-12 gap-6 mb-4">
+        <div class="col-span-12 sm:col-span-7 lg:col-span-6">
+          <slot>
+            <div class="flex items-center gap-2 mb-4">
+              <NuxtLink
+                to="/"
+                class="flex items-center group"
               >
-            </NuxtLink>
-          </div>
-          <p class="text-slate-400 text-sm leading-relaxed max-w-md mb-6">
-            Aleksandra Dubiel – mediator, prawnik i coach. Pomagam rozwiązywać konflikty i budować porozumienie. Dla osób prywatnych i firm.
-          </p>
+                <img
+                  src="/images/logo.png"
+                  alt="Ugadajmy się - Aleksandra Dubiel"
+                  :class="['h-10 w-auto transition-all brightness-0 invert']"
+                >
+              </NuxtLink>
+            </div>
+            <p class="text-white text-sm leading-relaxed max-w-lg mb-6">
+              Aleksandra Dubiel – mediator, prawnik i coach. Pomagam rozwiązywać konflikty i budować porozumienie. Dla osób prywatnych i firm.
+            </p>
+          </slot>
           <div class="flex gap-3">
             <UButton
               v-for="social in socialLinks"
@@ -56,61 +58,102 @@ const socialLinks = [
           </div>
         </div>
 
-        <div>
-          <h4 class="font-display font-semibold text-white mb-4">
-            Usługi
+        <div class="col-span-12 col-start-1 sm:col-span-5 sm:col-start-1 lg:col-span-2 lg:col-start-7">
+          <h4 class="font-bold text-primary-500 mb-6 uppercase tracking-widest text-sm">
+            Menu Serwisu
           </h4>
-          <ul class="space-y-3">
+          <ul class="space-y-4 text-sm text-primary-100/70">
             <li
               v-for="link in props.navLinks"
-              :key="link.label"
+              :key="link.href"
             >
               <NuxtLink
                 :to="link.href"
-                class="text-slate-400 hover:text-white text-sm transition-colors"
+                class="text-white hover:text-white text-sm font-semibold transition-colors flex items-center"
               >
+                <UIcon
+                  name="lucide-chevron-right"
+                  class="h-5 w-5 mr-2"
+                />
                 {{ link.label }}
               </NuxtLink>
             </li>
           </ul>
         </div>
 
-        <div>
-          <h4 class="font-display font-semibold text-white mb-4">
-            Kontakt
+        <div class="col-span-12 col-start-1 sm:col-span-7 sm:col-start-6 lg:col-span-4 lg:col-start-9 mt-6 sm:mt-0">
+          <h4 class="font-bold text-primary-500 mb-6 uppercase tracking-widest text-sm">
+            Biuro i Kontakt
           </h4>
-          <ul class="space-y-3 text-sm">
-            <li class="text-slate-400">
-              <a
-                :href="`tel:${props.config.phone.replaceAll(' ', '')}`"
-                class="hover:text-white transition-colors"
+          <address class="not-italic text-sm text-white space-y-4">
+            <p class="flex items-center gap-2">
+              <UIcon
+                name="lucide-map-pin"
+                class="h-6 w-6 text-primary-500 shrink-0 mr-1"
+              />
+              <!-- eslint-disable vue/no-v-html -->
+              <span
+                v-html="props.config.fullAddress"
+              />
+            </p>
+            <p class="flex items-center gap-2">
+              <UIcon
+                name="lucide-phone"
+                class="h-6 w-6 text-primary-500 shrink-0 mr-1"
+              />
+              <NuxtLink
+                :to="`tel:${props.config.phone.replaceAll(' ', '')}`"
+                class="text-sm text-white transition-colors"
               >
                 {{ props.config.phone }}
-              </a>
-            </li>
-            <li class="text-slate-400">
-              <a
-                :href="`mailto:${props.config.email}`"
-                class="hover:text-white transition-colors"
+              </NuxtLink>
+            </p>
+            <p
+              v-if="props.config.email"
+              class="flex items-center gap-2 text-primary-500"
+            >
+              <UIcon
+                name="lucide-mail"
+                class="h-6 w-6 shrink-0 mr-1"
+              />
+              <NuxtLink
+                :to="`mailto:${props.config.email}`"
+                class="text-sm text-white transition-colors"
               >
                 {{ props.config.email }}
-              </a>
-            </li>
-            <li class="text-slate-400">
-              ul. Kapitańska 3a<br>
-              70-001 Szczecin
-            </li>
-            <li class="text-slate-400">
-              Pon. – Pt.: 9:00-18:00
-            </li>
-          </ul>
+              </NuxtLink>
+            </p>
+            <p class="flex items-center justify-between gap-2">
+              <UIcon
+                name="lucide-clock"
+                class="h-6 w-6 text-primary-500 shrink-0 mr-1"
+              />
+              <span>Poniedziałek-Piątek</span>
+              <span class="flex-grow" />
+              <span class="font-semibold">9:00-18:00</span>
+            </p>
+          </address>
         </div>
       </div>
 
-      <div class="pt-4 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div class="border-t border-white/10 pt-8 text-center text-[10px] text-primary-100/40 flex flex-col md:flex-row justify-between items-center gap-4">
         <p class="text-slate-500 text-sm">
-          © {{ currentYear }} Ugadajmy się – Aleksandra Dubiel. Wszelkie prawa zastrzeżone.
+          &copy; {{ currentYear }} Ugadajmy się – Aleksandra Dubiel. Wszelkie prawa zastrzeżone.
         </p>
+        <div class="flex gap-6">
+          <NuxtLink
+            to="/polityka-prywatnosci"
+            class="text-slate-500 text-sm hover:text-white underline underline-offset-4"
+          >
+            Polityka Prywatności
+          </NuxtLink>
+          <NuxtLink
+            to="/polityka-prywatnosci"
+            class="text-slate-500 text-sm hover:text-white underline underline-offset-4"
+          >
+            RODO
+          </NuxtLink>
+        </div>
       </div>
     </UContainer>
   </footer>
