@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'mediacje-rozwodowe-szczecin',
   seo: {
-    title: 'Mediacje Rozwodowe Szczecin – Rozwód Bez Walki w Sądzie | Ugadajmy się',
+    title: 'Mediacje Rozwodowe Szczecin – Rozwód bez Sądu',
     description: 'Mediacje rozwodowe w Szczecinie. Pomogę ustalić alimenty, opiekę nad dziećmi i podział majątku. Rozwód za porozumieniem stron. Doświadczony mediator sądowy.',
     markup: {
       serviceType: 'Mediacje rozwodowe',

@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'szkolenia-dla-firm-szczecin',
   seo: {
-    title: 'Szkolenia dla firm Szczecin | Komunikacja w zespole | Aleksandra Dubiel',
+    title: 'Szkolenia dla Firm Szczecin | Komunikacja w Zespole',
     description: 'Szkolenia firmowe w Szczecinie: komunikacja w zespole, rozwiązywanie konfliktów, budowanie współpracy. Programy dedykowane dla organizacji. Certyfikowany trener.',
     markup: {
       serviceType: 'Szkolenia dla firm',

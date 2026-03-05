@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'mediacje-online-szczecin',
   seo: {
-    title: 'Mediacje Online Szczecin – Zdalne Rozwiązywanie Konfliktów | Ugadajmy się',
+    title: 'Mediacje Online Szczecin – Zdalne Rozwiązywanie',
     description: 'Mediacje online dla mieszkańców Szczecina i okolic. Zdalne sesje mediacyjne przez wideokonferencję. Skuteczne rozwiązywanie konfliktów bez wychodzenia z domu.',
     markup: {
       serviceType: 'Mediacje online',

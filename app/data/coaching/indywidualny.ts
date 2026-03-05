@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'coaching-indywidualny-szczecin',
   seo: {
-    title: 'Coaching indywidualny Szczecin | Sesje 1:1 dopasowane do Ciebie',
+    title: 'Coaching Indywidualny Szczecin | Sesje 1:1',
     description: 'Coaching indywidualny w Szczecinie. Sesje 1:1 w pełni dopasowane do Twoich potrzeb i celów. Profesjonalne wsparcie w każdym obszarze życia. Umów się!',
     markup: {
       serviceType: 'Coaching indywidualny',

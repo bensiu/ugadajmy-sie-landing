@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'coaching-zyciowy-szczecin',
   seo: {
-    title: 'Coaching życiowy Szczecin | Life coaching - odkryj swój potencjał',
+    title: 'Coaching Życiowy Szczecin | Odkryj Swój Potencjał',
     description: 'Life coaching w Szczecinie. Odkryj swoje wartości, zdefiniuj cele i żyj pełnią życia. Profesjonalne wsparcie w budowaniu życia zgodnego z Twoimi marzeniami.',
     markup: {
       serviceType: 'Coaching życiowy',

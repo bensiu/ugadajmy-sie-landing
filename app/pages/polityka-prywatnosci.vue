@@ -1,4 +1,5 @@
 <script setup>
+import { page } from '~/data/general'
 import { config } from '../data/config'
 
 const securityItems = [
@@ -18,14 +19,18 @@ const securityItems = [
     desc: 'Zawsze masz wgląd w swoje dane.'
   }
 ]
+
+if (page?.seo) {
+  usePageSpecificSeoMeta(page.seo)
+}
 </script>
 
 <template>
   <div>
     <main class="container mx-auto px-4 md:px-6 py-12 md:py-20 mt-8">
-      <h1 className="text-4xl font-heading font-bold text-primary mb-12 text-center underline decoration-secondary-200">
-        Polityka Prywatności i RODO
-      </h1>
+      <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-12 text-center underline decoration-secondary-200">
+        Polityka Prywatności i&nbsp;RODO
+      </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
         <div

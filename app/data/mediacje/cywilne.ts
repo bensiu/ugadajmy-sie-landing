@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'mediacje-cywilne-szczecin',
   seo: {
-    title: 'Mediacje Cywilne Szczecin – Sprawy Majątkowe i Umowy | Ugadajmy się',
+    title: 'Mediacje Cywilne Szczecin – Sprawy Majątkowe',
     description: 'Mediacje cywilne w Szczecinie. Sprawy majątkowe, odszkodowania, spory o umowy, nieruchomości. Profesjonalny mediator sądowy. Szybkie rozwiązywanie sporów.',
     markup: {
       serviceType: 'Mediacje cywilne',

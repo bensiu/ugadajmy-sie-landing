@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'terapia-dla-par-przedrozwodowe-szczecin',
   seo: {
-    title: 'Konsultacje Przedrozwodowe Szczecin | Pomoc w podjęciu decyzji',
+    title: 'Konsultacje Przedrozwodowe Szczecin | Pomoc',
     description: 'Konsultacje przedrozwodowe w Szczecinie. Pomoc w podjęciu świadomej decyzji o przyszłości związku. Obiektywna perspektywa i wsparcie. Aleksandra Dubiel - mediator i coach.',
     markup: {
       serviceType: 'Konsultacje przedrozwodowe',

@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'szkolenia-z-mediacji-szczecin',
   seo: {
-    title: 'Szkolenia z mediacji Szczecin | Kurs mediatora | Aleksandra Dubiel',
+    title: 'Szkolenia z Mediacji Szczecin | Kurs Mediatora',
     description: 'Profesjonalne szkolenia z mediacji w Szczecinie. Kurs mediatora zgodny ze standardami. Certyfikat uprawniający do wpisu na listę mediatorów sądowych.',
     markup: {
       serviceType: 'Szkolenia z mediacji',

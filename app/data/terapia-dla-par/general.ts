@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'terapia-dla-par-szczecin',
   seo: {
-    title: 'Terapia dla Par Szczecin | Aleksandra Dubiel – Mediator, Coach',
+    title: 'Terapia dla Par Szczecin | Aleksandra Dubiel',
     description: 'Profesjonalna terapia dla par w Szczecinie. Terapia małżeńska, program „Razem czy osobno?", warsztaty dla par. Poprawa komunikacji i rozwiązywanie kryzysów.',
     markup: {
       serviceType: 'Terapia dla par',

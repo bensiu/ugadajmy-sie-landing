@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'mediacje-sasiedzkie-szczecin',
   seo: {
-    title: 'Mediacje Sąsiedzkie Szczecin – Rozwiązywanie Konfliktów Sąsiedzkich | Ugadajmy się',
+    title: 'Mediacje Sąsiedzkie Szczecin – Konflikty Sąsiedzkie',
     description: 'Mediacje sąsiedzkie w Szczecinie. Pomagam rozwiązywać spory między sąsiadami: hałas, immisje, granice działek. Pokojowe rozwiązania bez angażowania sądu.',
     markup: {
       serviceType: 'Mediacje sąsiedzkie',

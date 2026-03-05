@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'mediacje-dla-firm-szczecin',
   seo: {
-    title: 'Mediacje dla Firm Szczecin – Konflikty Pracownicze i Spory Wewnętrzne | Ugadajmy się',
+    title: 'Mediacje dla Firm Szczecin – Konflikty Pracownicze',
     description: 'Mediacje dla firm w Szczecinie. Rozwiązywanie konfliktów w zespołach, sporów pracowniczych, nieporozumień między wspólnikami. Mediator z doświadczeniem biznesowym.',
     markup: {
       serviceType: 'Mediacje dla firm',

@@ -29,7 +29,7 @@ export const page: DetailPageProps & {
 } = {
   id: 'ugadajmy-sie-szczecin',
   seo: {
-    title: 'Mediacje, Terapia dla Par, Coaching Szczecin | Ugadajmy się – Aleksandra Dubiel',
+    title: 'Mediacje, Terapia, Coaching Szczecin | Ugadajmy się',
     description: 'Profesjonalne mediacje, terapia dla par, coaching i szkolenia w Szczecinie. Aleksandra Dubiel - mediator, prawnik, coach. Rozwiązuję konflikty, buduję porozumienie.'
   },
   // breadCrumbsLabel: 'Mediacje',
@@ -177,7 +177,7 @@ export const page: DetailPageProps & {
       {
         icon: 'i-lucide-mail',
         title: 'Email',
-        description: config.email,
+        description: config.email || '',
         path: `mailto:${config.email}`
       },
       {

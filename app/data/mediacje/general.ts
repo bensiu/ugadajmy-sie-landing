@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'mediacje-szczecin',
   seo: {
-    title: 'Mediacje Szczecin – Rodzinne, Rozwodowe, Gospodarcze | Ugadajmy się',
+    title: 'Mediacje Szczecin – Rodzinne, Rozwodowe | Ugadajmy się',
     description: 'Profesjonalne mediacje w Szczecinie. Mediator z 15-letnim doświadczeniem. Mediacje rodzinne, rozwodowe, gospodarcze i cywilne. Skuteczne rozwiązywanie konfliktów.',
     markup: {
       serviceType: 'Mediacje',

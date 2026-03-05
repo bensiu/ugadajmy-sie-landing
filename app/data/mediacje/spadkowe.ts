@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'mediacje-spadkowe-szczecin',
   seo: {
-    title: 'Mediacje Spadkowe Szczecin – Podział Spadku i Dziedziczenie | Ugadajmy się',
+    title: 'Mediacje Spadkowe Szczecin – Podział Spadku',
     description: 'Mediacje spadkowe w Szczecinie. Pomagam w pokojowym podziale spadku, rozstrzygnięciu sporów o zachowek i dziedziczenie. Mediator z doświadczeniem prawniczym.',
     markup: {
       serviceType: 'Mediacje spadkowe',

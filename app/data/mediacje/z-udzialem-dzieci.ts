@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'mediacje-z-udzialem-dzieci-szczecin',
   seo: {
-    title: 'Mediacje z Udziałem Dzieci Szczecin – Głos Dziecka w Mediacji | Ugadajmy się',
+    title: 'Mediacje z Udziałem Dzieci Szczecin | Ugadajmy się',
     description: 'Mediacje z udziałem dzieci w Szczecinie. Profesjonalne włączanie głosu dziecka w procesy mediacyjne. Bezpieczna przestrzeń dla najmłodszych uczestników konfliktów rodzinnych.',
     markup: {
       serviceType: 'Mediacje z udziałem dzieci',

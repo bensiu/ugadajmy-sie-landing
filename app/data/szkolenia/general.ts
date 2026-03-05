@@ -3,7 +3,7 @@ import type { DetailPageProps } from '~/types'
 export const page: DetailPageProps = {
   id: 'szkolenia-szczecin',
   seo: {
-    title: 'Szkolenia Szczecin | Komunikacja, Mediacja, Rozwój | Aleksandra Dubiel',
+    title: 'Szkolenia Szczecin | Komunikacja i Mediacja',
     description: 'Profesjonalne szkolenia w Szczecinie: komunikacja interpersonalna, mediacja, rozwój osobisty. Szkolenia dla firm i osób indywidualnych. Certyfikowany trener.',
     markup: {
       serviceType: 'Szkolenia',
