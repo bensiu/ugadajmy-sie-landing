@@ -154,7 +154,7 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
 
       <template #body>
         <div class="p-2 flex flex-col h-full">
-          <div class="flex flex-col gap-2">
+          <div class="flex flex-col gap-2 mb-6">
             <UButton
               v-for="link in [...navLinks, ...navLinkAdditional]"
               :key="link.href"
@@ -165,7 +165,7 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
               {{ link.label }}
             </UButton>
           </div>
-          <div class="my-3">
+          <div class="my-4">
             <UButton
               :to="`tel:${config.phone.replaceAll(' ', '')}`"
               :class="[
@@ -198,8 +198,11 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
     />
     <div
       :class="[
-        'md:grid-cols-3 md:grid-cols-4'
+        'md:grid-cols-3 md:grid-cols-4',
+        'hidden'
       ]"
-    />
+    >
+      <UIcon name="lucide-x" />
+    </div>
   </UApp>
 </template>
