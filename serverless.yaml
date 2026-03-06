@@ -122,7 +122,7 @@ functions:
           rate: rate(3 hours)
     environment:
       AWS_SERVICE_REGION: ${self:provider.region}
-      # APP_DATA_BUCKET_NAME: ${self:custom.PROJECT_NAME}-${self:provider.region}-data
+      APP_DATA_BUCKET_NAME: ${self:custom.PROJECT_NAME}-${self:provider.region}-data
       APP_DATA_TABLE_NAME: ${self:custom.PROJECT_NAME}-data
 
 resources:

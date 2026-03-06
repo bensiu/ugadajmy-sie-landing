@@ -8,6 +8,12 @@ const isGoogleAnalytics = process.env.NODE_ENV !== 'development' && process.env.
     }
   : {}
 
+const externalSites = [
+  'https://www.googletagmanager.com',
+  'https://www.google-analytics.com',
+  'https://api.iconify.design'
+]
+
 export default defineNuxtConfig({
   extends: [
     '0.base'
@@ -89,6 +95,18 @@ export default defineNuxtConfig({
   scripts: {
     registry: {
       ...isGoogleAnalytics
+    }
+  },
+
+  security: {
+    nonce: true,
+    headers: {
+      contentSecurityPolicy: {
+        'script-src': ['\'self\'', '\'unsafe-inline\'', '\'nonce-{{nonce}}\'', ...externalSites],
+        'img-src': ['\'self\'', 'data:', ...externalSites],
+        'connect-src': ['\'self\'', ...externalSites]
+        // Add other directives as needed (e.g., 'style-src', 'font-src')
+      }
     }
   }
 })
