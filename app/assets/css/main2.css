@@ -66,6 +66,7 @@
 
   --ui-primary: rgb(var(--primary));
   --ui-secondary: rgb(var(--secondary));
+  --ui-destructive: rgb(var(--destructive));
   
   --ui-color-primary-500: rgb(var(--primary));
 

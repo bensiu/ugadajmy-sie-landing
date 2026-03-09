@@ -30,11 +30,11 @@ export const page: DetailPageProps & {
   news: {
     lead: 'Aktualności',
     title: 'Wiadomości o mediacjach',
-    description: 'Najnowsze artykuły i informacje ze świata mediacji – automatycznie zbierane z polskich źródeł.',
+    description: 'Najnowsze artykuły i&nbsp;informacje ze&nbsp;świata mediacji – automatycznie zbierane z&nbsp;polskich źródeł.',
     items: []
-  },
-  callToAction: {
-    title: 'Gotowy na pierwszy krok?',
-    description: 'Pierwsza rozmowa jest po&nbsp;to, by&nbsp;zrozumieć Twoją sytuację i&nbsp;wspólnie ocenić, jak mogę Ci pomóc. Zadzwoń lub napisz – bez&nbsp;zobowiązań.'
+  // },
+  // callToAction: {
+  //   title: 'Gotowy na pierwszy krok?',
+  //   description: 'Pierwsza rozmowa jest po&nbsp;to, by&nbsp;zrozumieć Twoją sytuację i&nbsp;wspólnie ocenić, jak mogę Ci pomóc. Zadzwoń lub napisz – bez&nbsp;zobowiązań.'
   }
 }

@@ -47,10 +47,10 @@ export default defineNuxtConfig({
     storageKey: 'nuxt-color-mode-v2'
   },
 
-  // runtimeConfig: {
-  //   basicAuthUser: process.env.BASIC_AUTH_USER,
-  //   basicAuthPass: process.env.BASIC_AUTH_PASS
-  // },
+  runtimeConfig: {
+    basicAuthUser: process.env.BASIC_AUTH_USER,
+    basicAuthPass: process.env.BASIC_AUTH_PASS
+  },
 
   routeRules: {
     '/': { prerender: true }

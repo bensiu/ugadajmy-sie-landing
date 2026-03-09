@@ -98,3 +98,20 @@ export interface ConfigItems {
   address: string
   fullAddress: string
 }
+
+export interface NewsItem {
+  id: string
+  title: string
+  content: string
+  link?: string
+  published: string
+  approved?: boolean
+}
+
+export type NewsCardItem = NewsItem & {
+  icon?: string
+  ui?: {
+    title?: string
+  }
+  toEdit?: boolean
+}
