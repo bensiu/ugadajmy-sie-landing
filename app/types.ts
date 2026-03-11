@@ -115,3 +115,11 @@ export type NewsCardItem = NewsItem & {
   }
   toEdit?: boolean
 }
+
+export interface CookieBanerProps {
+  expiredCookie: string
+  title: string
+  description: string
+  deny: string
+  accept: string
+}

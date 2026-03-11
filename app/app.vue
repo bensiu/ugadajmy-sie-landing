@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+// import type { CookieBanerProps } from '~/types'
 import { config } from './data/config'
 
 useSeoMeta({
@@ -63,6 +64,14 @@ onUnmounted(() => {
 })
 const router = useRouter()
 const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-prywatnosci'))
+
+// const cookieConsent: CookieBanerProps = {
+//   expiredCookie: 'Your cookie preferences have expired. Please review them again.',
+//   title: 'We use cookies',
+//   description: 'To personalize content and analyze traffic. You can customize your preferences.',
+//   deny: 'Deny',
+//   accept: 'Accept'
+// }
 </script>
 
 <template>
@@ -191,6 +200,10 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
 
     <main class="relative">
       <NuxtPage />
+      <!-- <CookieConsentBanner
+        v-bind="cookieConsent"
+        @open-modal="console.log('OPEN BANNER')"
+      /> -->
     </main>
     <TheFooter
       :nav-links="[...navLinks, ...navLinkAdditional]"
