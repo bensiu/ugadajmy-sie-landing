@@ -8,6 +8,8 @@ useSeoMeta({
   author: 'Aleksandra Dubiel - Ugadajmy się',
   keywords: 'mediator Szczecin, mediacje rodzinne, mediacje rozwodowe, mediacje spadkowe, coaching, rozwiązywanie konfliktów, prawnik mediator',
   // canonical: 'https://ugadajmysie.pl',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+
   // Open Graph
   ogTitle: 'Ugadajmy się - Aleksandra Dubiel | Mediator, Prawnik, Coach',
   ogDescription: 'Rozwiązuję konflikty. Buduję porozumienie. Mediacje rodzinne, spadkowe i dla firm. Coaching i szkolenia w Szczecinie.',
@@ -198,12 +200,9 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
       </template>
     </UHeader>
 
-    <main class="relative">
+    <main>
       <NuxtPage />
-      <!-- <CookieConsentBanner
-        v-bind="cookieConsent"
-        @open-modal="console.log('OPEN BANNER')"
-      /> -->
+      <!-- <CookieConsentBannerAnalitycsOnly /> -->
     </main>
     <TheFooter
       :nav-links="[...navLinks, ...navLinkAdditional]"

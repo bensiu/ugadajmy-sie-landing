@@ -26,3 +26,5 @@ logs
 .serverless
 src/**.js
 temp
+
+playground

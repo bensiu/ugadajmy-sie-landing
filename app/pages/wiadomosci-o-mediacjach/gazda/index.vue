@@ -8,6 +8,10 @@ if (page?.seo) {
   usePageSpecificSeoMeta(page.seo)
 }
 
+useSeoMeta({
+  robots: 'noindex, follow'
+})
+
 const items = ref<NewsItem[]>([])
 
 await useFetch('/api/wiadomosci?all=true')

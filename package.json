@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.15.2",
+    "@nuxtjs/robots": "^5.7.1",
     "@types/aws-lambda": "^8.10.161",
     "@types/node": "^25.3.3",
     "eslint": "^9.39.2",

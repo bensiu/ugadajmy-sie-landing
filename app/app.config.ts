@@ -1,4 +1,4 @@
-const GA_ID = 'G-V511SC00K4'
+// const GA_ID = 'G-V511SC00K4'
 
 export default defineAppConfig({
   ui: {
@@ -28,29 +28,30 @@ export default defineAppConfig({
       }
     },
     scripts: [
-      {
-        id: 'ga2',
-        src: `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`,
-        async: true,
-        defer: true,
-        categories: ['analytics', 'ads']
-      },
+      // {
+      //   id: 'ga2',
+      //   src: `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`,
+      //   async: true,
+      //   defer: true,
+      //   categories: ['analytics', 'ads']
+      // },
       // {
       //   id: 'ads',
       //   src: 'https://ads.example.com/script.js',
       //   categories: ['ads']
       // },
-      {
-        id: 'ga',
-        src: `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`,
-        customContent: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${GA_ID}');
-        `,
-        categories: ['analytics']
-      }
+
+      // {
+      //   id: 'ga',
+      //   src: `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`,
+      //   customContent: `
+      //     window.dataLayer = window.dataLayer || [];
+      //     function gtag(){dataLayer.push(arguments);}
+      //     gtag('js', new Date());
+      //     gtag('config', '${GA_ID}');
+      //   `,
+      //   categories: ['analytics']
+      // }
     ]
   }
 })

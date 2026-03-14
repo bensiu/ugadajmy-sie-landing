@@ -1,3 +1,5 @@
+export type { CookieConsentBanerProps } from '../../nuxt-layers/cookie-consent/app/types'
+
 export interface ProcessStep {
   title: string
   step?: string | number
@@ -114,12 +116,4 @@ export type NewsCardItem = NewsItem & {
     title?: string
   }
   toEdit?: boolean
-}
-
-export interface CookieBanerProps {
-  expiredCookie: string
-  title: string
-  description: string
-  deny: string
-  accept: string
 }

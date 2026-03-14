@@ -4,19 +4,24 @@ const isGoogleAnalytics = process.env.NODE_ENV !== 'development' && process.env.
   ? {
       googleAnalytics: {
         id: 'G-V511SC00K4'
+      // },
+      // googleTagManager: {
+      //   id: 'G-V511SC00K4'
       }
     }
   : {}
 
-const externalSites = [
-  'https://www.googletagmanager.com',
-  'https://www.google-analytics.com',
-  'https://api.iconify.design'
-]
+// const externalSites = [
+//   'https://*.googletagmanager.com',
+//   'https://*.google-analytics.com',
+//   'https://api.iconify.design'
+// ]
 
 export default defineNuxtConfig({
   extends: [
-    '0.base'
+    '../nuxt-layers/block-elements',
+    '../nuxt-layers/simple-contact-form',
+    '../nuxt-layers/cookie-consent'
   ],
 
   modules: [
@@ -25,8 +30,9 @@ export default defineNuxtConfig({
     '@nuxt/a11y',
     '@nuxt/hints',
     '@nuxt/scripts',
+    // 'nuxt-security',
     '@nuxtjs/sitemap',
-    'nuxt-security'
+    '@nuxtjs/robots'
   ],
   // ssr: true,
 
@@ -98,15 +104,20 @@ export default defineNuxtConfig({
     }
   },
 
-  security: {
-    nonce: true,
-    headers: {
-      contentSecurityPolicy: {
-        'script-src': ['\'self\'', '\'unsafe-inline\'', '\'nonce-{{nonce}}\'', ...externalSites],
-        'img-src': ['\'self\'', 'data:', ...externalSites],
-        'connect-src': ['\'self\'', ...externalSites]
-        // Add other directives as needed (e.g., 'style-src', 'font-src')
-      }
-    }
+  // security: {
+  //   nonce: true,
+  //   headers: {
+  //     contentSecurityPolicy: {
+  //       'script-src': ['\'self\'', '\'unsafe-inline\'', '\'nonce-{{nonce}}\'', ...externalSites],
+  //       'img-src': ['\'self\'', 'data:', ...externalSites],
+  //       'connect-src': ['\'self\'', ...externalSites]
+  //       // Add other directives as needed (e.g., 'style-src', 'font-src')
+  //     }
+  //   }
+  // },
+
+  sitemap: {
+    exclude: ['wiadomosci-o-mediacjach/gazda'],
+    sources: ['/api/__sitemap__/urls']
   }
 })
