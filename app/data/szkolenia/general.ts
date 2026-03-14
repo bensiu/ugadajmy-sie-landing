@@ -25,35 +25,35 @@ export const page: DetailPageProps = {
         icon: 'lucide-building-2',
         title: 'Szkolenia dla&nbsp;firm',
         description: 'Kompleksowe programy szkoleniowe dopasowane do&nbsp;potrzeb organizacji. Rozwijamy kompetencje komunikacyjne całych zespołów.',
-        path: '/szkolenia-dla-firm-szczecin',
+        link: '/szkolenia-dla-firm-szczecin',
         items: ['Analiza potrzeb', 'Programy dedykowane', 'Szkolenia w&nbsp;siedzibie firmy']
       },
       {
         icon: 'lucide-message-square',
         title: 'Szkolenia z&nbsp;komunikacji',
         description: 'Warsztaty doskonalące umiejętności skutecznej komunikacji interpersonalnej i&nbsp;asertywności.',
-        path: '/szkolenia-z-komunikacji-szczecin',
+        link: '/szkolenia-z-komunikacji-szczecin',
         items: ['Komunikacja interpersonalna', 'Asertywność', 'Aktywne słuchanie']
       },
       {
         icon: 'lucide-handshake',
         title: 'Szkolenia z&nbsp;mediacji',
         description: 'Profesjonalne szkolenia dla&nbsp;osób chcących zostać mediatorami lub&nbsp;rozwijać umiejętności mediacyjne.',
-        path: '/szkolenia-z-mediacji-szczecin',
+        link: '/szkolenia-z-mediacji-szczecin',
         items: ['Techniki mediacyjne', 'Certyfikacja', 'Praktyczne ćwiczenia']
       },
       {
         icon: 'lucide-heart',
         title: 'Warsztaty rozwojowe',
         description: 'Intensywne warsztaty wspierające rozwój osobisty i&nbsp;budowanie lepszych relacji.',
-        path: '/szkolenia-warsztaty-rozwojowe-szczecin',
+        link: '/szkolenia-warsztaty-rozwojowe-szczecin',
         items: ['Rozwój osobisty', 'Inteligencja emocjonalna', 'Radzenie ze stresem']
       },
       {
         icon: 'lucide-users',
         title: 'Program współpracy dla&nbsp;firm',
         description: 'Długofalowe wsparcie w&nbsp;zakresie rozwoju kompetencji komunikacyjnych dla&nbsp;organizacji.',
-        path: '/szkolenia-program-wspolpracy-dla-firm-szczecin',
+        link: '/szkolenia-program-wspolpracy-dla-firm-szczecin',
         items: ['Stałe wsparcie', 'Elastyczne warunki', 'Dedykowany opiekun']
       }
     ]

@@ -33,35 +33,35 @@ export const page: DetailPageProps = {
         icon: 'lucide-heart',
         title: 'Terapia małżeńska',
         description: 'Profesjonalna pomoc dla małżeństw w&nbsp;kryzysie. Odbudowa zaufania, poprawa komunikacji i&nbsp;wzmocnienie więzi.',
-        path: '/terapia-dla-par-malzenska-szczecin'
+        link: '/terapia-dla-par-malzenska-szczecin'
         // items: ['Analiza potrzeb', 'Programy dedykowane', 'Szkolenia w&nbsp;siedzibie firmy']
       },
       {
         icon: 'lucide-sparkles',
         title: 'Program „Razem czy osobno?"',
         description: '13-modułowy program dla par oparty na strukturze mediacji. Konkretne ramy i&nbsp;jasny plan pracy nad relacją.',
-        path: '/program-razem-czy-osobno-szczecin'
+        link: '/program-razem-czy-osobno-szczecin'
         // items: ['Komunikacja interpersonalna', 'Asertywność', 'Aktywne słuchanie']
       },
       {
         icon: 'lucide-users',
         title: 'Warsztaty dla&nbsp;par',
         description: 'Intensywne warsztaty komunikacyjne dla&nbsp;par. Praktyczne narzędzia do&nbsp;lepszego porozumienia.',
-        path: '/warsztaty-dla-par-szczecin'
+        link: '/warsztaty-dla-par-szczecin'
         // items: ['Rozwój osobisty', 'Inteligencja emocjonalna', 'Radzenie ze stresem']
       },
       {
         icon: 'lucide-message-circle',
         title: 'Konsultacje przedrozwodowe',
         description: 'Wsparcie w&nbsp;podjęciu decyzji o&nbsp;przyszłości związku. Obiektywna perspektywa i&nbsp;pomoc w&nbsp;trudnych wyborach.',
-        path: '/terapia-dla-par-przedrozwodowa-szczecin'
+        link: '/terapia-dla-par-przedrozwodowa-szczecin'
         // items: ['Stałe wsparcie', 'Elastyczne warunki', 'Dedykowany opiekun']
       },
       {
         icon: 'lucide-shield',
         title: 'Terapia po&nbsp;zdradzie',
         description: 'Profesjonalne wsparcie w&nbsp;odbudowie relacji po&nbsp;zdradzie. Praca nad zaufaniem i&nbsp;przebaczeniem.',
-        path: '/terapia-dla-par-po-zdradzie-szczecin'
+        link: '/terapia-dla-par-po-zdradzie-szczecin'
         // items: ['Stałe wsparcie', 'Elastyczne warunki', 'Dedykowany opiekun']
       }
     ]

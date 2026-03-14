@@ -35,7 +35,7 @@ if (page?.seo) {
         <NuxtLink
           v-for="(service, index) in page.kinds.items"
           :key="`service-${index}`"
-          :to="service.path"
+          :to="service.link"
         >
           <BlocksFeatureCard
             v-bind="service"

@@ -41,7 +41,7 @@ const props = defineProps<DetailPageProps>()
         <NuxtLink
           v-for="(service, index) in props.kinds.items"
           :key="`service-${index}`"
-          :to="service.path"
+          :to="service.link"
         >
           <BlocksFeatureCard
             v-bind="service"

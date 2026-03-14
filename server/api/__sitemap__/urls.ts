@@ -5,11 +5,11 @@ import { page as szkolenia } from '~~/app/data/szkolenia/general'
 
 export default defineSitemapEventHandler(() => {
   const urls: string[] = [
-    ...(terapia.kinds?.items?.map(item => item.path) || []),
-    ...(coaching.kinds?.items?.map(item => item.path) || []),
-    ...(mediacje.kinds?.items?.map(item => item.path) || []),
-    ...(szkolenia.kinds?.items?.map(item => item.path) || [])
-  ]
+    ...(szkolenia.kinds?.items?.map(item => item.link || '') || []),
+    ...(coaching.kinds?.items?.map(item => item.link || '') || []),
+    ...(mediacje.kinds?.items?.map(item => item.link || '') || []),
+    ...(terapia.kinds?.items?.map(item => item.link || '') || [])
+  ].filter(item => item)
 
   return [
     { loc: '/', images: [{ loc: '/images/Aleksandra_Dubiel.jpg' }] },

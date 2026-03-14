@@ -44,7 +44,7 @@ export const page: DetailPageProps & {
     items: [
       {
         title: 'Mediacje',
-        path: '/mediacje-szczecin',
+        link: '/mediacje-szczecin',
         description: 'Skuteczne rozwiązywanie konfliktów rodzinnych, rozwodowych, gospodarczych i&nbsp;cywilnych. Bez&nbsp;sądu, szybciej i&nbsp;taniej.',
         icon: 'lucide-scale',
         items: [
@@ -57,7 +57,7 @@ export const page: DetailPageProps & {
       },
       {
         title: 'Terapia dla par',
-        path: '/terapia-dla-par-szczecin',
+        link: '/terapia-dla-par-szczecin',
         description: 'Profesjonalne wsparcie relacji. Poprawa komunikacji, rozwiązywanie kryzysów, program \'Razem czy&nbsp;osobno?\'.',
         icon: 'lucide-heart',
         items: [
@@ -69,7 +69,7 @@ export const page: DetailPageProps & {
       },
       {
         title: 'Coaching',
-        path: '/coaching-szczecin',
+        link: '/coaching-szczecin',
         description: 'Rozwój osobisty i&nbsp;zawodowy z&nbsp;profesjonalnym wsparciem. Coaching dla&nbsp;kobiet, biznesowy i&nbsp;decyzyjny.',
         icon: 'lucide-target',
         items: [
@@ -81,7 +81,7 @@ export const page: DetailPageProps & {
       },
       {
         title: 'Szkolenia',
-        path: '/szkolenia-szczecin',
+        link: '/szkolenia-szczecin',
         description: 'Szkolenia z&nbsp;komunikacji i&nbsp;rozwiązywania konfliktów dla&nbsp;firm i&nbsp;osób prywatnych w&nbsp;Szczecinie.',
         icon: 'lucide-graduation-cap',
         items: [

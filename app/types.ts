@@ -1,30 +1,26 @@
-export type { CookieConsentBanerProps } from '../../nuxt-layers/cookie-consent/app/types'
+import type {
+  SectionVariant,
+  MarkupSEO,
+  SEO,
+  BreadCrumbsItem,
+  // FeatureItemProps,
+  SectionContentProps
+} from '../../nuxt-layers/block-elements/types'
+
+export type { CookieConsentBanerProps } from '../../nuxt-layers/cookie-consent/types'
+
+export type {
+  SectionVariant,
+  MarkupSEO,
+  SEO,
+  BreadCrumbsItem
+}
 
 export interface ProcessStep {
   title: string
   step?: string | number
   icon?: string
   description: string
-}
-
-export type SectionVariant = 'default' | 'subtle' | 'primary'
-
-export interface MarkupSEO {
-  serviceType: string
-  name?: string
-  description?: string
-}
-
-export interface SEO {
-  title: string
-  description: string
-  author?: string
-  markup?: MarkupSEO
-}
-
-export interface BreadCrumbsItem {
-  label: string
-  href?: string
 }
 
 export interface DetailPageProps {
@@ -41,20 +37,21 @@ export interface DetailPageProps {
     description: string[]
     variant?: SectionVariant
   }
-  kinds?: {
-    lead?: string
-    title: string
-    description: string
-    variant?: SectionVariant
-    class?: string
-    items: {
-      title: string
-      path: string
-      description: string
-      icon: string
-      items?: string[]
-    }[]
-  }
+  kinds?: SectionContentProps
+  // _kinds?: {
+  //   lead?: string
+  //   title: string
+  //   description: string
+  //   variant?: SectionVariant
+  //   class?: string
+  //   items: {
+  //     title: string
+  //     path: string
+  //     description: string
+  //     icon: string
+  //     items?: string[]
+  //   }[]
+  // }
   whenToUse?: {
     title: string
     variant?: SectionVariant

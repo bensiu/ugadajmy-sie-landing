@@ -30,61 +30,61 @@ export const page: DetailPageProps = {
     items: [
       {
         title: 'Mediacje rodzinne',
-        path: '/mediacje-rodzinne-szczecin',
+        link: '/mediacje-rodzinne-szczecin',
         description: 'Konflikty rodzinne, podział majątku, opieka nad&nbsp;dziećmi',
         icon: 'lucide-users'
       },
       {
         title: 'Mediacje okołorozwodowe',
-        path: '/mediacje-okolorozwodowe-szczecin',
+        link: '/mediacje-okolorozwodowe-szczecin',
         description: 'Przygotowanie do&nbsp;rozwodu, ustalenia przedrozwodowe',
         icon: 'lucide-heart'
       },
       {
         title: 'Mediacje rozwodowe',
-        path: '/mediacje-rozwodowe-szczecin',
+        link: '/mediacje-rozwodowe-szczecin',
         description: 'Negocjacje warunków rozwodu, alimenty, kontakty z&nbsp;dziećmi',
         icon: 'lucide-scale'
       },
       {
         title: 'Mediacje gospodarcze',
-        path: '/mediacje-gospodarcze-szczecin',
+        link: '/mediacje-gospodarcze-szczecin',
         description: 'Spory między przedsiębiorcami, kontrakty, windykacja',
         icon: 'lucide-briefcase'
       },
       {
         title: 'Mediacje cywilne',
-        path: '/mediacje-cywilne-szczecin',
+        link: '/mediacje-cywilne-szczecin',
         description: 'Sprawy majątkowe, umowy, odszkodowania',
         icon: 'lucide-scale'
       },
       {
         title: 'Mediacje spadkowe',
-        path: '/mediacje-spadkowe-szczecin',
+        link: '/mediacje-spadkowe-szczecin',
         description: 'Dziedziczenie, podział spadku, zachowek',
         icon: 'lucide-home'
       },
       {
         title: 'Mediacje sąsiedzkie',
-        path: '/mediacje-sasiedzkie-szczecin',
+        link: '/mediacje-sasiedzkie-szczecin',
         description: 'Konflikty sąsiedzkie, immisje, granice działek',
         icon: 'lucide-building-2'
       },
       {
         title: 'Mediacje dla&nbsp;firm',
-        path: '/mediacje-dla-firm-szczecin',
+        link: '/mediacje-dla-firm-szczecin',
         description: 'Konflikty w&nbsp;zespołach, spory pracownicze, negocjacje',
         icon: 'lucide-users'
       },
       {
         title: 'Mediacje z&nbsp;udziałem dzieci',
-        path: '/mediacje-z-udzialem-dzieci-szczecin',
+        link: '/mediacje-z-udzialem-dzieci-szczecin',
         description: 'Głos dziecka w&nbsp;mediacjach, wsparcie dla&nbsp;najmłodszych',
         icon: 'lucide-baby'
       },
       {
         title: 'Mediacje online',
-        path: '/mediacje-online-szczecin',
+        link: '/mediacje-online-szczecin',
         description: 'Zdalne sesje mediacyjne dla&nbsp;osób spoza Szczecina',
         icon: 'lucide-monitor'
       }

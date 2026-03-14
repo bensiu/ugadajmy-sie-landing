@@ -32,31 +32,31 @@ export const page: DetailPageProps = {
         icon: 'lucide-trending-up',
         title: 'Coaching kariery',
         description: 'Awans, zmiana ścieżki zawodowej, trudne decyzje w&nbsp;pracy – razem znajdziemy drogę do&nbsp;Twoich celów zawodowych.',
-        path: '/coaching-kariery-szczecin'
+        link: '/coaching-kariery-szczecin'
       },
       {
         icon: 'lucide-target',
         title: 'Coaching biznesowy',
         description: 'Strategia, przywództwo, zarządzanie zespołem. Wspieram przedsiębiorców w&nbsp;budowaniu sukcesu.',
-        path: '/coaching-biznesowy-szczecin'
+        link: '/coaching-biznesowy-szczecin'
       },
       {
         icon: 'lucide-users',
         title: 'Coaching konfliktów',
         description: 'Nauczysz się radzić sobie z&nbsp;napięciami i&nbsp;budować zdrowe relacje – w&nbsp;pracy i&nbsp;w życiu prywatnym.',
-        path: '/coaching-konfliktow-szczecin'
+        link: '/coaching-konfliktow-szczecin'
       },
       {
         icon: 'lucide-compass',
         title: 'Coaching życiowy',
         description: 'Odkryj swoje wartości, zdefiniuj cele i&nbsp;stwórz plan życia zgodnego z&nbsp;Twoimi marzeniami.',
-        path: '/coaching-zyciowy-szczecin'
+        link: '/coaching-zyciowy-szczecin'
       },
       {
         icon: 'lucide-heart',
         title: 'Coaching indywidualny',
         description: 'Każdy ma inne potrzeby. Sesje dopasowane do&nbsp;Twojej unikalnej sytuacji i&nbsp;celów.',
-        path: '/coaching-indywidualny-szczecin'
+        link: '/coaching-indywidualny-szczecin'
       }
     ]
   },
