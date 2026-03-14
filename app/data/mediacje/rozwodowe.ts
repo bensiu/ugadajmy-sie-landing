@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są mediacje rozwodowe?',
-    description: [
+    content: [
       'Mediacje rozwodowe to alternatywa dla&nbsp;walki w&nbsp;sądzie. Zamiast oddawać decyzję o&nbsp;swoim życiu w&nbsp;ręce sędziego, sami ustalacie warunki rozwodu pod moim przewodnictwem. w&nbsp;Szczecinie od lat pomagam parom przejść przez ten trudny czas z&nbsp;godnością.',
       'Jako mediator sądowy jestem wpisany na&nbsp;listę stałych mediatorów. Oznacza to, że ugoda zawarta przede mną może być zatwierdzona przez sąd i&nbsp;zyskać moc prawną równą wyrokowi. Możecie ją egzekwować tak samo jak orzeczenie sądowe.',
       'W moim gabinecie przy ul. Kapitańskiej 3a w&nbsp;Szczecinie stwarzam warunki do&nbsp;spokojnej rozmowy. Pomagam obu stronom wyrazić swoje potrzeby i&nbsp;znaleźć rozwiązania, które uwzględniają interesy całej rodziny – szczególnie dzieci.'

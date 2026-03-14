@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Na czym polega coaching życiowy?',
-    description: [
+    content: [
       'Coaching życiowy (life coaching) to partnerska relacja, która pomaga Ci żyć pełnią życia. Wspólnie odkrywamy Twoje wartości, pasje i&nbsp;cele, a następnie tworzymy plan ich realizacji w&nbsp;sposób autentyczny i&nbsp;zgodny z&nbsp;tym, kim naprawdę jesteś.',
       'Wielu ludzi czuje, że gdzieś po drodze zagubiło się w&nbsp;codzienności – rutyna, oczekiwania innych, presja społeczna. Coaching życiowy to przestrzeń, w&nbsp;której możesz się zatrzymać, przemyśleć swoje życie i&nbsp;świadomie wybrać kierunek, który ma dla&nbsp;Ciebie sens.',
       'Jako coach pomagam Ci zadać właściwe pytania, zobaczyć nowe możliwości i&nbsp;pokonać bariery, które Cię ograniczają. Nie daję gotowych odpowiedzi – wierzę, że masz w&nbsp;sobie mądrość potrzebną do&nbsp;zbudowania życia, jakiego pragniesz.'

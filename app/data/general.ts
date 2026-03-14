@@ -1,19 +1,19 @@
-import type { DetailPageProps, SectionVariant } from '~/types'
+import type { DetailPageProps, SectionContentProps } from '~/types'
 import { config } from './config'
 
-interface SectionMeDetails {
-  lead?: string
-  title: string
-  description: string
-  variant?: SectionVariant
-  class?: string
-  items: {
-    title: string
-    path?: string
-    description: string
-    icon: string
-  }[]
-}
+// interface SectionMeDetails {
+//   lead?: string
+//   title: string
+//   description: string
+//   variant?: SectionVariant
+//   class?: string
+//   items: {
+//     title: string
+//     path?: string
+//     description: string
+//     icon: string
+//   }[]
+// }
 
 interface ContactDetails {
   footer: {
@@ -23,9 +23,9 @@ interface ContactDetails {
 }
 
 export const page: DetailPageProps & {
-  whyMe: SectionMeDetails
-  aboutMe: SectionMeDetails
-  contact: SectionMeDetails & ContactDetails
+  whyMe: SectionContentProps
+  aboutMe: SectionContentProps
+  contact: SectionContentProps & ContactDetails
 } = {
   id: 'ugadajmy-sie-szczecin',
   seo: {
@@ -172,13 +172,13 @@ export const page: DetailPageProps & {
         icon: 'i-lucide-phone',
         title: 'Telefon',
         description: config.phone,
-        path: `tel:${config.phone.replaceAll(' ', '')}`
+        link: `tel:${config.phone.replaceAll(' ', '')}`
       },
       {
         icon: 'i-lucide-mail',
         title: 'Email',
         description: config.email || '',
-        path: `mailto:${config.email}`
+        link: `mailto:${config.email}`
       },
       {
         icon: 'i-lucide-map-pin',

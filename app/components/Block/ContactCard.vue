@@ -1,13 +1,8 @@
 <script setup lang="ts">
-interface InfoItem {
-  title: string
-  description: string
-  icon: string // e.g., 'i-lucide-phone'
-  path?: string
-}
+import type { FeatureItemProps } from '~/types'
 
 defineProps<{
-  item: InfoItem
+  item: FeatureItemProps
 }>()
 </script>
 
@@ -28,8 +23,8 @@ defineProps<{
       </p>
 
       <ULink
-        v-if="item.path"
-        :to="item.path"
+        v-if="item.link"
+        :to="item.link"
         class="font-medium text-foreground hover:text-primary transition-colors"
       >
         {{ item.description }}

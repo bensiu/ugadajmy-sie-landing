@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są mediacje gospodarcze?',
-    description: [
+    content: [
       'Mediacje gospodarcze to sposób rozwiązywania sporów między przedsiębiorcami poza sądem. w&nbsp;Szczecinie pomagam firmom negocjować porozumienia w&nbsp;sprawach kontraktowych, windykacyjnych czy konfliktów wspólników – szybciej i&nbsp;taniej niż na&nbsp;drodze sądowej.',
       'Jako prawnik z&nbsp;wieloletnim doświadczeniem rozumiem specyfikę biznesu. Wiem, że w&nbsp;świecie przedsiębiorców liczy się czas, dyskrecja i&nbsp;konkretne rozwiązania. Spory sądowe ciągną się latami, blokują kapitał i&nbsp;niszczą relacje biznesowe.',
       'Mój gabinet przy ul. Kapitańskiej 3a w&nbsp;Szczecinie to neutralne miejsce dla&nbsp;negocjacji. Oferuję również mediacje online dla&nbsp;firm spoza regionu. Wszystkie rozmowy są objęte pełną poufnością.'

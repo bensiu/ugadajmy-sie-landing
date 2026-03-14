@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są mediacje z&nbsp;udziałem dzieci?',
-    description: [
+    content: [
       'Mediacja z&nbsp;udziałem dzieci to szczególny rodzaj mediacji rodzinnej, w&nbsp;której głos dziecka jest uwzględniany przy wypracowywaniu rozwiązań. Nie oznacza to stawiania dziecka w&nbsp;roli arbitra czy obciążania go decyzjami dorosłych – chodzi o&nbsp;zrozumienie perspektywy i&nbsp;potrzeb najmłodszych, które często są inne niż zakładają rodzice.',
       'Jako mediator z&nbsp;doświadczeniem w&nbsp;pracy z&nbsp;dziećmi, stosuję specjalne techniki dostosowane do&nbsp;wieku i&nbsp;rozwoju dziecka. Rozmowa z&nbsp;7-latkiem wygląda inaczej niż z&nbsp;nastolatkiem. w&nbsp;każdym przypadku dbam o&nbsp;to, by dziecko czuło się bezpieczne i&nbsp;by nie było wciągane w&nbsp;konflikt rodziców.',
       'Sesje z&nbsp;udziałem dzieci prowadzę w&nbsp;przyjaznej przestrzeni gabinetu przy ul. Kapitańskiej 3a w&nbsp;Szczecinie. Najpierw spotykam się z&nbsp;rodzicami, by ustalić zasady, a dopiero potem, jeśli to wskazane, zapraszam dziecko na&nbsp;rozmowę lub&nbsp;wspólną sesję.'

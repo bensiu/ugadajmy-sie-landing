@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są mediacje rodzinne?',
-    description: [
+    content: [
       'Mediacje rodzinne to sposób na&nbsp;rozwiązanie konfliktów w&nbsp;rodzinie bez angażowania sądu. Jako doświadczony mediator w&nbsp;Szczecinie pomagam członkom rodzin znaleźć wspólne rozwiązania w&nbsp;sprawach dotyczących opieki nad dziećmi, podziału majątku, alimentów czy kontaktów z&nbsp;bliskimi.',
       'Konflikty rodzinne są szczególnie trudne, bo dotyczą osób najbliższych. Emocje często przesłaniają racjonalne myślenie, a każda rozmowa kończy się kłótnią. w&nbsp;gabinecie przy ul. Kapitańskiej 3a w&nbsp;Szczecinie tworzę bezpieczną przestrzeń, gdzie możecie spokojnie porozmawiać pod moim przewodnictwem.',
       'Moje podejście łączy doświadczenie prawnika z&nbsp;umiejętnościami psychologicznymi. Dzięki temu mediacja nie tylko rozwiązuje bieżący konflikt, ale często pomaga odbudować komunikację w&nbsp;rodzinie na&nbsp;przyszłość.'

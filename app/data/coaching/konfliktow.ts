@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Na czym polega coaching konfliktów?',
-    description: [
+    content: [
       'Coaching konfliktów to specjalistyczne wsparcie w&nbsp;radzeniu sobie z&nbsp;trudnymi sytuacjami międzyludzkimi. Pomagam Ci rozwinąć umiejętności zarządzania konfliktami – zarówno w&nbsp;życiu zawodowym, jak i&nbsp;prywatnym.',
       'Konflikty są naturalną częścią relacji, ale nieumiejętnie zarządzane mogą niszczyć więzi, obniżać produktywność i&nbsp;powodować chroniczny stres. w&nbsp;trakcie sesji coachingowych pracujemy nad rozumieniem dynamiki konfliktów i&nbsp;skutecznymi strategiami ich rozwiązywania.',
       'Jako mediator i&nbsp;coach łączę wiedzę o&nbsp;psychologii konfliktu z&nbsp;praktycznymi narzędziami komunikacji. Pomagam klientom nie tylko rozwiązywać bieżące spory, ale też budować trwałe umiejętności, które zapobiegają eskalacji przyszłych napięć.'

@@ -48,7 +48,7 @@ export const page: DetailPageProps & ProgramRazemCzyOsobnoDetails = {
 
   whatIsIt: {
     title: 'Dla kogo jest program „Razem czy osobno?"',
-    description: [
+    content: [
       'Program stworzyłam z&nbsp;myślą o&nbsp;parach, które potrzebują konkretnych ram i&nbsp;jasnego planu pracy. Wiele par przychodzi do&nbsp;terapeutów i&nbsp;nie wie, czego się spodziewać, ile potrwa proces i&nbsp;o&nbsp;czym będą rozmawiać. Program „Razem czy osobno?" daje Wam tę jasność.',
       'Nie musicie przechodzić wszystkich 13 modułów. Na konsultacji wstępnej wspólnie wybierzemy te, które są najbardziej istotne dla Waszej sytuacji. Możecie też zacząć od podstawowych modułów i&nbsp;dodawać kolejne w&nbsp;trakcie.',
       'Program sprawdza się zarówno dla par, które chcą uratować związek, jak i&nbsp;dla tych, którzy rozważają rozstanie, ale chcą podjąć świadomą decyzję i&nbsp;rozstać się w&nbsp;sposób cywilizowany, szczególnie jeśli mają dzieci.'

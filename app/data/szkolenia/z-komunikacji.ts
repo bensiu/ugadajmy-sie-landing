@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są szkolenia z&nbsp;komunikacji?',
-    description: [
+    content: [
       'Szkolenia z&nbsp;komunikacji w&nbsp;Szczecinie to praktyczne warsztaty, które pomagają rozwijać umiejętność skutecznego porozumiewania się w&nbsp;życiu zawodowym i&nbsp;prywatnym. Jako trener i&nbsp;mediator, uczę technik, które pozwalają budować lepsze relacje, unikać nieporozumień i&nbsp;osiągać cele w&nbsp;rozmowach.',
       'Skuteczna komunikacja to fundament sukcesu w&nbsp;każdej dziedzinie życia. na&nbsp;szkoleniach poznajesz mechanizmy, które wpływają na&nbsp;jakość Twoich rozmów, uczysz się rozpoznawać bariery komunikacyjne i&nbsp;ćwiczysz konkretne techniki, które możesz zastosować od razu po szkoleniu.',
       'Warsztaty prowadzę w&nbsp;formie interaktywnej – większość czasu to ćwiczenia praktyczne, symulacje rozmów i&nbsp;analiza realnych przypadków. Teoria stanowi jedynie punkt wyjścia do&nbsp;rozwijania umiejętności poprzez praktykę.'

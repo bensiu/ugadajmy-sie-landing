@@ -40,13 +40,11 @@ if (page?.seo) {
           <BlocksFeatureCard
             v-bind="service"
             class="h-full flex flex-col items-center text-left"
-            link="Zobacz szczegóły"
+            link-title="Zobacz szczegóły"
           />
         </NuxtLink>
       </div>
     </BlocksSectionWrapper>
-
-    <!-- <SectionsAboutMe /> -->
 
     <BlocksSectionWrapper
       v-if="page.aboutMe"

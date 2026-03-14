@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są warsztaty dla par?',
-    description: [
+    content: [
       'Warsztaty dla par to intensywna forma pracy nad relacją, która łączy edukację z&nbsp;praktyką. W&nbsp;przeciwieństwie do&nbsp;tradycyjnej terapii, podczas warsztatów aktywnie ćwiczycie nowe umiejętności w&nbsp;bezpiecznym środowisku, pod&nbsp;okiem doświadczonego prowadzącego.',
       'Prowadzę warsztaty dla pojedynczych par (format indywidualny) oraz dla grup par (format grupowy). Format indywidualny pozwala skupić się wyłącznie na Waszych potrzebach. Format grupowy daje dodatkową wartość – możecie zobaczyć, że&nbsp;inni mierzą się z&nbsp;podobnymi wyzwaniami.',
       'Każdy warsztat ma konkretny temat i&nbsp;jasno określone cele. Po zakończeniu wychodzicie z&nbsp;praktycznymi narzędziami, które możecie stosować na co dzień. To nie jest rozmowa o&nbsp;problemach – to nauka konkretnych umiejętności.'

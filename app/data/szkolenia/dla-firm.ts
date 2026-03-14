@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są szkolenia firmowe?',
-    description: [
+    content: [
       'Szkolenia dla&nbsp;firm w&nbsp;Szczecinie to kompleksowe programy rozwojowe, które pomagają budować silne, efektywnie komunikujące się zespoły. Jako doświadczony trener i&nbsp;mediator, łączę wiedzę teoretyczną z&nbsp;praktycznymi umiejętnościami, które Twoi pracownicy mogą wdrożyć od razu.',
       'Każde szkolenie firmowe poprzedza szczegółowa analiza potrzeb organizacji. Rozmawiam z&nbsp;kadrą zarządzającą, poznaję specyfikę branży i&nbsp;wyzwania, z&nbsp;jakimi mierzy się zespół. na&nbsp;tej podstawie tworzę program szkoleniowy, który odpowiada na&nbsp;realne problemy firmy.',
       'Prowadzę szkolenia w&nbsp;siedzibie firmy lub&nbsp;w&nbsp;wynajętej sali szkoleniowej. Elastyczne formy współpracy pozwalają dopasować intensywność i&nbsp;czas trwania programu do&nbsp;możliwości organizacji. Oferuję zarówno jednodniowe warsztaty, jak i&nbsp;cykle szkoleniowe rozłożone na&nbsp;kilka miesięcy.'

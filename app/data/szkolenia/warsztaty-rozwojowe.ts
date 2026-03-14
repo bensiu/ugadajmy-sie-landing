@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są warsztaty rozwojowe?',
-    description: [
+    content: [
       'Warsztaty rozwojowe w&nbsp;Szczecinie to intensywne spotkania grupowe, które wspierają rozwój osobisty i&nbsp;budowanie lepszych relacji. Łączę wiedzę z&nbsp;psychologii, coachingu i&nbsp;mediacji, tworząc przestrzeń do&nbsp;głębokiej pracy nad sobą w&nbsp;bezpiecznym środowisku.',
       'Warsztaty prowadzę w&nbsp;małych grupach, co pozwala na&nbsp;indywidualne podejście i&nbsp;głęboką pracę. Uczestnicy uczą się od siebie nawzajem, dzielą doświadczeniami i&nbsp;budują wspierającą społeczność osób zainteresowanych rozwojem.',
       'Każdy warsztat ma określony temat i&nbsp;cele. Pracujemy nad konkretnymi umiejętnościami – od zarządzania emocjami, przez budowanie pewności siebie, po rozwijanie inteligencji emocjonalnej. Teoria stanowi jedynie punkt wyjścia do&nbsp;ćwiczeń praktycznych i&nbsp;refleksji.'

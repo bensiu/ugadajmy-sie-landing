@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są mediacje spadkowe?',
-    description: [
+    content: [
       'Mediacja spadkowa to sposób na&nbsp;rozwiązanie sporów o&nbsp;spadek bez angażowania sądu. Po śmierci bliskiej osoby emocje często biorą górę nad rozsądkiem, a kwestie finansowe stają się polem do&nbsp;rozgrywania starych rodzinnych konfliktów. Jako mediator w&nbsp;Szczecinie pomagam spadkobiercom przeprowadzić ten trudny proces z&nbsp;szacunkiem dla&nbsp;wszystkich stron.',
       'Moje doświadczenie prawnicze jest szczególnie cenne w&nbsp;sprawach spadkowych. Wyjaśniam zawiłości prawa spadkowego, tłumaczę konsekwencje różnych rozwiązań i&nbsp;pomagam wypracować porozumienie zgodne z&nbsp;przepisami. Dzięki temu unikacie kosztownych i&nbsp;wieloletnich procesów sądowych.',
       'W gabinecie przy ul. Kapitańskiej 3a w&nbsp;Szczecinie tworzę neutralną przestrzeń, gdzie spadkobiercy mogą spokojnie omówić podział majątku po zmarłym. Nawet jeśli relacje są napięte, mediacja często pozwala nie tylko podzielić spadek, ale też odbudować zerwane więzi rodzinne.'

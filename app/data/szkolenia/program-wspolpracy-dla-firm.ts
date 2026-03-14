@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Na czym polega program współpracy?',
-    description: [
+    content: [
       'Program stałej współpracy dla&nbsp;firm to długofalowe wsparcie w&nbsp;zakresie rozwoju kompetencji komunikacyjnych i&nbsp;rozwiązywania konfliktów w&nbsp;organizacji. Jako zewnętrzny ekspert towarzyszę firmie w&nbsp;procesie budowania zdrowej kultury komunikacji i&nbsp;efektywnej współpracy.',
       'W ramach programu oferuję regularne szkolenia, mediacje w&nbsp;sytuacjach konfliktowych, coaching dla&nbsp;menedżerów oraz konsultacje dla&nbsp;działu HR. Elastyczny model współpracy pozwala dostosować zakres i&nbsp;intensywność wsparcia do&nbsp;bieżących potrzeb organizacji.',
       'Stała współpraca to gwarancja ciągłości i&nbsp;głębokiego zrozumienia specyfiki firmy. Znam Twoich pracowników, rozumiem kulturę organizacyjną i&nbsp;mogę reagować szybko, gdy pojawia się potrzeba interwencji lub&nbsp;wsparcia.'

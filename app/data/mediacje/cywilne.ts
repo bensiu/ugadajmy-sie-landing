@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są mediacje cywilne?',
-    description: [
+    content: [
       'Mediacje cywilne obejmują szeroką gamę sporów między osobami fizycznymi lub&nbsp;podmiotami prawnymi. w&nbsp;Szczecinie pomagam rozwiązywać konflikty dotyczące umów, nieruchomości, odszkodowań, roszczeń majątkowych i&nbsp;wielu innych spraw cywilnych.',
       'Procesy cywilne w&nbsp;polskich sądach potrafią ciągnąć się latami. Koszty rosną, a wynik pozostaje niepewny. Mediacja oferuje szybszą ścieżkę – większość spraw rozwiązuję w&nbsp;ciągu kilku tygodni, a&nbsp;strony mają pełną kontrolę nad ostatecznym porozumieniem.',
       'Jako prawnik i&nbsp;mediator sądowy łączę znajomość prawa z&nbsp;umiejętnością prowadzenia trudnych negocjacji. w&nbsp;gabinecie przy ul. Kapitańskiej 3a w&nbsp;Szczecinie pomagam stronom znaleźć rozwiązania satysfakcjonujące dla&nbsp;wszystkich.'

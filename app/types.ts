@@ -3,7 +3,7 @@ import type {
   MarkupSEO,
   SEO,
   BreadCrumbsItem,
-  // FeatureItemProps,
+  FeatureItemProps,
   SectionContentProps
 } from '../../nuxt-layers/block-elements/types'
 
@@ -13,7 +13,9 @@ export type {
   SectionVariant,
   MarkupSEO,
   SEO,
-  BreadCrumbsItem
+  BreadCrumbsItem,
+  FeatureItemProps,
+  SectionContentProps
 }
 
 export interface ProcessStep {
@@ -32,26 +34,8 @@ export interface DetailPageProps {
   description: string
   backgroundImageClass?: string
 
-  whatIsIt?: {
-    title: string
-    description: string[]
-    variant?: SectionVariant
-  }
+  whatIsIt?: SectionContentProps
   kinds?: SectionContentProps
-  // _kinds?: {
-  //   lead?: string
-  //   title: string
-  //   description: string
-  //   variant?: SectionVariant
-  //   class?: string
-  //   items: {
-  //     title: string
-  //     path: string
-  //     description: string
-  //     icon: string
-  //     items?: string[]
-  //   }[]
-  // }
   whenToUse?: {
     title: string
     variant?: SectionVariant

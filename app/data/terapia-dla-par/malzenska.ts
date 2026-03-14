@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym jest terapia małżeńska?',
-    description: [
+    content: [
       'Terapia małżeńska to profesjonalne wsparcie dla par, które chcą poprawić jakość swojego związku. Nie&nbsp;musisz być na skraju rozwodu, żeby skorzystać z&nbsp;pomocy – wręcz przeciwnie, im wcześniej zaczniesz pracę nad relacją, tym łatwiej przywrócić porozumienie.',
       'Jako mediator i&nbsp;coach oferuję unikalne podejście do&nbsp;terapii małżeńskiej. Łączę techniki mediacyjne, które&nbsp;pomagają rozwiązywać konflikty,&nbsp; narzędziami coachingowymi, które wspierają rozwój i&nbsp;zmianę. Dzięki temu sesje są konkretne i&nbsp;nastawione na&nbsp;rezultat.',
       'W bezpiecznej przestrzeni gabinetu w&nbsp;Szczecinie lub podczas sesji online pomagam małżeństwom przywrócić komunikację, zrozumieć wzajemne potrzeby i&nbsp;wypracować nowe sposoby funkcjonowania w&nbsp;związku.'

@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Na czym polega coaching kariery?',
-    description: [
+    content: [
       'Coaching kariery to profesjonalne wsparcie w&nbsp;planowaniu i&nbsp;rozwoju ścieżki zawodowej. Niezależnie od tego, czy stoisz przed ważną decyzją o&nbsp;zmianie pracy, czy chcesz osiągnąć awans – pomogę Ci zdefiniować cele i&nbsp;stworzyć strategię ich realizacji.',
       'W trakcie sesji coachingowych pracujemy nad odkryciem Twoich mocnych stron, wartości zawodowych i&nbsp;unikalnych kompetencji. Identyfikujemy bariery, które blokują Twój rozwój, i&nbsp;wypracowujemy konkretne kroki do&nbsp;osiągnięcia sukcesu.',
       'Jako coach z&nbsp;doświadczeniem w&nbsp;mediacji i&nbsp;prawie, rozumiem złożoność środowiska zawodowego. Pomagam klientom nawigować w&nbsp;trudnych sytuacjach – od negocjacji warunków zatrudnienia, przez konflikty w&nbsp;zespole, po podejmowanie odważnych decyzji o&nbsp;zmianie branży.'

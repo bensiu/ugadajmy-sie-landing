@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czy po zdradzie można odbudować związek?',
-    description: [
+    content: [
       'Tak. Wiele par przechodzi przez zdradę i&nbsp;wychodzi z&nbsp;tego kryzysu z&nbsp;silniejszym związkiem niż przed. To nie jest łatwa droga, ale jest możliwa, gdy oboje partnerzy są gotowi na ciężką pracę i&nbsp;szczerość.',
       'Zdrada rzadko wydarza się w&nbsp;próżni. Zwykle jest symptomem głębszych problemów w&nbsp;relacji – niezaspokojonych potrzeb, problemów komunikacyjnych, kryzysu życiowego. Terapia po zdradzie to nie tylko praca nad przebaczeniem, ale przede wszystkim zrozumienie, co doprowadziło do&nbsp;tej sytuacji.',
       'Jako mediator i&nbsp;coach oferuję bezpieczną przestrzeń, w&nbsp;której oboje partnerzy mogą wyrazić swoje emocje – ból, gniew, poczucie winy, strach. Pomagam przejść przez najtrudniejsze rozmowy i&nbsp;stopniowo odbudować fundament związku.'

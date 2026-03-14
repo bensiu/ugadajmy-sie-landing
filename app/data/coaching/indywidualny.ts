@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Na czym polega coaching indywidualny?',
-    description: [
+    content: [
       'Coaching indywidualny to sesje 1:1 w&nbsp;pełni dostosowane do&nbsp;Twoich unikalnych potrzeb i&nbsp;celów. Niezależnie od tego, czy chodzi o&nbsp;życie zawodowe, relacje, rozwój osobisty czy konkretne wyzwania – tworzę przestrzeń, w&nbsp;której możesz skupić się wyłącznie na&nbsp;tym, co jest dla&nbsp;Ciebie najważniejsze.',
       'Każdy człowiek jest inny i&nbsp;ma inne potrzeby. Dlatego nie stosuję szablonowych rozwiązań. na&nbsp;początku naszej współpracy dokładnie poznaję Twoją sytuację, cele i&nbsp;styl uczenia się, żeby dopasować podejście coachingowe do&nbsp;Ciebie.',
       'Sesje indywidualne to Twój prywatny czas na&nbsp;refleksję, planowanie i&nbsp;działanie. Jako coach pomagam Ci myśleć jaśniej, odkrywać nowe perspektywy i&nbsp;podejmować decyzje z&nbsp;większą pewnością siebie. Wszystko w&nbsp;atmosferze całkowitej poufności i&nbsp;wzajemnego szacunku.'

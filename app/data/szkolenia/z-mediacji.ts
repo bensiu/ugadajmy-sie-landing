@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są szkolenia z&nbsp;mediacji?',
-    description: [
+    content: [
       'Szkolenia z&nbsp;mediacji w&nbsp;Szczecinie to profesjonalne kursy dla&nbsp;osób chcących zostać mediatorami lub&nbsp;rozwijać umiejętności mediacyjne w&nbsp;swojej pracy. Jako praktykujący mediator z&nbsp;wieloletnim doświadczeniem, przekazuję wiedzę opartą na&nbsp;realnych przypadkach i&nbsp;sprawdzonych technikach.',
       'Mediacja to skuteczna metoda rozwiązywania konfliktów, której mogą uczyć się nie tylko przyszli mediatorzy. Umiejętności mediacyjne są nieocenione dla&nbsp;menedżerów, specjalistów HR, prawników, terapeutów i&nbsp;wszystkich, którzy na&nbsp;co dzień pomagają innym rozwiązywać spory.',
       'Szkolenia prowadzę zgodnie ze standardami szkolenia mediatorów, co oznacza nacisk na&nbsp;praktykę, symulacje sesji mediacyjnych i&nbsp;superwizję. Uczestnicy uczą się przez doświadczenie, prowadząc mediacje pod moją opieką.'

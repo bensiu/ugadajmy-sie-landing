@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są mediacje okołorozwodowe?',
-    description: [
+    content: [
       'Mediacje okołorozwodowe to proces, który pozwala parom rozważającym rozstanie uporządkować najważniejsze sprawy jeszcze przed złożeniem pozwu rozwodowego. w&nbsp;Szczecinie pomagam parom ustalić warunki dotyczące dzieci, majątku i&nbsp;finansów w&nbsp;atmosferze dialogu, nie wojny.',
       'Decyzja o&nbsp;rozwodzie jest jedną z&nbsp;najtrudniejszych w&nbsp;życiu. Emocje często biorą górę, a każda rozmowa z&nbsp;partnerem kończy się awanturą. w&nbsp;moim gabinecie przy ul. Kapitańskiej 3a tworzę przestrzeń, gdzie możecie spokojnie przedyskutować przyszłość bez eskalacji konfliktów.',
       'Jako prawnik i&nbsp;mediator pomagam Wam wypracować porozumienie, które później możecie przedstawić sądowi. Rozwód za porozumieniem stron jest szybszy, tańszy i&nbsp;mniej traumatyczny dla&nbsp;wszystkich – szczególnie dla&nbsp;dzieci.'

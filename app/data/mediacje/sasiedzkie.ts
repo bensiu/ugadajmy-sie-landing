@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są mediacje sąsiedzkie?',
-    description: [
+    content: [
       'Mediacja sąsiedzka to skuteczny sposób na&nbsp;rozwiązanie sporów między sąsiadami bez angażowania sądu. Konflikty sąsiedzkie mają to do&nbsp;siebie, że dotyczą osób, które muszą ze sobą żyć obok siebie przez lata. Wyrok sądowy rzadko kończy problem – często go pogłębia. Mediacja pozwala wypracować rozwiązanie akceptowalne dla&nbsp;obu stron.',
       'Jako mediator w&nbsp;Szczecinie spotykam się z&nbsp;różnymi sporami sąsiedzkimi: od hałasu i&nbsp;uciążliwych zapachów, przez spory o&nbsp;granice działek, po problemy ze wspólnymi instalacjami. w&nbsp;każdym przypadku moim celem jest nie tylko rozwiązać bieżący konflikt, ale też nauczyć sąsiadów komunikacji na&nbsp;przyszłość.',
       'Sesje mediacyjne prowadzę w&nbsp;gabinecie przy ul. Kapitańskiej 3a w&nbsp;centrum Szczecina. To neutralna przestrzeń, gdzie sąsiedzi mogą spokojnie porozmawiać z&nbsp;dala od miejsca konfliktu. w&nbsp;razie potrzeby mogę też przeprowadzić wizję lokalną, by lepiej zrozumieć istotę sporu.'

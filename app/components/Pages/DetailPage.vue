@@ -22,7 +22,7 @@ const props = defineProps<DetailPageProps>()
     >
       <BlocksSectionHeader
         :title="props.whatIsIt.title"
-        :description="props.whatIsIt.description.join('<br><br>')"
+        :description="props.whatIsIt.content?.join('<br><br>')"
         class="text-left !mb-2"
       />
     </BlocksSectionWrapper>

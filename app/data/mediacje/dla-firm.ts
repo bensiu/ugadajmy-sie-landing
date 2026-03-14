@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są mediacje dla&nbsp;firm?',
-    description: [
+    content: [
       'Mediacja dla&nbsp;firm to profesjonalny sposób rozwiązywania konfliktów wewnątrz organizacji. Spory między pracownikami, działy w&nbsp;konflikcie, nieporozumienia między wspólnikami – to wszystko paraliżuje firmę i&nbsp;generuje realne straty. Jako mediator biznesowy w&nbsp;Szczecinie pomagam firmom przywrócić harmonię i&nbsp;produktywność.',
       'W przeciwieństwie do standardowych metod (dyscyplinarnych, prawnych), mediacja pozwala zachować relacje i&nbsp;zatrzymać wartościowych ludzi. Konflikty rozwiązane mediacyjnie rzadko wracają, bo strony same wypracowują rozwiązanie i&nbsp;czują się za nie odpowiedzialne.',
       'Prowadzę mediacje dla&nbsp;firm różnej wielkości – od małych rodzinnych przedsiębiorstw po korporacje. Sesje mogą odbywać się w&nbsp;moim gabinecie przy ul. Kapitańskiej 3a w&nbsp;Szczecinie lub&nbsp;w&nbsp;siedzibie firmy – zależnie od potrzeb i&nbsp;dyskrecji.'

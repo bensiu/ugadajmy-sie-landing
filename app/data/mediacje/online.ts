@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są mediacje online?',
-    description: [
+    content: [
       'Mediacja online to pełnowartościowy proces mediacyjny prowadzony przez wideokonferencję. Wykorzystuję sprawdzone platformy do&nbsp;spotkań wideo, które zapewniają bezpieczeństwo i&nbsp;poufność rozmów. dla&nbsp;wielu osób mediacja online jest wygodniejsza niż tradycyjna – oszczędza czas na&nbsp;dojazdy i&nbsp;pozwala uczestniczyć z&nbsp;dowolnego miejsca.',
       'Jako mediator w&nbsp;Szczecinie mam wieloletnie doświadczenie w&nbsp;prowadzeniu mediacji online. Sprawdzają się one szczególnie w&nbsp;sprawach, gdzie strony mieszkają w&nbsp;różnych miastach lub&nbsp;krajach, a także gdy trudno o&nbsp;wspólny termin na&nbsp;spotkanie stacjonarne. Jakość i&nbsp;skuteczność mediacji online jest porównywalna do&nbsp;stacjonarnych.',
       'Sesje online prowadzę z&nbsp;mojego gabinetu przy ul. Kapitańskiej 3a w&nbsp;Szczecinie, korzystając z&nbsp;profesjonalnego sprzętu audio-video. Uczestnicy łączą się z&nbsp;komputera, tabletu lub&nbsp;telefonu – potrzebny jest tylko dostęp do&nbsp;internetu i&nbsp;spokojne miejsce do&nbsp;rozmowy.'

@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym są konsultacje przedrozwodowe?',
-    description: [
+    content: [
       'Konsultacje przedrozwodowe to profesjonalne wsparcie dla osób, które rozważają zakończenie małżeństwa lub związku, ale nie są pewne swojej decyzji. To przestrzeń, w&nbsp;której możesz uporządkować myśli, emocje i&nbsp;rozważyć wszystkie opcje.',
       'Nie jestem po to, żeby przekonywać Cię do&nbsp;zostania lub odejścia. Moją rolą jest pomóc Ci podjąć świadomą decyzję, którą będziesz mógł/mogła zaakceptować i&nbsp;z którą będziesz żyć. Decyzja o&nbsp;rozwodzie to jedna z&nbsp;najtrudniejszych życiowych wyborów – zasługujesz na wsparcie w&nbsp;jej podejmowaniu.',
       'Konsultacje mogą być indywidualne (gdy partner nie chce lub nie może uczestniczyć) lub wspólne (gdy oboje chcecie razem przemyśleć przyszłość). Jako mediator i&nbsp;coach oferuję obiektywną perspektywę bez oceniania.'

@@ -18,7 +18,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Na czym polega coaching biznesowy?',
-    description: [
+    content: [
       'Coaching biznesowy to strategiczne wsparcie dla&nbsp;przedsiębiorców, właścicieli firm i&nbsp;menedżerów. Pomagam Ci rozwijać biznes, budować skuteczne zespoły i&nbsp;podejmować lepsze decyzje w&nbsp;dynamicznym środowisku biznesowym.',
       'Prowadzenie firmy wymaga nieustannego podejmowania trudnych decyzji. Jako coach biznesowy wspieram Cię w&nbsp;myśleniu strategicznym, rozwiązywaniu problemów i&nbsp;rozwijaniu kompetencji przywódczych. Pracujemy nad tym, co blokuje rozwój Twojego biznesu.',
       'Moje doświadczenie w&nbsp;mediacji i&nbsp;prawie pozwala mi rozumieć złożoność relacji biznesowych – od negocjacji z&nbsp;kontrahentami, przez zarządzanie konfliktem w&nbsp;zespole, po planowanie strategii rozwoju. Pomagam przedsiębiorcom osiągać cele bez kompromisów na&nbsp;wartościach.'

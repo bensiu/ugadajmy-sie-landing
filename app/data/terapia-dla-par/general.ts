@@ -19,7 +19,7 @@ export const page: DetailPageProps = {
 
   whatIsIt: {
     title: 'Czym jest terapia dla par?',
-    description: [
+    content: [
       'Terapia dla&nbsp;par to profesjonalne wsparcie dla&nbsp;związków, które przeżywają trudności. Nie musisz być na&nbsp;skraju rozstania, żeby skorzystać z&nbsp;pomocy – wręcz przeciwnie, im&nbsp;wcześniej zaczniesz pracę nad&nbsp;relacją, tym łatwiej przywrócić porozumienie.',
       'Jako mediator i&nbsp;coach łączę techniki mediacyjne z&nbsp;narzędziami coachingowymi, co daje unikalne podejście do&nbsp;pracy z&nbsp;parami. Pomagam Wam zobaczyć sytuację z&nbsp;nowej perspektywy, zrozumieć potrzeby partnera i&nbsp;wypracować konkretne rozwiązania.',
       'W Szczecinie przyjmuję pary w&nbsp;gabinecie przy ul. Kapitańskiej 3a. Oferuję również sesje online dla&nbsp;par spoza miasta lub tych, którzy preferują tę&nbsp;formę kontaktu.'
