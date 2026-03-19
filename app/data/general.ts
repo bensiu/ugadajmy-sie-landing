@@ -1,20 +1,6 @@
 import type { DetailPageProps, SectionContentProps } from '~/types'
 import { config } from './config'
 
-// interface SectionMeDetails {
-//   lead?: string
-//   title: string
-//   description: string
-//   variant?: SectionVariant
-//   class?: string
-//   items: {
-//     title: string
-//     path?: string
-//     description: string
-//     icon: string
-//   }[]
-// }
-
 interface ContactDetails {
   footer: {
     title: string

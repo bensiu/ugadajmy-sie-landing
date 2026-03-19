@@ -1,4 +1,5 @@
 // const GA_ID = 'G-V511SC00K4'
+import { config as companyInfo } from './data/config'
 
 export default defineAppConfig({
   ui: {
@@ -7,8 +8,9 @@ export default defineAppConfig({
       neutral: 'slate'
     }
   },
+  companyInfo,
   cookieConsent: {
-    expiresInDays: 1, // 180,
+    expiresInDays: 180,
     consentVersion: '1.0.0',
     cookieName: 'cookie_consent',
     gtmConsentMapping: {

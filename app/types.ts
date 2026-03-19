@@ -7,7 +7,9 @@ import type {
   SectionContentProps
 } from '../../nuxt-layers/block-elements/types'
 
-export type { CookieConsentBanerProps } from '../../nuxt-layers/cookie-consent/types'
+export type {
+  CookieConsentBanerProps
+} from '../../nuxt-layers/google-tag-manager/types'
 
 export type {
   SectionVariant,

@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 // import type { CookieBanerProps } from '~/types'
-import { config } from './data/config'
+
+const { companyInfo } = useAppConfig()
 
 useSeoMeta({
   title: 'Ugadajmy się - Aleksandra Dubiel | Mediator, Coach | Szczecin',
@@ -36,6 +37,8 @@ useHead({
     lang: 'pl'
   }
 })
+
+const gtmId = 'GTM-W5RQV42V'
 
 const navLinks = [
   { href: '/mediacje-szczecin', label: 'Mediacje' },
@@ -129,7 +132,7 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
       <template #right>
         <div class="hidden lg:flex items-center gap-4">
           <UButton
-            :to="`tel:${config.phone.replaceAll(' ', '')}`"
+            :to="`tel:${companyInfo.phone.replaceAll(' ', '')}`"
             variant="ghost"
             color="neutral"
             :class="[
@@ -145,7 +148,7 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
                 class="h-4 w-4"
               />
             </template>
-            {{ config.phone }}
+            {{ companyInfo.phone }}
           </UButton>
 
           <UButton
@@ -178,7 +181,7 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
           </div>
           <div class="my-4">
             <UButton
-              :to="`tel:${config.phone.replaceAll(' ', '')}`"
+              :to="`tel:${companyInfo.phone.replaceAll(' ', '')}`"
               :class="[
                 'text-md font-bold transition-colors p-4 w-full flex justify-center',
                 'bg-secondary text-secondary-foreground hover:bg-[hsl(40,90%,50%)] border-none'
@@ -190,7 +193,7 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
                   class="h-4 w-4"
                 />
               </template>
-              {{ config.phone }}
+              {{ companyInfo.phone }}
             </UButton>
             <div class="mb-4">
               &nbsp;
@@ -202,11 +205,11 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
 
     <main>
       <NuxtPage />
-      <!-- <CookieConsentBannerAnalitycsOnly /> -->
+      <CookieConsentBannerAnalitycsOnly :gtm-id="gtmId" />
     </main>
     <TheFooter
       :nav-links="[...navLinks, ...navLinkAdditional]"
-      :config="config"
+      :config="companyInfo"
     />
     <div
       :class="[

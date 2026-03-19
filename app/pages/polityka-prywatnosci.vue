@@ -1,6 +1,7 @@
 <script setup>
 import { page } from '~/data/general'
-import { config } from '../data/config'
+
+const { companyInfo } = useAppConfig()
 
 const securityItems = [
   {
@@ -62,10 +63,10 @@ if (page?.seo) {
             ul.&nbsp;Kapitańska&nbsp;3a, 70&#8209;001&nbsp;Szczecin. W sprawach związanych z&nbsp;ochroną danych możesz skontaktować się
             pod&nbsp;adresem e-mail:
             <NuxtLink
-              :to="`mailto:${config.email}`"
+              :to="`mailto:${companyInfo.email}`"
               class="text-primary-500 underline hover:text-primary-600 transition-colors"
             >
-              {{ config.email }}
+              {{ companyInfo.email }}
             </NuxtLink>.
           </p>
         </section>

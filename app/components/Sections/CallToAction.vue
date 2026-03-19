@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { config } from '../../data/config'
+const { companyInfo } = useAppConfig()
 
 interface CallToActionProps {
   id: string
@@ -40,10 +40,10 @@ const props = withDefaults(
           class="h-5 w-5 text-primary"
         />
         <a
-          :href="`tel:${config.phone.replaceAll(' ', '')}`"
+          :href="`tel:${companyInfo.phone.replaceAll(' ', '')}`"
           class="hover:text-primary transition-colors"
         >
-          {{ config.phone }}
+          {{ companyInfo.phone }}
         </a>
       </div>
       <div className="flex items-center gap-2 text-muted-foreground">
@@ -52,17 +52,17 @@ const props = withDefaults(
           class="h-5 w-5 text-primary"
         />
         <a
-          :href="`mailto:${config.email}`"
+          :href="`mailto:${companyInfo.email}`"
           class="hover:text-primary transition-colors"
         >
-          {{ config.email }}
+          {{ companyInfo.email }}
         </a>
       </div>
     </div>
 
     <div class="flex flex-col sm:flex-row gap-4 items-center justify-center animate-fade-up delay-300">
       <UButton
-        :to="`tel:${config.phone.replaceAll(' ', '')}`"
+        :to="`tel:${companyInfo.phone.replaceAll(' ', '')}`"
         trailing-icon="lucide-phone"
         :ui="{
           trailingIcon: 'ml-4 transition-transform group-hover:translate-x-1',
@@ -73,7 +73,7 @@ const props = withDefaults(
       </UButton>
 
       <UButton
-        :to="`mailto:${config.email}`"
+        :to="`mailto:${companyInfo.email}`"
         variant="outline"
         trailing-icon="lucide-arrow-right"
         :ui="{
