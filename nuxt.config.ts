@@ -1,15 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
-// const isGoogleTagManager = process.env.NODE_ENV !== 'development' && process.env.STAGE === 'prod'
-//   ? {
-//       // googleAnalytics: {
-//       //   id: 'G-V511SC00K4'
-//       // },
-//       googleTagManager: {
-//         id: 'GTM-W5RQV42V'
-//       }
-//     }
-//   : {}
+const isGoogleTagManager: {
+  googleTagManager?: {
+    id: string
+  }
+} = process.env.NODE_ENV !== 'development' && process.env.STAGE === 'prod'
+  ? {
+      // googleAnalytics: {
+      //   id: 'G-V511SC00K4'
+      // },
+      googleTagManager: {
+        id: 'GTM-W5RQV42V'
+      }
+    }
+  : {}
 
 // const externalSites = [
 //   'https://*.googletagmanager.com',
@@ -32,7 +36,7 @@ export default defineNuxtConfig({
     // '@nuxt/a11y',
     // '@nuxt/hints',
 
-    // '@nuxt/scripts',
+    '@nuxt/scripts',
     // 'nuxt-security',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots'
@@ -101,11 +105,11 @@ export default defineNuxtConfig({
     }
   },
 
-  // scripts: {
-  //   registry: {
-  //     ...isGoogleAnalytics
-  //   }
-  // },
+  scripts: {
+    registry: {
+      ...isGoogleTagManager
+    }
+  },
 
   // security: {
   //   nonce: true,
