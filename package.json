@@ -21,7 +21,7 @@
     "@iconify-json/lucide": "^1.2.98",
     "@iconify-json/simple-icons": "^1.2.74",
     "@nuxt/a11y": "1.0.0-alpha.1",
-    "@nuxt/hints": "^1.0.1",
+    "@nuxt/hints": "^1.0.2",
     "@nuxt/scripts": "0.13.2",
     "@nuxt/ui": "^4.5.1",
     "@nuxtjs/sitemap": "^7.6.0",

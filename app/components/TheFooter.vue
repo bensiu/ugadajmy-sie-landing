@@ -14,8 +14,8 @@ const props = defineProps<{
 }>()
 
 const socialLinks = [
-  { icon: 'i-lucide-mail', label: 'Email', href: `mailto:${props.config.email}` },
-  { icon: 'i-lucide-phone', label: 'Telefon', href: `tel:${props.config.phone.replaceAll(' ', '')}` },
+  { icon: 'i-lucide-mail', label: 'Email', href: `mailto:${props.config.email}`, id: 'action-cta-link-phone-footer' },
+  { icon: 'i-lucide-phone', label: 'Telefon', href: `tel:${props.config.phone.replaceAll(' ', '')}`, id: 'action-cta-link-email-footer' },
   { icon: 'i-lucide-facebook', label: 'Facebook', href: 'https://www.facebook.com/share/1LGSATGs2M/?mibextid=wwXIfr' },
   { icon: 'i-lucide-instagram', label: 'Instagram', href: 'https://www.instagram.com/ugadajmy.sie' }
   // { icon: 'i-simple-icons-linkedin', label: 'LinkedIn', href: '#' }
@@ -26,7 +26,7 @@ const socialLinks = [
   <footer class="bg-secondary-foreground text-slate-300 py-8 lg:py-12">
     <UContainer>
       <div class="grid grid-cols-12 gap-6 mb-4">
-        <div class="col-span-12 sm:col-span-7 lg:col-span-6">
+        <div class="col-span-12 sm:col-span-9 lg:col-span-6">
           <slot>
             <div class="flex items-center gap-2 mb-4">
               <NuxtLink
@@ -40,8 +40,8 @@ const socialLinks = [
                 >
               </NuxtLink>
             </div>
-            <p class="text-white text-sm leading-relaxed max-w-lg mb-6">
-              Aleksandra Dubiel – mediator, prawnik i coach. Pomagam rozwiązywać konflikty i budować porozumienie. Dla osób prywatnych i firm.
+            <p class="text-white text-sm leading-relaxed max-w-xl mb-6">
+              Aleksandra Dubiel – mediator, prawnik i&nbsp;coach. Pomagam rozwiązywać konflikty i&nbsp;budować porozumienie. Dla&nbsp;osób prywatnych i&nbsp;firm.
             </p>
           </slot>
           <div class="flex gap-3">
@@ -59,9 +59,9 @@ const socialLinks = [
         </div>
 
         <div class="col-span-12 col-start-1 sm:col-span-5 sm:col-start-1 lg:col-span-2 lg:col-start-7">
-          <h4 class="font-bold text-primary-500 mb-6 uppercase tracking-widest text-sm">
+          <h3 class="font-bold text-primary-500 mb-6 uppercase tracking-widest text-sm">
             Menu Serwisu
-          </h4>
+          </h3>
           <ul class="space-y-4 text-sm text-primary-100/70">
             <li
               v-for="link in props.navLinks"
@@ -82,9 +82,9 @@ const socialLinks = [
         </div>
 
         <div class="col-span-12 col-start-1 sm:col-span-7 sm:col-start-6 lg:col-span-4 lg:col-start-9 mt-6 sm:mt-0">
-          <h4 class="font-bold text-primary-500 mb-6 uppercase tracking-widest text-sm">
+          <h3 class="font-bold text-primary-500 mb-6 uppercase tracking-widest text-sm">
             Biuro i Kontakt
-          </h4>
+          </h3>
           <address class="not-italic text-sm text-white space-y-4">
             <p class="flex items-center gap-2">
               <UIcon

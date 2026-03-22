@@ -26,7 +26,8 @@ export default defineNuxtConfig({
     '../nuxt-layers/block-elements',
     '../nuxt-layers/simple-contact-form',
     // '../nuxt-layers/cookie-consent',
-    '../nuxt-layers/google-tag-manager'
+    '../nuxt-layers/google-tag-manager',
+    '../nuxt-layers/polityka-prywatnosci-rodo'
   ],
 
   modules: [

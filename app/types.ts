@@ -82,6 +82,9 @@ export interface ConfigItems {
   email?: string
   address: string
   fullAddress: string
+
+  companyName?: string
+  zSiedziba?: string
 }
 
 export interface NewsItem {

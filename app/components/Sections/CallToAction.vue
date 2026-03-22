@@ -39,29 +39,32 @@ const props = withDefaults(
           name="lucide-phone"
           class="h-5 w-5 text-primary"
         />
-        <a
-          :href="`tel:${companyInfo.phone.replaceAll(' ', '')}`"
+        <NuxtLink
+          :id="`action-cta-link-phone-${props.id}`"
+          :to="`tel:${companyInfo.phone.replaceAll(' ', '')}`"
           class="hover:text-primary transition-colors"
         >
           {{ companyInfo.phone }}
-        </a>
+        </NuxtLink>
       </div>
-      <div className="flex items-center gap-2 text-muted-foreground">
+      <div class="flex items-center gap-2 text-muted-foreground">
         <UIcon
           name="lucide-mail"
           class="h-5 w-5 text-primary"
         />
-        <a
-          :href="`mailto:${companyInfo.email}`"
+        <NuxtLink
+          :id="`action-cta-link-email-${props.id}`"
+          :to="`mailto:${companyInfo.email}`"
           class="hover:text-primary transition-colors"
         >
           {{ companyInfo.email }}
-        </a>
+        </NuxtLink>
       </div>
     </div>
 
     <div class="flex flex-col sm:flex-row gap-4 items-center justify-center animate-fade-up delay-300">
       <UButton
+        :id="`action-cta-button-phone-${props.id}`"
         :to="`tel:${companyInfo.phone.replaceAll(' ', '')}`"
         trailing-icon="lucide-phone"
         :ui="{
@@ -73,6 +76,7 @@ const props = withDefaults(
       </UButton>
 
       <UButton
+        :id="`action-cta-button-email-${props.id}`"
         :to="`mailto:${companyInfo.email}`"
         variant="outline"
         trailing-icon="lucide-arrow-right"

@@ -56,7 +56,7 @@ if (page?.seo) {
 
         <div
           v-if="page.programDlaPar.what"
-          className="grid md:grid-cols-3 gap-6 mb-16"
+          class="grid md:grid-cols-3 gap-6 mb-16"
         >
           <BlocksFeatureCard
             v-for="item in page.programDlaPar.what"

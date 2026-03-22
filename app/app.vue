@@ -132,6 +132,7 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
       <template #right>
         <div class="hidden lg:flex items-center gap-4">
           <UButton
+            id="action-cta-button-phone-header"
             :to="`tel:${companyInfo.phone.replaceAll(' ', '')}`"
             variant="ghost"
             color="neutral"
@@ -181,6 +182,7 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
           </div>
           <div class="my-4">
             <UButton
+              id="action-cta-button-phone-header-mobile"
               :to="`tel:${companyInfo.phone.replaceAll(' ', '')}`"
               :class="[
                 'text-md font-bold transition-colors p-4 w-full flex justify-center',
