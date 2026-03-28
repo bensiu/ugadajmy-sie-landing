@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Coaching kariery',
+  silos: 'coaching-kariery',
 
   title: ['Coaching kariery w&nbsp;Szczecinie'],
   description: 'Zmiana pracy, awans, nowa ścieżka zawodowa – razem znajdziemy drogę do&nbsp;Twoich celów. Profesjonalne wsparcie w&nbsp;budowaniu kariery zgodnej z&nbsp;Twoimi wartościami.',

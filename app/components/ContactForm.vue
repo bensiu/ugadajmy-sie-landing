@@ -76,7 +76,7 @@ const fields = [
   }
 ]
 
-const { isSubmitted, isSubmitting, handleSubmit } = useContactForm()
+const { isSubmitted, isSubmitting, handleSubmit } = useContactForm('/api/contact/')
 </script>
 
 <template>

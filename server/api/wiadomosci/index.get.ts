@@ -1,7 +1,7 @@
-import type { TableItem } from '~~/src/services/types'
+import type { ReducedTableItem } from '~~/src/services/types'
 import { getRecordsList } from '~~/src/services/getRecordsList'
 
-export default defineEventHandler(async (event): Promise<Omit<TableItem, 'PK1' | 'SK1' | 'PK' | 'SK'>[]> => {
+export default defineEventHandler(async (event): Promise<ReducedTableItem[]> => {
   const { all } = getQuery(event)
 
   return getRecordsList(

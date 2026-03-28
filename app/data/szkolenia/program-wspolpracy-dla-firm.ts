@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Program współpracy dla firm',
+  silos: 'szkolenia-program-wspolpracy-dla-firm',
 
   title: ['Program stałej współpracy dla&nbsp;firm'],
   description: 'Długofalowe wsparcie w&nbsp;budowaniu kultury komunikacji. Elastyczny program łączący szkolenia, mediacje i&nbsp;coaching, dopasowany do&nbsp;potrzeb Twojej organizacji.',

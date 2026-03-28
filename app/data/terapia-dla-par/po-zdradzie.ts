@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Terapia po zdradzie',
+  silos: 'terapia-dla-par-po-zdradzie',
 
   title: ['Terapia po zdradzie w&nbsp;Szczecinie'],
   description: 'Zdrada to jeden z&nbsp;najtrudniejszych kryzysów w&nbsp;związku. Ale nie musi oznaczać końca. Z&nbsp;profesjonalnym wsparciem możliwe jest odbudowanie zaufania i&nbsp;stworzenie nowej, silniejszej relacji.',

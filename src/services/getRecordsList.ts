@@ -7,7 +7,9 @@ const APP_DATA_TABLE_NAME = process.env.APP_DATA_TABLE_NAME || 'ugadajmy-sie-lan
 
 interface GetRecordsListOptions {
   domain: string
+  gsiSearchKey?: string
   sorting?: ((a: TableItem, b: TableItem) => number)
+  fromCache?: boolean
 }
 
 export async function getRecordsList(
@@ -17,10 +19,10 @@ export async function getRecordsList(
   const results = await DynamoDb.query(
     APP_DATA_TABLE_NAME,
     options.domain.toUpperCase(),
-    null,
+    options.gsiSearchKey ? options.gsiSearchKey : null,
     'GSI1',
     null,
-    options.domain
+    options.fromCache ? options.domain : undefined
   )
 
   if (options.sorting) {

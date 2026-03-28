@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Coaching życiowy',
+  silos: 'coaching-zyciowy',
 
   title: ['Coaching życiowy w&nbsp;Szczecinie'],
   description: 'Odkryj swoje wartości, zdefiniuj cele i&nbsp;żyj pełnią życia. Profesjonalne wsparcie w&nbsp;budowaniu życia zgodnego z&nbsp;Twoimi marzeniami.',

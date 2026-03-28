@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Mediacje online',
+  silos: 'mediacje-online',
 
   title: ['Mediacje Online Szczecin – Rozwiązuj Konflikty Zdalnie'],
   description: 'Nie musisz jechać do&nbsp;gabinetu, by rozwiązać konflikt. Prowadzę profesjonalne mediacje online – równie skuteczne jak stacjonarne, a znacznie wygodniejsze dla&nbsp;osób z&nbsp;całej Polski i&nbsp;zagranicy.',

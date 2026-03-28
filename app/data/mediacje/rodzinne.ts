@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Mediacje rodzinne',
+  silos: 'mediacje-rodzinne',
 
   title: ['Mediacje Rodzinne Szczecin – Odbuduj Relacje w&nbsp;Rodzinie'],
   description: 'Pomagam rodzinom w&nbsp;Szczecinie rozwiązywać konflikty i&nbsp;budować porozumienie. Dzięki mediacji rodzinnej możesz uniknąć traumatycznych procesów sądowych i&nbsp;zachować relacje rodzinne.',
@@ -61,23 +62,28 @@ export const page: DetailPageProps = {
     questions: [
       {
         label: 'Ile kosztują mediacje rodzinne w Szczecinie?',
-        content: 'Pierwsza konsultacja kosztuje 220 zł. Pełna sesja mediacyjna trwająca 2 godziny to koszt 390-490 zł w&nbsp;zależności od złożoności sprawy. To wielokrotnie mniej niż koszty procesu sądowego.'
+        content: 'Pierwsza konsultacja kosztuje 220 zł. Pełna sesja mediacyjna trwająca 2 godziny to koszt 390-490 zł w&nbsp;zależności od złożoności sprawy. To wielokrotnie mniej niż koszty procesu sądowego.',
+        value: 'ile-kosztuja-mediacje-rodzinne'
       },
       {
         label: 'Czy mediacja rodzinna zastępuje terapię rodzinną?',
-        content: 'Mediacja i&nbsp;terapia mają różne cele. Mediacja skupia się na&nbsp;rozwiązaniu konkretnego konfliktu i&nbsp;wypracowaniu porozumienia. Terapia pracuje nad głębszymi problemami emocjonalnymi. Często te procesy się uzupełniają.'
+        content: 'Mediacja i&nbsp;terapia mają różne cele. Mediacja skupia się na&nbsp;rozwiązaniu konkretnego konfliktu i&nbsp;wypracowaniu porozumienia. Terapia pracuje nad głębszymi problemami emocjonalnymi. Często te procesy się uzupełniają.',
+        value: 'czy-mediacja-rodzinna-zastepuje-terapie'
       },
       {
         label: 'Czy dzieci uczestniczą w mediacjach rodzinnych?',
-        content: 'To zależy od sytuacji i&nbsp;wieku dzieci. w&nbsp;niektórych przypadkach głos dziecka jest ważny. Oferuję specjalne mediacje z&nbsp;udziałem dzieci, gdzie w&nbsp;bezpieczny sposób mogą wyrazić swoje potrzeby.'
+        content: 'To zależy od sytuacji i&nbsp;wieku dzieci. w&nbsp;niektórych przypadkach głos dziecka jest ważny. Oferuję specjalne mediacje z&nbsp;udziałem dzieci, gdzie w&nbsp;bezpieczny sposób mogą wyrazić swoje potrzeby.',
+        value: 'czy-dzieci-uczestnicza-w-mediacjach-rodzinnych'
       },
       {
         label: 'Co jeśli drugi członek rodziny nie chce mediacji?',
-        content: 'Mediacja jest dobrowolna. Jednak często osoba początkowo niechętna zmienia zdanie, gdy wyjaśnię korzyści. Mogę pomóc w&nbsp;pierwszym kontakcie z&nbsp;drugą stroną.'
+        content: 'Mediacja jest dobrowolna. Jednak często osoba początkowo niechętna zmienia zdanie, gdy wyjaśnię korzyści. Mogę pomóc w&nbsp;pierwszym kontakcie z&nbsp;drugą stroną.',
+        value: 'co-jesli-drugi-czlonek-rodziny-nie-chce-mediacji'
       },
       {
         label: 'Czy ugoda z mediacji rodzinnej jest wiążąca?',
-        content: 'Ugoda rodzinna jest wiążącą umową między stronami. Jeśli dotyczy spraw wymagających formy prawnej (np. podział majątku), może być zatwierdzona przez sąd i&nbsp;zyskać moc wyroku.'
+        content: 'Ugoda rodzinna jest wiążącą umową między stronami. Jeśli dotyczy spraw wymagających formy prawnej (np. podział majątku), może być zatwierdzona przez sąd i&nbsp;zyskać moc wyroku.',
+        value: 'czy-ugoda-z-mediacji-rodzinnej-jest-wiazaca'
       }
     ]
   },

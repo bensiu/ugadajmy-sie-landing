@@ -14,9 +14,10 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.1009.0",
-    "@aws-sdk/client-s3": "^3.1009.0",
-    "@aws-sdk/client-sns": "^3.1009.0",
+    "@aws-sdk/client-dynamodb": "^3.1019.0",
+    "@aws-sdk/client-s3": "^3.1019.0",
+    "@aws-sdk/client-sns": "^3.1019.0",
+    "@aws-sdk/lib-dynamodb": "^3.1019.0",
     "@aws-sdk/util-dynamodb": "^3.996.2",
     "@iconify-json/lucide": "^1.2.98",
     "@iconify-json/simple-icons": "^1.2.74",

@@ -17,6 +17,18 @@ const props = withDefaults(
     variant: 'primary'
   }
 )
+
+const onUpdate = (value: string | string[] | undefined) => {
+  if (value && window) {
+    if (window.dataLayer) {
+      // window.dataLayer.push({
+      //   event: 'faq-open',
+      //   page_id: props.id,
+      //   key: value
+      // })
+    }
+  }
+}
 </script>
 
 <template>
@@ -37,6 +49,7 @@ const props = withDefaults(
           trigger: 'text-left text-lg font-semibold  px-6 hover:no-underline',
           content: 'py-2 px-6'
         }"
+        @update:model-value="onUpdate"
       >
         <template #body="{ item }">
           <!-- eslint-disable vue/no-v-html -->

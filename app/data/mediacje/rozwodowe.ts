@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Mediacje rozwodowe',
+  silos: 'mediacje-rozwodowe',
 
   title: ['Mediacje Rozwodowe Szczecin – Rozwód z&nbsp;Godnością i&nbsp;Szacunkiem'],
   description: 'Rozwód nie musi oznaczać wojny. Jako doświadczony mediator sądowy w&nbsp;Szczecinie pomagam parom rozwiązać najważniejsze kwestie polubownie – dla&nbsp;dobra Was i&nbsp;Waszych dzieci.',

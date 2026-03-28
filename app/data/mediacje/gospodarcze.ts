@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Mediacje gospodarcze',
+  silos: 'mediacje-gospodarcze',
 
   title: ['Mediacje Gospodarcze Szczecin – Rozwiązuj Spory Biznesowe Bez Sądu'],
   description: 'Spory biznesowe kosztują czas i&nbsp;pieniądze. Jako mediator z&nbsp;doświadczeniem prawniczym pomagam szczecińskim firmom rozwiązywać konflikty szybko, dyskretnie i&nbsp;bez strat reputacyjnych.',

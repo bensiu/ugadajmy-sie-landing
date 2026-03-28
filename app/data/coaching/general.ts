@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Coaching',
+  silos: 'coaching',
 
   title: ['Coaching w&nbsp;Szczecinie'],
   description: 'Odkryj swój potencjał i&nbsp;osiągnij więcej. Profesjonalne sesje coachingowe, które pomogą Ci zdefiniować cele i&nbsp;skutecznie je realizować.',

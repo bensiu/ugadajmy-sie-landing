@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Szkolenia',
+  silos: 'szkolenia',
 
   title: ['Szkolenia w&nbsp;Szczecinie'],
   description: 'Rozwijaj kompetencje komunikacyjne z&nbsp;doświadczonym trenerem. Oferuję szkolenia dla&nbsp;firm, warsztaty otwarte i&nbsp;programy indywidualne. Praktyczna wiedza, która zmienia sposób budowania relacji.',

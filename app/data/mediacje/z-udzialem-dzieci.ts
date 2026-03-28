@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Mediacje z udziałem dzieci',
+  silos: 'mediacje-z-udzialem-dzieci',
 
   title: ['Mediacje z&nbsp;Udziałem Dzieci Szczecin – Głos Dziecka Ma Znaczenie'],
   description: 'Dzieci są często pomijanymi uczestnikami konfliktów rodzinnych. w&nbsp;Szczecinie prowadzę mediacje, w&nbsp;których w&nbsp;bezpieczny sposób głos dziecka jest słyszany i&nbsp;uwzględniany w&nbsp;wypracowanych rozwiązaniach.',

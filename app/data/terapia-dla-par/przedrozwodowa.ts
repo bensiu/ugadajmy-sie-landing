@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Konsultacje przedrozwodowe',
+  silos: 'terapia-dla-par-przedrozwodowa',
 
   title: ['Konsultacje przedrozwodowe w&nbsp;Szczecinie'],
   description: 'Zanim podejmiesz ostateczną decyzję, warto ją przemyśleć z&nbsp;profesjonalnym wsparciem. Pomagam parom i&nbsp;osobom indywidualnym zyskać jasność w&nbsp;trudnej sytuacji.',

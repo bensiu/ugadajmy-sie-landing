@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Coaching konfliktów',
+  silos: 'coaching-konfliktow',
 
   title: ['Coaching konfliktów w&nbsp;Szczecinie'],
   description: 'Naucz się skutecznie radzić sobie z&nbsp;konfliktami. Rozwijaj umiejętności komunikacji i&nbsp;buduj zdrowsze relacje – w&nbsp;pracy i&nbsp;życiu prywatnym.',

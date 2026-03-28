@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Szkolenia dla firm',
+  silos: 'szkolenia-dla-firm',
 
   title: ['Szkolenia dla&nbsp;firm w&nbsp;Szczecinie'],
   description: 'Rozwijaj kompetencje komunikacyjne swojego zespołu. Dedykowane programy szkoleniowe dopasowane do&nbsp;potrzeb Twojej organizacji. Praktyczna wiedza, która przekłada się na&nbsp;lepszą współpracę.',

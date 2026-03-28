@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Szkolenia z mediacji',
+  silos: 'szkolenia-z-mediacji',
 
   title: ['Szkolenia z&nbsp;mediacji w&nbsp;Szczecinie'],
   description: 'Zostań profesjonalnym mediatorem. Praktyczne szkolenia prowadzone przez doświadczonego mediatora. Certyfikat uprawniający do&nbsp;wpisu na&nbsp;listę mediatorów sądowych.',

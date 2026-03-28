@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Warsztaty rozwojowe',
+  silos: 'szkolenia-warsztaty-rozwojowe',
 
   title: ['Warsztaty rozwojowe w&nbsp;Szczecinie'],
   description: 'Odkryj swój potencjał w&nbsp;bezpiecznej przestrzeni grupowej. Intensywne warsztaty łączące wiedzę z&nbsp;praktyką, wspierające rozwój osobisty i&nbsp;budowanie autentycznych relacji.',

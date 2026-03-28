@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Coaching indywidualny',
+  silos: 'coaching-indywidualny',
 
   title: ['Coaching indywidualny w&nbsp;Szczecinie'],
   description: 'Sesje 1:1 w&nbsp;pełni dopasowane do&nbsp;Twoich unikalnych potrzeb. Profesjonalne wsparcie w&nbsp;każdym obszarze życia – zawodowym, osobistym i&nbsp;relacyjnym.',
@@ -64,27 +65,33 @@ export const page: DetailPageProps = {
     questions: [
       {
         label: 'Jak wygląda pierwsza sesja coachingowa?',
-        content: 'Pierwsza sesja to przede wszystkim poznanie się i&nbsp;zbudowanie zaufania. Rozmawiamy o&nbsp;Twojej sytuacji, celach i&nbsp;oczekiwaniach wobec coachingu. Ustalamy też praktyczne kwestie – częstotliwość spotkań, sposób pracy i&nbsp;zasady współpracy.'
+        content: 'Pierwsza sesja to przede wszystkim poznanie się i&nbsp;zbudowanie zaufania. Rozmawiamy o&nbsp;Twojej sytuacji, celach i&nbsp;oczekiwaniach wobec coachingu. Ustalamy też praktyczne kwestie – częstotliwość spotkań, sposób pracy i&nbsp;zasady współpracy.',
+        value: 'jak-wyglada-pierwsza-sesja'
       },
       {
         label: 'Ile trwa jedna sesja?',
-        content: 'Standardowa sesja trwa 60-90 minut. na&nbsp;pierwszym spotkaniu rezerwujemy więcej czasu – około 90 minut – żeby mieć przestrzeń na&nbsp;dokładne poznanie się i&nbsp;zdefiniowanie celów.'
+        content: 'Standardowa sesja trwa 60-90 minut. na&nbsp;pierwszym spotkaniu rezerwujemy więcej czasu – około 90 minut – żeby mieć przestrzeń na&nbsp;dokładne poznanie się i&nbsp;zdefiniowanie celów.',
+        value: 'ile-trwa-jedna-sesja'
       },
       {
         label: 'Jak często powinny odbywać się sesje?',
-        content: 'Najczęściej spotykamy się co 2-3 tygodnie. Ten rytm daje wystarczająco czasu na&nbsp;wdrażanie zmian między sesjami, a jednocześnie utrzymuje momentum. Częstotliwość możemy dostosować do&nbsp;Twoich potrzeb.'
+        content: 'Najczęściej spotykamy się co 2-3 tygodnie. Ten rytm daje wystarczająco czasu na&nbsp;wdrażanie zmian między sesjami, a jednocześnie utrzymuje momentum. Częstotliwość możemy dostosować do&nbsp;Twoich potrzeb.',
+        value: 'jak-czesto-powinny-odbywac-sie-sesje'
       },
       {
         label: 'Czy mogę zmienić temat w trakcie procesu coachingowego?',
-        content: 'Absolutnie tak! Coaching indywidualny jest elastyczny. Jeśli w&nbsp;trakcie pracy pojawi się ważniejszy temat lub&nbsp;zmienią się Twoje priorytety, dostosowujemy kierunek pracy. To jest właśnie siła indywidualnego podejścia.'
+        content: 'Absolutnie tak! Coaching indywidualny jest elastyczny. Jeśli w&nbsp;trakcie pracy pojawi się ważniejszy temat lub&nbsp;zmienią się Twoje priorytety, dostosowujemy kierunek pracy. To jest właśnie siła indywidualnego podejścia.',
+        value: 'czy-moge-zmienic-temat'
       },
       {
         label: 'Jak przygotować się do sesji?',
-        content: 'Nie ma ścisłych wymagań, ale warto przed sesją zastanowić się, co jest aktualnie najważniejsze i&nbsp;nad czym chcesz pracować. Czasem daję też krótkie zadania między sesjami – wtedy przygotowaniem jest ich wykonanie.'
+        content: 'Nie ma ścisłych wymagań, ale warto przed sesją zastanowić się, co jest aktualnie najważniejsze i&nbsp;nad czym chcesz pracować. Czasem daję też krótkie zadania między sesjami – wtedy przygotowaniem jest ich wykonanie.',
+        value: 'jak-sie-przygotowac-do-sesji'
       },
       {
         label: 'Co jeśli coaching mi nie odpowiada?',
-        content: 'Przed rozpoczęciem regularnej współpracy oferuję bezpłatną rozmowę wprowadzającą. To szansa, żebyś sprawdził/a, czy coaching i&nbsp;nasza współpraca Ci odpowiadają. Jeśli po kilku sesjach czujesz, że to nie jest dla&nbsp;Ciebie – możesz zakończyć współpracę bez zobowiązań.'
+        content: 'Przed rozpoczęciem regularnej współpracy oferuję bezpłatną rozmowę wprowadzającą. To szansa, żebyś sprawdził/a, czy coaching i&nbsp;nasza współpraca Ci odpowiadają. Jeśli po kilku sesjach czujesz, że to nie jest dla&nbsp;Ciebie – możesz zakończyć współpracę bez zobowiązań.',
+        value: 'co-jesli-mi-nie-odpowiada'
       }
     ]
   },

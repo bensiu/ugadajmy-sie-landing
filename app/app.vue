@@ -219,6 +219,13 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
         'hidden'
       ]"
     >
+      <UIcon name="lucide-arrow-right" />
+      <UIcon name="lucide-circle-check" />
+      <UIcon name="lucide-check-circle-2" />
+      <UIcon name="lucide-cookie" />
+      <UIcon name="lucide-shield-check" />
+      <UIcon name="lucide-lock" />
+      <UIcon name="lucide-eye" />
       <UIcon name="lucide-x" />
     </div>
   </UApp>

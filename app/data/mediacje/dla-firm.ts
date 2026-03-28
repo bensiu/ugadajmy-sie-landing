@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Mediacje dla firm',
+  silos: 'mediacje-dla-firm',
 
   title: ['Mediacje dla&nbsp;Firm Szczecin – Rozwiązuj Konflikty w&nbsp;Organizacji'],
   description: 'Konflikty w&nbsp;firmie kosztują: spadek produktywności, utrata talentów, toksyczna atmosfera. w&nbsp;Szczecinie pomagam firmom rozwiązywać wewnętrzne spory szybko, dyskretnie i&nbsp;skutecznie.',

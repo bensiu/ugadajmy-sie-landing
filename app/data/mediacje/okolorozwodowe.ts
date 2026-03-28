@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Mediacje okołorozwodowe',
+  silos: 'mediacje-okolorozwodowe',
 
   title: ['Mediacje Okołorozwodowe Szczecin – Uporządkuj Sprawy Przed Rozwodem'],
   description: 'Rozważasz rozwód? Pomogę Wam spokojnie ustalić wszystkie kwestie zanim traficie do&nbsp;sądu. Dzięki mediacji okołorozwodowej oszczędzicie czas, pieniądze i&nbsp;nerwy.',
@@ -61,11 +62,13 @@ export const page: DetailPageProps = {
     questions: [
       {
         label: 'Czym różnią się mediacje okołorozwodowe od rozwodowych?',
-        content: 'Mediacje okołorozwodowe odbywają się przed złożeniem pozwu rozwodowego – pomagają przygotować porozumienie. Mediacje rozwodowe mogą być prowadzone już w&nbsp;trakcie procesu sądowego, często na&nbsp;polecenie sądu.'
+        content: 'Mediacje okołorozwodowe odbywają się przed złożeniem pozwu rozwodowego – pomagają przygotować porozumienie. Mediacje rozwodowe mogą być prowadzone już w&nbsp;trakcie procesu sądowego, często na&nbsp;polecenie sądu.',
+        value: 'czym-roznia-sie-mediacje-okołorozwodowe-od-rozwodowych'
       },
       {
         label: 'Ile trwają mediacje okołorozwodowe w Szczecinie?',
-        content: 'Zazwyczaj potrzeba 3-6 sesji po 2 godziny, rozłożonych na&nbsp;kilka tygodni. Czas zależy od złożoności Waszej sytuacji i&nbsp;ilości spraw do&nbsp;ustalenia.'
+        content: 'Zazwyczaj potrzeba 3-6 sesji po 2 godziny, rozłożonych na&nbsp;kilka tygodni. Czas zależy od złożoności Waszej sytuacji i&nbsp;ilości spraw do&nbsp;ustalenia.',
+        value: 'ile-trwaja-mediacje-okołorozwodowe'
       },
       {
         label: 'Czy porozumienie z mediacji jest wiążące w sądzie?',

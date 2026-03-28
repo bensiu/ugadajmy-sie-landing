@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Mediacje',
+  silos: 'mediacje',
 
   title: ['Mediacje Szczecin – Skuteczne Rozwiązywanie Konfliktów'],
   description: 'Profesjonalne mediacje prowadzone przez doświadczonego mediatora z&nbsp;15-letnim stażem. Pomagam mieszkańcom Szczecina osiągnąć porozumienie bez kosztownych i&nbsp;długotrwałych procesów sądowych.',
@@ -124,32 +125,32 @@ export const page: DetailPageProps = {
       'Ugoda z&nbsp;mocą wyroku sądowego'
     ]
   },
-  frequentlyAskedQuestions: {
-    title: 'Pytania o&nbsp;mediacje cywilne',
-    questions: [
-      {
-        label: 'Czy każda sprawa cywilna nadaje się do mediacji?',
-        content: 'Większość tak. Nie nadają się sprawy, gdzie jedna strona całkowicie odmawia dialogu, lub&nbsp;gdzie rozstrzygnięcie wymaga interpretacji prawa przez sąd. Podczas konsultacji oceniam szanse powodzenia mediacji.'
-      },
-      {
-        label: 'Ile kosztuje mediacja cywilna w Szczecinie?',
-        content: 'Koszt zależy od wartości przedmiotu sporu i&nbsp;złożoności sprawy. Zazwyczaj jest to ułamek kosztów procesu sądowego. Konkretny cennik omawiam podczas pierwszej konsultacji.'
-      },
-      {
-        label: 'Czy mogę przerwać mediację, jeśli nie przynosi efektów?',
-        content: 'Oczywiście. Mediacja jest dobrowolna na&nbsp;każdym etapie. Możesz zrezygnować w&nbsp;dowolnym momencie i&nbsp;skierować sprawę do&nbsp;sądu.'
-      },
-      {
-        label: 'Czy potrzebuję prawnika na mediacji cywilnej?',
-        content: 'Nie jest to wymagane, ale możesz przyjść z&nbsp;prawnikiem jeśli czujesz taką potrzebę. Jako mediator jestem bezstronny i&nbsp;nie reprezentuję żadnej ze stron.'
-      },
-      {
-        label: 'Co jeśli druga strona nie zgodzi się na mediację?',
-        content: 'Mediacja wymaga zgody obu stron. Jednak często osoby początkowo sceptyczne zmieniają zdanie, gdy wyjaśnię im korzyści. Pomagam w&nbsp;pierwszym kontakcie z&nbsp;drugą stroną.'
-      }
-    ]
-  },
+  // frequentlyAskedQuestions: {
+  //   title: 'Pytania o&nbsp;mediacje cywilne',
+  //   questions: [
+  //     {
+  //       label: 'Czy każda sprawa cywilna nadaje się do mediacji?',
+  //       content: 'Większość tak. Nie nadają się sprawy, gdzie jedna strona całkowicie odmawia dialogu, lub&nbsp;gdzie rozstrzygnięcie wymaga interpretacji prawa przez sąd. Podczas konsultacji oceniam szanse powodzenia mediacji.'
+  //     },
+  //     {
+  //       label: 'Ile kosztuje mediacja cywilna w Szczecinie?',
+  //       content: 'Koszt zależy od wartości przedmiotu sporu i&nbsp;złożoności sprawy. Zazwyczaj jest to ułamek kosztów procesu sądowego. Konkretny cennik omawiam podczas pierwszej konsultacji.'
+  //     },
+  //     {
+  //       label: 'Czy mogę przerwać mediację, jeśli nie przynosi efektów?',
+  //       content: 'Oczywiście. Mediacja jest dobrowolna na&nbsp;każdym etapie. Możesz zrezygnować w&nbsp;dowolnym momencie i&nbsp;skierować sprawę do&nbsp;sądu.'
+  //     },
+  //     {
+  //       label: 'Czy potrzebuję prawnika na mediacji cywilnej?',
+  //       content: 'Nie jest to wymagane, ale możesz przyjść z&nbsp;prawnikiem jeśli czujesz taką potrzebę. Jako mediator jestem bezstronny i&nbsp;nie reprezentuję żadnej ze stron.'
+  //     },
+  //     {
+  //       label: 'Co jeśli druga strona nie zgodzi się na mediację?',
+  //       content: 'Mediacja wymaga zgody obu stron. Jednak często osoby początkowo sceptyczne zmieniają zdanie, gdy wyjaśnię im korzyści. Pomagam w&nbsp;pierwszym kontakcie z&nbsp;drugą stroną.'
+  //     }
+  //   ]
+  // },
   callToAction: {
-    title: 'Umów się na&nbsp;mediację cywilną w&nbsp;Szczecinie'
+    title: 'Umów się na&nbsp;mediację w&nbsp;Szczecinie'
   }
 }

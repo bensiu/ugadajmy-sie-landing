@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Mediacje cywilne',
+  silos: 'mediacje-cywilne',
 
   title: ['Mediacje Cywilne Szczecin', 'Rozwiązuj Spory Majątkowe Polubownie'],
   description: 'Spór cywilny nie musi kończyć się w&nbsp;sądzie. Jako mediator sądowy w&nbsp;Szczecinie pomagam stronom osiągnąć porozumienie w&nbsp;sprawach majątkowych, umownych i&nbsp;odszkodowawczych.',
@@ -61,11 +62,13 @@ export const page: DetailPageProps = {
     questions: [
       {
         label: 'Czy każda sprawa cywilna nadaje się do mediacji?',
-        content: 'Większość tak. Nie nadają się sprawy, gdzie jedna strona całkowicie odmawia dialogu, lub&nbsp;gdzie rozstrzygnięcie wymaga interpretacji prawa przez sąd. Podczas konsultacji oceniam szanse powodzenia mediacji.'
+        content: 'Większość tak. Nie nadają się sprawy, gdzie jedna strona całkowicie odmawia dialogu, lub&nbsp;gdzie rozstrzygnięcie wymaga interpretacji prawa przez sąd. Podczas konsultacji oceniam szanse powodzenia mediacji.',
+        value: 'czy-kazda-sprawa-nadaje-sie-do-mediacji'
       },
       {
         label: 'Ile kosztuje mediacja cywilna w Szczecinie?',
-        content: 'Koszt zależy od wartości przedmiotu sporu i&nbsp;złożoności sprawy. Zazwyczaj jest to ułamek kosztów procesu sądowego. Konkretny cennik omawiam podczas pierwszej konsultacji.'
+        content: 'Koszt zależy od wartości przedmiotu sporu i&nbsp;złożoności sprawy. Zazwyczaj jest to ułamek kosztów procesu sądowego. Konkretny cennik omawiam podczas pierwszej konsultacji.',
+        value: 'ile-kosztuje-mediacja-cywilna'
       },
       {
         label: 'Czy mogę przerwać mediację, jeśli nie przynosi efektów?',
@@ -73,7 +76,8 @@ export const page: DetailPageProps = {
       },
       {
         label: 'Czy potrzebuję prawnika na mediacji cywilnej?',
-        content: 'Nie jest to wymagane, ale możesz przyjść z&nbsp;prawnikiem jeśli czujesz taką potrzebę. Jako mediator jestem bezstronny i&nbsp;nie reprezentuję żadnej ze stron.'
+        content: 'Nie jest to wymagane, ale możesz przyjść z&nbsp;prawnikiem jeśli czujesz taką potrzebę. Jako mediator jestem bezstronny i&nbsp;nie reprezentuję żadnej ze stron.',
+        value: 'czy-potrzebuje-prawnika-na-mediacji-cywilnej'
       },
       {
         label: 'Co jeśli druga strona nie zgodzi się na mediację?',

@@ -32,6 +32,7 @@ export interface DetailPageProps {
   seo: SEO
   breadCrumbsLabel?: string
   breadCrumbs?: BreadCrumbsItem[] | null
+  silos: string
   title: string[]
   description: string
   backgroundImageClass?: string
@@ -68,6 +69,7 @@ export interface DetailPageProps {
     questions: {
       label: string
       content: string
+      value?: string
     }[]
   }
   callToAction?: {
@@ -102,4 +104,14 @@ export type NewsCardItem = NewsItem & {
     title?: string
   }
   toEdit?: boolean
+}
+
+export interface FaqItem {
+  silos: string
+  slug: string
+  counter: number
+  label: string
+  content: string
+  update_time: string
+  active: boolean
 }

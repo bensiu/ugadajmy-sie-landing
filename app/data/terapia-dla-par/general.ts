@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Terapia dla par',
+  silos: 'terapia-dla-par',
 
   title: ['Odbuduj relację z&nbsp;partnerem. Zacznij od rozmowy.'],
   description: 'Każdy związek przechodzi kryzysy. Jako mediator i&nbsp;coach pomagam parom przywrócić komunikację, zrozumieć potrzeby partnera i&nbsp;podjąć świadome decyzje o&nbsp;przyszłości relacji.',

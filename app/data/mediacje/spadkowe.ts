@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Mediacje spadkowe',
+  silos: 'mediacje-spadkowe',
 
   title: ['Mediacje Spadkowe Szczecin – Pokojowy Podział Spadku'],
   description: 'Konflikty spadkowe potrafią rozdzielić rodziny na&nbsp;lata. w&nbsp;Szczecinie pomagam spadkobiercom dojść do&nbsp;porozumienia bez niszących procesów sądowych, zachowując rodzinne więzi.',

@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Terapia małżeńska',
+  silos: 'terapia-dla-par-malzenska',
 
   title: ['Terapia małżeńska w&nbsp;Szczecinie'],
   description: 'Każde małżeństwo przechodzi trudne momenty. Terapia małżeńska to&nbsp;przestrzeń, w&nbsp;której możecie bezpiecznie porozmawiać, zrozumieć się nawzajem i&nbsp;odbudować więź.',

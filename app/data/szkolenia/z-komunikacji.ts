@@ -12,6 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Szkolenia z komunikacji',
+  silos: 'szkolenia-z-komunikacji',
 
   title: ['Szkolenia z&nbsp;komunikacji w&nbsp;Szczecinie'],
   description: 'Naucz się skutecznie porozumiewać. Praktyczne warsztaty, które rozwijają umiejętność jasnego wyrażania myśli, aktywnego słuchania i&nbsp;prowadzenia trudnych rozmów.',

@@ -11,7 +11,8 @@ export const page: DetailPageProps = {
       description: 'Profesjonalne mediacje sąsiedzkie w Szczecinie - rozwiązywanie konfliktów między sąsiadami.'
     }
   },
-  breadCrumbsLabel: 'Mediacje sasiedzkie',
+  breadCrumbsLabel: 'Mediacje sąsiedzkie',
+  silos: 'mediacje-sasiedzkie',
 
   title: ['Mediacje Sąsiedzkie Szczecin – Spokój w&nbsp;Sąsiedztwie'],
   description: 'Konflikty z&nbsp;sąsiadami potrafią zamienić życie w&nbsp;koszmar. w&nbsp;Szczecinie pomagam sąsiadom dojść do&nbsp;porozumienia i&nbsp;odbudować dobre relacje, bez kosztownych procesów i&nbsp;eskalacji konfliktu.',
