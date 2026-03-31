@@ -59,30 +59,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Pytania o&nbsp;mediacje okołorozwodowe',
-    questions: [
-      {
-        label: 'Czym różnią się mediacje okołorozwodowe od rozwodowych?',
-        content: 'Mediacje okołorozwodowe odbywają się przed złożeniem pozwu rozwodowego – pomagają przygotować porozumienie. Mediacje rozwodowe mogą być prowadzone już w&nbsp;trakcie procesu sądowego, często na&nbsp;polecenie sądu.',
-        value: 'czym-roznia-sie-mediacje-okołorozwodowe-od-rozwodowych'
-      },
-      {
-        label: 'Ile trwają mediacje okołorozwodowe w Szczecinie?',
-        content: 'Zazwyczaj potrzeba 3-6 sesji po 2 godziny, rozłożonych na&nbsp;kilka tygodni. Czas zależy od złożoności Waszej sytuacji i&nbsp;ilości spraw do&nbsp;ustalenia.',
-        value: 'ile-trwaja-mediacje-okołorozwodowe'
-      },
-      {
-        label: 'Czy porozumienie z mediacji jest wiążące w sądzie?',
-        content: 'Porozumienie wypracowane na&nbsp;mediacji możecie przedstawić sądowi jako propozycję warunków rozwodu. Sąd zazwyczaj je akceptuje, co znacznie przyspiesza cały proces.'
-      },
-      {
-        label: 'Co jeśli nie dogadamy się we wszystkich kwestiach?',
-        content: 'Nawet częściowe porozumienie jest wartościowe. Zmniejsza liczbę spornych kwestii, którymi musi zająć się sąd. Możemy ustalić np. opiekę nad dziećmi, a podział majątku zostawić do&nbsp;rozstrzygnięcia sądowi.'
-      },
-      {
-        label: 'Czy potrzebuję adwokata oprócz mediatora?',
-        content: 'Mediator jest bezstronny i&nbsp;nie reprezentuje żadnej ze stron. Jeśli chcesz mieć pewność co do&nbsp;swoich praw, możesz skonsultować się z&nbsp;adwokatem przed lub&nbsp;po mediacjach.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Czym różnią się mediacje okołorozwodowe od rozwodowych?',
+    //     content: 'Mediacje okołorozwodowe odbywają się przed złożeniem pozwu rozwodowego – pomagają przygotować porozumienie. Mediacje rozwodowe mogą być prowadzone już w&nbsp;trakcie procesu sądowego, często na&nbsp;polecenie sądu.',
+    //     value: 'czym-roznia-sie-mediacje-okołorozwodowe-od-rozwodowych'
+    //   },
+    //   {
+    //     label: 'Ile trwają mediacje okołorozwodowe w Szczecinie?',
+    //     content: 'Zazwyczaj potrzeba 3-6 sesji po 2 godziny, rozłożonych na&nbsp;kilka tygodni. Czas zależy od złożoności Waszej sytuacji i&nbsp;ilości spraw do&nbsp;ustalenia.',
+    //     value: 'ile-trwaja-mediacje-okołorozwodowe'
+    //   },
+    //   {
+    //     label: 'Czy porozumienie z mediacji jest wiążące w sądzie?',
+    //     content: 'Porozumienie wypracowane na&nbsp;mediacji możecie przedstawić sądowi jako propozycję warunków rozwodu. Sąd zazwyczaj je akceptuje, co znacznie przyspiesza cały proces.',
+    //     value: 'czy-porozumienie-z-mediacji-jest-wiazace-w-sadzie'
+    //   },
+    //   {
+    //     label: 'Co jeśli nie dogadamy się we wszystkich kwestiach?',
+    //     content: 'Nawet częściowe porozumienie jest wartościowe. Zmniejsza liczbę spornych kwestii, którymi musi zająć się sąd. Możemy ustalić np. opiekę nad dziećmi, a podział majątku zostawić do&nbsp;rozstrzygnięcia sądowi.',
+    //     value: 'co-jesli-nie-dogadamy-sie-we-wszystkich-kwestiach'
+    //   },
+    //   {
+    //     label: 'Czy potrzebuję adwokata oprócz mediatora?',
+    //     content: 'Mediator jest bezstronny i&nbsp;nie reprezentuje żadnej ze stron. Jeśli chcesz mieć pewność co do&nbsp;swoich praw, możesz skonsultować się z&nbsp;adwokatem przed lub&nbsp;po mediacjach.',
+    //     value: 'czy-potrzebuje-adwokata-oprocz-mediatora'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;mediację okołorozwodową w&nbsp;Szczecinie'

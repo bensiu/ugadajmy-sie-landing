@@ -59,28 +59,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Pytania o&nbsp;mediacje sąsiedzkie',
-    questions: [
-      {
-        label: 'Od jakiego wieku dziecko może uczestniczyć w mediacji?',
-        content: 'Nie ma sztywnej granicy wiekowej. Już 5-6-latki mogą uczestniczyć w&nbsp;uproszczonych formach rozmowy. Im starsze dziecko, tym bardziej może być zaangażowane. Nastolatki często uczestniczą we wspólnych sesjach z&nbsp;rodzicami.'
-      },
-      {
-        label: 'Czy dziecko musi brać udział w mediacji?',
-        content: 'Nie, udział dziecka jest zawsze opcjonalny i&nbsp;zależy od sytuacji. Czasami wystarczy, że przeprowadzę z&nbsp;dzieckiem rozmowę i&nbsp;przekażę rodzicom jego perspektywę. Innym razem wspólna sesja jest wskazana.'
-      },
-      {
-        label: 'Czy dziecko decyduje o wyniku mediacji?',
-        content: 'Absolutnie nie. Decyzje podejmują dorośli. Głos dziecka jest jednym z&nbsp;elementów branych pod uwagę, ale odpowiedzialność za decyzje spoczywa na&nbsp;rodzicach. Chronię dzieci przed byciem rozjemcami.'
-      },
-      {
-        label: 'Czy to, co powie dziecko, jest poufne?',
-        content: 'Ustalamy to z&nbsp;góry z&nbsp;rodzicami. Zazwyczaj przekazuję rodzicom ogólną perspektywę dziecka, ale nie dosłownie każde słowo. Jeśli dziecko poprosi o&nbsp;dyskrecję w&nbsp;jakiejś sprawie, respektuję to, chyba że chodzi o&nbsp;bezpieczeństwo.'
-      },
-      {
-        label: 'Ile kosztuje mediacja z udziałem dziecka w Szczecinie?',
-        content: 'Sesja mediacyjna z&nbsp;udziałem dziecka to koszt 450-550 zł, ponieważ wymaga dodatkowego czasu i&nbsp;przygotowania. Rozmowa wstępna z&nbsp;dzieckiem to ok. 200 zł. Dokładny koszt ustalamy po poznaniu sytuacji.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Od jakiego wieku dziecko może uczestniczyć w mediacji?',
+    //     content: 'Nie ma sztywnej granicy wiekowej. Już 5-6-latki mogą uczestniczyć w&nbsp;uproszczonych formach rozmowy. Im starsze dziecko, tym bardziej może być zaangażowane. Nastolatki często uczestniczą we wspólnych sesjach z&nbsp;rodzicami.',
+    //     value: 'od-jakiego-wieku-dziecko-moze-uczestniczyc-w-mediacji'
+    //   },
+    //   {
+    //     label: 'Czy dziecko musi brać udział w mediacji?',
+    //     content: 'Nie, udział dziecka jest zawsze opcjonalny i&nbsp;zależy od sytuacji. Czasami wystarczy, że przeprowadzę z&nbsp;dzieckiem rozmowę i&nbsp;przekażę rodzicom jego perspektywę. Innym razem wspólna sesja jest wskazana.',
+    //     value: 'czy-dziecko-musi-brac-udzial-w-mediacji'
+    //   },
+    //   {
+    //     label: 'Czy dziecko decyduje o wyniku mediacji?',
+    //     content: 'Absolutnie nie. Decyzje podejmują dorośli. Głos dziecka jest jednym z&nbsp;elementów branych pod uwagę, ale odpowiedzialność za decyzje spoczywa na&nbsp;rodzicach. Chronię dzieci przed byciem rozjemcami.',
+    //     value: 'czy-dziecko-decyduje-o-wyniku-mediacji'
+    //   },
+    //   {
+    //     label: 'Czy to, co powie dziecko, jest poufne?',
+    //     content: 'Ustalamy to z&nbsp;góry z&nbsp;rodzicami. Zazwyczaj przekazuję rodzicom ogólną perspektywę dziecka, ale nie dosłownie każde słowo. Jeśli dziecko poprosi o&nbsp;dyskrecję w&nbsp;jakiejś sprawie, respektuję to, chyba że chodzi o&nbsp;bezpieczeństwo.',
+    //     value: 'czy-to-co-powie-dziecko-jest-poufne'
+    //   },
+    //   {
+    //     label: 'Ile kosztuje mediacja z udziałem dziecka w Szczecinie?',
+    //     content: 'Sesja mediacyjna z&nbsp;udziałem dziecka to koszt 450-550 zł, ponieważ wymaga dodatkowego czasu i&nbsp;przygotowania. Rozmowa wstępna z&nbsp;dzieckiem to ok. 200 zł. Dokładny koszt ustalamy po poznaniu sytuacji.',
+    //     value: 'ile-kosztuje-mediacja-z-udziałem-dziecka'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;mediację z&nbsp;udziałem dziecka w&nbsp;Szczecinie'

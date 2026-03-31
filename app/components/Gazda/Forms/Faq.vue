@@ -63,7 +63,7 @@ const fields = [
   {
     type: 'checkbox',
     name: 'active',
-    required: true,
+    // required: true,
     checkboxLabel: 'Aktywny'
   }
 ]

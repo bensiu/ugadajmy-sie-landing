@@ -59,28 +59,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Pytania o&nbsp;mediacje online',
-    questions: [
-      {
-        label: 'Czy mediacja online jest równie skuteczna jak stacjonarna?',
-        content: 'Tak! Badania pokazują, że mediacje online mają porównywalną skuteczność do&nbsp;stacjonarnych. Kluczowe jest przygotowanie techniczne i&nbsp;stworzenie odpowiedniej atmosfery. Mam wieloletnie doświadczenie w&nbsp;prowadzeniu mediacji online.'
-      },
-      {
-        label: 'Jakiego sprzętu potrzebuję do mediacji online?',
-        content: 'Wystarczy komputer, tablet lub&nbsp;smartfon z&nbsp;kamerą, mikrofonem i&nbsp;dostępem do&nbsp;internetu. Wysyłam link do&nbsp;spotkania – nie musisz instalować żadnego specjalnego oprogramowania. Przed pierwszą sesją robimy krótki test połączenia.'
-      },
-      {
-        label: 'Czy mediacja online jest bezpieczna i poufna?',
-        content: 'Tak, korzystam z&nbsp;szyfrowanych platform do&nbsp;wideokonferencji. Sesje nie są nagrywane bez zgody stron. Poufność mediacji online jest taka sama jak stacjonarnej.'
-      },
-      {
-        label: 'Ile kosztują mediacje online?',
-        content: 'Ceny mediacji online są takie same jak stacjonarnych. Konsultacja wstępna: 220 zł. Sesja mediacyjna: 350-500 zł w&nbsp;zależności od typu sprawy. Oszczędzasz jednak na&nbsp;dojazdach i&nbsp;czasie.'
-      },
-      {
-        label: 'Jak podpisać ugodę przy mediacji online?',
-        content: 'Ugodę można podpisać na&nbsp;kilka sposobów: elektronicznie (podpis kwalifikowany lub&nbsp;profil zaufany), tradycyjnie (wysyłka pocztą) lub&nbsp;hybrydowo (spotkanie tylko na&nbsp;podpisanie). Doradzę najlepsze rozwiązanie dla&nbsp;Twojej sytuacji.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Czy mediacja online jest równie skuteczna jak stacjonarna?',
+    //     content: 'Tak! Badania pokazują, że mediacje online mają porównywalną skuteczność do&nbsp;stacjonarnych. Kluczowe jest przygotowanie techniczne i&nbsp;stworzenie odpowiedniej atmosfery. Mam wieloletnie doświadczenie w&nbsp;prowadzeniu mediacji online.',
+    //     value: 'czy-mediacja-online-jest-rownie-skuteczna-jak-stacjonarna'
+    //   },
+    //   {
+    //     label: 'Jakiego sprzętu potrzebuję do mediacji online?',
+    //     content: 'Wystarczy komputer, tablet lub&nbsp;smartfon z&nbsp;kamerą, mikrofonem i&nbsp;dostępem do&nbsp;internetu. Wysyłam link do&nbsp;spotkania – nie musisz instalować żadnego specjalnego oprogramowania. Przed pierwszą sesją robimy krótki test połączenia.',
+    //     value: 'jakiego-sprzetu-potrzebuje-do-mediacji-online'
+    //   },
+    //   {
+    //     label: 'Czy mediacja online jest bezpieczna i poufna?',
+    //     content: 'Tak, korzystam z&nbsp;szyfrowanych platform do&nbsp;wideokonferencji. Sesje nie są nagrywane bez zgody stron. Poufność mediacji online jest taka sama jak stacjonarnej.',
+    //     value: 'czy-mediacja-online-jest-bezpieczna-i-poufna'
+    //   },
+    //   {
+    //     label: 'Ile kosztują mediacje online?',
+    //     content: 'Ceny mediacji online są takie same jak stacjonarnych. Konsultacja wstępna: 220 zł. Sesja mediacyjna: 350-500 zł w&nbsp;zależności od typu sprawy. Oszczędzasz jednak na&nbsp;dojazdach i&nbsp;czasie.',
+    //     value: 'ile-kosztuja-mediacje-online'
+    //   },
+    //   {
+    //     label: 'Jak podpisać ugodę przy mediacji online?',
+    //     content: 'Ugodę można podpisać na&nbsp;kilka sposobów: elektronicznie (podpis kwalifikowany lub&nbsp;profil zaufany), tradycyjnie (wysyłka pocztą) lub&nbsp;hybrydowo (spotkanie tylko na&nbsp;podpisanie). Doradzę najlepsze rozwiązanie dla&nbsp;Twojej sytuacji.',
+    //     value: 'jak-podpisac-ugode-przy-mediacji-online'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;mediację online w&nbsp;Szczecinie'

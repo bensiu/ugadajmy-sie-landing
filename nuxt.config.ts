@@ -125,7 +125,7 @@ export default defineNuxtConfig({
   // },
 
   sitemap: {
-    exclude: ['wiadomosci-o-mediacjach/gazda'],
+    exclude: ['gazda', 'wiadomosci-o-mediacjach/gazda'],
     sources: ['/api/__sitemap__/urls']
   }
 })

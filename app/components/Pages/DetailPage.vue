@@ -101,6 +101,7 @@ const props = defineProps<DetailPageProps>()
       :id="`pytania-o-${props.id}`"
       :variant="props.frequentlyAskedQuestions.variant || 'subtle'"
       v-bind="props.frequentlyAskedQuestions"
+      :silos="props.silos"
     />
 
     <SectionsCallToAction

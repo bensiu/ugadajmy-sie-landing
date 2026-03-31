@@ -59,28 +59,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Pytania o&nbsp;mediacje sąsiedzkie',
-    questions: [
-      {
-        label: 'Ile kosztują mediacje sąsiedzkie w Szczecinie?',
-        content: 'Mediacja sąsiedzka to koszt 220 zł za konsultację wstępną i&nbsp;350-450 zł za sesję mediacyjną. Często wystarczają 1-3 sesje. To wielokrotnie mniej niż koszty procesu sądowego i&nbsp;wynajęcie prawników.'
-      },
-      {
-        label: 'Co jeśli sąsiad odmówi udziału w mediacji?',
-        content: 'Mediacja jest dobrowolna, ale większość osób zgadza się po wyjaśnieniu korzyści. Mam doświadczenie w&nbsp;przekonywaniu niechętnych stron – często pomagam w&nbsp;pierwszym kontakcie i&nbsp;wyjaśniam, czemu warto spróbować.'
-      },
-      {
-        label: 'Czy ugoda z mediacji sąsiedzkiej jest wiążąca?',
-        content: 'Ugoda spisana podczas mediacji jest wiążącą umową cywilną. Może też zostać zatwierdzona przez sąd i&nbsp;zyskać moc wyroku, co pozwala na&nbsp;egzekucję w&nbsp;razie nieprzestrzegania ustaleń.'
-      },
-      {
-        label: 'Jak długo trwa mediacja sąsiedzka?',
-        content: 'Typowa mediacja sąsiedzka kończy się w&nbsp;ciągu 1-3 sesji, rozłożonych na&nbsp;2-4 tygodnie. To znacznie szybciej niż sprawa sądowa, która może ciągnąć się latami.'
-      },
-      {
-        label: 'Czy mogę wziąć prawnika na mediację?',
-        content: 'Tak, choć w&nbsp;sprawach sąsiedzkich rzadko jest to potrzebne. Mediacja to nieformalna rozmowa, a ja jako prawnik dbam o&nbsp;to, by wypracowane rozwiązania były zgodne z&nbsp;prawem.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Ile kosztują mediacje sąsiedzkie w Szczecinie?',
+    //     content: 'Mediacja sąsiedzka to koszt 220 zł za konsultację wstępną i&nbsp;350-450 zł za sesję mediacyjną. Często wystarczają 1-3 sesje. To wielokrotnie mniej niż koszty procesu sądowego i&nbsp;wynajęcie prawników.',
+    //     value: 'ile-kosztuja-mediacje-sasiedzkie'
+    //   },
+    //   {
+    //     label: 'Co jeśli sąsiad odmówi udziału w mediacji?',
+    //     content: 'Mediacja jest dobrowolna, ale większość osób zgadza się po wyjaśnieniu korzyści. Mam doświadczenie w&nbsp;przekonywaniu niechętnych stron – często pomagam w&nbsp;pierwszym kontakcie i&nbsp;wyjaśniam, czemu warto spróbować.',
+    //     value: 'co-jesli-sasiad-odmowi-udzialu-w-mediacji'
+    //   },
+    //   {
+    //     label: 'Czy ugoda z mediacji sąsiedzkiej jest wiążąca?',
+    //     content: 'Ugoda spisana podczas mediacji jest wiążącą umową cywilną. Może też zostać zatwierdzona przez sąd i&nbsp;zyskać moc wyroku, co pozwala na&nbsp;egzekucję w&nbsp;razie nieprzestrzegania ustaleń.',
+    //     value: 'czy-ugoda-z-mediacji-sasiedzkiej-jest-wiazaca'
+    //   },
+    //   {
+    //     label: 'Jak długo trwa mediacja sąsiedzka?',
+    //     content: 'Typowa mediacja sąsiedzka kończy się w&nbsp;ciągu 1-3 sesji, rozłożonych na&nbsp;2-4 tygodnie. To znacznie szybciej niż sprawa sądowa, która może ciągnąć się latami.',
+    //     value: 'jak-dlugo-trwa-mediacja-sasiedzka'
+    //   },
+    //   {
+    //     label: 'Czy mogę wziąć prawnika na mediację?',
+    //     content: 'Tak, choć w&nbsp;sprawach sąsiedzkich rzadko jest to potrzebne. Mediacja to nieformalna rozmowa, a ja jako prawnik dbam o&nbsp;to, by wypracowane rozwiązania były zgodne z&nbsp;prawem.',
+    //     value: 'czy-moge-wziac-prawnika-na-mediacje'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;mediację sąsiedzką w&nbsp;Szczecinie'

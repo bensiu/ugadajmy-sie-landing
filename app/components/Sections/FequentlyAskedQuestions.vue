@@ -1,14 +1,18 @@
 <script setup lang="ts">
-import type { SectionVariant } from '~/types'
+import type { SectionVariant, FaqItem } from '~/types'
+
+interface Question {
+  label: string
+  content: string
+  value?: string
+}
 
 interface ListOdBenefitsProps {
   id: string
   title: string
   variant?: SectionVariant
-  questions: {
-    label: string
-    content: string
-  }[]
+  silos: string
+  questions: Question[] | '/api/faqs/'
 }
 
 const props = withDefaults(
@@ -18,6 +22,23 @@ const props = withDefaults(
   }
 )
 
+const questionsData = ref<Question[]>([])
+
+if (!Array.isArray(props.questions)) {
+  await $fetch(`/api/faqs/?subject=${props.silos}`)
+    .then((response) => {
+      questionsData.value = response.map(
+        (item: FaqItem) => ({
+          label: item.label,
+          content: item.content,
+          value: item.slug
+        })
+      )
+    })
+} else {
+  questionsData.value = props.questions
+}
+
 const onUpdate = (value: string | string[] | undefined) => {
   if (value && window) {
     if (window.dataLayer) {
@@ -26,6 +47,17 @@ const onUpdate = (value: string | string[] | undefined) => {
       //   page_id: props.id,
       //   key: value
       // })
+    }
+    const item = questionsData.value.find(i => i.value === value)
+
+    if (item && value) {
+      $fetch('/api/faqs/counter', {
+        method: 'POST',
+        body: {
+          silos: props.silos,
+          slug: item.value
+        }
+      })
     }
   }
 }
@@ -42,7 +74,7 @@ const onUpdate = (value: string | string[] | undefined) => {
     />
     <UContainer>
       <UAccordion
-        :items="props.questions"
+        :items="questionsData"
         variant="none"
         :ui="{
           item: 'bg-white rounded-lg shadow-sm mb-4',

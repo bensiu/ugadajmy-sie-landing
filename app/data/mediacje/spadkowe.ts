@@ -59,28 +59,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Pytania o&nbsp;mediacje spadkowe',
-    questions: [
-      {
-        label: 'Ile kosztują mediacje spadkowe w Szczecinie?',
-        content: 'Koszt mediacji spadkowej zależy od złożoności sprawy i&nbsp;liczby spadkobierców. Konsultacja wstępna kosztuje 220 zł. Sesja mediacyjna to 390-590 zł. Mimo tych kosztów, mediacja jest wielokrotnie tańsza niż wieloletni proces sądowy o&nbsp;spadek.'
-      },
-      {
-        label: 'Czy ugoda z mediacji spadkowej jest wiążąca prawnie?',
-        content: 'Tak! Ugoda spadkowa zawarta przed mediatorem, po zatwierdzeniu przez sąd, ma moc prawną równą orzeczeniu sądowemu. Można na&nbsp;jej podstawie dokonać wpisów w&nbsp;księgach wieczystych czy przepisać pojazdy.'
-      },
-      {
-        label: 'Co jeśli jeden spadkobierca mieszka za granicą?',
-        content: 'Oferuję mediacje online, które umożliwiają udział spadkobierców z&nbsp;dowolnego miejsca. Sesje prowadzę przez wideokonferencję, co pozwala wszystkim uczestniczyć bez kosztów podróży.'
-      },
-      {
-        label: 'Czy mediacja jest możliwa przy sporze o ważność testamentu?',
-        content: 'Tak, choć w&nbsp;takich przypadkach ostateczne rozstrzygnięcie prawne należy do&nbsp;sądu. Mediacja może jednak pomóc stronom dojść do&nbsp;porozumienia co do&nbsp;podziału majątku niezależnie od treści testamentu.'
-      },
-      {
-        label: 'Ile sesji potrzeba do zakończenia mediacji spadkowej?',
-        content: 'Zazwyczaj potrzeba 3-6 sesji, rozłożonych na&nbsp;kilka tygodni. To zależy od liczby spadkobierców, wartości spadku i&nbsp;stopnia skomplikowania relacji rodzinnych.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Ile kosztują mediacje spadkowe w Szczecinie?',
+    //     content: 'Koszt mediacji spadkowej zależy od złożoności sprawy i&nbsp;liczby spadkobierców. Konsultacja wstępna kosztuje 220 zł. Sesja mediacyjna to 390-590 zł. Mimo tych kosztów, mediacja jest wielokrotnie tańsza niż wieloletni proces sądowy o&nbsp;spadek.',
+    //     value: 'ile-kosztuja-mediacje-spadkowe'
+    //   },
+    //   {
+    //     label: 'Czy ugoda z mediacji spadkowej jest wiążąca prawnie?',
+    //     content: 'Tak! Ugoda spadkowa zawarta przed mediatorem, po zatwierdzeniu przez sąd, ma moc prawną równą orzeczeniu sądowemu. Można na&nbsp;jej podstawie dokonać wpisów w&nbsp;księgach wieczystych czy przepisać pojazdy.',
+    //     value: 'czy-ugoda-z-mediacji-spadkowej-jest-wiazaca-prawnie'
+    //   },
+    //   {
+    //     label: 'Co jeśli jeden spadkobierca mieszka za granicą?',
+    //     content: 'Oferuję mediacje online, które umożliwiają udział spadkobierców z&nbsp;dowolnego miejsca. Sesje prowadzę przez wideokonferencję, co pozwala wszystkim uczestniczyć bez kosztów podróży.',
+    //     value: 'co-jesli-jeden-spadkobierca-mieszka-za-granica'
+    //   },
+    //   {
+    //     label: 'Czy mediacja jest możliwa przy sporze o ważność testamentu?',
+    //     content: 'Tak, choć w&nbsp;takich przypadkach ostateczne rozstrzygnięcie prawne należy do&nbsp;sądu. Mediacja może jednak pomóc stronom dojść do&nbsp;porozumienia co do&nbsp;podziału majątku niezależnie od treści testamentu.',
+    //     value: 'czy-mediacja-jest-mozliwa-przy-sporze-o-waznosc-testamentu'
+    //   },
+    //   {
+    //     label: 'Ile sesji potrzeba do zakończenia mediacji spadkowej?',
+    //     content: 'Zazwyczaj potrzeba 3-6 sesji, rozłożonych na&nbsp;kilka tygodni. To zależy od liczby spadkobierców, wartości spadku i&nbsp;stopnia skomplikowania relacji rodzinnych.',
+    //     value: 'ile-sesji-potrzeba-do-zakonczenia-mediacji-spadkowej'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;mediację spadkową w&nbsp;Szczecinie'

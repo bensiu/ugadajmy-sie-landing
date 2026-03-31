@@ -59,28 +59,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Pytania o&nbsp;mediacje rozwodowe',
-    questions: [
-      {
-        label: 'Ile kosztują mediacje rozwodowe w Szczecinie?',
-        content: 'Koszt mediacji rozwodowej zależy od złożoności sprawy. Pierwsza konsultacja to 220 zł. Sesja mediacyjna (2 godz.) kosztuje 390-490 zł. To wielokrotnie mniej niż koszty procesu sądowego z&nbsp;udziałem adwokatów.'
-      },
-      {
-        label: 'Czy mediacje rozwodowe są obowiązkowe?',
-        content: 'W Polsce mediacje są dobrowolne, ale sąd może na&nbsp;nie skierować. Jeśli sąd skieruje Was na&nbsp;mediacje, warto z&nbsp;nich skorzystać – pokazuje to dobrą wolę i&nbsp;może przyspieszyć proces.'
-      },
-      {
-        label: 'Co jeśli nie dogadamy się na mediacji rozwodowej?',
-        content: 'Jeśli mediacja nie zakończy się pełnym porozumieniem, sprawa wraca do&nbsp;sądu. Jednak nawet częściowe ustalenia (np. tylko o&nbsp;dzieciach) przyspieszają proces sądowy.'
-      },
-      {
-        label: 'Czy mogę przyjść na mediacje bez małżonka?',
-        content: 'Mediacja wymaga obecności obu stron. Mogę jednak pomóc w&nbsp;pierwszym kontakcie z&nbsp;małżonkiem i&nbsp;wyjaśnić korzyści płynące z&nbsp;mediacji.'
-      },
-      {
-        label: 'Jak długo trwa mediacja rozwodowa?',
-        content: 'Zazwyczaj 3-6 sesji po 2 godziny, rozłożonych na&nbsp;4-8 tygodni. To znacznie szybciej niż proces sądowy, który może ciągnąć się latami.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Ile kosztują mediacje rozwodowe w Szczecinie?',
+    //     content: 'Koszt mediacji rozwodowej zależy od złożoności sprawy. Pierwsza konsultacja to 220 zł. Sesja mediacyjna (2 godz.) kosztuje 390-490 zł. To wielokrotnie mniej niż koszty procesu sądowego z&nbsp;udziałem adwokatów.',
+    //     value: 'ile-kosztuja-mediacje-rozwodowe'
+    //   },
+    //   {
+    //     label: 'Czy mediacje rozwodowe są obowiązkowe?',
+    //     content: 'W Polsce mediacje są dobrowolne, ale sąd może na&nbsp;nie skierować. Jeśli sąd skieruje Was na&nbsp;mediacje, warto z&nbsp;nich skorzystać – pokazuje to dobrą wolę i&nbsp;może przyspieszyć proces.',
+    //     value: 'czy-mediacje-rozwodowe-sa-obowiazkowe'
+    //   },
+    //   {
+    //     label: 'Co jeśli nie dogadamy się na mediacji rozwodowej?',
+    //     content: 'Jeśli mediacja nie zakończy się pełnym porozumieniem, sprawa wraca do&nbsp;sądu. Jednak nawet częściowe ustalenia (np. tylko o&nbsp;dzieciach) przyspieszają proces sądowy.',
+    //     value: 'co-jesli-nie-dogadamy-sie-na-mediacji-rozwodowej'
+    //   },
+    //   {
+    //     label: 'Czy mogę przyjść na mediacje bez małżonka?',
+    //     content: 'Mediacja wymaga obecności obu stron. Mogę jednak pomóc w&nbsp;pierwszym kontakcie z&nbsp;małżonkiem i&nbsp;wyjaśnić korzyści płynące z&nbsp;mediacji.',
+    //     value: 'czy-moge-przyjsc-na-mediacje-bez-malzonka'
+    //   },
+    //   {
+    //     label: 'Jak długo trwa mediacja rozwodowa?',
+    //     content: 'Zazwyczaj 3-6 sesji po 2 godziny, rozłożonych na&nbsp;4-8 tygodni. To znacznie szybciej niż proces sądowy, który może ciągnąć się latami.',
+    //     value: 'jak-dlugo-trwa-mediacja-rozwodowa'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;mediację rozwodową w&nbsp;Szczecinie'

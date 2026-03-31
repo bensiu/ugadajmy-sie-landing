@@ -70,7 +70,7 @@ export interface DetailPageProps {
       label: string
       content: string
       value?: string
-    }[]
+    }[] | '/api/faqs/'
   }
   callToAction?: {
     variant?: SectionVariant

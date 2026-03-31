@@ -59,28 +59,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Pytania o&nbsp;mediacje sąsiedzkie',
-    questions: [
-      {
-        label: 'Ile kosztują mediacje dla firm w Szczecinie?',
-        content: 'Koszt mediacji firmowej zależy od skali konfliktu i&nbsp;liczby osób zaangażowanych. dla&nbsp;małych zespołów (2-3 osoby) to 500-800 zł za sesję. dla&nbsp;większych konfliktów przygotowuję indywidualną wycenę. Koszt mediacji to ułamek strat generowanych przez konflikt.'
-      },
-      {
-        label: 'Czy mediacja może zastąpić procedurę dyscyplinarną?',
-        content: 'W wielu przypadkach tak. Mediacja jest szczególnie skuteczna, gdy chcesz rozwiązać konflikt bez eskalacji. Oczywiście w&nbsp;przypadku poważnych naruszeń prawa procedury formalne mogą być konieczne równolegle.'
-      },
-      {
-        label: 'Czy mediacja jest poufna wobec zarządu?',
-        content: 'Tak, treść rozmów mediacyjnych jest poufna. Zarząd otrzymuje informację o&nbsp;wyniku mediacji i&nbsp;uzgodnionych rozwiązaniach, ale nie o&nbsp;szczegółach rozmów. To buduje zaufanie uczestników.'
-      },
-      {
-        label: 'Jak długo trwa mediacja firmowa?',
-        content: 'Typowy konflikt między dwiema osobami rozwiązuję w&nbsp;2-4 sesjach rozłożonych na&nbsp;2-3 tygodnie. Bardziej złożone sytuacje (konflikty zespołowe) mogą wymagać więcej czasu, ale i&nbsp;tak to znacznie szybciej niż inne metody.'
-      },
-      {
-        label: 'Czy oferujesz szkolenia z zarządzania konfliktami?',
-        content: 'Tak! Oprócz mediacji prowadzę szkolenia dla&nbsp;menedżerów i&nbsp;zespołów z&nbsp;komunikacji i&nbsp;zarządzania konfliktami. To inwestycja w&nbsp;prewencję, która zmniejsza liczbę konfliktów w&nbsp;przyszłości.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Ile kosztują mediacje dla firm w Szczecinie?',
+    //     content: 'Koszt mediacji firmowej zależy od skali konfliktu i&nbsp;liczby osób zaangażowanych. dla&nbsp;małych zespołów (2-3 osoby) to 500-800 zł za sesję. dla&nbsp;większych konfliktów przygotowuję indywidualną wycenę. Koszt mediacji to ułamek strat generowanych przez konflikt.',
+    //     value: 'ile-kosztuja-mediacje-dla-firm'
+    //   },
+    //   {
+    //     label: 'Czy mediacja może zastąpić procedurę dyscyplinarną?',
+    //     content: 'W wielu przypadkach tak. Mediacja jest szczególnie skuteczna, gdy chcesz rozwiązać konflikt bez eskalacji. Oczywiście w&nbsp;przypadku poważnych naruszeń prawa procedury formalne mogą być konieczne równolegle.',
+    //     value: 'czy-mediacja-moze-zastapic-procedure-dyscyplinarna'
+    //   },
+    //   {
+    //     label: 'Czy mediacja jest poufna wobec zarządu?',
+    //     content: 'Tak, treść rozmów mediacyjnych jest poufna. Zarząd otrzymuje informację o&nbsp;wyniku mediacji i&nbsp;uzgodnionych rozwiązaniach, ale nie o&nbsp;szczegółach rozmów. To buduje zaufanie uczestników.',
+    //     value: 'czy-mediacja-jest-poufna-wobec-zarzadu'
+    //   },
+    //   {
+    //     label: 'Jak długo trwa mediacja firmowa?',
+    //     content: 'Typowy konflikt między dwiema osobami rozwiązuję w&nbsp;2-4 sesjach rozłożonych na&nbsp;2-3 tygodnie. Bardziej złożone sytuacje (konflikty zespołowe) mogą wymagać więcej czasu, ale i&nbsp;tak to znacznie szybciej niż inne metody.',
+    //     value: 'jak-dlugo-trwa-mediacja-firmowa'
+    //   },
+    //   {
+    //     label: 'Czy oferujesz szkolenia z zarządzania konfliktami?',
+    //     content: 'Tak! Oprócz mediacji prowadzę szkolenia dla&nbsp;menedżerów i&nbsp;zespołów z&nbsp;komunikacji i&nbsp;zarządzania konfliktami. To inwestycja w&nbsp;prewencję, która zmniejsza liczbę konfliktów w&nbsp;przyszłości.',
+    //     value: 'czy-oferujesz-szkolenia-z-zarzadzania-konfliktami'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;mediację firmową w&nbsp;Szczecinie'

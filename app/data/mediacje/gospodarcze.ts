@@ -59,28 +59,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Pytania o&nbsp;mediacje gospodarcze',
-    questions: [
-      {
-        label: 'Ile kosztują mediacje gospodarcze w Szczecinie?',
-        content: 'Koszt zależy od wartości sporu i&nbsp;złożoności sprawy. Pierwsze spotkanie organizacyjne jest wliczone w&nbsp;koszt mediacji. Łączny koszt jest znacznie niższy niż proces sądowy, a czas rozwiązania liczony w&nbsp;tygodniach, nie latach.'
-      },
-      {
-        label: 'Czy ugoda z mediacji jest wiążąca dla firm?',
-        content: 'Tak! Ugoda zawarta przed mediatorem, po zatwierdzeniu przez sąd, ma moc prawną wyroku sądowego. Można ją egzekwować przez komornika w&nbsp;razie niewykonania zobowiązań.'
-      },
-      {
-        label: 'Czy mediacje gospodarcze są poufne?',
-        content: 'Absolutnie. Wszystko, co powiedziane na&nbsp;mediacji, jest objęte tajemnicą. Mediator nie może zeznawać w&nbsp;sądzie na&nbsp;temat przebiegu mediacji. To chroni reputację firm.'
-      },
-      {
-        label: 'Czy konkurencja dowie się o naszym sporze?',
-        content: 'Nie. w&nbsp;przeciwieństwie do&nbsp;procesu sądowego, który jest jawny, mediacje są całkowicie poufne. Żadna informacja nie wychodzi poza pokój mediacyjny.'
-      },
-      {
-        label: 'Czy mogę prowadzić mediacje zamiast iść do sądu w sprawie windykacyjnej?',
-        content: 'Tak. Mediacja często jest skuteczniejsza niż sąd w&nbsp;sprawach o&nbsp;zapłatę. Dłużnik chętniej negocjuje warunki spłaty niż czeka na&nbsp;wyrok. Można ustalić raty, odroczenia, częściowe umorzenie.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Ile kosztują mediacje gospodarcze w Szczecinie?',
+    //     content: 'Koszt zależy od wartości sporu i&nbsp;złożoności sprawy. Pierwsze spotkanie organizacyjne jest wliczone w&nbsp;koszt mediacji. Łączny koszt jest znacznie niższy niż proces sądowy, a czas rozwiązania liczony w&nbsp;tygodniach, nie latach.',
+    //     value: 'lle-kosztuja-mediacje-gospodarcze'
+    //   },
+    //   {
+    //     label: 'Czy ugoda z mediacji jest wiążąca dla firm?',
+    //     content: 'Tak! Ugoda zawarta przed mediatorem, po zatwierdzeniu przez sąd, ma moc prawną wyroku sądowego. Można ją egzekwować przez komornika w&nbsp;razie niewykonania zobowiązań.',
+    //     value: 'czy-ugoda-z-mediacji-jest-wiazaca-dla-firm'
+    //   },
+    //   {
+    //     label: 'Czy mediacje gospodarcze są poufne?',
+    //     content: 'Absolutnie. Wszystko, co powiedziane na&nbsp;mediacji, jest objęte tajemnicą. Mediator nie może zeznawać w&nbsp;sądzie na&nbsp;temat przebiegu mediacji. To chroni reputację firm.',
+    //     value: 'czy-mediacje-gospodarcze-sa-poufne'
+    //   },
+    //   {
+    //     label: 'Czy konkurencja dowie się o naszym sporze?',
+    //     content: 'Nie. w&nbsp;przeciwieństwie do&nbsp;procesu sądowego, który jest jawny, mediacje są całkowicie poufne. Żadna informacja nie wychodzi poza pokój mediacyjny.',
+    //     value: 'czy-konkurencja-dowie-sie-o-naszym-sporze'
+    //   },
+    //   {
+    //     label: 'Czy mogę prowadzić mediacje zamiast iść do sądu w sprawie windykacyjnej?',
+    //     content: 'Tak. Mediacja często jest skuteczniejsza niż sąd w&nbsp;sprawach o&nbsp;zapłatę. Dłużnik chętniej negocjuje warunki spłaty niż czeka na&nbsp;wyrok. Można ustalić raty, odroczenia, częściowe umorzenie.',
+    //     value: 'czy-moge-prowadzic-mediacje-zamiast-isc-do-sadu-w-sprawie-windykacyjnej'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;mediację gospodarczą w&nbsp;Szczecinie'

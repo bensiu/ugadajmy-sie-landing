@@ -1,6 +1,10 @@
 import type {
   GetItemCommandOutput
 } from '@aws-sdk/client-dynamodb'
+import type {
+  TransactWriteCommandInput
+} from '@aws-sdk/lib-dynamodb'
+
 import {
   GetItemCommand,
   DynamoDBClient,
@@ -8,6 +12,11 @@ import {
   PutItemCommand,
   UpdateItemCommand
 } from '@aws-sdk/client-dynamodb'
+import {
+  DynamoDBDocumentClient,
+  TransactWriteCommand
+} from '@aws-sdk/lib-dynamodb'
+
 import { unmarshall, marshall } from '@aws-sdk/util-dynamodb'
 import type { TableItem, TableKey } from '../types'
 // import DynamoDbTriggers from '../DynamoDbTriggers'
@@ -181,5 +190,24 @@ export default {
       //
       //   return results
       // })
+  },
+
+  executeTransaction(transactions: TransactWriteCommandInput) {
+    try {
+      return DynamoDBDocumentClient.from(client).send(
+        new TransactWriteCommand(transactions)
+      ).catch(
+        (error) => {
+          if ((error.message || '').includes('ConditionalCheckFailed')) {
+            console.log(error.message)
+          } else {
+            throw (error)
+          }
+        }
+      )
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    } catch (error: any | { name: string }) {
+      console.error(`Failed: ${error?.message ? error.message : error}`)
+    }
   }
 }

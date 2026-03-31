@@ -7,14 +7,14 @@ export default async function (item: FaqItem): Promise<FaqItem> {
   const existingRecord = await dynamodb.getItem(
     APP_DATA_TABLE_NAME,
     {
-      PK: `FAQS;ID:${item.silos}`,
-      SK: item.slug
+      PK: `FAQS;SLUG:${item.silos}`,
+      SK: `SLUG:${item.slug}`
     }
   ) as FaqItem | null
 
   const record = {
-    PK: `FAQS;ID:${item.silos}`,
-    SK: item.slug,
+    PK: `FAQS;SLUG:${item.silos}`,
+    SK: `SLUG:${item.slug}`,
     PK1: 'FAQS',
     SK1: item.silos,
     slug: item.slug,

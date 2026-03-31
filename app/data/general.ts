@@ -19,6 +19,7 @@ export const page: DetailPageProps & {
     description: 'Profesjonalne mediacje, terapia dla par, coaching i szkolenia w Szczecinie. Aleksandra Dubiel - mediator, prawnik, coach. Rozwiązuję konflikty, buduję porozumienie.'
   },
   // breadCrumbsLabel: 'Mediacje',
+  silos: '',
 
   title: ['Rozwiązuję konflikty.', 'Buduję porozumienie.'],
   description: 'Jestem Aleksandra Dubiel – łączę doświadczenie prawnika, mediatora i&nbsp;coacha, by pomagać Ci wyjść z&nbsp;konfliktów z poczuciem ulgi i&nbsp;konkretnym rozwiązaniem. Dla&nbsp;osób prywatnych i&nbsp;firm.',
