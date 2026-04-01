@@ -112,6 +112,6 @@ export interface FaqItem {
   counter: number
   label: string
   content: string
-  update_time: string
+  update_time?: string
   active: boolean
 }

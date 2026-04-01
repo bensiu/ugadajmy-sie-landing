@@ -89,28 +89,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Najczęściej zadawane pytania',
-    questions: [
-      {
-        label: 'Ile kosztują warsztaty dla par?',
-        content: 'Cena warsztatu indywidualnego to 600-900 zł w&nbsp;zależności od długości. Warsztaty grupowe są tańsze – około 300-400 zł za parę. Dokładne ceny podaję po ustaleniu formatu.'
-      },
-      {
-        label: 'Czy warsztaty zastępują terapię par?',
-        content: 'Warsztaty są świetnym uzupełnieniem terapii lub dobrym punktem wyjścia. Jeśli Wasza sytuacja wymaga głębszej pracy, po warsztacie mogę zaproponować kontynuację w&nbsp;formie terapii.'
-      },
-      {
-        label: 'Czy możemy wziąć udział w kilku warsztatach?',
-        content: 'Oczywiście. Wiele par zaczyna od jednego warsztatu i&nbsp;potem uczestniczy w&nbsp;kolejnych. Możecie też zamówić indywidualnie dopasowany cykl warsztatów.'
-      },
-      {
-        label: 'Kiedy organizujecie warsztaty grupowe?',
-        content: 'Warsztaty grupowe organizuję, gdy zbierze się grupa 4-6 par. Jeśli jesteście zainteresowani, zapiszcie się na listę oczekujących, a poinformuję Was o&nbsp;najbliższym terminie.'
-      },
-      {
-        label: 'Czy warsztaty są dostępne online?',
-        content: 'Większość warsztatów prowadzę także online. Format wirtualny sprawdza się szczególnie dobrze przy warsztatach komunikacyjnych. Warsztaty dotyczące intymności lepiej działają stacjonarnie.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Ile kosztują warsztaty dla par?',
+    //     content: 'Cena warsztatu indywidualnego to 600-900 zł w&nbsp;zależności od długości. Warsztaty grupowe są tańsze – około 300-400 zł za parę. Dokładne ceny podaję po ustaleniu formatu.',
+    //     value: 'ile-kosztuja-warsztaty-dla-par'
+    //   },
+    //   {
+    //     label: 'Czy warsztaty zastępują terapię par?',
+    //     content: 'Warsztaty są świetnym uzupełnieniem terapii lub dobrym punktem wyjścia. Jeśli Wasza sytuacja wymaga głębszej pracy, po warsztacie mogę zaproponować kontynuację w&nbsp;formie terapii.',
+    //     value: 'czy-warsztaty-zastepuja-terapie-par'
+    //   },
+    //   {
+    //     label: 'Czy możemy wziąć udział w kilku warsztatach?',
+    //     content: 'Oczywiście. Wiele par zaczyna od jednego warsztatu i&nbsp;potem uczestniczy w&nbsp;kolejnych. Możecie też zamówić indywidualnie dopasowany cykl warsztatów.',
+    //     value: 'czy-mozemy-wziac-udzial-w-kilku-warsztatach'
+    //   },
+    //   {
+    //     label: 'Kiedy organizujecie warsztaty grupowe?',
+    //     content: 'Warsztaty grupowe organizuję, gdy zbierze się grupa 4-6 par. Jeśli jesteście zainteresowani, zapiszcie się na listę oczekujących, a poinformuję Was o&nbsp;najbliższym terminie.',
+    //     value: 'kiedy-organizujecie-warsztaty-grupowe'
+    //   },
+    //   {
+    //     label: 'Czy warsztaty są dostępne online?',
+    //     content: 'Większość warsztatów prowadzę także online. Format wirtualny sprawdza się szczególnie dobrze przy warsztatach komunikacyjnych. Warsztaty dotyczące intymności lepiej działają stacjonarnie.',
+    //     value: 'czy-warsztaty-dla-par-sa-dostępne-online'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na warsztat dla par w&nbsp;Szczecinie'

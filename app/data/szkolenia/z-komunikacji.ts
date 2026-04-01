@@ -61,28 +61,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Pytania o&nbsp;szkolenia z&nbsp;komunikacji',
-    questions: [
-      {
-        label: 'Czego konkretnie nauczę się na szkoleniu z komunikacji?',
-        content: 'Na szkoleniu poznasz techniki aktywnego słuchania, zadawania pytań, parafrazowania i&nbsp;odzwierciedlania emocji. Nauczysz się formułować komunikaty \'ja\', wyrażać oczekiwania bez agresji i&nbsp;reagować na&nbsp;krytykę konstruktywnie. Ćwiczymy również rozpoznawanie barier komunikacyjnych i&nbsp;techniki ich przezwyciężania.'
-      },
-      {
-        label: 'Jak długo trwa szkolenie z komunikacji?',
-        content: 'Podstawowe szkolenie z&nbsp;komunikacji trwa jeden dzień (6-8 godzin). dla&nbsp;osób chcących głębiej rozwinąć umiejętności oferuję dwudniowe warsztaty intensywne lub&nbsp;cykl 4 spotkań po 3 godziny, co pozwala na&nbsp;praktykowanie między sesjami.'
-      },
-      {
-        label: 'Czy szkolenie jest prowadzone indywidualnie czy w grupie?',
-        content: 'Prowadzę zarówno szkolenia grupowe (optymalna wielkość to 8-12 osób), jak i&nbsp;sesje indywidualne. Szkolenia grupowe mają tę zaletę, że pozwalają na&nbsp;ćwiczenie z&nbsp;różnymi partnerami i&nbsp;uczenie się od innych uczestników.'
-      },
-      {
-        label: 'Czy po szkoleniu otrzymam jakieś materiały?',
-        content: 'Tak, każdy uczestnik otrzymuje komplet materiałów szkoleniowych: podręcznik z&nbsp;opisem technik, karty z&nbsp;narzędziami do&nbsp;codziennego stosowania oraz dostęp do&nbsp;dodatkowych materiałów online. Po szkoleniu oferuję również możliwość konsultacji follow-up.'
-      },
-      {
-        label: 'Dla kogo jest przeznaczone szkolenie z komunikacji?',
-        content: 'Szkolenie jest dla&nbsp;każdego, kto chce poprawić jakość swoich relacji i&nbsp;rozmów. Szczególnie polecam je menedżerom, specjalistom ds. sprzedaży i&nbsp;obsługi klienta, osobom pracującym w&nbsp;zespołach oraz każdemu, kto czuje, że komunikacja jest jego słabą stroną.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Czego konkretnie nauczę się na szkoleniu z komunikacji?',
+    //     content: 'Na szkoleniu poznasz techniki aktywnego słuchania, zadawania pytań, parafrazowania i&nbsp;odzwierciedlania emocji. Nauczysz się formułować komunikaty \'ja\', wyrażać oczekiwania bez agresji i&nbsp;reagować na&nbsp;krytykę konstruktywnie. Ćwiczymy również rozpoznawanie barier komunikacyjnych i&nbsp;techniki ich przezwyciężania.',
+    //     value: 'czego-konkretnie-naucze-sie-na-szkoleniu-z-komunikacji'
+    //   },
+    //   {
+    //     label: 'Jak długo trwa szkolenie z komunikacji?',
+    //     content: 'Podstawowe szkolenie z&nbsp;komunikacji trwa jeden dzień (6-8 godzin). dla&nbsp;osób chcących głębiej rozwinąć umiejętności oferuję dwudniowe warsztaty intensywne lub&nbsp;cykl 4 spotkań po 3 godziny, co pozwala na&nbsp;praktykowanie między sesjami.',
+    //     value: 'jak-dlugo-trwa-szkolenie-z-komunikacji'
+    //   },
+    //   {
+    //     label: 'Czy szkolenie jest prowadzone indywidualnie czy w grupie?',
+    //     content: 'Prowadzę zarówno szkolenia grupowe (optymalna wielkość to 8-12 osób), jak i&nbsp;sesje indywidualne. Szkolenia grupowe mają tę zaletę, że pozwalają na&nbsp;ćwiczenie z&nbsp;różnymi partnerami i&nbsp;uczenie się od innych uczestników.',
+    //     value: 'czy-szkolenie-jest-prowadzone-indywidualnie-czy-w-grupie'
+    //   },
+    //   {
+    //     label: 'Czy po szkoleniu otrzymam jakieś materiały?',
+    //     content: 'Tak, każdy uczestnik otrzymuje komplet materiałów szkoleniowych: podręcznik z&nbsp;opisem technik, karty z&nbsp;narzędziami do&nbsp;codziennego stosowania oraz dostęp do&nbsp;dodatkowych materiałów online. Po szkoleniu oferuję również możliwość konsultacji follow-up.',
+    //     value: 'czy-po-szkoleniu-otrzymam-jakies-materialy'
+    //   },
+    //   {
+    //     label: 'Dla kogo jest przeznaczone szkolenie z komunikacji?',
+    //     content: 'Szkolenie jest dla&nbsp;każdego, kto chce poprawić jakość swoich relacji i&nbsp;rozmów. Szczególnie polecam je menedżerom, specjalistom ds. sprzedaży i&nbsp;obsługi klienta, osobom pracującym w&nbsp;zespołach oraz każdemu, kto czuje, że komunikacja jest jego słabą stroną.',
+    //     value: 'dla-kogo-jest-przeznaczone-szkolenie-z-komunikacji'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;szkolenie z&nbsp;komunikacji w&nbsp;Szczecinie'

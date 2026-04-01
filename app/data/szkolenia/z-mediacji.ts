@@ -61,28 +61,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Pytania o&nbsp;szkolenia z&nbsp;mediacji',
-    questions: [
-      {
-        label: 'Czy po szkoleniu mogę zostać mediatorem?',
-        content: 'Tak, szkolenie podstawowe z&nbsp;mediacji (40-60 godzin) uprawnia do&nbsp;ubiegania się o&nbsp;wpis na&nbsp;listę mediatorów sądowych. Po ukończeniu szkolenia otrzymujesz certyfikat, który jest wymagany przez sądy. Dodatkowo rekomenduję praktykę pod superwizją i&nbsp;dalsze szkolenia specjalistyczne.'
-      },
-      {
-        label: 'Ile trwa szkolenie z mediacji?',
-        content: 'Podstawowe szkolenie mediacyjne trwa 40-60 godzin dydaktycznych, rozłożonych zazwyczaj na&nbsp;kilka weekendów. Oferuję również szkolenia specjalistyczne (np. mediacja rodzinna, gospodarcza), które trwają 20-40 godzin i&nbsp;są przeznaczone dla&nbsp;osób z&nbsp;ukończonym szkoleniem podstawowym.'
-      },
-      {
-        label: 'Jakie są wymagania, żeby uczestniczyć  szkoleniu?',
-        content: 'Szkolenie podstawowe z&nbsp;mediacji jest otwarte dla&nbsp;wszystkich osób pełnoletnich. Nie są wymagane wcześniejsze kwalifikacje, choć doświadczenie w&nbsp;pracy z&nbsp;ludźmi jest pomocne. dla&nbsp;osób chcących pracować jako mediatorzy sądowi wymagane jest wykształcenie wyższe.'
-      },
-      {
-        label: 'Czy szkolenie jest akredytowane?',
-        content: 'Tak, szkolenia prowadzę zgodnie ze standardami szkolenia mediatorów przyjętymi przez Społeczną Radę ds. Alternatywnych Metod Rozwiązywania Konfliktów i&nbsp;Sporów przy Ministrze Sprawiedliwości. Certyfikat jest honorowany przez sądy przy wpisie na&nbsp;listę mediatorów.'
-      },
-      {
-        label: 'Czy mogę uczestniczyć w szkoleniu online?',
-        content: 'Część teoretyczna szkolenia może być realizowana online. Jednak praktyka mediacyjna, symulacje i&nbsp;superwizja wymagają spotkań stacjonarnych. Oferuję formaty hybrydowe, które łączą elastyczność nauki zdalnej z&nbsp;wartością bezpośredniej praktyki.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Czy po szkoleniu mogę zostać mediatorem?',
+    //     content: 'Tak, szkolenie podstawowe z&nbsp;mediacji (40-60 godzin) uprawnia do&nbsp;ubiegania się o&nbsp;wpis na&nbsp;listę mediatorów sądowych. Po ukończeniu szkolenia otrzymujesz certyfikat, który jest wymagany przez sądy. Dodatkowo rekomenduję praktykę pod superwizją i&nbsp;dalsze szkolenia specjalistyczne.',
+    //     value: 'czy-po-szkoleniu-moge-zostac-mediatorem'
+    //   },
+    //   {
+    //     label: 'Ile trwa szkolenie z mediacji?',
+    //     content: 'Podstawowe szkolenie mediacyjne trwa 40-60 godzin dydaktycznych, rozłożonych zazwyczaj na&nbsp;kilka weekendów. Oferuję również szkolenia specjalistyczne (np. mediacja rodzinna, gospodarcza), które trwają 20-40 godzin i&nbsp;są przeznaczone dla&nbsp;osób z&nbsp;ukończonym szkoleniem podstawowym.',
+    //     value: 'lle-trwa-szkolenie-z-mediacji'
+    //   },
+    //   {
+    //     label: 'Jakie są wymagania, żeby uczestniczyć szkoleniu?',
+    //     content: 'Szkolenie podstawowe z&nbsp;mediacji jest otwarte dla&nbsp;wszystkich osób pełnoletnich. Nie są wymagane wcześniejsze kwalifikacje, choć doświadczenie w&nbsp;pracy z&nbsp;ludźmi jest pomocne. dla&nbsp;osób chcących pracować jako mediatorzy sądowi wymagane jest wykształcenie wyższe.',
+    //     value: 'jakie-sa-wymagania-zeby-uczestniczyc-szkoleniu'
+    //   },
+    //   {
+    //     label: 'Czy szkolenie jest akredytowane?',
+    //     content: 'Tak, szkolenia prowadzę zgodnie ze standardami szkolenia mediatorów przyjętymi przez Społeczną Radę ds. Alternatywnych Metod Rozwiązywania Konfliktów i&nbsp;Sporów przy Ministrze Sprawiedliwości. Certyfikat jest honorowany przez sądy przy wpisie na&nbsp;listę mediatorów.',
+    //     value: 'czy-szkolenie-jest-akredytowane'
+    //   },
+    //   {
+    //     label: 'Czy mogę uczestniczyć w szkoleniu online?',
+    //     content: 'Część teoretyczna szkolenia może być realizowana online. Jednak praktyka mediacyjna, symulacje i&nbsp;superwizja wymagają spotkań stacjonarnych. Oferuję formaty hybrydowe, które łączą elastyczność nauki zdalnej z&nbsp;wartością bezpośredniej praktyki.',
+    //     value: 'czy-moge-uczestniczyc-w-szkoleniu-online'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;szkolenie z&nbsp;mediacji w&nbsp;Szczecinie'

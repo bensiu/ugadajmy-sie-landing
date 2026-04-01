@@ -62,28 +62,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Pytania o&nbsp;szkolenia firmowe',
-    questions: [
-      {
-        label: 'Ile kosztują szkolenia firmowe w Szczecinie?',
-        content: 'Cena szkolenia zależy od wielu czynników: liczby uczestników, czasu trwania, zakresu tematycznego i&nbsp;formy realizacji. Po rozmowie o&nbsp;potrzebach firmy przygotowuję indywidualną wycenę. Oferuję również pakiety szkoleniowe i&nbsp;programy stałej współpracy w&nbsp;atrakcyjnych cenach.'
-      },
-      {
-        label: 'Jak długo trwa szkolenie firmowe?',
-        content: 'Standardowe szkolenie jednodniowe trwa 6-8 godzin. Oferuję również warsztaty 4-godzinne, dwudniowe programy intensywne oraz cykle szkoleniowe rozłożone na&nbsp;kilka tygodni lub&nbsp;miesięcy. Czas trwania dostosowuję do&nbsp;potrzeb i&nbsp;możliwości organizacji.'
-      },
-      {
-        label: 'Czy szkolenia można przeprowadzić online?',
-        content: 'Tak, prowadzę szkolenia zarówno stacjonarnie, jak i&nbsp;online. Szkolenia zdalne realizuję przez platformy Zoom lub&nbsp;Teams, wykorzystując interaktywne narzędzia, które angażują uczestników tak samo skutecznie jak spotkania na&nbsp;żywo.'
-      },
-      {
-        label: 'Jaka jest optymalna wielkość grupy szkoleniowej?',
-        content: 'Dla warsztatów interaktywnych optymalna grupa to 8-12 osób. Taka wielkość pozwala na&nbsp;indywidualną pracę z&nbsp;uczestnikami i&nbsp;skuteczne ćwiczenia praktyczne. Większe grupy są możliwe przy formatach wykładowych lub&nbsp;przy podziale na&nbsp;podgrupy.'
-      },
-      {
-        label: 'Czy otrzymamy materiały po szkoleniu?',
-        content: 'Tak, każdy uczestnik otrzymuje materiały szkoleniowe w&nbsp;formie drukowanej lub&nbsp;elektronicznej. Dodatkowo firma otrzymuje raport podsumowujący szkolenie z&nbsp;rekomendacjami dotyczącymi dalszego rozwoju zespołu.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Ile kosztują szkolenia firmowe w Szczecinie?',
+    //     content: 'Cena szkolenia zależy od wielu czynników: liczby uczestników, czasu trwania, zakresu tematycznego i&nbsp;formy realizacji. Po rozmowie o&nbsp;potrzebach firmy przygotowuję indywidualną wycenę. Oferuję również pakiety szkoleniowe i&nbsp;programy stałej współpracy w&nbsp;atrakcyjnych cenach.',
+    //     value: 'ile-kosztuja-szkolenia-firmowe'
+    //   },
+    //   {
+    //     label: 'Jak długo trwa szkolenie firmowe?',
+    //     content: 'Standardowe szkolenie jednodniowe trwa 6-8 godzin. Oferuję również warsztaty 4-godzinne, dwudniowe programy intensywne oraz cykle szkoleniowe rozłożone na&nbsp;kilka tygodni lub&nbsp;miesięcy. Czas trwania dostosowuję do&nbsp;potrzeb i&nbsp;możliwości organizacji.',
+    //     value: 'jak-dlugo-trwa-szkolenie-firmowe'
+    //   },
+    //   {
+    //     label: 'Czy szkolenia można przeprowadzić online?',
+    //     content: 'Tak, prowadzę szkolenia zarówno stacjonarnie, jak i&nbsp;online. Szkolenia zdalne realizuję przez platformy Zoom lub&nbsp;Teams, wykorzystując interaktywne narzędzia, które angażują uczestników tak samo skutecznie jak spotkania na&nbsp;żywo.',
+    //     value: 'czy-szkolenia-mozna-przeprowadzic-online'
+    //   },
+    //   {
+    //     label: 'Jaka jest optymalna wielkość grupy szkoleniowej?',
+    //     content: 'Dla warsztatów interaktywnych optymalna grupa to 8-12 osób. Taka wielkość pozwala na&nbsp;indywidualną pracę z&nbsp;uczestnikami i&nbsp;skuteczne ćwiczenia praktyczne. Większe grupy są możliwe przy formatach wykładowych lub&nbsp;przy podziale na&nbsp;podgrupy.',
+    //     value: 'jaka-jest-optymalna-wielkosc-grupy-szkoleniowej'
+    //   },
+    //   {
+    //     label: 'Czy otrzymamy materiały po szkoleniu?',
+    //     content: 'Tak, każdy uczestnik otrzymuje materiały szkoleniowe w&nbsp;formie drukowanej lub&nbsp;elektronicznej. Dodatkowo firma otrzymuje raport podsumowujący szkolenie z&nbsp;rekomendacjami dotyczącymi dalszego rozwoju zespołu.',
+    //     value: 'czy-otrzymamy-materialy-po-szkoleniu'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;szkolenie firmowe w&nbsp;Szczecinie'

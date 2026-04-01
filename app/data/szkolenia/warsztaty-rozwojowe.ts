@@ -61,28 +61,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Pytania o&nbsp;warsztaty rozwojowe',
-    questions: [
-      {
-        label: 'Jakie tematy obejmują warsztaty rozwojowe?',
-        content: 'Prowadzę warsztaty o&nbsp;różnej tematyce: inteligencja emocjonalna, zarządzanie stresem, asertywność i&nbsp;granice, komunikacja w&nbsp;relacjach, radzenie sobie z&nbsp;trudnymi emocjami, budowanie pewności siebie. Aktualne tematy i&nbsp;terminy znajdziesz na&nbsp;stronie lub&nbsp;możesz zapytać o&nbsp;indywidualny warsztat.'
-      },
-      {
-        label: 'Jak duże są grupy na warsztatach?',
-        content: 'Warsztaty rozwojowe prowadzę w&nbsp;grupach 6-10 osób. Taka wielkość pozwala na&nbsp;indywidualną uwagę dla&nbsp;każdego uczestnika, a jednocześnie daje bogactwo perspektyw i&nbsp;możliwość uczenia się od innych.'
-      },
-      {
-        label: 'Czy muszę mieć wcześniejsze doświadczenie z pracą rozwojową?',
-        content: 'Nie, warsztaty są otwarte dla&nbsp;wszystkich. Przygotowuję je tak, aby były wartościowe zarówno dla&nbsp;osób rozpoczynających pracę nad sobą, jak i&nbsp;dla tych z&nbsp;doświadczeniem w&nbsp;coachingu czy terapii. Ważna jest otwartość i&nbsp;gotowość do&nbsp;refleksji.'
-      },
-      {
-        label: 'Ile trwa warsztat rozwojowy?',
-        content: 'Standardowy warsztat trwa od 4 do&nbsp;8 godzin, zazwyczaj w&nbsp;sobotę lub&nbsp;niedzielę. Organizuję również weekendowe warsztaty intensywne (2 dni) dla&nbsp;osób chcących głębiej pracować nad określonym tematem.'
-      },
-      {
-        label: 'Czy warsztat może być zorganizowany dla zamkniętej grupy?',
-        content: 'Tak, organizuję warsztaty dla&nbsp;grup przyjaciół, zespołów w&nbsp;pracy czy społeczności. Temat i&nbsp;program dostosowuję do&nbsp;potrzeb grupy. To świetna opcja na&nbsp;integrację połączoną z&nbsp;rozwojem osobistym.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Jakie tematy obejmują warsztaty rozwojowe?',
+    //     content: 'Prowadzę warsztaty o&nbsp;różnej tematyce: inteligencja emocjonalna, zarządzanie stresem, asertywność i&nbsp;granice, komunikacja w&nbsp;relacjach, radzenie sobie z&nbsp;trudnymi emocjami, budowanie pewności siebie. Aktualne tematy i&nbsp;terminy znajdziesz na&nbsp;stronie lub&nbsp;możesz zapytać o&nbsp;indywidualny warsztat.',
+    //     value: 'jakie-tematy-obejmuja-warsztaty-rozwojowe'
+    //   },
+    //   {
+    //     label: 'Jak duże są grupy na warsztatach?',
+    //     content: 'Warsztaty rozwojowe prowadzę w&nbsp;grupach 6-10 osób. Taka wielkość pozwala na&nbsp;indywidualną uwagę dla&nbsp;każdego uczestnika, a jednocześnie daje bogactwo perspektyw i&nbsp;możliwość uczenia się od innych.',
+    //     value: 'jak-duze-sa-grupy-na-warsztatach'
+    //   },
+    //   {
+    //     label: 'Czy muszę mieć wcześniejsze doświadczenie z pracą rozwojową?',
+    //     content: 'Nie, warsztaty są otwarte dla&nbsp;wszystkich. Przygotowuję je tak, aby były wartościowe zarówno dla&nbsp;osób rozpoczynających pracę nad sobą, jak i&nbsp;dla tych z&nbsp;doświadczeniem w&nbsp;coachingu czy terapii. Ważna jest otwartość i&nbsp;gotowość do&nbsp;refleksji.',
+    //     value: 'czy-musze-miec-wczesniejsze-doswiadczenie-z-praca-rozwojowa'
+    //   },
+    //   {
+    //     label: 'Ile trwa warsztat rozwojowy?',
+    //     content: 'Standardowy warsztat trwa od 4 do&nbsp;8 godzin, zazwyczaj w&nbsp;sobotę lub&nbsp;niedzielę. Organizuję również weekendowe warsztaty intensywne (2 dni) dla&nbsp;osób chcących głębiej pracować nad określonym tematem.',
+    //     value: 'ile-trwa-warsztat-rozwojowy'
+    //   },
+    //   {
+    //     label: 'Czy warsztat może być zorganizowany dla zamkniętej grupy?',
+    //     content: 'Tak, organizuję warsztaty dla&nbsp;grup przyjaciół, zespołów w&nbsp;pracy czy społeczności. Temat i&nbsp;program dostosowuję do&nbsp;potrzeb grupy. To świetna opcja na&nbsp;integrację połączoną z&nbsp;rozwojem osobistym.',
+    //     value: 'czy-warsztat-moze-byc-zorganizowany-dla-zamknietej-grupy'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;warsztat rozwojowy w&nbsp;Szczecinie'

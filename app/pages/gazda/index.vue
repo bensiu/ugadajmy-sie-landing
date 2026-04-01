@@ -18,6 +18,14 @@ const {
   pullItems, handleSubmitOfItem, handleEditOfItem,
   uniqueKey
 } = useGazdaFormItems<FaqItem>('/api/faqs')
+
+const _default = {
+  counter: 0,
+  label: '',
+  content: '',
+  slug: '',
+  active: false
+}
 </script>
 
 <template>
@@ -42,8 +50,8 @@ const {
             <GazdaFormsTitle
               title="FAQs"
               :is-editing="itemEditId"
-              @add="itemEditId = item.key"
-              @cancel="itemEditId = null"
+              @add="itemEditId = item.key; itemEditItem = { ..._default, silos: item.key }"
+              @cancel="itemEditId = null; itemEditItem = null"
             />
             <GazdaFormsSkeleton
               v-if="itemLoading"

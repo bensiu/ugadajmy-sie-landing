@@ -77,32 +77,38 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Najczęściej zadawane pytania',
-    questions: [
-      {
-        label: 'Czy konsultacje są tylko dla par?',
-        content: 'Nie, prowadzę konsultacje zarówno dla par, jak i&nbsp;dla osób indywidualnych. Czasem partner nie chce uczestniczyć lub nie wie o&nbsp;rozważaniach – możesz przyjść sam/sama.'
-      },
-      {
-        label: 'Ile trwają konsultacje przedrozwodowe?',
-        content: 'Zazwyczaj to 2-4 spotkania, każde po 1,5-2 godziny. Niektórzy potrzebują jednego spotkania, żeby zyskać jasność, inni wolą dłuższy proces. Dostosowuję się do&nbsp;Twoich potrzeb.'
-      },
-      {
-        label: 'Ile to kosztuje?',
-        content: 'Konsultacja indywidualna to 220-350 zł za spotkanie (w zależności od długości). Konsultacja dla pary to 350-490 zł. Szczegóły ustalimy podczas pierwszego kontaktu.'
-      },
-      {
-        label: 'Czy to, co powiem, jest poufne?',
-        content: 'Absolutnie tak. Wszystko, co powiesz podczas konsultacji, pozostaje poufne. Jedyny wyjątek to sytuacja zagrożenia życia lub zdrowia – wtedy mam obowiązek interwencji.'
-      },
-      {
-        label: 'Co jeśli mój partner nie chce przyjść?',
-        content: 'Możemy pracować indywidualnie. Często po kilku spotkaniach osoba decyduje się zaprosić partnera lub podejmuje decyzję samodzielnie. Twoja droga jest równie wartościowa.'
-      },
-      {
-        label: 'Czy możecie mi powiedzieć, co powinnam/powinienem zrobić?',
-        content: 'Nie. Moją rolą jest pomóc Ci podjąć własną decyzję, nie podejmować ją za Ciebie. Dam Ci narzędzia, perspektywę i&nbsp;wsparcie, ale ostateczna decyzja należy do&nbsp;Ciebie.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Czy konsultacje są tylko dla par?',
+    //     content: 'Nie, prowadzę konsultacje zarówno dla par, jak i&nbsp;dla osób indywidualnych. Czasem partner nie chce uczestniczyć lub nie wie o&nbsp;rozważaniach – możesz przyjść sam/sama.',
+    //     value: 'czy-konsultacje-sa-tylko-dla-par'
+    //   },
+    //   {
+    //     label: 'Ile trwają konsultacje przedrozwodowe?',
+    //     content: 'Zazwyczaj to 2-4 spotkania, każde po 1,5-2 godziny. Niektórzy potrzebują jednego spotkania, żeby zyskać jasność, inni wolą dłuższy proces. Dostosowuję się do&nbsp;Twoich potrzeb.',
+    //     value: 'ile-trwaja-konsultacje-przedrozwodowe'
+    //   },
+    //   {
+    //     label: 'Ile to kosztuje?',
+    //     content: 'Konsultacja indywidualna to 220-350 zł za spotkanie (w zależności od długości). Konsultacja dla pary to 350-490 zł. Szczegóły ustalimy podczas pierwszego kontaktu.'
+    //   },
+    //   {
+    //     label: 'Czy to, co powiem, jest poufne?',
+    //     content: 'Absolutnie tak. Wszystko, co powiesz podczas konsultacji, pozostaje poufne. Jedyny wyjątek to sytuacja zagrożenia życia lub zdrowia – wtedy mam obowiązek interwencji.',
+    //     value: 'czy-to-co-powiem-na-konsultacjach-jest-poufne'
+    //   },
+    //   {
+    //     label: 'Co jeśli mój partner nie chce przyjść?',
+    //     content: 'Możemy pracować indywidualnie. Często po kilku spotkaniach osoba decyduje się zaprosić partnera lub podejmuje decyzję samodzielnie. Twoja droga jest równie wartościowa.',
+    //     value: 'co-jesli-moj-partner-nie-chce-przyjsc-na-konsultacje'
+    //   },
+    //   {
+    //     label: 'Czy możecie mi powiedzieć, co powinnam/powinienem zrobić?',
+    //     content: 'Nie. Moją rolą jest pomóc Ci podjąć własną decyzję, nie podejmować ją za Ciebie. Dam Ci narzędzia, perspektywę i&nbsp;wsparcie, ale ostateczna decyzja należy do&nbsp;Ciebie.',
+    //     value: 'czy-mozecie-mi-powiedziec-co-powinnam-powinienem-zrobic'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na konsultacje przedrozwodowe w&nbsp;Szczecinie'

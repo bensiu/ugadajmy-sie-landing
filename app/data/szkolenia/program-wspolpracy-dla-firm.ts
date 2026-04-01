@@ -61,28 +61,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Pytania o&nbsp;program współpracy',
-    questions: [
-      {
-        label: 'Jak wygląda model rozliczeń w programie stałej współpracy?',
-        content: 'Oferuję różne modele współpracy: abonament miesięczny z&nbsp;określoną liczbą godzin, pakiety kwartalne lub&nbsp;roczne z&nbsp;gwarantowanym rabatem, lub&nbsp;model success-fee dla&nbsp;konkretnych projektów. Szczegóły ustalamy indywidualnie, dopasowując model do&nbsp;potrzeb i&nbsp;budżetu firmy.'
-      },
-      {
-        label: 'Jaki jest minimalny czas trwania współpracy?',
-        content: 'Rekomendowany minimalny okres współpracy to 6 miesięcy – tyle czasu potrzeba, by poznać organizację, wdrożyć pierwsze działania i&nbsp;zobaczyć efekty. Współprace roczne i&nbsp;dłuższe oferuję na&nbsp;preferencyjnych warunkach cenowych.'
-      },
-      {
-        label: 'Co wchodzi w zakres programu współpracy?',
-        content: 'Program jest elastyczny i&nbsp;może obejmować: cykliczne szkolenia dla&nbsp;zespołów, mediacje w&nbsp;sytuacjach konfliktowych, coaching dla&nbsp;menedżerów, konsultacje dla&nbsp;HR, warsztaty integracyjne, wsparcie w&nbsp;procesach zmian. Zakres ustalamy na&nbsp;etapie projektowania programu.'
-      },
-      {
-        label: 'Czy mogę korzystać z usług ad hoc poza programem?',
-        content: 'Tak, w&nbsp;ramach współpracy masz priorytetowy dostęp do&nbsp;dodatkowych usług w&nbsp;preferencyjnych cenach. Jeśli pojawi się nagła potrzeba – np. pilna mediacja czy dodatkowe szkolenie – reaguję szybciej niż przy jednorazowych zleceniach.'
-      },
-      {
-        label: 'Jak mierzone są efekty programu?',
-        content: 'Na początku współpracy ustalamy mierzalne cele i&nbsp;wskaźniki sukcesu. Mogą to być np. ankiety satysfakcji pracowników, wskaźniki rotacji, liczba rozwiązanych konfliktów, feedback od menedżerów. Regularnie raportujemy postępy i&nbsp;dostosowujemy działania.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Jak wygląda model rozliczeń w programie stałej współpracy?',
+    //     content: 'Oferuję różne modele współpracy: abonament miesięczny z&nbsp;określoną liczbą godzin, pakiety kwartalne lub&nbsp;roczne z&nbsp;gwarantowanym rabatem, lub&nbsp;model success-fee dla&nbsp;konkretnych projektów. Szczegóły ustalamy indywidualnie, dopasowując model do&nbsp;potrzeb i&nbsp;budżetu firmy.',
+    //     value: 'jak-wyglada-model-rozliczen-w-programie-stalej-wspolpracy'
+    //   },
+    //   {
+    //     label: 'Jaki jest minimalny czas trwania współpracy?',
+    //     content: 'Rekomendowany minimalny okres współpracy to 6 miesięcy – tyle czasu potrzeba, by poznać organizację, wdrożyć pierwsze działania i&nbsp;zobaczyć efekty. Współprace roczne i&nbsp;dłuższe oferuję na&nbsp;preferencyjnych warunkach cenowych.',
+    //     value: 'jaki-jest-minimalny-czas-trwania-wspolpracy'
+    //   },
+    //   {
+    //     label: 'Co wchodzi w zakres programu współpracy?',
+    //     content: 'Program jest elastyczny i&nbsp;może obejmować: cykliczne szkolenia dla&nbsp;zespołów, mediacje w&nbsp;sytuacjach konfliktowych, coaching dla&nbsp;menedżerów, konsultacje dla&nbsp;HR, warsztaty integracyjne, wsparcie w&nbsp;procesach zmian. Zakres ustalamy na&nbsp;etapie projektowania programu.',
+    //     value: 'co-wchodzi-w-zakres-programu-wspolpracy'
+    //   },
+    //   {
+    //     label: 'Czy mogę korzystać z usług ad hoc poza programem?',
+    //     content: 'Tak, w&nbsp;ramach współpracy masz priorytetowy dostęp do&nbsp;dodatkowych usług w&nbsp;preferencyjnych cenach. Jeśli pojawi się nagła potrzeba – np. pilna mediacja czy dodatkowe szkolenie – reaguję szybciej niż przy jednorazowych zleceniach.',
+    //     value: 'czy-moge-korzystac-z-uslug-ad-hoc-poza-programem'
+    //   },
+    //   {
+    //     label: 'Jak mierzone są efekty programu?',
+    //     content: 'Na początku współpracy ustalamy mierzalne cele i&nbsp;wskaźniki sukcesu. Mogą to być np. ankiety satysfakcji pracowników, wskaźniki rotacji, liczba rozwiązanych konfliktów, feedback od menedżerów. Regularnie raportujemy postępy i&nbsp;dostosowujemy działania.',
+    //     value: 'jak-mierzone-sa-efekty-programu'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;program współpracy w&nbsp;Szczecinie'

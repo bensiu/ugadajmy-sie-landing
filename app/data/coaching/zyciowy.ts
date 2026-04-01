@@ -62,28 +62,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Najczęściej zadawane pytania',
-    questions: [
-      {
-        label: 'Czy coaching życiowy to terapia?',
-        content: 'Nie, coaching różni się od terapii. Terapia koncentruje się na&nbsp;leczeniu problemów psychicznych i&nbsp;pracy z&nbsp;przeszłością. Coaching jest zorientowany na&nbsp;przyszłość – skupiamy się na&nbsp;celach, rozwoju i&nbsp;budowaniu życia, jakiego pragniesz. Jeśli zmagasz się z&nbsp;poważnymi problemami emocjonalnymi, rekomenduję współpracę z&nbsp;psychoterapeutą.'
-      },
-      {
-        label: 'Jak długo trwa coaching życiowy?',
-        content: 'Typowy proces coachingu życiowego trwa od 3 do&nbsp;6 miesięcy, z&nbsp;sesjami co 2-3 tygodnie. Niektórzy klienci kontynuują współpracę dłużej, innym wystarczy kilka sesji. Wszystko zależy od Twoich celów i&nbsp;tempa, w&nbsp;jakim chcesz pracować.'
-      },
-      {
-        label: 'Co jeśli nie wiem, czego chcę od życia?',
-        content: 'To częsta sytuacja i&nbsp;doskonały punkt wyjścia do&nbsp;coachingu! Właśnie od odkrywania tego, czego naprawdę chcesz, zaczynamy naszą współpracę. Poprzez pytania i&nbsp;ćwiczenia coachingowe stopniowo wyłania się jaśniejszy obraz Twoich pragnień i&nbsp;wartości.'
-      },
-      {
-        label: 'Czy muszę mieć konkretny cel przed rozpoczęciem?',
-        content: 'Nie, nie musisz przychodzić z&nbsp;gotowym celem. Wiele osób zaczyna coaching z&nbsp;ogólnym poczuciem, że czegoś im brakuje lub&nbsp;że chcą więcej od życia. Pierwszą częścią naszej pracy jest właśnie zdefiniowanie, nad czym chcesz pracować.'
-      },
-      {
-        label: 'Czy sesje mogą być online?',
-        content: 'Tak, oferuję zarówno sesje stacjonarne w&nbsp;Szczecinie, jak i&nbsp;sesje online przez wideokonferencję. Sesje online są równie skuteczne i&nbsp;często wygodniejsze dla&nbsp;osób z&nbsp;napiętym harmonogramem.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Czy coaching życiowy to terapia?',
+    //     content: 'Nie, coaching różni się od terapii. Terapia koncentruje się na&nbsp;leczeniu problemów psychicznych i&nbsp;pracy z&nbsp;przeszłością. Coaching jest zorientowany na&nbsp;przyszłość – skupiamy się na&nbsp;celach, rozwoju i&nbsp;budowaniu życia, jakiego pragniesz. Jeśli zmagasz się z&nbsp;poważnymi problemami emocjonalnymi, rekomenduję współpracę z&nbsp;psychoterapeutą.',
+    //     value: 'czy-coaching-zyciowy-to-terapia'
+    //   },
+    //   {
+    //     label: 'Jak długo trwa coaching życiowy?',
+    //     content: 'Typowy proces coachingu życiowego trwa od 3 do&nbsp;6 miesięcy, z&nbsp;sesjami co 2-3 tygodnie. Niektórzy klienci kontynuują współpracę dłużej, innym wystarczy kilka sesji. Wszystko zależy od Twoich celów i&nbsp;tempa, w&nbsp;jakim chcesz pracować.',
+    //     value: 'jak-dlugo-trwa-coaching-zyciowy'
+    //   },
+    //   {
+    //     label: 'Co jeśli nie wiem, czego chcę od życia?',
+    //     content: 'To częsta sytuacja i&nbsp;doskonały punkt wyjścia do&nbsp;coachingu! Właśnie od odkrywania tego, czego naprawdę chcesz, zaczynamy naszą współpracę. Poprzez pytania i&nbsp;ćwiczenia coachingowe stopniowo wyłania się jaśniejszy obraz Twoich pragnień i&nbsp;wartości.',
+    //     value: 'co-jesli-nie-wiem-czego-chce-od-zycia'
+    //   },
+    //   {
+    //     label: 'Czy muszę mieć konkretny cel przed rozpoczęciem?',
+    //     content: 'Nie, nie musisz przychodzić z&nbsp;gotowym celem. Wiele osób zaczyna coaching z&nbsp;ogólnym poczuciem, że czegoś im brakuje lub&nbsp;że chcą więcej od życia. Pierwszą częścią naszej pracy jest właśnie zdefiniowanie, nad czym chcesz pracować.',
+    //     value: 'czy-musze-miec-konkretny-cel-przed-rozpoczeciem'
+    //   },
+    //   {
+    //     label: 'Czy sesje mogą być online?',
+    //     content: 'Tak, oferuję zarówno sesje stacjonarne w&nbsp;Szczecinie, jak i&nbsp;sesje online przez wideokonferencję. Sesje online są równie skuteczne i&nbsp;często wygodniejsze dla&nbsp;osób z&nbsp;napiętym harmonogramem.',
+    //     value: 'czy-sesje-coachingu-zyciowego-moga-byc-online'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;coaching życiowy w&nbsp;Szczecinie'

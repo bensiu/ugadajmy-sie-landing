@@ -61,28 +61,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Najczęściej zadawane pytania',
-    questions: [
-      {
-        label: 'Ile trwa proces coachingu kariery?',
-        content: 'Typowy proces coachingu kariery trwa od 6 do&nbsp;12 sesji, rozłożonych na&nbsp;2-4 miesiące. Czasem wystarczy kilka spotkań, żeby uzyskać klarowność w&nbsp;konkretnej kwestii. Zawsze dopasowuję liczbę sesji do&nbsp;Twoich potrzeb i&nbsp;celów.'
-      },
-      {
-        label: 'Czy coaching pomoże mi zmienić pracę?',
-        content: 'Coaching pomoże Ci podjąć świadomą decyzję – czy zmiana pracy jest właściwym krokiem. Pracujemy nad zdefiniowaniem tego, czego naprawdę szukasz, jakie masz opcje i&nbsp;jak skutecznie przeprowadzić zmianę, jeśli się na&nbsp;nią zdecydujesz.'
-      },
-      {
-        label: 'Czym różni się coaching od doradztwa zawodowego?',
-        content: 'Doradca zawodowy daje konkretne rady i&nbsp;wskazówki. Coach pomaga Ci odkryć własne odpowiedzi poprzez pytania i&nbsp;refleksję. w&nbsp;coachingu to Ty jesteś ekspertem od swojego życia – ja pomagam Ci lepiej myśleć i&nbsp;podejmować trafniejsze decyzje.'
-      },
-      {
-        label: 'Czy sesje mogą odbywać się online?',
-        content: 'Tak, oferuję zarówno sesje stacjonarne w&nbsp;Szczecinie, jak i&nbsp;sesje online przez wideokonferencję. Wiele osób ceni sobie wygodę sesji zdalnych, które są równie skuteczne jak spotkania osobiste.'
-      },
-      {
-        label: 'Jak przygotować się do pierwszej sesji?',
-        content: 'Przed pierwszą sesją warto zastanowić się, czego oczekujesz od coachingu i&nbsp;jakie wyzwania zawodowe są dla&nbsp;Ciebie najważniejsze. Nie musisz mieć gotowych odpowiedzi – to właśnie będziemy wypracowywać wspólnie.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Ile trwa proces coachingu kariery?',
+    //     content: 'Typowy proces coachingu kariery trwa od 6 do&nbsp;12 sesji, rozłożonych na&nbsp;2-4 miesiące. Czasem wystarczy kilka spotkań, żeby uzyskać klarowność w&nbsp;konkretnej kwestii. Zawsze dopasowuję liczbę sesji do&nbsp;Twoich potrzeb i&nbsp;celów.',
+    //     value: 'ile-trwa-proces-coachingu-kariery'
+    //   },
+    //   {
+    //     label: 'Czy coaching pomoże mi zmienić pracę?',
+    //     content: 'Coaching pomoże Ci podjąć świadomą decyzję – czy zmiana pracy jest właściwym krokiem. Pracujemy nad zdefiniowaniem tego, czego naprawdę szukasz, jakie masz opcje i&nbsp;jak skutecznie przeprowadzić zmianę, jeśli się na&nbsp;nią zdecydujesz.',
+    //     value: 'czy-coaching-pomoze-mi-zmienic-prace'
+    //   },
+    //   {
+    //     label: 'Czym różni się coaching od doradztwa zawodowego?',
+    //     content: 'Doradca zawodowy daje konkretne rady i&nbsp;wskazówki. Coach pomaga Ci odkryć własne odpowiedzi poprzez pytania i&nbsp;refleksję. w&nbsp;coachingu to Ty jesteś ekspertem od swojego życia – ja pomagam Ci lepiej myśleć i&nbsp;podejmować trafniejsze decyzje.',
+    //     value: 'czym-rozni-sie-coaching-od-doradztwa-zawodowego'
+    //   },
+    //   {
+    //     label: 'Czy sesje mogą odbywać się online?',
+    //     content: 'Tak, oferuję zarówno sesje stacjonarne w&nbsp;Szczecinie, jak i&nbsp;sesje online przez wideokonferencję. Wiele osób ceni sobie wygodę sesji zdalnych, które są równie skuteczne jak spotkania osobiste.',
+    //     value: 'czy-sesje-moga-odbywac-sie-online'
+    //   },
+    //   {
+    //     label: 'Jak przygotować się do pierwszej sesji?',
+    //     content: 'Przed pierwszą sesją warto zastanowić się, czego oczekujesz od coachingu i&nbsp;jakie wyzwania zawodowe są dla&nbsp;Ciebie najważniejsze. Nie musisz mieć gotowych odpowiedzi – to właśnie będziemy wypracowywać wspólnie.',
+    //     value: 'jak-przygotowac-sie-do-pierwszej-sesji'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;coaching kariery w&nbsp;Szczecinie'

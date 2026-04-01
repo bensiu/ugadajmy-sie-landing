@@ -63,23 +63,23 @@ export const page: AdminPageStructure = {
       items: [
         {
           label: 'Terapia małżeńska',
-          key: 'terapia-dla-par-malzenska-szczecin'
+          key: 'terapia-dla-par-malzenska'
         },
         {
           label: 'Program „Razem czy osobno?"',
-          key: 'program-razem-czy-osobno-szczecin'
+          key: 'program-razem-czy-osobno'
         },
         {
-          label: 'Warsztaty dla&nbsp;par',
-          key: 'warsztaty-dla-par-szczecin'
+          label: 'Warsztaty dla par',
+          key: 'warsztaty-dla-par'
         },
         {
           label: 'Konsultacje przedrozwodowe',
-          key: 'terapia-dla-par-przedrozwodowa-szczecin'
+          key: 'terapia-dla-par-przedrozwodowa'
         },
         {
-          label: 'Terapia po&nbsp;zdradzie',
-          key: 'terapia-dla-par-po-zdradzie-szczecin'
+          label: 'Terapia po zdradzie',
+          key: 'terapia-dla-par-po-zdradzie'
         }
       ]
     },
@@ -89,23 +89,23 @@ export const page: AdminPageStructure = {
       items: [
         {
           label: 'Coaching kariery',
-          key: 'coaching-kariery-szczecin'
+          key: 'coaching-kariery'
         },
         {
           label: 'Coaching biznesowy',
-          key: 'coaching-biznesowy-szczecin'
+          key: 'coaching-biznesowy'
         },
         {
           label: 'Coaching konfliktów',
-          key: 'coaching-konfliktow-szczecin'
+          key: 'coaching-konfliktow'
         },
         {
           label: 'Coaching życiowy',
-          key: 'coaching-zyciowy-szczecin'
+          key: 'coaching-zyciowy'
         },
         {
           label: 'Coaching indywidualny',
-          key: 'coaching-indywidualny-szczecin'
+          key: 'coaching-indywidualny'
         }
       ]
     },
@@ -114,24 +114,24 @@ export const page: AdminPageStructure = {
       key: 'szkolenia',
       items: [
         {
-          label: 'Szkolenia dla&nbsp;firm',
-          key: 'szkolenia-dla-firm-szczecin'
+          label: 'Szkolenia dla firm',
+          key: 'szkolenia-dla-firm'
         },
         {
-          label: 'Szkolenia z&nbsp;komunikacji',
-          key: 'szkolenia-z-komunikacji-szczecin'
+          label: 'Szkolenia z komunikacji',
+          key: 'szkolenia-z-komunikacji'
         },
         {
-          label: 'Szkolenia z&nbsp;mediacji',
-          key: 'szkolenia-z-mediacji-szczecin'
+          label: 'Szkolenia z mediacji',
+          key: 'szkolenia-z-mediacji'
         },
         {
           label: 'Warsztaty rozwojowe',
-          key: '/szkolenia-warsztaty-rozwojowe-szczecin'
+          key: 'szkolenia-warsztaty-rozwojowe'
         },
         {
-          label: 'Program współpracy dla&nbsp;firm',
-          key: '/szkolenia-program-wspolpracy-dla-firm-szczecin'
+          label: 'Program współpracy dla firm',
+          key: 'szkolenia-program-wspolpracy-dla-firm'
         }
       ]
     }

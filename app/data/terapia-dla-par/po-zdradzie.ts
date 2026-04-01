@@ -77,32 +77,39 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Najczęściej zadawane pytania',
-    questions: [
-      {
-        label: 'Czy przebaczenie jest konieczne do kontynuowania związku?',
-        content: 'Przebaczenie to proces, nie jednorazowa decyzja. Nie musisz przebaczyć od razu, żeby rozpocząć terapię. Pracujemy nad tym stopniowo. Niektórzy wybaczają, inni uczą się żyć z&nbsp;tym, co się stało.'
-      },
-      {
-        label: 'Ile trwa terapia po zdradzie?',
-        content: 'Zazwyczaj od 6 do&nbsp;18 miesięcy regularnych spotkań. Długość zależy od wielu czynników: jak dawno była zdrada, jak została odkryta, jakie są zasoby relacji. To nie jest sprint, ale maraton.'
-      },
-      {
-        label: 'Czy terapeutka stoi po stronie osoby zdradzonej?',
-        content: 'Nie stoję po żadnej stronie. Moją rolą jest stworzenie przestrzeni, w&nbsp;której oboje możecie być wysłuchani. Zdrada jest bolesna dla obu stron – osoba zdradzona przeżywa traumę, osoba zdradzająca często głęboki wstyd i&nbsp;poczucie winy.'
-      },
-      {
-        label: 'Co jeśli nie jestem pewny/a, czy chcę zostać?',
-        content: 'To normalne. Wielu klientów przychodzi z&nbsp;ambiwalencją. Część terapii to pomoc w&nbsp;podjęciu świadomej decyzji. Możesz pracować nad relacją, jednocześnie nie wiedząc jeszcze, czy zostaniesz.'
-      },
-      {
-        label: 'Czy partner/ka musi wiedzieć wszystkie szczegóły zdrady?',
-        content: 'To zależy. Niektóre szczegóły mogą być niszczące i&nbsp;niepotrzebne. Inne są konieczne dla odbudowy zaufania. Pomagam ustalić, co jest ważne, a co może tylko pogłębić ból bez wartości dla procesu.'
-      },
-      {
-        label: 'Czy mogę przyjść na terapię sam/sama?',
-        content: 'Tak, prowadzę też indywidualne sesje dla osób po zdradzie – zarówno dla osób zdradzonych, jak i&nbsp;zdradzających. Czasem partner nie jest gotowy lub związek się już skończył, ale Ty potrzebujesz przepracować tę sytuację.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Czy przebaczenie jest konieczne do kontynuowania związku?',
+    //     content: 'Przebaczenie to proces, nie jednorazowa decyzja. Nie musisz przebaczyć od razu, żeby rozpocząć terapię. Pracujemy nad tym stopniowo. Niektórzy wybaczają, inni uczą się żyć z&nbsp;tym, co się stało.',
+    //     value: 'czy-przebaczenie-jest-konieczne-do-kontynuowania-zwiazku'
+    //   },
+    //   {
+    //     label: 'Ile trwa terapia po zdradzie?',
+    //     content: 'Zazwyczaj od 6 do&nbsp;18 miesięcy regularnych spotkań. Długość zależy od wielu czynników: jak dawno była zdrada, jak została odkryta, jakie są zasoby relacji. To nie jest sprint, ale maraton.',
+    //     value: 'ile-trwa-terapia-po-zdradzie'
+    //   },
+    //   {
+    //     label: 'Czy terapeutka stoi po stronie osoby zdradzonej?',
+    //     content: 'Nie stoję po żadnej stronie. Moją rolą jest stworzenie przestrzeni, w&nbsp;której oboje możecie być wysłuchani. Zdrada jest bolesna dla obu stron – osoba zdradzona przeżywa traumę, osoba zdradzająca często głęboki wstyd i&nbsp;poczucie winy.',
+    //     value: 'czy-terapeutka-stoi-po-stronie-osoby-zdradzonej'
+    //   },
+    //   {
+    //     label: 'Co jeśli nie jestem pewny/a, czy chcę zostać?',
+    //     content: 'To normalne. Wielu klientów przychodzi z&nbsp;ambiwalencją. Część terapii to pomoc w&nbsp;podjęciu świadomej decyzji. Możesz pracować nad relacją, jednocześnie nie wiedząc jeszcze, czy zostaniesz.',
+    //     value: 'co-jesli-nie-jestem-pewny-a-czy-chce-zostac'
+    //   },
+    //   {
+    //     label: 'Czy partner/ka musi wiedzieć wszystkie szczegóły zdrady?',
+    //     content: 'To zależy. Niektóre szczegóły mogą być niszczące i&nbsp;niepotrzebne. Inne są konieczne dla odbudowy zaufania. Pomagam ustalić, co jest ważne, a co może tylko pogłębić ból bez wartości dla procesu.',
+    //     value: 'czy-partner-ka-musi-wiedziec-wszystkie-szczegoly-zdrady'
+    //   },
+    //   {
+    //     label: 'Czy mogę przyjść na terapię sam/sama?',
+    //     content: 'Tak, prowadzę też indywidualne sesje dla osób po zdradzie – zarówno dla osób zdradzonych, jak i&nbsp;zdradzających. Czasem partner nie jest gotowy lub związek się już skończył, ale Ty potrzebujesz przepracować tę sytuację.',
+    //     value: 'czy-moge-przyjsc-na-terapie-sam-sama'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na terapię po zdradzie w&nbsp;Szczecinie'

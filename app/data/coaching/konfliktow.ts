@@ -62,28 +62,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Najczęściej zadawane pytania',
-    questions: [
-      {
-        label: 'Czym różni się coaching konfliktów od mediacji?',
-        content: 'Mediacja to proces rozwiązywania konkretnego sporu między stronami z&nbsp;udziałem mediatora. Coaching konfliktów to praca indywidualna nad rozwijaniem Twoich umiejętności zarządzania konfliktami. Coaching nie wymaga udziału drugiej strony konfliktu.'
-      },
-      {
-        label: 'Czy coaching pomoże, jeśli konflikt jest bardzo zaawansowany?',
-        content: 'Coaching może pomóc na&nbsp;każdym etapie konfliktu. w&nbsp;zaawansowanych przypadkach pracujemy nad strategiami deeskalacji, zarządzaniem emocjami i&nbsp;przygotowaniem do trudnych rozmów. Czasem rekomenduję też mediację jako uzupełnienie.'
-      },
-      {
-        label: 'Ile sesji potrzeba, żeby zauważyć zmiany?',
-        content: 'Pierwsze zmiany w&nbsp;sposobie reagowania na&nbsp;konflikty można zauważyć już po 2-3 sesjach. Budowanie trwałych nawyków wymaga zazwyczaj 6-10 sesji. Tempo zależy od złożoności wyzwań i&nbsp;Twojego zaangażowania w&nbsp;praktykowanie nowych umiejętności.'
-      },
-      {
-        label: 'Czy coaching konfliktów jest dla mnie, jeśli unikam konfrontacji?',
-        content: 'Zdecydowanie tak! Wiele osób unikających konfliktów korzysta z&nbsp;coachingu. Pracujemy nad rozumieniem, skąd bierze się unikanie, i&nbsp;stopniowo budujemy pewność siebie w&nbsp;wyrażaniu własnych potrzeb i&nbsp;granic.'
-      },
-      {
-        label: 'Czy sesje są poufne?',
-        content: 'Tak, wszystkie sesje coachingowe są całkowicie poufne. Cokolwiek omawiamy podczas sesji, pozostaje między nami. To przestrzeń bezpieczna, w&nbsp;której możesz otwarcie mówić o&nbsp;trudnych sytuacjach.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Czym różni się coaching konfliktów od mediacji?',
+    //     content: 'Mediacja to proces rozwiązywania konkretnego sporu między stronami z&nbsp;udziałem mediatora. Coaching konfliktów to praca indywidualna nad rozwijaniem Twoich umiejętności zarządzania konfliktami. Coaching nie wymaga udziału drugiej strony konfliktu.',
+    //     value: 'czym-rozni-sie-coaching-konfliktow-od-mediacji'
+    //   },
+    //   {
+    //     label: 'Czy coaching pomoże, jeśli konflikt jest bardzo zaawansowany?',
+    //     content: 'Coaching może pomóc na&nbsp;każdym etapie konfliktu. w&nbsp;zaawansowanych przypadkach pracujemy nad strategiami deeskalacji, zarządzaniem emocjami i&nbsp;przygotowaniem do trudnych rozmów. Czasem rekomenduję też mediację jako uzupełnienie.',
+    //     value: 'czy-coaching-pomoze-jesli-konflikt-jest-bardzo-zaawansowany'
+    //   },
+    //   {
+    //     label: 'Ile sesji potrzeba, żeby zauważyć zmiany?',
+    //     content: 'Pierwsze zmiany w&nbsp;sposobie reagowania na&nbsp;konflikty można zauważyć już po 2-3 sesjach. Budowanie trwałych nawyków wymaga zazwyczaj 6-10 sesji. Tempo zależy od złożoności wyzwań i&nbsp;Twojego zaangażowania w&nbsp;praktykowanie nowych umiejętności.',
+    //     value: 'ile-sesji-potrzeba-zeby-zauwazyc-zmiany'
+    //   },
+    //   {
+    //     label: 'Czy coaching konfliktów jest dla mnie, jeśli unikam konfrontacji?',
+    //     content: 'Zdecydowanie tak! Wiele osób unikających konfliktów korzysta z&nbsp;coachingu. Pracujemy nad rozumieniem, skąd bierze się unikanie, i&nbsp;stopniowo budujemy pewność siebie w&nbsp;wyrażaniu własnych potrzeb i&nbsp;granic.',
+    //     value: 'czy-coaching-konfliktow-jest-dla-mnie-jesli-unikam-konfrontacji'
+    //   },
+    //   {
+    //     label: 'Czy sesje są poufne?',
+    //     content: 'Tak, wszystkie sesje coachingowe są całkowicie poufne. Cokolwiek omawiamy podczas sesji, pozostaje między nami. To przestrzeń bezpieczna, w&nbsp;której możesz otwarcie mówić o&nbsp;trudnych sytuacjach.',
+    //     value: 'czy-sesje-coachingu-konfliktow-sa-poufne'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na&nbsp;coaching konfliktów w&nbsp;Szczecinie'

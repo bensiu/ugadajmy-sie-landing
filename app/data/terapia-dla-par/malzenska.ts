@@ -60,28 +60,34 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Najczęściej zadawane pytania',
-    questions: [
-      {
-        label: 'Czy mój partner musi chcieć przyjść na terapię?',
-        content: 'Idealna sytuacja to taka, gdy oboje partnerzy są zmotywowani. Jednak często zaczyna się od jednej osoby. Możemy najpierw spotkać się indywidualnie, a&nbsp;Twój partner może dołączyć później, gdy poczuje się gotowy.'
-      },
-      {
-        label: 'Ile trwa terapia małżeńska?',
-        content: 'Zazwyczaj pracujemy przez 8-12 sesji, ale wszystko zależy od Waszej sytuacji&nbsp; celów. Niektóre pary potrzebują kilku spotkań, inne pracują dłużej. Po&nbsp;konsultacji zaproponuję orientacyjny plan.'
-      },
-      {
-        label: 'Ile kosztuje sesja terapii małżeńskiej?',
-        content: 'Konsultacja wstępna (60 min) kosztuje 220&nbsp;zł. Sesja indywidualna (2h) to 390&nbsp;zł, a&nbsp;sesja wspólna (2h) to 490&nbsp;zł. Przy płatności za cały program otrzymujecie 10% rabatu.'
-      },
-      {
-        label: 'Czy terapia małżeńska pomoże, jeśli doszło do zdrady?',
-        content: 'Tak, pomagam parom po zdradzie. To trudna droga, ale wielu parom udaje się odbudować relację. Kluczowe jest, by oboje partnerzy chcieli dać związkowi szansę.'
-      },
-      {
-        label: 'Czy oferujecie sesje online?',
-        content: 'Tak, prowadzę sesje online dla par spoza Szczecina lub tych, którzy preferują tę formę. Sesje online są równie skuteczne jak spotkania w&nbsp;gabinecie.'
-      }
-    ]
+    questions: '/api/faqs/'
+    // [
+    //   {
+    //     label: 'Czy mój partner musi chcieć przyjść na terapię?',
+    //     content: 'Idealna sytuacja to taka, gdy oboje partnerzy są zmotywowani. Jednak często zaczyna się od jednej osoby. Możemy najpierw spotkać się indywidualnie, a&nbsp;Twój partner może dołączyć później, gdy poczuje się gotowy.',
+    //     value: 'czy-moj-partner-musi-chciec-przyjsc-na-terapie'
+    //   },
+    //   {
+    //     label: 'Ile trwa terapia małżeńska?',
+    //     content: 'Zazwyczaj pracujemy przez 8-12 sesji, ale wszystko zależy od Waszej sytuacji&nbsp; celów. Niektóre pary potrzebują kilku spotkań, inne pracują dłużej. Po&nbsp;konsultacji zaproponuję orientacyjny plan.',
+    //     value: 'ile-trwa-terapia-malzenska'
+    //   },
+    //   {
+    //     label: 'Ile kosztuje sesja terapii małżeńskiej?',
+    //     content: 'Konsultacja wstępna (60 min) kosztuje 220&nbsp;zł. Sesja indywidualna (2h) to 390&nbsp;zł, a&nbsp;sesja wspólna (2h) to 490&nbsp;zł. Przy płatności za cały program otrzymujecie 10% rabatu.',
+    //     value: 'ile-kosztuje-sesja-terapii-malzenskiej'
+    //   },
+    //   {
+    //     label: 'Czy terapia małżeńska pomoże, jeśli doszło do zdrady?',
+    //     content: 'Tak, pomagam parom po zdradzie. To trudna droga, ale wielu parom udaje się odbudować relację. Kluczowe jest, by oboje partnerzy chcieli dać związkowi szansę.',
+    //     value: 'czy-terapia-malzenska-pomoze-jesli-doszlo-do-zdrady'
+    //   },
+    //   {
+    //     label: 'Czy oferujecie sesje online?',
+    //     content: 'Tak, prowadzę sesje online dla par spoza Szczecina lub tych, którzy preferują tę formę. Sesje online są równie skuteczne jak spotkania w&nbsp;gabinecie.',
+    //     value: 'czy-oferujecie-sesje-online'
+    //   }
+    // ]
   },
   callToAction: {
     title: 'Umów się na terapię małżeńską w&nbsp;Szczecinie'
