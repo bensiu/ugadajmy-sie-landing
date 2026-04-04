@@ -161,14 +161,18 @@ export const page: DetailPageProps = {
         title: 'Jak przygotować się do mediacji rozwodowej?',
         slug: 'jak-przygotowac-sie-do-mediacji-rozwodowej',
         description: 'Praktyczny przewodnik, który pomoże Ci wejść w&nbsp;proces mediacji z&nbsp;jasną głową i&nbsp;realistycznymi oczekiwaniami.',
-        readTime: '5 min'
+        readTime: '5 min',
+        counter: 0,
+        active: true
       },
       {
         silos: 'mediacje',
         title: '5 mitów o mediacji, w które wciąż wierzymy',
         slug: '5-mitow-o-mediacji-w-ktore-wciaz-wierzymy',
         description: 'Obalamy najpopularniejsze mity dotyczące mediacji. Sprawdź, ile z nich Cię dotyczy.',
-        readTime: '4 min'
+        readTime: '4 min',
+        counter: 0,
+        active: true
       }
     ]
   }

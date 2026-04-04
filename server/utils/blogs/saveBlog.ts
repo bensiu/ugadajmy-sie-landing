@@ -1,26 +1,30 @@
-import type { FaqItem } from '~~/app/types'
+import type { BlogItem } from '~~/app/types'
 import dynamodb from '~~/src/services/aws/dynamodb'
 
 const APP_DATA_TABLE_NAME = process.env.APP_DATA_TABLE_NAME || 'ugadajmy-sie-landing-dev-data'
 
-export default async function (item: FaqItem): Promise<FaqItem> {
+export default async function (item: BlogItem): Promise<BlogItem> {
   const existingRecord = await dynamodb.getItem(
     APP_DATA_TABLE_NAME,
     {
-      PK: `FAQS;SILOS:${item.silos}`,
+      PK: `BLOGS;SILOS:${item.silos}`,
       SK: `SLUG:${item.slug}`
     }
-  ) as FaqItem | null
+  ) as BlogItem | null
 
   const record = {
-    PK: `FAQS;SILOS:${item.silos}`,
+    PK: `BLOGS;SILOS:${item.silos}`,
     SK: `SLUG:${item.slug}`,
-    PK1: 'FAQS',
+    PK1: 'BLOGS',
     SK1: item.silos,
     slug: item.slug,
     silos: item.silos,
     title: item.title,
     content: item.content,
+    description: item.description,
+    author: item.author,
+    date: item.date,
+    readTime: item.readTime,
     counter: existingRecord ? existingRecord.counter : 0,
     // counter: body.counter,
     update_time: new Date().toISOString(),
@@ -37,5 +41,5 @@ export default async function (item: FaqItem): Promise<FaqItem> {
     PK: undefined,
     SK: undefined,
     ttl: undefined
-  } as unknown as FaqItem
+  } as unknown as BlogItem
 }

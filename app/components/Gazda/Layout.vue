@@ -1,4 +1,4 @@
-<script setup lang="ts" generic="T extends { silos: string, active: boolean, label: string }">
+<script setup lang="ts">
 import { page } from '~/data/gazda'
 
 setTimeout(async () => {

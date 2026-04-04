@@ -22,7 +22,9 @@ Przed pierwszym spotkaniem warto zebrać dokumenty finansowe, przemyśleć swoje
 
 Pamiętaj – mediacja to nie walka. To wspólne szukanie rozwiązania, które szanuje potrzeby obu stron.`,
     author: 'Aleksandra Dubiel',
-    date: '2026-03-20T16:00:05Z'
+    date: '2026-03-20T16:00:05Z',
+    counter: 0,
+    active: true
   },
   {
     silos: 'mediacje',
@@ -46,6 +48,8 @@ Nie każda mediacja kończy się porozumieniem, ale nawet wtedy pozwala lepiej z
 ## Mit 5: To jest drogie
 Mediacja jest wielokrotnie tańsza niż postępowanie sądowe. Oszczędzasz nie tylko pieniądze, ale też czas i nerwy.`,
     author: 'Aleksandra Dubiel',
-    date: '2026-03-17T16:00:05Z'
+    date: '2026-03-17T16:00:05Z',
+    counter: 0,
+    active: true
   }
 ]

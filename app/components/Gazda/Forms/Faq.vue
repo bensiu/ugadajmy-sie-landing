@@ -8,7 +8,7 @@ const props = defineProps<FaqItem & { uniqueKey: number }>()
 const schema = v.object({
   silos: v.pipe(v.string()),
   counter: v.pipe(v.number(), v.minValue(0)),
-  label: v.pipe(v.string(), v.minLength(8, 'Pytanie powinno być trochę dłuższe')),
+  title: v.pipe(v.string(), v.minLength(8, 'Pytanie powinno być trochę dłuższe')),
   content: v.pipe(v.string(), v.minLength(18, 'Odpowiedź powinna być trochę dłuższa')),
   slug: v.pipe(v.string(), v.minLength(8, 'Slug powinien być trochę dłuższy')),
   active: v.pipe(v.boolean())
@@ -17,7 +17,7 @@ const schema = v.object({
 const _default = {
   silos: props.silos,
   counter: props.counter || 0,
-  label: props.label || '',
+  title: props.title || '',
   content: props.content || '',
   slug: props.slug || '',
   active: props.active || false
@@ -36,12 +36,13 @@ const fields = [
     label: 'Licznik:',
     type: 'number',
     name: 'counter',
-    class: 'col-span-2 sm:col-span-2 sm:col-start-11 number-text-right'
+    class: 'col-span-2 sm:col-span-2 sm:col-start-11 number-text-right',
+    disabled: true
   },
   {
     label: 'Pytanie:',
     type: 'text',
-    name: 'label',
+    name: 'title',
     class: 'col-span-12',
     required: true
   },

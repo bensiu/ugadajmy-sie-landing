@@ -20,7 +20,7 @@ export default defineEventHandler(async (event): Promise<FaqItem> => {
         Update: {
           TableName: APP_DATA_TABLE_NAME,
           Key: {
-            PK: `FAQS;SLUG:${body.silos}`,
+            PK: `FAQS;SILOS:${body.silos}`,
             SK: `SLUG:${body.slug}`
           },
           UpdateExpression: 'ADD #c :inc',
@@ -51,7 +51,7 @@ export default defineEventHandler(async (event): Promise<FaqItem> => {
   const record = await dynamodb.getItem(
     APP_DATA_TABLE_NAME,
     {
-      PK: `FAQS;SLUG:${body.silos}`,
+      PK: `FAQS;SILOS:${body.silos}`,
       SK: `SLUG:${body.slug}`
     }
   )

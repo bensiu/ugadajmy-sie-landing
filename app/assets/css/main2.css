@@ -206,3 +206,10 @@
 .hero-container-background-main-solid-wrapper {
   background-color: rgb(var(--primary));
 }
+
+.input-text-right > div > div > input {
+  text-align: right !important;
+}
+.input-text-center > div > div > input {
+  text-align: center !important;
+}

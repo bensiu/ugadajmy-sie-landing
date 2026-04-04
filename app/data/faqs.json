@@ -5,7 +5,7 @@
     "active": true,
     "silos": "mediacje-rodzinne",
     "counter": 1,
-    "label": "Czy dzieci uczestniczą w mediacjach rodzinnych?",
+    "title": "Czy dzieci uczestniczą w mediacjach rodzinnych?",
     "slug": "czy-dzieci-uczestnicza-w-mediacjach-rodzinnych"
   },
   {
@@ -14,7 +14,7 @@
     "active": true,
     "silos": "mediacje-cywilne",
     "counter": 1,
-    "label": "Co jeśli druga strona nie zgodzi się na mediację?",
+    "title": "Co jeśli druga strona nie zgodzi się na mediację?",
     "slug": "co-jesli-druga-strona-nie-zgodzi-sie-na-mediacje"
   },
   {
@@ -23,7 +23,7 @@
     "active": true,
     "counter": 0,
     "silos": "warsztaty-dla-par",
-    "label": "Kiedy organizujecie warsztaty grupowe?",
+    "title": "Kiedy organizujecie warsztaty grupowe?",
     "slug": "kiedy-organizujecie-warsztaty-grupowe"
   },
   {
@@ -32,7 +32,7 @@
     "active": true,
     "counter": 0,
     "silos": "warsztaty-dla-par",
-    "label": "Ile kosztują warsztaty dla par?",
+    "title": "Ile kosztują warsztaty dla par?",
     "slug": "ile-kosztuja-warsztaty-dla-par"
   },
   {
@@ -41,7 +41,7 @@
     "active": true,
     "counter": 0,
     "silos": "warsztaty-dla-par",
-    "label": "Czy warsztaty zastępują terapię par?",
+    "title": "Czy warsztaty zastępują terapię par?",
     "slug": "czy-warsztaty-zastepuja-terapie-par"
   },
   {
@@ -50,7 +50,7 @@
     "active": true,
     "counter": 0,
     "silos": "warsztaty-dla-par",
-    "label": "Czy możemy wziąć udział w kilku warsztatach?",
+    "title": "Czy możemy wziąć udział w kilku warsztatach?",
     "slug": "czy-mozemy-wziac-udzial-w-kilku-warsztatach"
   },
   {
@@ -59,7 +59,7 @@
     "active": true,
     "counter": 0,
     "silos": "warsztaty-dla-par",
-    "label": "Czy warsztaty dla par są dostępne online?",
+    "title": "Czy warsztaty dla par są dostępne online?",
     "slug": "czy-warsztaty-dla-par-sa-dostępne-online"
   },
   {
@@ -68,7 +68,7 @@
     "active": true,
     "counter": 0,
     "silos": "terapia-dla-par-przedrozwodowa",
-    "label": "Co jeśli mój partner nie chce przyjść?",
+    "title": "Co jeśli mój partner nie chce przyjść?",
     "slug": "co-jesli-moj-partner-nie-chce-przyjsc-na-konsultacje"
   },
   {
@@ -77,7 +77,7 @@
     "active": true,
     "counter": 0,
     "silos": "terapia-dla-par-przedrozwodowa",
-    "label": "Czy możecie mi powiedzieć, co powinnam/powinienem zrobić?",
+    "title": "Czy możecie mi powiedzieć, co powinnam/powinienem zrobić?",
     "slug": "czy-mozecie-mi-powiedziec-co-powinnam-powinienem-zrobic"
   },
   {
@@ -86,7 +86,7 @@
     "active": true,
     "counter": 0,
     "silos": "terapia-dla-par-przedrozwodowa",
-    "label": "Czy to, co powiem, jest poufne?",
+    "title": "Czy to, co powiem, jest poufne?",
     "slug": "czy-to-co-powiem-na-konsultacjach-jest-poufne"
   },
   {
@@ -95,7 +95,7 @@
     "active": true,
     "counter": 0,
     "silos": "terapia-dla-par-przedrozwodowa",
-    "label": "Czy konsultacje są tylko dla par?",
+    "title": "Czy konsultacje są tylko dla par?",
     "slug": "czy-konsultacje-sa-tylko-dla-par"
   },
   {
@@ -104,7 +104,7 @@
     "active": true,
     "counter": 0,
     "silos": "terapia-dla-par-przedrozwodowa",
-    "label": "Ile trwają konsultacje przedrozwodowe?",
+    "title": "Ile trwają konsultacje przedrozwodowe?",
     "slug": "ile-trwaja-konsultacje-przedrozwodowe"
   },
   {
@@ -113,7 +113,7 @@
     "active": true,
     "counter": 0,
     "silos": "terapia-dla-par-po-zdradzie",
-    "label": "Czy terapeutka stoi po stronie osoby zdradzonej?",
+    "title": "Czy terapeutka stoi po stronie osoby zdradzonej?",
     "slug": "czy-terapeutka-stoi-po-stronie-osoby-zdradzonej"
   },
   {
@@ -122,7 +122,7 @@
     "active": true,
     "counter": 0,
     "silos": "terapia-dla-par-po-zdradzie",
-    "label": "Ile trwa terapia po zdradzie?",
+    "title": "Ile trwa terapia po zdradzie?",
     "slug": "ile-trwa-terapia-po-zdradzie"
   },
   {
@@ -131,7 +131,7 @@
     "active": true,
     "counter": 0,
     "silos": "terapia-dla-par-po-zdradzie",
-    "label": "Czy partner/ka musi wiedzieć wszystkie szczegóły zdrady?",
+    "title": "Czy partner/ka musi wiedzieć wszystkie szczegóły zdrady?",
     "slug": "czy-partner-ka-musi-wiedziec-wszystkie-szczegoly-zdrady"
   },
   {
@@ -140,7 +140,7 @@
     "active": true,
     "counter": 0,
     "silos": "terapia-dla-par-po-zdradzie",
-    "label": "Czy przebaczenie jest konieczne do kontynuowania związku?",
+    "title": "Czy przebaczenie jest konieczne do kontynuowania związku?",
     "slug": "czy-przebaczenie-jest-konieczne-do-kontynuowania-zwiazku"
   },
   {
@@ -149,7 +149,7 @@
     "active": true,
     "counter": 0,
     "silos": "terapia-dla-par-po-zdradzie",
-    "label": "Co jeśli nie jestem pewny/a, czy chcę zostać?",
+    "title": "Co jeśli nie jestem pewny/a, czy chcę zostać?",
     "slug": "co-jesli-nie-jestem-pewny-a-czy-chce-zostac"
   },
   {
@@ -158,7 +158,7 @@
     "active": true,
     "counter": 0,
     "silos": "terapia-dla-par-po-zdradzie",
-    "label": "Czy mogę przyjść na terapię sam/sama?",
+    "title": "Czy mogę przyjść na terapię sam/sama?",
     "slug": "czy-moge-przyjsc-na-terapie-sam-sama"
   },
   {
@@ -167,7 +167,7 @@
     "active": true,
     "silos": "terapia-dla-par-malzenska",
     "counter": 0,
-    "label": "Czy terapia małżeńska pomoże, jeśli doszło do zdrady?",
+    "title": "Czy terapia małżeńska pomoże, jeśli doszło do zdrady?",
     "slug": "czy-terapia-malzenska-pomoze-jesli-doszlo-do-zdrady"
   },
   {
@@ -176,7 +176,7 @@
     "active": true,
     "silos": "terapia-dla-par-malzenska",
     "counter": 0,
-    "label": "Czy oferujecie sesje online?",
+    "title": "Czy oferujecie sesje online?",
     "slug": "czy-oferujecie-sesje-online"
   },
   {
@@ -185,7 +185,7 @@
     "active": true,
     "silos": "terapia-dla-par-malzenska",
     "counter": 0,
-    "label": "Ile trwa terapia małżeńska?",
+    "title": "Ile trwa terapia małżeńska?",
     "slug": "ile-trwa-terapia-malzenska"
   },
   {
@@ -194,7 +194,7 @@
     "active": true,
     "silos": "terapia-dla-par-malzenska",
     "counter": 0,
-    "label": "Ile kosztuje sesja terapii małżeńskiej?",
+    "title": "Ile kosztuje sesja terapii małżeńskiej?",
     "slug": "ile-kosztuje-sesja-terapii-malzenskiej"
   },
   {
@@ -203,7 +203,7 @@
     "active": true,
     "silos": "terapia-dla-par-malzenska",
     "counter": 0,
-    "label": "Czy mój partner musi chcieć przyjść na terapię?",
+    "title": "Czy mój partner musi chcieć przyjść na terapię?",
     "slug": "czy-moj-partner-musi-chciec-przyjsc-na-terapie"
   },
   {
@@ -212,7 +212,7 @@
     "active": true,
     "silos": "szkolenia-z-mediacji",
     "counter": 0,
-    "label": "Czy szkolenie jest akredytowane?",
+    "title": "Czy szkolenie jest akredytowane?",
     "slug": "czy-szkolenie-jest-akredytowane"
   },
   {
@@ -221,7 +221,7 @@
     "active": true,
     "silos": "szkolenia-z-mediacji",
     "counter": 0,
-    "label": "Ile trwa szkolenie z mediacji?",
+    "title": "Ile trwa szkolenie z mediacji?",
     "slug": "lle-trwa-szkolenie-z-mediacji"
   },
   {
@@ -230,7 +230,7 @@
     "active": true,
     "silos": "szkolenia-z-mediacji",
     "counter": 0,
-    "label": "Czy mogę uczestniczyć w szkoleniu online?",
+    "title": "Czy mogę uczestniczyć w szkoleniu online?",
     "slug": "czy-moge-uczestniczyc-w-szkoleniu-online"
   },
   {
@@ -239,7 +239,7 @@
     "active": true,
     "silos": "szkolenia-z-mediacji",
     "counter": 0,
-    "label": "Jakie są wymagania, żeby uczestniczyć szkoleniu?",
+    "title": "Jakie są wymagania, żeby uczestniczyć szkoleniu?",
     "slug": "jakie-sa-wymagania-zeby-uczestniczyc-szkoleniu"
   },
   {
@@ -248,7 +248,7 @@
     "active": true,
     "silos": "szkolenia-z-mediacji",
     "counter": 0,
-    "label": "Czy po szkoleniu mogę zostać mediatorem?",
+    "title": "Czy po szkoleniu mogę zostać mediatorem?",
     "slug": "czy-po-szkoleniu-moge-zostac-mediatorem"
   },
   {
@@ -257,7 +257,7 @@
     "active": true,
     "counter": 0,
     "silos": "szkolenia-z-komunikacji",
-    "label": "Dla kogo jest przeznaczone szkolenie z komunikacji?",
+    "title": "Dla kogo jest przeznaczone szkolenie z komunikacji?",
     "slug": "dla-kogo-jest-przeznaczone-szkolenie-z-komunikacji"
   },
   {
@@ -266,7 +266,7 @@
     "active": true,
     "counter": 0,
     "silos": "szkolenia-z-komunikacji",
-    "label": "Czy po szkoleniu otrzymam jakieś materiały?",
+    "title": "Czy po szkoleniu otrzymam jakieś materiały?",
     "slug": "czy-po-szkoleniu-otrzymam-jakies-materialy"
   },
   {
@@ -275,7 +275,7 @@
     "active": true,
     "counter": 0,
     "silos": "szkolenia-z-komunikacji",
-    "label": "Czy szkolenie jest prowadzone indywidualnie czy w grupie?",
+    "title": "Czy szkolenie jest prowadzone indywidualnie czy w grupie?",
     "slug": "czy-szkolenie-jest-prowadzone-indywidualnie-czy-w-grupie"
   },
   {
@@ -284,7 +284,7 @@
     "active": true,
     "counter": 0,
     "silos": "szkolenia-z-komunikacji",
-    "label": "Jak długo trwa szkolenie z komunikacji?",
+    "title": "Jak długo trwa szkolenie z komunikacji?",
     "slug": "jak-dlugo-trwa-szkolenie-z-komunikacji"
   },
   {
@@ -293,7 +293,7 @@
     "active": true,
     "counter": 0,
     "silos": "szkolenia-z-komunikacji",
-    "label": "Czego konkretnie nauczę się na szkoleniu z komunikacji?",
+    "title": "Czego konkretnie nauczę się na szkoleniu z komunikacji?",
     "slug": "czego-konkretnie-naucze-sie-na-szkoleniu-z-komunikacji"
   },
   {
@@ -302,7 +302,7 @@
     "active": true,
     "silos": "szkolenia-dla-firm",
     "counter": 0,
-    "label": "Czy otrzymamy materiały po szkoleniu?",
+    "title": "Czy otrzymamy materiały po szkoleniu?",
     "slug": "czy-otrzymamy-materialy-po-szkoleniu"
   },
   {
@@ -311,7 +311,7 @@
     "active": true,
     "silos": "szkolenia-dla-firm",
     "counter": 0,
-    "label": "Jak długo trwa szkolenie firmowe?",
+    "title": "Jak długo trwa szkolenie firmowe?",
     "slug": "jak-dlugo-trwa-szkolenie-firmowe"
   },
   {
@@ -320,7 +320,7 @@
     "active": true,
     "silos": "szkolenia-dla-firm",
     "counter": 0,
-    "label": "Czy szkolenia można przeprowadzić online?",
+    "title": "Czy szkolenia można przeprowadzić online?",
     "slug": "czy-szkolenia-mozna-przeprowadzic-online"
   },
   {
@@ -329,7 +329,7 @@
     "active": true,
     "silos": "szkolenia-dla-firm",
     "counter": 0,
-    "label": "Ile kosztują szkolenia firmowe w Szczecinie?",
+    "title": "Ile kosztują szkolenia firmowe w Szczecinie?",
     "slug": "ile-kosztuja-szkolenia-firmowe"
   },
   {
@@ -338,7 +338,7 @@
     "active": true,
     "silos": "szkolenia-dla-firm",
     "counter": 0,
-    "label": "Jaka jest optymalna wielkość grupy szkoleniowej?",
+    "title": "Jaka jest optymalna wielkość grupy szkoleniowej?",
     "slug": "jaka-jest-optymalna-wielkosc-grupy-szkoleniowej"
   },
   {
@@ -347,7 +347,7 @@
     "active": true,
     "counter": 0,
     "silos": "program-razem-czy-osobno",
-    "label": "Czy program jest dostępny online?",
+    "title": "Czy program jest dostępny online?",
     "slug": "czy-program-razem-czy-osobno-jest-dostepny-online"
   },
   {
@@ -356,7 +356,7 @@
     "active": true,
     "counter": 0,
     "silos": "program-razem-czy-osobno",
-    "label": "Jak wygląda płatność za program?",
+    "title": "Jak wygląda płatność za program?",
     "slug": "jak-wyglada-płatnosc-za-program-razem-czy-osobno"
   },
   {
@@ -365,7 +365,7 @@
     "active": true,
     "counter": 0,
     "silos": "program-razem-czy-osobno",
-    "label": "Co jeśli w trakcie zdecydujemy się rozstać?",
+    "title": "Co jeśli w trakcie zdecydujemy się rozstać?",
     "slug": "co-jesli-w-trakcie-zdecydujemy-sie-rozstac"
   },
   {
@@ -374,7 +374,7 @@
     "active": true,
     "counter": 0,
     "silos": "program-razem-czy-osobno",
-    "label": "Czy musimy przejść wszystkie 13 modułów programu ....?",
+    "title": "Czy musimy przejść wszystkie 13 modułów programu ....?",
     "slug": "czy-musimy-przejsc-wszystkie-13-modulow-programu-razem-czy-osobno"
   },
   {
@@ -383,7 +383,7 @@
     "active": true,
     "counter": 0,
     "silos": "program-razem-czy-osobno",
-    "label": "Ile trwa cały program?",
+    "title": "Ile trwa cały program?",
     "slug": "ile-trwa-caly-program-razem-czy-osobno"
   },
   {
@@ -392,7 +392,7 @@
     "active": true,
     "counter": 0,
     "silos": "program-razem-czy-osobno",
-    "label": "Czym różni się program od zwykłej terapii par?",
+    "title": "Czym różni się program od zwykłej terapii par?",
     "slug": "czym-rozni-sie-program-razem-czy-osobno-od-zwyklej-terapii-par"
   },
   {
@@ -401,7 +401,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-z-udzialem-dzieci",
-    "label": "Ile kosztuje mediacja z udziałem dziecka w Szczecinie?",
+    "title": "Ile kosztuje mediacja z udziałem dziecka w Szczecinie?",
     "slug": "ile-kosztuje-mediacja-z-udziałem-dziecka"
   },
   {
@@ -410,7 +410,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-z-udzialem-dzieci",
-    "label": "Czy dziecko musi brać udział w mediacji?",
+    "title": "Czy dziecko musi brać udział w mediacji?",
     "slug": "czy-dziecko-musi-brac-udzial-w-mediacji"
   },
   {
@@ -419,7 +419,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-z-udzialem-dzieci",
-    "label": "Czy to, co powie dziecko, jest poufne?",
+    "title": "Czy to, co powie dziecko, jest poufne?",
     "slug": "czy-to-co-powie-dziecko-jest-poufne"
   },
   {
@@ -428,7 +428,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-z-udzialem-dzieci",
-    "label": "Czy dziecko decyduje o wyniku mediacji?",
+    "title": "Czy dziecko decyduje o wyniku mediacji?",
     "slug": "czy-dziecko-decyduje-o-wyniku-mediacji"
   },
   {
@@ -437,7 +437,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-z-udzialem-dzieci",
-    "label": "Od jakiego wieku dziecko może uczestniczyć w mediacji?",
+    "title": "Od jakiego wieku dziecko może uczestniczyć w mediacji?",
     "slug": "od-jakiego-wieku-dziecko-moze-uczestniczyc-w-mediacji"
   },
   {
@@ -446,7 +446,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-spadkowe",
-    "label": "Ile kosztują mediacje spadkowe w Szczecinie?",
+    "title": "Ile kosztują mediacje spadkowe w Szczecinie?",
     "slug": "ile-kosztuja-mediacje-spadkowe"
   },
   {
@@ -455,7 +455,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-spadkowe",
-    "label": "Ile sesji potrzeba do zakończenia mediacji spadkowej?",
+    "title": "Ile sesji potrzeba do zakończenia mediacji spadkowej?",
     "slug": "ile-sesji-potrzeba-do-zakonczenia-mediacji-spadkowej"
   },
   {
@@ -464,7 +464,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-spadkowe",
-    "label": "Czy ugoda z mediacji spadkowej jest wiążąca prawnie?",
+    "title": "Czy ugoda z mediacji spadkowej jest wiążąca prawnie?",
     "slug": "czy-ugoda-z-mediacji-spadkowej-jest-wiazaca-prawnie"
   },
   {
@@ -473,7 +473,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-spadkowe",
-    "label": "Co jeśli jeden spadkobierca mieszka za granicą?",
+    "title": "Co jeśli jeden spadkobierca mieszka za granicą?",
     "slug": "co-jesli-jeden-spadkobierca-mieszka-za-granica"
   },
   {
@@ -482,7 +482,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-spadkowe",
-    "label": "Czy mediacja jest możliwa przy sporze o ważność testamentu?",
+    "title": "Czy mediacja jest możliwa przy sporze o ważność testamentu?",
     "slug": "czy-mediacja-jest-mozliwa-przy-sporze-o-waznosc-testamentu"
   },
   {
@@ -491,7 +491,7 @@
     "active": true,
     "silos": "mediacje-sasiedzkie",
     "counter": 0,
-    "label": "Jak długo trwa mediacja sąsiedzka?",
+    "title": "Jak długo trwa mediacja sąsiedzka?",
     "slug": "jak-dlugo-trwa-mediacja-sasiedzka"
   },
   {
@@ -500,7 +500,7 @@
     "active": true,
     "silos": "mediacje-sasiedzkie",
     "counter": 0,
-    "label": "Czy ugoda z mediacji sąsiedzkiej jest wiążąca?",
+    "title": "Czy ugoda z mediacji sąsiedzkiej jest wiążąca?",
     "slug": "czy-ugoda-z-mediacji-sasiedzkiej-jest-wiazaca"
   },
   {
@@ -509,7 +509,7 @@
     "active": true,
     "silos": "mediacje-sasiedzkie",
     "counter": 0,
-    "label": "Co jeśli sąsiad odmówi udziału w mediacji?",
+    "title": "Co jeśli sąsiad odmówi udziału w mediacji?",
     "slug": "co-jesli-sasiad-odmowi-udzialu-w-mediacji"
   },
   {
@@ -518,7 +518,7 @@
     "active": true,
     "silos": "mediacje-sasiedzkie",
     "counter": 0,
-    "label": "Czy mogę wziąć prawnika na mediację?",
+    "title": "Czy mogę wziąć prawnika na mediację?",
     "slug": "czy-moge-wziac-prawnika-na-mediacje"
   },
   {
@@ -527,7 +527,7 @@
     "active": true,
     "silos": "mediacje-sasiedzkie",
     "counter": 0,
-    "label": "Ile kosztują mediacje sąsiedzkie w Szczecinie?",
+    "title": "Ile kosztują mediacje sąsiedzkie w Szczecinie?",
     "slug": "ile-kosztuja-mediacje-sasiedzkie"
   },
   {
@@ -536,7 +536,7 @@
     "active": true,
     "silos": "mediacje-rozwodowe",
     "counter": 0,
-    "label": "Ile kosztują mediacje rozwodowe w Szczecinie?",
+    "title": "Ile kosztują mediacje rozwodowe w Szczecinie?",
     "slug": "ile-kosztuja-mediacje-rozwodowe"
   },
   {
@@ -545,7 +545,7 @@
     "active": false,
     "silos": "mediacje-rozwodowe",
     "counter": 0,
-    "label": "Co jeśli nie dogadamy się na mediacji rozwodowej?",
+    "title": "Co jeśli nie dogadamy się na mediacji rozwodowej?",
     "slug": "co-jesli-nie-dogadamy-sie-na-mediacji-rozwodowej"
   },
   {
@@ -554,7 +554,7 @@
     "active": true,
     "silos": "mediacje-rozwodowe",
     "counter": 0,
-    "label": "Jak długo trwa mediacja rozwodowa?",
+    "title": "Jak długo trwa mediacja rozwodowa?",
     "slug": "jak-dlugo-trwa-mediacja-rozwodowa"
   },
   {
@@ -563,7 +563,7 @@
     "active": true,
     "silos": "mediacje-rozwodowe",
     "counter": 0,
-    "label": "Czy mogę przyjść na mediacje bez małżonka?",
+    "title": "Czy mogę przyjść na mediacje bez małżonka?",
     "slug": "czy-moge-przyjsc-na-mediacje-bez-malzonka"
   },
   {
@@ -572,7 +572,7 @@
     "active": true,
     "silos": "mediacje-rozwodowe",
     "counter": 0,
-    "label": "Czy mediacje rozwodowe są obowiązkowe?",
+    "title": "Czy mediacje rozwodowe są obowiązkowe?",
     "slug": "czy-mediacje-rozwodowe-sa-obowiazkowe"
   },
   {
@@ -581,7 +581,7 @@
     "active": true,
     "silos": "mediacje-rodzinne",
     "counter": 0,
-    "label": "Czy ugoda z mediacji rodzinnej jest wiążąca?",
+    "title": "Czy ugoda z mediacji rodzinnej jest wiążąca?",
     "slug": "czy-ugoda-z-mediacji-rodzinnej-jest-wiazaca"
   },
   {
@@ -590,7 +590,7 @@
     "active": true,
     "silos": "mediacje-rodzinne",
     "counter": 0,
-    "label": "Czy mediacja rodzinna zastępuje terapię rodzinną?",
+    "title": "Czy mediacja rodzinna zastępuje terapię rodzinną?",
     "slug": "czy-mediacja-rodzinna-zastepuje-terapie"
   },
   {
@@ -599,7 +599,7 @@
     "active": true,
     "silos": "mediacje-rodzinne",
     "counter": 0,
-    "label": "Ile kosztują mediacje rodzinne w Szczecinie?",
+    "title": "Ile kosztują mediacje rodzinne w Szczecinie?",
     "slug": "ile-kosztuja-mediacje-rodzinne"
   },
   {
@@ -608,7 +608,7 @@
     "active": true,
     "silos": "mediacje-rodzinne",
     "counter": 0,
-    "label": "Co jeśli drugi członek rodziny nie chce mediacji?",
+    "title": "Co jeśli drugi członek rodziny nie chce mediacji?",
     "slug": "co-jesli-drugi-czlonek-rodziny-nie-chce-mediacji"
   },
   {
@@ -617,7 +617,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-online",
-    "label": "Ile kosztują mediacje online?",
+    "title": "Ile kosztują mediacje online?",
     "slug": "ile-kosztuja-mediacje-online"
   },
   {
@@ -626,7 +626,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-online",
-    "label": "Jak podpisać ugodę przy mediacji online?",
+    "title": "Jak podpisać ugodę przy mediacji online?",
     "slug": "jak-podpisac-ugode-przy-mediacji-online"
   },
   {
@@ -635,7 +635,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-online",
-    "label": "Jakiego sprzętu potrzebuję do mediacji online?",
+    "title": "Jakiego sprzętu potrzebuję do mediacji online?",
     "slug": "jakiego-sprzetu-potrzebuje-do-mediacji-online"
   },
   {
@@ -644,7 +644,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-online",
-    "label": "Czy mediacja online jest równie skuteczna jak stacjonarna?",
+    "title": "Czy mediacja online jest równie skuteczna jak stacjonarna?",
     "slug": "czy-mediacja-online-jest-rownie-skuteczna-jak-stacjonarna"
   },
   {
@@ -653,7 +653,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-online",
-    "label": "Czy mediacja online jest bezpieczna i poufna?",
+    "title": "Czy mediacja online jest bezpieczna i poufna?",
     "slug": "czy-mediacja-online-jest-bezpieczna-i-poufna"
   },
   {
@@ -662,7 +662,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-okolorozwodowe",
-    "label": "Czym różnią się mediacje okołorozwodowe od rozwodowych?",
+    "title": "Czym różnią się mediacje okołorozwodowe od rozwodowych?",
     "slug": "czym-roznia-sie-mediacje-okołorozwodowe-od-rozwodowych"
   },
   {
@@ -671,7 +671,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-okolorozwodowe",
-    "label": "Czy potrzebuję adwokata oprócz mediatora?",
+    "title": "Czy potrzebuję adwokata oprócz mediatora?",
     "slug": "czy-potrzebuje-adwokata-oprocz-mediatora"
   },
   {
@@ -680,7 +680,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-okolorozwodowe",
-    "label": "Co jeśli nie dogadamy się we wszystkich kwestiach?",
+    "title": "Co jeśli nie dogadamy się we wszystkich kwestiach?",
     "slug": "co-jesli-nie-dogadamy-sie-we-wszystkich-kwestiach"
   },
   {
@@ -689,7 +689,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-okolorozwodowe",
-    "label": "Czy porozumienie z mediacji jest wiążące w sądzie?",
+    "title": "Czy porozumienie z mediacji jest wiążące w sądzie?",
     "slug": "czy-porozumienie-z-mediacji-jest-wiazace-w-sadzie"
   },
   {
@@ -698,7 +698,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-okolorozwodowe",
-    "label": "Ile trwają mediacje okołorozwodowe w Szczecinie?",
+    "title": "Ile trwają mediacje okołorozwodowe w Szczecinie?",
     "slug": "ile-trwaja-mediacje-okołorozwodowe"
   },
   {
@@ -707,7 +707,7 @@
     "active": true,
     "silos": "mediacje-gospodarcze",
     "counter": 0,
-    "label": "Czy mediacje gospodarcze są poufne?",
+    "title": "Czy mediacje gospodarcze są poufne?",
     "slug": "czy-mediacje-gospodarcze-sa-poufne"
   },
   {
@@ -716,7 +716,7 @@
     "active": false,
     "silos": "mediacje-gospodarcze",
     "counter": 0,
-    "label": "Czy ugoda z mediacji jest wiążąca dla firm?",
+    "title": "Czy ugoda z mediacji jest wiążąca dla firm?",
     "slug": "czy-ugoda-z-mediacji-jest-wiazaca-dla-firm"
   },
   {
@@ -725,7 +725,7 @@
     "active": true,
     "silos": "mediacje-gospodarcze",
     "counter": 0,
-    "label": "Czy mogę prowadzić mediacje zamiast iść do sądu w sprawie windykacyjnej?",
+    "title": "Czy mogę prowadzić mediacje zamiast iść do sądu w sprawie windykacyjnej?",
     "slug": "czy-moge-prowadzic-mediacje-zamiast-isc-do-sadu-w-sprawie-windykacyjnej"
   },
   {
@@ -734,7 +734,7 @@
     "active": true,
     "silos": "mediacje-gospodarcze",
     "counter": 0,
-    "label": "Czy konkurencja dowie się o naszym sporze?",
+    "title": "Czy konkurencja dowie się o naszym sporze?",
     "slug": "czy-konkurencja-dowie-sie-o-naszym-sporze"
   },
   {
@@ -743,7 +743,7 @@
     "active": true,
     "silos": "mediacje-gospodarcze",
     "counter": 0,
-    "label": "Ile kosztują mediacje gospodarcze w Szczecinie?",
+    "title": "Ile kosztują mediacje gospodarcze w Szczecinie?",
     "slug": "lle-kosztuja-mediacje-gospodarcze"
   },
   {
@@ -752,7 +752,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-dla-firm",
-    "label": "Ile kosztują mediacje dla firm w Szczecinie?",
+    "title": "Ile kosztują mediacje dla firm w Szczecinie?",
     "slug": "ile-kosztuja-mediacje-dla-firm"
   },
   {
@@ -761,7 +761,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-dla-firm",
-    "label": "Jak długo trwa mediacja firmowa?",
+    "title": "Jak długo trwa mediacja firmowa?",
     "slug": "jak-dlugo-trwa-mediacja-firmowa"
   },
   {
@@ -770,7 +770,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-dla-firm",
-    "label": "Czy oferujesz szkolenia z zarządzania konfliktami?",
+    "title": "Czy oferujesz szkolenia z zarządzania konfliktami?",
     "slug": "czy-oferujesz-szkolenia-z-zarzadzania-konfliktami"
   },
   {
@@ -779,7 +779,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-dla-firm",
-    "label": "Czy mediacja jest poufna wobec zarządu?",
+    "title": "Czy mediacja jest poufna wobec zarządu?",
     "slug": "czy-mediacja-jest-poufna-wobec-zarzadu"
   },
   {
@@ -788,7 +788,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-dla-firm",
-    "label": "Czy mediacja może zastąpić procedurę dyscyplinarną?",
+    "title": "Czy mediacja może zastąpić procedurę dyscyplinarną?",
     "slug": "czy-mediacja-moze-zastapic-procedure-dyscyplinarna"
   },
   {
@@ -797,7 +797,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-cywilne",
-    "label": "Czy potrzebuję prawnika na mediacji cywilnej?",
+    "title": "Czy potrzebuję prawnika na mediacji cywilnej?",
     "slug": "czy-potrzebuje-prawnika-na-mediacji-cywilnej"
   },
   {
@@ -806,7 +806,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-cywilne",
-    "label": "Czy każda sprawa cywilna nadaje się do mediacji?",
+    "title": "Czy każda sprawa cywilna nadaje się do mediacji?",
     "slug": "czy-kazda-sprawa-nadaje-sie-do-mediacji"
   },
   {
@@ -815,7 +815,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-cywilne",
-    "label": "Ile kosztuje mediacja cywilna w Szczecinie?",
+    "title": "Ile kosztuje mediacja cywilna w Szczecinie?",
     "slug": "ile-kosztuje-mediacja-cywilna"
   },
   {
@@ -824,7 +824,7 @@
     "active": true,
     "counter": 0,
     "silos": "mediacje-cywilne",
-    "label": "Czy mogę przerwać mediację, jeśli nie przynosi efektów?",
+    "title": "Czy mogę przerwać mediację, jeśli nie przynosi efektów?",
     "slug": "czy-moge-przerwac-mediacje-jesli-nie-przynosi-efektow"
   },
   {
@@ -833,7 +833,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-zyciowy",
-    "label": "Co jeśli nie wiem, czego chcę od życia?",
+    "title": "Co jeśli nie wiem, czego chcę od życia?",
     "slug": "co-jesli-nie-wiem-czego-chce-od-zycia"
   },
   {
@@ -842,7 +842,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-zyciowy",
-    "label": "Czy muszę mieć konkretny cel przed rozpoczęciem?",
+    "title": "Czy muszę mieć konkretny cel przed rozpoczęciem?",
     "slug": "czy-musze-miec-konkretny-cel-przed-rozpoczeciem"
   },
   {
@@ -851,7 +851,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-zyciowy",
-    "label": "Jak długo trwa coaching życiowy?",
+    "title": "Jak długo trwa coaching życiowy?",
     "slug": "jak-dlugo-trwa-coaching-zyciowy"
   },
   {
@@ -860,7 +860,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-zyciowy",
-    "label": "Czy sesje mogą być online?",
+    "title": "Czy sesje mogą być online?",
     "slug": "czy-sesje-coachingu-zyciowego-moga-byc-online"
   },
   {
@@ -869,7 +869,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-zyciowy",
-    "label": "Czy coaching życiowy to terapia?",
+    "title": "Czy coaching życiowy to terapia?",
     "slug": "czy-coaching-zyciowy-to-terapia"
   },
   {
@@ -878,7 +878,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-konfliktow",
-    "label": "Czy coaching pomoże, jeśli konflikt jest bardzo zaawansowany?",
+    "title": "Czy coaching pomoże, jeśli konflikt jest bardzo zaawansowany?",
     "slug": "czy-coaching-pomoze-jesli-konflikt-jest-bardzo-zaawansowany"
   },
   {
@@ -887,7 +887,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-konfliktow",
-    "label": "Czy coaching konfliktów jest dla mnie, jeśli unikam konfrontacji?",
+    "title": "Czy coaching konfliktów jest dla mnie, jeśli unikam konfrontacji?",
     "slug": "czy-coaching-konfliktow-jest-dla-mnie-jesli-unikam-konfrontacji"
   },
   {
@@ -896,7 +896,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-konfliktow",
-    "label": "Czym różni się coaching konfliktów od mediacji?",
+    "title": "Czym różni się coaching konfliktów od mediacji?",
     "slug": "czym-rozni-sie-coaching-konfliktow-od-mediacji"
   },
   {
@@ -905,7 +905,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-konfliktow",
-    "label": "Czy sesje są poufne?",
+    "title": "Czy sesje są poufne?",
     "slug": "czy-sesje-coachingu-konfliktow-sa-poufne"
   },
   {
@@ -914,7 +914,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-konfliktow",
-    "label": "Ile sesji potrzeba, żeby zauważyć zmiany?",
+    "title": "Ile sesji potrzeba, żeby zauważyć zmiany?",
     "slug": "ile-sesji-potrzeba-zeby-zauwazyc-zmiany"
   },
   {
@@ -923,7 +923,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-kariery",
-    "label": "Czy coaching pomoże mi zmienić pracę?",
+    "title": "Czy coaching pomoże mi zmienić pracę?",
     "slug": "czy-coaching-pomoze-mi-zmienic-prace"
   },
   {
@@ -932,16 +932,16 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-kariery",
-    "label": "Jak przygotować się do pierwszej sesji?",
+    "title": "Jak przygotować się do pierwszej sesji?",
     "slug": "jak-przygotowac-sie-do-pierwszej-sesji"
   },
   {
     "content": "Doradca zawodowy daje konkretne rady i&nbsp;wskazówki. Coach pomaga Ci odkryć własne odpowiedzi poprzez pytania i&nbsp;refleksję. w&nbsp;coachingu to Ty jesteś ekspertem od swojego życia – ja pomagam Ci lepiej myśleć i&nbsp;podejmować trafniejsze decyzje.",
     "update_time": "2026-04-01T12:20:48.878Z",
-    "active": false,
+    "active": true,
     "counter": 0,
     "silos": "coaching-kariery",
-    "label": "Czym różni się coaching od doradztwa zawodowego?",
+    "title": "Czym różni się coaching od doradztwa zawodowego?",
     "slug": "czym-rozni-sie-coaching-od-doradztwa-zawodowego"
   },
   {
@@ -950,7 +950,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-kariery",
-    "label": "Ile trwa proces coachingu kariery?",
+    "title": "Ile trwa proces coachingu kariery?",
     "slug": "ile-trwa-proces-coachingu-kariery"
   },
   {
@@ -959,7 +959,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-kariery",
-    "label": "Czy sesje mogą odbywać się online?",
+    "title": "Czy sesje mogą odbywać się online?",
     "slug": "czy-sesje-moga-odbywac-sie-online"
   },
   {
@@ -968,7 +968,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-indywidualny",
-    "label": "Ile trwa jedna sesja?",
+    "title": "Ile trwa jedna sesja?",
     "slug": "ile-trwa-jedna-sesja-coachingu-indywidualnego"
   },
   {
@@ -977,7 +977,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-indywidualny",
-    "label": "Jak przygotować się do sesji?",
+    "title": "Jak przygotować się do sesji?",
     "slug": "jak-sie-przygotowac-do-sesji-coachingu-indywidualnego"
   },
   {
@@ -986,7 +986,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-indywidualny",
-    "label": "Jak wygląda pierwsza sesja coachingowa?",
+    "title": "Jak wygląda pierwsza sesja coachingowa?",
     "slug": "jak-wyglada-pierwsza-sesja-coachingu-indywidualnego"
   },
   {
@@ -995,7 +995,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-indywidualny",
-    "label": "Jak często powinny odbywać się sesje?",
+    "title": "Jak często powinny odbywać się sesje?",
     "slug": "jak-czesto-powinny-odbywac-sie-sesje-coachingu-indywidualnego"
   },
   {
@@ -1004,7 +1004,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-indywidualny",
-    "label": "Co jeśli coaching mi nie odpowiada?",
+    "title": "Co jeśli coaching mi nie odpowiada?",
     "slug": "co-jesli--coaching-indywidualny-mi-nie-odpowiada"
   },
   {
@@ -1013,7 +1013,7 @@
     "active": true,
     "counter": 0,
     "silos": "coaching-indywidualny",
-    "label": "Czy mogę zmienić temat w trakcie procesu coachingowego?",
+    "title": "Czy mogę zmienić temat w trakcie procesu coachingowego?",
     "slug": "czy-moge-zmienic-temat-coachingu-indywidualnego"
   },
   {
@@ -1022,7 +1022,7 @@
     "active": true,
     "silos": "coaching-biznesowy",
     "counter": 0,
-    "label": "Czy coaching może pomóc w rozwiązywaniu konfliktów w firmie?",
+    "title": "Czy coaching może pomóc w rozwiązywaniu konfliktów w firmie?",
     "slug": "czy-coaching-moze-pomoc-w-rozwiazaniu-konfliktow"
   },
   {
@@ -1031,7 +1031,7 @@
     "active": true,
     "silos": "coaching-biznesowy",
     "counter": 0,
-    "label": "Jak często odbywają się sesje coachingu biznesowego?",
+    "title": "Jak często odbywają się sesje coachingu biznesowego?",
     "slug": "jak-czesto-odbywaja-sie-sesje-coaching-biznesowego"
   },
   {
@@ -1040,7 +1040,7 @@
     "active": false,
     "silos": "coaching-biznesowy",
     "counter": 0,
-    "label": "Dla jakiej wielkości firm jest coaching biznesowy?",
+    "title": "Dla jakiej wielkości firm jest coaching biznesowy?",
     "slug": "dla-jakiej-wielkosci-firm"
   },
   {
@@ -1049,7 +1049,7 @@
     "active": true,
     "silos": "coaching-biznesowy",
     "counter": 0,
-    "label": "Dla jakiej wielkości firm jest coaching biznesowy?",
+    "title": "Dla jakiej wielkości firm jest coaching biznesowy?",
     "slug": "dla-jakiej-wielkosci-firm-jest-coaching-biznesowy"
   },
   {
@@ -1058,7 +1058,7 @@
     "active": true,
     "silos": "coaching-biznesowy",
     "counter": 0,
-    "label": "Czy coaching biznesowy obejmuje doradztwo?",
+    "title": "Czy coaching biznesowy obejmuje doradztwo?",
     "slug": "czy-coaching-obejmuje-doradztwo"
   },
   {
@@ -1067,16 +1067,16 @@
     "active": true,
     "silos": "coaching-biznesowy",
     "counter": 0,
-    "label": "Ile kosztuje coaching biznesowy?",
+    "title": "Ile kosztuje coaching biznesowy?",
     "slug": "ile-kosztuje-coaching-biznesowy"
   },
   {
     "content": "Prowadzę warsztaty o&nbsp;różnej tematyce: inteligencja emocjonalna, zarządzanie stresem, asertywność i&nbsp;granice, komunikacja w&nbsp;relacjach, radzenie sobie z&nbsp;trudnymi emocjami, budowanie pewności siebie. Aktualne tematy i&nbsp;terminy znajdziesz na&nbsp;stronie lub&nbsp;możesz zapytać o&nbsp;indywidualny warsztat.",
     "update_time": "2026-04-01T21:27:43.259Z",
     "active": true,
-    "silos": "szkolenia-warsztaty-rozwojowe-szczecin",
+    "silos": "szkolenia-warsztaty-rozwojowe",
     "counter": 0,
-    "label": "Jakie tematy obejmują warsztaty rozwojowe?",
+    "title": "Jakie tematy obejmują warsztaty rozwojowe?",
     "slug": "jakie-tematy-obejmuja-warsztaty-rozwojowe"
   },
   {
@@ -1085,7 +1085,7 @@
     "active": true,
     "silos": "szkolenia-warsztaty-rozwojowe",
     "counter": 0,
-    "label": "Ile trwa warsztat rozwojowy?",
+    "title": "Ile trwa warsztat rozwojowy?",
     "slug": "ile-trwa-warsztat-rozwojowy"
   },
   {
@@ -1094,7 +1094,7 @@
     "active": true,
     "silos": "szkolenia-warsztaty-rozwojowe",
     "counter": 0,
-    "label": "Czy warsztat może być zorganizowany dla zamkniętej grupy?",
+    "title": "Czy warsztat może być zorganizowany dla zamkniętej grupy?",
     "slug": "czy-warsztat-moze-byc-zorganizowany-dla-zamknietej-grupy"
   },
   {
@@ -1103,7 +1103,7 @@
     "active": true,
     "silos": "szkolenia-warsztaty-rozwojowe",
     "counter": 0,
-    "label": "Jak duże są grupy na warsztatach?",
+    "title": "Jak duże są grupy na warsztatach?",
     "slug": "jak-duze-sa-grupy-na-warsztatach"
   },
   {
@@ -1112,7 +1112,7 @@
     "active": true,
     "silos": "szkolenia-warsztaty-rozwojowe",
     "counter": 0,
-    "label": "Czy muszę mieć wcześniejsze doświadczenie z pracą rozwojową?",
+    "title": "Czy muszę mieć wcześniejsze doświadczenie z pracą rozwojową?",
     "slug": "czy-musze-miec-wczesniejsze-doswiadczenie-z-praca-rozwojowa"
   },
   {
@@ -1121,7 +1121,7 @@
     "active": true,
     "counter": 0,
     "silos": "szkolenia-program-wspolpracy-dla-firm",
-    "label": "Co wchodzi w zakres programu współpracy?",
+    "title": "Co wchodzi w zakres programu współpracy?",
     "slug": "co-wchodzi-w-zakres-programu-wspolpracy"
   },
   {
@@ -1130,7 +1130,7 @@
     "active": true,
     "counter": 0,
     "silos": "szkolenia-program-wspolpracy-dla-firm",
-    "label": "Jak mierzone są efekty programu?",
+    "title": "Jak mierzone są efekty programu?",
     "slug": "jak-mierzone-sa-efekty-programu"
   },
   {
@@ -1139,7 +1139,7 @@
     "active": true,
     "counter": 0,
     "silos": "szkolenia-program-wspolpracy-dla-firm",
-    "label": "Jak wygląda model rozliczeń w programie stałej współpracy?",
+    "title": "Jak wygląda model rozliczeń w programie stałej współpracy?",
     "slug": "jak-wyglada-model-rozliczen-w-programie-stalej-wspolpracy"
   },
   {
@@ -1148,7 +1148,7 @@
     "active": true,
     "counter": 0,
     "silos": "szkolenia-program-wspolpracy-dla-firm",
-    "label": "Jaki jest minimalny czas trwania współpracy?",
+    "title": "Jaki jest minimalny czas trwania współpracy?",
     "slug": "jaki-jest-minimalny-czas-trwania-wspolpracy"
   },
   {
@@ -1157,7 +1157,7 @@
     "active": true,
     "counter": 0,
     "silos": "szkolenia-program-wspolpracy-dla-firm",
-    "label": "Czy mogę korzystać z usług ad hoc poza programem?",
+    "title": "Czy mogę korzystać z usług ad hoc poza programem?",
     "slug": "czy-moge-korzystac-z-uslug-ad-hoc-poza-programem"
   }
 ]

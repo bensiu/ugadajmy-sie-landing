@@ -29,11 +29,13 @@ export interface ProcessStep {
 
 export interface BlogItemMinimal {
   silosName?: string
-  silos: 'mediacje'
+  silos: string // 'mediacje'
   slug: string
   title: string
   description: string
   readTime?: string
+  counter: number
+  active: boolean
 }
 
 export interface BlogItem extends BlogItemMinimal {
@@ -130,7 +132,7 @@ export interface FaqItem {
   silos: string
   slug: string
   counter: number
-  label: string
+  title: string
   content: string
   update_time?: string
   active: boolean
