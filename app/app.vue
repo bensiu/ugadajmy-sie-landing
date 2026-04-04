@@ -213,7 +213,7 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
       :nav-links="[...navLinks, ...navLinkAdditional]"
       :config="companyInfo"
     />
-    <div
+    <!-- <div
       :class="[
         'md:grid-cols-3 md:grid-cols-4',
         'hidden'
@@ -227,6 +227,7 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
       <UIcon name="lucide-lock" />
       <UIcon name="lucide-eye" />
       <UIcon name="lucide-x" />
-    </div>
+      <UIcon name="lucide-menu" />
+    </div> -->
   </UApp>
 </template>

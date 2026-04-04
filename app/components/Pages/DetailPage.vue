@@ -2,6 +2,13 @@
 import type { DetailPageProps } from '~/types'
 
 const props = defineProps<DetailPageProps>()
+
+// const silosNames: Record<string, string> = {
+//   mediacje: 'Mediacje'
+// }
+// const silosName = computed<string | undefined>(
+//   () => (props.silos ? silosNames[props.silos] : '')
+// )
 </script>
 
 <template>
@@ -15,6 +22,12 @@ const props = defineProps<DetailPageProps>()
     />
 
     <slot name="before" />
+
+    <SectionsListOfBlogs
+      v-if="props.listOfBlogs"
+      v-bind="props.listOfBlogs"
+      :id="props.id"
+    />
 
     <BlocksSectionWrapper
       v-if="props.whatIsIt"

@@ -11,7 +11,7 @@ setTimeout(async () => {
     method: 'POST',
     server: false
   })
-}, 10 * 1000)
+}, 3 * 1000)
 
 const {
   itemsData, itemEditId, itemEditItem, itemLoading,
@@ -95,11 +95,6 @@ const _default = {
                 </UPageCard>
               </UPageList>
             </div>
-            <!-- <pre>{{ JSON.stringify(faqsData, null, 2) }}</pre> -->
-            <!-- <pre>{{ JSON.stringify(item, null, 2) }}</pre> -->
-            <!-- <pre>uniqueKey: {{ uniqueKey }}</pre> -->
-            <!-- <pre>faqEditItem: {{ faqEditItem }}</pre> -->
-            <!-- <pre>faqEditId: {{ faqEditId }}</pre> -->
           </template>
         </UTabs>
       </template>

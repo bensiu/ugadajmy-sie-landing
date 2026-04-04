@@ -27,6 +27,25 @@ export interface ProcessStep {
   description: string
 }
 
+export interface BlogItemMinimal {
+  silosName?: string
+  silos: 'mediacje'
+  slug: string
+  title: string
+  description: string
+  readTime?: string
+}
+
+export interface BlogItem extends BlogItemMinimal {
+  content: string
+  author: string
+  date: string
+}
+
+export interface ListOfBlogsProps extends SectionContentProps {
+  items: BlogItemMinimal[]
+}
+
 export interface DetailPageProps {
   id: string
   seo: SEO
@@ -72,6 +91,7 @@ export interface DetailPageProps {
       value?: string
     }[] | '/api/faqs/'
   }
+  listOfBlogs?: ListOfBlogsProps
   callToAction?: {
     variant?: SectionVariant
     title: string

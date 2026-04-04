@@ -4,7 +4,7 @@ import type {
 } from '@aws-sdk/lib-dynamodb'
 
 import dynamodb from '~~/src/services/aws/dynamodb'
-import { getCookie } from 'h3'
+import { getCookie, getRequestIP } from 'h3'
 
 const APP_DATA_TABLE_NAME = process.env.APP_DATA_TABLE_NAME || 'ugadajmy-sie-landing-dev-data'
 
@@ -36,7 +36,9 @@ export default defineEventHandler(async (event): Promise<FaqItem> => {
             PK: `FAQS-COUNTER;SLUG:${body.slug}`,
             SK: `GA4:${cookieValue};ON:${today}`,
             PK1: 'FAQS-COUNTER',
-            SK1: `SLUG:${body.slug}`
+            SK1: `SLUG:${body.slug}`,
+            IP: getRequestIP(event, { xForwardedFor: true }) || 'unknown',
+            time: new Date().toISOString()
           },
           ConditionExpression: 'attribute_not_exists(PK) AND attribute_not_exists(SK)'
         }
@@ -54,5 +56,12 @@ export default defineEventHandler(async (event): Promise<FaqItem> => {
     }
   )
 
-  return record as FaqItem
+  return {
+    ...record,
+    PK1: undefined,
+    SK1: undefined,
+    PK: undefined,
+    SK: undefined,
+    ttl: undefined
+  } as unknown as FaqItem
 })
