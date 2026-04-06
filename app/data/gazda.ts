@@ -54,6 +54,10 @@ export const page: AdminPageStructure = {
         {
           label: 'Mediacje online',
           key: 'mediacje-online'
+        },
+        {
+          label: 'Mediacje',
+          key: 'mediacje'
         }
       ]
     },

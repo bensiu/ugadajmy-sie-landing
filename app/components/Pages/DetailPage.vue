@@ -27,6 +27,7 @@ const props = defineProps<DetailPageProps>()
       v-if="props.listOfBlogs"
       v-bind="props.listOfBlogs"
       :id="props.id"
+      :silos="props.silos"
     />
 
     <BlocksSectionWrapper

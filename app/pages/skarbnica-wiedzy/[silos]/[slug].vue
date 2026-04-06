@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { blogs } from '~/data/blogs'
 import { marked } from 'marked'
+import type { BlogItem } from '~/types'
 
 const { params } = useRoute()
 const props = {
@@ -13,9 +13,12 @@ const props = {
   ]
 }
 
-const blog = computed(
-  () => blogs.find(i => i.slug === params.slug)
-)
+const blog = ref<BlogItem | null>(null)
+
+await $fetch(`/api/blogs/${params.silos}/${params.slug}`)
+  .then((response) => {
+    blog.value = response as unknown as BlogItem
+  })
 </script>
 
 <template>
@@ -26,6 +29,7 @@ const blog = computed(
       :bread-crumbs="props.breadCrumbs"
     />
     <BlocksSectionWrapper
+      v-if="blog?.content"
       :id="`czym-sa-${props.id}`"
     >
       <!-- eslint-disable vue/no-v-html -->

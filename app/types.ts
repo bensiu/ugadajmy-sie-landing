@@ -33,7 +33,7 @@ export interface BlogItemMinimal {
   slug: string
   title: string
   description: string
-  readTime?: string
+  readTime?: number
   counter: number
   active: boolean
 }
@@ -45,7 +45,7 @@ export interface BlogItem extends BlogItemMinimal {
 }
 
 export interface ListOfBlogsProps extends SectionContentProps {
-  items: BlogItemMinimal[]
+  articles: BlogItemMinimal[] | '/api/blogs/'
 }
 
 export interface DetailPageProps {

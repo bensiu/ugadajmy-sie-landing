@@ -82,27 +82,28 @@ const fields = [
     label: 'Autor:',
     type: 'text',
     name: 'author',
-    class: 'col-span-6',
+    class: 'col-span-5',
     required: true
   },
   {
     label: 'Dzień:',
     type: 'text',
     name: 'date',
-    class: 'col-span-3 col-start-8 input-text-center',
+    class: 'col-span-2 col-start-7 input-text-center',
     required: true
   },
   {
     label: 'Minutes:',
     type: 'number',
     name: 'readTime',
-    class: 'col-span-2 input-text-right',
+    class: 'col-span-1 input-text-right',
     required: true
   },
   {
     type: 'checkbox',
     name: 'active',
-    checkboxLabel: 'Aktywny'
+    checkboxLabel: 'Aktywny',
+    class: 'col-span-2 col-start-11 pt-7'
   }
 ]
 
@@ -112,6 +113,11 @@ const emits = defineEmits<{ submited: [value: boolean, silosId: string] }>()
 watch([isSubmitted], () => {
   emits('submited', isSubmitted.value, props.silos)
 })
+const readingTime = (text: string, wordsPerMinute: number = 90): number => {
+  const words = text.split(/\s+/).length
+
+  return Math.ceil(words / wordsPerMinute)
+}
 </script>
 
 <template>
@@ -134,7 +140,7 @@ watch([isSubmitted], () => {
     <template #preview="{ state }">
       <!-- eslint-disable vue/no-v-html -->
       <USeparator
-        label="Podgląd treści"
+        :label="`Podgląd treści (${readingTime(state.content as string)} min)`"
         class="mb-5 mt-3 col-span-12"
       />
       <div

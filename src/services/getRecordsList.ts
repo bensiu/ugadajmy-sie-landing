@@ -10,6 +10,7 @@ interface GetRecordsListOptions {
   gsiSearchKey?: string
   sorting?: ((a: TableItem, b: TableItem) => number)
   fromCache?: boolean
+  select?: string[]
 }
 
 export async function getRecordsList(
@@ -21,7 +22,7 @@ export async function getRecordsList(
     options.domain.toUpperCase(),
     options.gsiSearchKey ? options.gsiSearchKey : null,
     'GSI1',
-    null,
+    options.select ? options.select : null,
     options.fromCache ? options.domain : undefined
   )
 

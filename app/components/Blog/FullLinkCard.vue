@@ -37,7 +37,7 @@ const props = defineProps<BlogItemMinimal>()
           v-if="props.readTime"
           class="text-xs text-gray-500 dark:text-gray-400"
         >
-          {{ props.readTime }}
+          {{ props.readTime }} min
         </span>
       </div>
       <!-- eslint-disable vue/no-v-html -->

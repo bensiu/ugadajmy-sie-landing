@@ -7,7 +7,7 @@ interface Question {
   value?: string
 }
 
-interface ListOdBenefitsProps {
+interface FequentlyAskedQuestionsProps {
   id: string
   title: string
   variant?: SectionVariant
@@ -16,7 +16,7 @@ interface ListOdBenefitsProps {
 }
 
 const props = withDefaults(
-  defineProps<ListOdBenefitsProps>(),
+  defineProps<FequentlyAskedQuestionsProps>(),
   {
     variant: 'primary'
   }
@@ -29,7 +29,7 @@ if (!Array.isArray(props.questions)) {
     .then((response) => {
       questionsData.value = response.map(
         (item: FaqItem) => ({
-          label: item.label,
+          label: item.title,
           content: item.content,
           value: item.slug
         })
