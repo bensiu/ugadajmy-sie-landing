@@ -32,7 +32,7 @@ export interface BlogItemMinimal {
   silos: string // 'mediacje'
   slug: string
   title: string
-  description: string
+  description?: string
   readTime?: number
   counter: number
   active: boolean
@@ -42,6 +42,10 @@ export interface BlogItem extends BlogItemMinimal {
   content: string
   author: string
   date: string
+  seo?: SEO
+  related?: string[]
+  relatedItems?: BlogItemMinimal[]
+  services?: string[]
 }
 
 export interface ListOfBlogsProps extends SectionContentProps {

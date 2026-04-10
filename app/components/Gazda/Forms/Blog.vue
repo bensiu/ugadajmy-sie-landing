@@ -2,8 +2,15 @@
 import type { BlogItem } from '~/types'
 import * as v from 'valibot'
 import { marked } from 'marked'
+import { flattenSections } from '~/data/gazda'
 
-const props = defineProps<BlogItem & { uniqueKey: number }>()
+interface BlogItemProps extends BlogItem {
+  uniqueKey: number
+  seoTitle?: string
+  seoDescription?: string
+  seoKeywords?: string
+}
+const props = defineProps<BlogItemProps>()
 
 // FORM definitions
 const schema = v.object({
@@ -16,7 +23,20 @@ const schema = v.object({
   author: v.pipe(v.string(), v.minLength(8, 'Autor powinien być trochę dłuższy')),
   date: v.pipe(v.string(), v.regex(/^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$/, 'Data powinna być w formacie: YYYY-MM-DD')),
   readTime: v.pipe(v.number(), v.minValue(1, 'Czas czytania powinien być większy niż 1')),
-  active: v.pipe(v.boolean())
+  related: v.pipe(
+    v.array(v.string()),
+    // v.minLength(1, 'Minimum 1 powiązany artykuł'),
+    v.maxLength(3, 'Nie więcej niż 3 artykuły')
+  ),
+  services: v.pipe(
+    v.array(v.string()),
+    // v.minLength(1, 'Minimum 1 powiązany artykuł'),
+    v.maxLength(7, 'Nie więcej niż 7 serwisów')
+  ),
+  active: v.pipe(v.boolean()),
+  seoTitle: v.pipe(v.string(), v.minLength(3, 'Prefix tytułu powinien strony być trochę dłuższy')),
+  seoDescription: v.pipe(v.string(), v.minLength(12, 'Opis strony powinien być trochę dłuższy')),
+  seoKeywords: v.pipe(v.string(), v.minLength(12, 'Słowa kluczowe strony powinny być trochę dłuższe'))
 })
 
 const _default = {
@@ -29,8 +49,27 @@ const _default = {
   author: props.author || 'Aleksanda Dubiel',
   date: props.date || new Date().toISOString().slice(0, 10),
   readTime: props.readTime || 1,
-  active: props.active || false
+  active: props.active || false,
+  seoTitle: props.seoTitle || '',
+  seoDescription: props.seoDescription || '',
+  seoKeywords: props.seoKeywords || '',
+  related: props.related || [],
+  services: props.services || []
 }
+
+const relatedBlogsItems = ref<{ value: string, label: string }[]>([])
+await $fetch('/api/blogs/', { query: { subject: `${props.silos.split('-')[0]}%` } })
+  .then((response) => {
+    const results = response as unknown as BlogItem[]
+    relatedBlogsItems.value = results
+      .filter(blog => blog.slug !== props.slug && blog.active)
+      .map(
+        blog => ({
+          label: `<strong>${blog.silos}</strong> - ${blog.title}`,
+          value: blog.slug
+        })
+      )
+  })
 
 const fields = [
   {
@@ -104,6 +143,48 @@ const fields = [
     name: 'active',
     checkboxLabel: 'Aktywny',
     class: 'col-span-2 col-start-11 pt-7'
+  },
+  {
+    label: 'Tytuł strony (jako prefix):',
+    type: 'text',
+    name: 'seoTitle',
+    class: 'col-span-4'
+  },
+  {
+    label: 'Opis strony:',
+    type: 'text',
+    name: 'seoDescription',
+    class: 'col-span-8'
+  },
+  {
+    label: 'Słowa kluczowe:',
+    type: 'textarea',
+    name: 'seoKeywords',
+    class: 'col-span-12',
+    rows: 2
+  },
+  {
+    type: 'checkboxgroup',
+    name: 'related',
+    checkboxLabel: 'Powiązane artykuły: (nie więcej niż 3)',
+    items: relatedBlogsItems.value,
+    class: 'col-span-12 mt-2'
+  },
+  {
+    type: 'select',
+    name: 'services',
+    checkboxLabel: 'Powiązane serwisy: (nie więcej niż 7)',
+    items: flattenSections.map(
+      item => ({
+        label: item.label,
+        value: item.key
+      })
+    )
+      .toSorted(
+        (a, b) => a.value > b.value ? 1 : -1
+      ),
+    class: 'col-span-12 mt-2',
+    multiple: true
   }
 ]
 
@@ -118,6 +199,17 @@ const readingTime = (text: string, wordsPerMinute: number = 90): number => {
 
   return Math.ceil(words / wordsPerMinute)
 }
+
+const _handleSubmit = (event: unknown) => {
+  handleSubmit({
+    ...(event as BlogItemProps),
+    seo: {
+      title: (event as BlogItemProps).seoTitle || '',
+      description: (event as BlogItemProps).seoDescription || '',
+      keywords: (event as BlogItemProps).seoKeywords || ''
+    }
+  })
+}
 </script>
 
 <template>
@@ -128,6 +220,12 @@ const readingTime = (text: string, wordsPerMinute: number = 90): number => {
     :is-submitting="isSubmitting"
     button-label="Zapisz blog"
     :ui="{
+      checkboxgroup: {
+        color: 'primary',
+        ui: {
+          legend: 'py-3 mt-2'
+        }
+      },
       checkbox: {
         color: 'primary'
       },
@@ -135,7 +233,7 @@ const readingTime = (text: string, wordsPerMinute: number = 90): number => {
         color: 'primary'
       }
     }"
-    @submit="handleSubmit"
+    @submit="_handleSubmit"
   >
     <template #preview="{ state }">
       <!-- eslint-disable vue/no-v-html -->

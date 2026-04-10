@@ -13,7 +13,7 @@ const props = defineProps<BlogItemMinimal>()
       class="h-full transition-all duration-300"
       :ui="{
         root: 'hover:border-primary-500/30 hover:shadow-lg ring-1 ring-gray-200 dark:ring-gray-800',
-        body: 'p-6'
+        body: 'p-4'
       }"
     >
       <!-- Category Badge & Read Time -->
@@ -46,6 +46,7 @@ const props = defineProps<BlogItemMinimal>()
         v-html="props.title"
       />
       <p
+        v-if="props.description"
         class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed line-clamp-3"
         v-html="props.description"
       />

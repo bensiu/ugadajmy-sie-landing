@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-// import type { CookieBanerProps } from '~/types'
-
 const { companyInfo } = useAppConfig()
 
 useSeoMeta({
@@ -26,7 +24,7 @@ useSeoMeta({
 })
 
 // 2. Logic for Scripts, Links, and Global Styles
-useHead({
+useHead(() => ({
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
   ],
@@ -36,7 +34,7 @@ useHead({
   htmlAttrs: {
     lang: 'pl'
   }
-})
+}))
 
 const gtmId = 'GTM-W5RQV42V'
 

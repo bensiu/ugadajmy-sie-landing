@@ -40,8 +40,11 @@ const _default = {
         <GazdaFormsBlog
           v-if="itemEditItem || itemEditId"
           v-bind="(itemEditItem as BlogItem)"
-          :unique-key="uniqueKey"
           :silos="itemEditItem?.silos || (itemEditId as string)"
+          :seo-title="itemEditItem?.seo?.title"
+          :seo-description="itemEditItem?.seo?.description"
+          :seo-keywords="itemEditItem?.seo?.keywords"
+          :unique-key="uniqueKey"
           @submited="handleSubmitOfItem"
         />
         <GazdaRecordsList

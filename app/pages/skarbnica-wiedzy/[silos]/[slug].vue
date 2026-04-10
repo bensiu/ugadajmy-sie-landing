@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { marked } from 'marked'
-import type { BlogItem } from '~/types'
+import { flattenSections } from '~/data/gazda'
+// import type { BlogItem } from '~/types'
 
-const { params } = useRoute()
+const { params, path } = useRoute()
 const props = {
   id: 'blog',
   title: ['Skarbnica wiedzy'],
@@ -13,12 +14,26 @@ const props = {
   ]
 }
 
-const blog = ref<BlogItem | null>(null)
+const { data } = await useFetch(`/api/blogs/${params.silos}/${params.slug}`)
 
-await $fetch(`/api/blogs/${params.silos}/${params.slug}`)
-  .then((response) => {
-    blog.value = response as unknown as BlogItem
-  })
+if (data?.value?.seo) {
+  const seo = {
+    ...data?.value?.seo,
+    title: `${data?.value?.seo?.title} - ${data?.value?.title.replaceAll('&nbsp;', ' ')}`,
+    author: data?.value?.author
+  }
+  usePageSpecificSeoMeta(seo, path)
+}
+
+const enhanceServiceLink = (key: string, url: string) => {
+  const link = flattenSections.find(item => item.key === key)
+
+  return {
+    ...link,
+    href: `/${url}${link?.key}-szczecin`,
+    title: link?.label || ''
+  }
+}
 </script>
 
 <template>
@@ -29,13 +44,12 @@ await $fetch(`/api/blogs/${params.silos}/${params.slug}`)
       :bread-crumbs="props.breadCrumbs"
     />
     <BlocksSectionWrapper
-      v-if="blog?.content"
       :id="`czym-sa-${props.id}`"
     >
       <!-- eslint-disable vue/no-v-html -->
       <BlogHeader
-        v-if="blog"
-        v-bind="blog"
+        v-if="data"
+        v-bind="data"
       />
       <USeparator
         class="mb-8 h-px"
@@ -43,11 +57,32 @@ await $fetch(`/api/blogs/${params.silos}/${params.slug}`)
       />
       <div
         class="markdown-article-body prose dark:prose-invert max-w-none"
-        v-html="marked.parse(blog?.content || '')"
+        v-html="marked.parse(data?.content || '')"
       />
       <!-- eslint-disable vue/max-attributes-per-line -->
       <!-- <DataDebugView label="params" :data="params" /> -->
       <!-- <DataDebugView label="blog" :data="blog" /> -->
+      <BlogRelated
+        v-if="data?.relatedItems && data?.relatedItems.length !== 0"
+        title="Przeczytaj również:"
+      >
+        <BlogFullLinkCard
+          v-for="item in data.relatedItems"
+          :key="`blog-${item.slug}`"
+          v-bind="item"
+        />
+      </BlogRelated>
+      <BlogRelated
+        v-if="data?.services && data?.services.length !== 0"
+        title="Zobacz również:"
+        variant="flex"
+      >
+        <BlogShortLink
+          v-for="item in data.services"
+          :key="`service-${item}`"
+          v-bind="enhanceServiceLink(item, '')"
+        />
+      </BlogRelated>
     </BlocksSectionWrapper>
   </div>
 </template>

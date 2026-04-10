@@ -68,6 +68,10 @@ export const page: DetailPageProps = {
       { icon: 'lucide-heart', title: 'Wsparcie po&nbsp;szkoleniu', description: 'Oferuję materiały poszkoleniowe i&nbsp;możliwość konsultacji po&nbsp;zakończeniu kursu' }
     ]
   },
+  listOfBlogs: {
+    title: 'Artykuły o coachingu',
+    articles: '/api/blogs/'
+  },
   callToAction: {
     title: 'Umów się na&nbsp;szkolenie w&nbsp;Szczecinie'
   }

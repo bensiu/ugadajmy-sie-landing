@@ -28,7 +28,10 @@ export default async function (item: BlogItem): Promise<BlogItem> {
     counter: existingRecord ? existingRecord.counter : 0,
     // counter: body.counter,
     update_time: new Date().toISOString(),
-    active: !!item.active
+    active: !!item.active,
+    seo: item.seo,
+    related: item.related,
+    services: item.services
   }
 
   // console.log('RECORD : ', record)

@@ -1,11 +1,13 @@
+export interface SectionItem {
+  label: string
+  key: string
+}
+
 interface AdminPageStructure {
   sections: {
     label: string
     key: string
-    items: {
-      label: string
-      key: string
-    }[]
+    items: SectionItem[]
   }[]
 }
 
@@ -110,6 +112,10 @@ export const page: AdminPageStructure = {
         {
           label: 'Coaching indywidualny',
           key: 'coaching-indywidualny'
+        },
+        {
+          label: 'Coaching',
+          key: 'coaching'
         }
       ]
     },
@@ -136,8 +142,17 @@ export const page: AdminPageStructure = {
         {
           label: 'Program współpracy dla firm',
           key: 'szkolenia-program-wspolpracy-dla-firm'
+        },
+        {
+          label: 'Szkolenia',
+          key: 'szkolenia'
         }
       ]
     }
   ]
 }
+
+export const flattenSections = page.sections.reduce(
+  (results: SectionItem[], section) => ([...results, ...section.items]),
+  []
+)

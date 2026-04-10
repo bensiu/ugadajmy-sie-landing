@@ -74,6 +74,10 @@ export const page: DetailPageProps = {
       'Odkrycie własnego potencjału'
     ]
   },
+  listOfBlogs: {
+    title: 'Artykuły o coachingu',
+    articles: '/api/blogs/'
+  },
   callToAction: {
     title: 'Umów się na&nbsp;coaching w&nbsp;Szczecinie'
   }
