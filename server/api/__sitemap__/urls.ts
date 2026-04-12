@@ -18,11 +18,11 @@ export default defineSitemapEventHandler(async (event) => {
     event,
     {
       domain: 'BLOGS',
-      sorting: (a, b) => (a.counter as string) < (b.counter as string) ? 1 : -1,
-      select: ['silos', 'slug'],
+      select: ['silos', 'slug', 'active'],
       fromCache: false
     }
-  ) as unknown as BlogItem[]
+  )
+    .then(results => results.filter(item => item.active)) as unknown as BlogItem[]
 
   return [
     { loc: '/', images: [{ loc: '/images/Aleksandra_Dubiel.jpg' }] },

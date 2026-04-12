@@ -1,0 +1,49 @@
+[
+  {
+    "content": "## Czym jest mediacja rozwodowa?\nMediacja rozwodowa to dobrowolny proces, w którym neutralna osoba trzecia – mediator – pomaga małżonkom wypracować porozumienie w&nbsp;kwestiach związanych z rozwodem. To alternatywa dla&nbsp;długotrwałego i&nbsp;kosztownego procesu sądowego.\n\n## Jak się przygotować?\nPrzed pierwszym spotkaniem warto zebrać dokumenty finansowe, przemyśleć swoje priorytety i&nbsp;zastanowić się nad tym, co jest dla Ciebie naprawdę ważne. Nie chodzi o&nbsp;wygranie, ale o&nbsp;znalezienie rozwiązania, z&nbsp;którym obie strony mogą żyć.\n\n## Lista rzeczy do przygotowania:\n- Dokumenty dotyczące wspólnego majątku\n- Lista spraw do omówienia\n- Propozycje dotyczące opieki nad dziećmi\n- Otwartość na dialog i kompromis\n\nPamiętaj – mediacja to nie walka. To wspólne szukanie rozwiązania, które szanuje potrzeby obu stron.",
+    "update_time": "2026-04-06T03:54:41.152Z",
+    "silos": "mediacje-rozwodowe",
+    "counter": 0,
+    "slug": "jak-przygotowac-sie-do-mediacji-rozwodowej",
+    "readTime": 4,
+    "date": "2026-04-04",
+    "active": true,
+    "description": "Praktyczny przewodnik, który pomoże Ci wejść w&nbsp;proces mediacji z&nbsp;jasną głową i&nbsp;realistycznymi oczekiwaniami.",
+    "author": "Aleksanda Dubiel",
+    "title": "Jak przygotować się do mediacji rozwodowej?"
+  },
+  {
+    "content": "## Konflikty w rodzinie\nRodzina to system naczyń połączonych. Konflikt między dwojgiem ludzi wpływa na wszystkich – dzieci, dziadków, rodzeństwo. Mediacja rodzinna pomaga przerwać ten&nbsp;łańcuch.\n\n## W jakich sytuacjach pomaga mediacja rodzinna?\n- Konflikty międzypokoleniowe\n- Spory o opiekę nad osobą starszą\n- Problemy z podziałem obowiązków\n- Kwestie spadkowe i&nbsp;majątkowe\n\n## Jak wygląda proces?\nMediacja rodzinna zazwyczaj składa się z 3-6 spotkań. Mediator pomaga każdemu członkowi rodziny wyrazić swoje potrzeby i&nbsp;wspólnie wypracować rozwiązanie.",
+    "update_time": "2026-04-09T21:28:19.134Z",
+    "counter": 0,
+    "silos": "mediacje-rodzinne",
+    "services": ["mediacje-rodzinne", "mediacje"],
+    "slug": "mediacja-rodzinna-kiedy-warto-po-nia-siegnac",
+    "related": ["jak-przygotowac-sie-do-mediacji-rozwodowej"],
+    "readTime": 3,
+    "date": "2026-04-04",
+    "active": true,
+    "description": "Konflikty rodzinne są najtrudniejsze. Dowiedz&nbsp;się, jak&nbsp;mediacja może pomóc w&nbsp;ich&nbsp;rozwiązaniu.",
+    "seo": {
+      "title": "Ugadajmy się!",
+      "keywords": "mediacje konflikt rodzina pomoc",
+      "description": "Konflikty w rodzinie"
+    },
+    "author": "Aleksandra Dubiel",
+    "title": "Mediacja rodzinna – kiedy warto po&nbsp;nią&nbsp;sięgnąć?"
+  },
+  {
+    "content": "## Sygnały wypalenia\nWypalenie zawodowe to nie lenistwo. To stan emocjonalnego, fizycznego i mentalnego wyczerpania spowodowanego przedłużającym się stresem.\n\n## Rozpoznaj u siebie:\n- Chroniczne zmęczenie, które nie ustępuje po odpoczynku\n- Cynizm wobec pracy i współpracowników\n- Poczucie braku wpływu na swoją sytuację\n- Problemy z koncentracją i pamięcią\n\n## Co możesz zrobić?\nPierwszym krokiem jest zatrzymanie się i uczciwa ocena sytuacji. Coaching kariery pomaga zobaczyć, co naprawdę Cię napędza i co Cię drenuje – oraz stworzyć plan zmian.\n\n## Prewencja\nWyznacz granice między pracą a życiem prywatnym. Naucz się mówić „nie\". I przede wszystkim – nie ignoruj sygnałów swojego ciała.\n",
+    "update_time": "2026-04-06T23:03:28.315Z",
+    "silos": "coaching-kariery",
+    "counter": 0,
+    "slug": "jak-radzic-sobie-z-wypaleniem-zawodowym",
+    "related": [],
+    "readTime": 1,
+    "date": "2026-03-16",
+    "active": true,
+    "description": "Wypalenie nie przychodzi nagle. Poznaj sygnały i dowiedz się, jak mu przeciwdziałać.",
+    "title": "Jak radzić sobie z wypaleniem zawodowym?",
+    "author": "Aleksandra Dubiel"
+  }
+]

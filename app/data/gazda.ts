@@ -73,11 +73,11 @@ export const page: AdminPageStructure = {
         },
         {
           label: 'Program „Razem czy osobno?"',
-          key: 'program-razem-czy-osobno'
+          key: 'terapia-program-razem-czy-osobno'
         },
         {
           label: 'Warsztaty dla par',
-          key: 'warsztaty-dla-par'
+          key: 'terapia-warsztaty-dla-par'
         },
         {
           label: 'Konsultacje przedrozwodowe',

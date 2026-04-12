@@ -12,7 +12,7 @@ export const page: DetailPageProps = {
     }
   },
   breadCrumbsLabel: 'Warsztaty dla par',
-  silos: 'terapia-dla-par-warsztaty',
+  silos: 'terapia-warsztaty-dla-par',
 
   title: ['Warsztaty dla par w&nbsp;Szczecinie'],
   description: 'Intensywne warsztaty komunikacyjne, które dadzą Wam praktyczne narzędzia do&nbsp;lepszego porozumienia. Nauka przez doświadczenie w&nbsp;bezpiecznej atmosferze.',

@@ -7,7 +7,7 @@ export default function<T>(url: string) {
 
   const pullItems = async (value: string | number) => {
     itemLoading.value = true
-    await $fetch(url, { query: { subject: value } })
+    await $fetch(url, { query: { subject: value, all: true } })
       .then((response) => {
         itemsData.value = response as unknown as T[] || []
       })

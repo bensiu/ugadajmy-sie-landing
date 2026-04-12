@@ -15,6 +15,8 @@ const articleData = computed<string>(
         })
   }
 )
+
+const convertBenkarty = useContentModifier()
 </script>
 
 <template>
@@ -42,7 +44,7 @@ const articleData = computed<string>(
     <!-- Main Title -->
     <h2
       class="text-2xl sm:text-3xl lg:text-5xl font-bold mb-4 py-2 font-display tracking-tight text-gray-900 dark:text-white"
-      v-html="props.title"
+      v-html="convertBenkarty(props.title)"
     />
 
     <!-- Footer Meta -->

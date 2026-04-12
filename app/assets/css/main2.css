@@ -213,3 +213,10 @@
 .input-text-center > div > div > input {
   text-align: center !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+:target {
+  scroll-margin-top: 6em;
+}

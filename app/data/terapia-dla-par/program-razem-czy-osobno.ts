@@ -42,7 +42,7 @@ export const page: DetailPageProps & ProgramRazemCzyOsobnoDetails = {
     }
   },
   breadCrumbsLabel: '„Razem czy osobno?"',
-  silos: 'terapia-dla-par-propgram-razem-czy-osobno',
+  silos: 'terapia-program-razem-czy-osobno',
 
   title: ['Program „Razem czy osobno?" w&nbsp;Szczecinie'],
   description: 'Autorski 13-modułowy program dla par, który łączy strukturę mediacji z&nbsp;narzędziami coachingowymi. Konkretne ramy, jasny plan i&nbsp;moduły dostosowane do&nbsp;Waszych potrzeb.',

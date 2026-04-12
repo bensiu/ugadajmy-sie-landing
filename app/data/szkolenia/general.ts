@@ -68,8 +68,13 @@ export const page: DetailPageProps = {
       { icon: 'lucide-heart', title: 'Wsparcie po&nbsp;szkoleniu', description: 'Oferuję materiały poszkoleniowe i&nbsp;możliwość konsultacji po&nbsp;zakończeniu kursu' }
     ]
   },
+  // frequentlyAskedQuestions: {
+  //   title: 'Pytania o&nbsp;szkolenia',
+  //   questions: '/api/faqs/',
+  //   variant: 'default'
+  // },
   listOfBlogs: {
-    title: 'Artykuły o coachingu',
+    title: 'Artykuły o szkoleniach',
     articles: '/api/blogs/'
   },
   callToAction: {

@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import { marked } from 'marked'
 import { flattenSections } from '~/data/gazda'
-// import type { BlogItem } from '~/types'
+import { marked } from 'marked'
 
 const { params, path } = useRoute()
 const props = {
@@ -19,7 +18,7 @@ const { data } = await useFetch(`/api/blogs/${params.silos}/${params.slug}`)
 if (data?.value?.seo) {
   const seo = {
     ...data?.value?.seo,
-    title: `${data?.value?.seo?.title} - ${data?.value?.title.replaceAll('&nbsp;', ' ')}`,
+    title: data?.value?.title.replaceAll('&nbsp;', ' '),
     author: data?.value?.author
   }
   usePageSpecificSeoMeta(seo, path)
@@ -34,6 +33,8 @@ const enhanceServiceLink = (key: string, url: string) => {
     title: link?.label || ''
   }
 }
+
+const convertBenkarty = useContentModifier()
 </script>
 
 <template>
@@ -57,7 +58,7 @@ const enhanceServiceLink = (key: string, url: string) => {
       />
       <div
         class="markdown-article-body prose dark:prose-invert max-w-none"
-        v-html="marked.parse(data?.content || '')"
+        v-html="marked.parse(convertBenkarty(data?.content || ''))"
       />
       <!-- eslint-disable vue/max-attributes-per-line -->
       <!-- <DataDebugView label="params" :data="params" /> -->

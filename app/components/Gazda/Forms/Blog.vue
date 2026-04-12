@@ -39,6 +39,21 @@ const schema = v.object({
   seoKeywords: v.pipe(v.string(), v.minLength(12, 'Słowa kluczowe strony powinny być trochę dłuższe'))
 })
 
+const relatedBlogsItems = ref<{ value: string, label: string }[]>([])
+await $fetch('/api/blogs/', { query: { subject: `${props.silos.split('-')[0]}%` } })
+  .then((response) => {
+    const results = response as unknown as BlogItem[]
+
+    relatedBlogsItems.value = results
+      .filter(blog => blog.slug !== props.slug && blog.active)
+      .map(
+        blog => ({
+          label: `<strong>${blog.silos}</strong> - ${blog.title}`,
+          value: blog.slug
+        })
+      )
+  })
+
 const _default = {
   silos: props.silos,
   counter: props.counter || 0,
@@ -53,23 +68,11 @@ const _default = {
   seoTitle: props.seoTitle || '',
   seoDescription: props.seoDescription || '',
   seoKeywords: props.seoKeywords || '',
-  related: props.related || [],
+  related: (props.related || []).filter(
+    (r: string) => relatedBlogsItems.value.map(i => i.value).includes(r)
+  ),
   services: props.services || []
 }
-
-const relatedBlogsItems = ref<{ value: string, label: string }[]>([])
-await $fetch('/api/blogs/', { query: { subject: `${props.silos.split('-')[0]}%` } })
-  .then((response) => {
-    const results = response as unknown as BlogItem[]
-    relatedBlogsItems.value = results
-      .filter(blog => blog.slug !== props.slug && blog.active)
-      .map(
-        blog => ({
-          label: `<strong>${blog.silos}</strong> - ${blog.title}`,
-          value: blog.slug
-        })
-      )
-  })
 
 const fields = [
   {
@@ -194,10 +197,10 @@ const emits = defineEmits<{ submited: [value: boolean, silosId: string] }>()
 watch([isSubmitted], () => {
   emits('submited', isSubmitted.value, props.silos)
 })
-const readingTime = (text: string, wordsPerMinute: number = 90): number => {
+const readingTime = (text: string, wordsPerMinute: number = 190): number => {
   const words = text.split(/\s+/).length
 
-  return Math.ceil(words / wordsPerMinute)
+  return Math.ceil(words / wordsPerMinute) + 1
 }
 
 const _handleSubmit = (event: unknown) => {
@@ -210,6 +213,8 @@ const _handleSubmit = (event: unknown) => {
     }
   })
 }
+
+const convertBenkarty = useContentModifier()
 </script>
 
 <template>
@@ -243,7 +248,7 @@ const _handleSubmit = (event: unknown) => {
       />
       <div
         class="markdown-article-body prose dark:prose-invert max-w-none w-full col-span-12"
-        v-html="marked.parse(state?.content as string || '')"
+        v-html="marked.parse(convertBenkarty(state?.content as string || ''))"
       />
       <USeparator
         class="my-3 col-span-12"

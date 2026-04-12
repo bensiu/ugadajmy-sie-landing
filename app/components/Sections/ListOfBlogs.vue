@@ -26,6 +26,7 @@ if (!Array.isArray(props.articles)) {
 
 <template>
   <BlocksSectionWrapper
+    v-if="Array.isArray(blogsData) && blogsData.length !== 0"
     :id="`opcje-${props.id}`"
     :variant="props.variant || 'subtle'"
   >
@@ -44,4 +45,5 @@ if (!Array.isArray(props.articles)) {
       />
     </div>
   </BlocksSectionWrapper>
+  <div v-else />
 </template>

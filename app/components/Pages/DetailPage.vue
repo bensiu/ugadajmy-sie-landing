@@ -2,7 +2,7 @@
 import type { DetailPageProps } from '~/types'
 
 const props = defineProps<DetailPageProps>()
-
+const { isFlagEnabled } = useFeatureFlag()
 // const silosNames: Record<string, string> = {
 //   mediacje: 'Mediacje'
 // }
@@ -22,13 +22,6 @@ const props = defineProps<DetailPageProps>()
     />
 
     <slot name="before" />
-
-    <SectionsListOfBlogs
-      v-if="props.listOfBlogs"
-      v-bind="props.listOfBlogs"
-      :id="props.id"
-      :silos="props.silos"
-    />
 
     <BlocksSectionWrapper
       v-if="props.whatIsIt"
@@ -93,7 +86,7 @@ const props = defineProps<DetailPageProps>()
     >
       <BlocksSectionHeader
         :title="props.options.title"
-        class="!mb-6 text-left"
+        class="!mb-6 text-center"
       />
       <BlockOptionCard
         v-for="option in props.options.items"
@@ -115,6 +108,13 @@ const props = defineProps<DetailPageProps>()
       :id="`pytania-o-${props.id}`"
       :variant="props.frequentlyAskedQuestions.variant || 'subtle'"
       v-bind="props.frequentlyAskedQuestions"
+      :silos="props.silos"
+    />
+
+    <SectionsListOfBlogs
+      v-if="isFlagEnabled('blogsPages') && props.listOfBlogs"
+      v-bind="props.listOfBlogs"
+      :id="props.id"
       :silos="props.silos"
     />
 
