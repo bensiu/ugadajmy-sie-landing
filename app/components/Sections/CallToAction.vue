@@ -26,41 +26,7 @@ const props = withDefaults(
       title-color=" "
     />
 
-    <div class="flex flex-col sm:flex-row items-center justify-center gap-6 mb-10">
-      <div class="flex items-center gap-2 text-muted-foreground">
-        <UIcon
-          name="lucide-map-pin"
-          class="h-5 w-5 text-primary"
-        />
-        <span>ul. Kapitańska 3a, 70-001 Szczecin</span>
-      </div>
-      <div class="flex items-center gap-2 text-muted-foreground">
-        <UIcon
-          name="lucide-phone"
-          class="h-5 w-5 text-primary"
-        />
-        <NuxtLink
-          :id="`action-cta-link-phone-${props.id}`"
-          :to="`tel:${companyInfo.phone.replaceAll(' ', '')}`"
-          class="hover:text-primary transition-colors"
-        >
-          {{ companyInfo.phone }}
-        </NuxtLink>
-      </div>
-      <div class="flex items-center gap-2 text-muted-foreground">
-        <UIcon
-          name="lucide-mail"
-          class="h-5 w-5 text-primary"
-        />
-        <NuxtLink
-          :id="`action-cta-link-email-${props.id}`"
-          :to="`mailto:${companyInfo.email}`"
-          class="hover:text-primary transition-colors"
-        >
-          {{ companyInfo.email }}
-        </NuxtLink>
-      </div>
-    </div>
+    <BlockCallToActionLinks :id="props.id" />
 
     <div class="flex flex-col sm:flex-row gap-4 items-center justify-center animate-fade-up delay-300">
       <UButton
@@ -69,7 +35,7 @@ const props = withDefaults(
         trailing-icon="lucide-phone"
         :ui="{
           trailingIcon: 'ml-4 transition-transform group-hover:translate-x-1',
-          base: 'rounded-md py-4 px-6 font-bold'
+          base: 'rounded-md py-4 px-6 font-bold min-w-[16em] flex justify-between'
         }"
       >
         Zadzwoń teraz
@@ -82,7 +48,7 @@ const props = withDefaults(
         trailing-icon="lucide-arrow-right"
         :ui="{
           trailingIcon: 'ml-4 transition-transform group-hover:translate-x-1',
-          base: 'rounded-md py-4 px-6 font-bold'
+          base: 'rounded-md py-4 px-6 font-bold min-w-[16em] flex justify-between'
         }"
       >
         Napisz wiadomość

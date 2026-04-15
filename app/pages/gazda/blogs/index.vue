@@ -50,6 +50,8 @@ const _default = {
         <GazdaRecordsList
           v-else
           :items="itemsData"
+          :badges="['silos', 'counter']"
+          :root-silos="item.key"
           @selected="handleEditOfItem"
         />
       </div>

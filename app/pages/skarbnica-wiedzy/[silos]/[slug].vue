@@ -35,6 +35,34 @@ const enhanceServiceLink = (key: string, url: string) => {
 }
 
 const convertBenkarty = useContentModifier()
+
+let counterTimer: ReturnType<typeof setTimeout> | null = null
+const routeKey = computed(() => `${params.silos}/${params.slug}`)
+
+const triggerCounterApiCall = async (silos: string, slug: string) => {
+  await $fetch('/api/blogs/counter', {
+    method: 'POST',
+    body: { silos, slug }
+  })
+}
+
+watch(
+  routeKey,
+  () => {
+    const { silos, slug } = params
+
+    if (counterTimer) clearTimeout(counterTimer)
+    if (silos && slug) {
+      counterTimer = setTimeout(() => {
+        triggerCounterApiCall(silos as string, slug as string)
+      }, 10000)
+    }
+  },
+  { immediate: true }
+)
+onBeforeUnmount(() => {
+  if (counterTimer) clearTimeout(counterTimer)
+})
 </script>
 
 <template>
@@ -53,13 +81,23 @@ const convertBenkarty = useContentModifier()
         v-bind="data"
       />
       <USeparator
-        class="mb-8 h-px"
-        type="dashed"
+        class="mb-8"
+        size="md"
+        type="solid"
       />
       <div
         class="markdown-article-body prose dark:prose-invert max-w-none"
         v-html="marked.parse(convertBenkarty(data?.content || ''))"
       />
+
+      <p class="mt-8">
+        <em>
+          <strong>Aleksandra Dubiel</strong> -&nbsp;mediator,&nbsp;terapeuta&nbsp;par,&nbsp;coach. <strong>Ugadajmysie.pl</strong>&nbsp;–&nbsp;Szczecin&nbsp;i&nbsp;online.
+        </em>
+      </p>
+      <hr class="my-8">
+      <BlockCallToActionLinks :id="`${props.id}-${data?.slug}`" />
+
       <!-- eslint-disable vue/max-attributes-per-line -->
       <!-- <DataDebugView label="params" :data="params" /> -->
       <!-- <DataDebugView label="blog" :data="blog" /> -->

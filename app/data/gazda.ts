@@ -156,3 +156,11 @@ export const flattenSections = page.sections.reduce(
   (results: SectionItem[], section) => ([...results, ...section.items]),
   []
 )
+
+export const getSilosName = (silos: string): string => {
+  const result = flattenSections.find(
+    item => item.key === silos
+  )
+
+  return result?.label || ''
+}

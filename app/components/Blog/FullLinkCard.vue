@@ -2,6 +2,7 @@
 import type { BlogItemMinimal } from '~/types'
 
 const props = defineProps<BlogItemMinimal>()
+const convertBenkarty = useContentModifier()
 </script>
 
 <template>
@@ -43,7 +44,7 @@ const props = defineProps<BlogItemMinimal>()
       <!-- eslint-disable vue/no-v-html -->
       <h3
         class="text-lg font-semibold mb-3 group-hover:text-primary-500 transition-colors line-clamp-2"
-        v-html="props.title"
+        v-html="convertBenkarty(props.title)"
       />
       <p
         v-if="props.description"

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { BlogItem } from '~/types'
+import { getSilosName } from '~/data/gazda'
 
 const props = defineProps<BlogItem>()
 const articleData = computed<string>(
@@ -20,18 +21,22 @@ const convertBenkarty = useContentModifier()
 </script>
 
 <template>
-  <header class="mb-10 animate-fade-up">
+  <header class="mb-2 animate-fade-up">
     <!-- Badge and Read Time -->
     <div class="flex items-center gap-3 mt-1 mb-2">
-      <!-- <UBadge
-        v-if="meta.parentLabel"
+      <UBadge
         variant="soft"
-        size="xs"
-        class="font-medium rounded-full"
+        size="lg"
+        class="font-medium rounded-xl p-2 px-4 mr-2"
       >
-        {{ meta.parentLabel }}
-      </UBadge> -->
+        {{ getSilosName(props.silos) }}
+      </UBadge>
 
+      <UIcon
+        name="lucide-book-open"
+        size="lg"
+        class="h-5 w-5 text-primary"
+      />
       <span
         v-if="props.readTime"
         class="text-xs text-gray-500 dark:text-gray-400"

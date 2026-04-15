@@ -3,12 +3,7 @@ import type { DetailPageProps } from '~/types'
 
 const props = defineProps<DetailPageProps>()
 const { isFlagEnabled } = useFeatureFlag()
-// const silosNames: Record<string, string> = {
-//   mediacje: 'Mediacje'
-// }
-// const silosName = computed<string | undefined>(
-//   () => (props.silos ? silosNames[props.silos] : '')
-// )
+const convertBenkarty = useContentModifier()
 </script>
 
 <template>
@@ -65,7 +60,7 @@ const { isFlagEnabled } = useFeatureFlag()
     >
       <BlocksSectionHeader
         :title="props.whenToUse?.title"
-        :items="props.whenToUse.situations"
+        :items="props.whenToUse.situations.map(convertBenkarty)"
         class="text-left !mb-2"
       />
     </BlocksSectionWrapper>
@@ -100,6 +95,7 @@ const { isFlagEnabled } = useFeatureFlag()
       v-if="props.listOfBenefits"
       :id="`korzysci-z-${props.id}`"
       v-bind="props.listOfBenefits"
+      :items="props.listOfBenefits.items.map(convertBenkarty)"
       :variant="props.listOfBenefits.variant || 'primary'"
     />
 
