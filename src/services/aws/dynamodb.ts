@@ -121,6 +121,7 @@ export default {
         })
       ).then((data) => {
         console.info('Records (Read): ', data.Items?.length)
+        console.info('PK(s): ', PKValue, SKValue || 'Null', index || 'Null')
         console.info('ConsumedCapacity (Read): ', data.ConsumedCapacity)
         LastEvaluatedKey = data.LastEvaluatedKey
 

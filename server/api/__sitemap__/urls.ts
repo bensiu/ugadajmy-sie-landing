@@ -24,9 +24,12 @@ export default defineSitemapEventHandler(async (event) => {
   )
     .then(results => results.filter(item => item.active)) as unknown as BlogItem[]
 
+  const siloses = ['mediacje', 'coaching', 'terapia-dla-par', 'szkolenia']
+
   return [
     { loc: '/', images: [{ loc: '/images/Aleksandra_Dubiel.jpg' }] },
     ...urls.map(item => ({ loc: item })),
-    ...blogs.map(item => `/skarbnica-wiedzy/${item.silos}/${item.slug}`)
+    ...blogs.map(item => ({ loc: `/skarbnica-wiedzy/${item.silos}/${item.slug}` })),
+    ...siloses.map(item => ({ loc: `/skarbnica-wiedzy/${item}/` }))
   ]
 })

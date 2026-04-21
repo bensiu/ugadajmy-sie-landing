@@ -49,13 +49,13 @@ const onSelected = (value: T) => {
           >
             <UBadge
               v-if="props.badges.includes('silos') && item.silos !== props.rootSilos"
-              :label="item.silos"
-              class="p-2 px-4"
+              :label="item.silos.slice((props.rootSilos?.length || 0) + 1)"
+              class="p-2 px-4 font-semibold"
             />
             <UBadge
               v-if="props.badges.includes('counter')"
               :label="item.counter"
-              class="p-2 px-4"
+              class="p-2 px-4 font-semibold"
             />
           </div>
         </h4>

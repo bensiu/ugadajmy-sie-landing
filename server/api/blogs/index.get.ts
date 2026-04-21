@@ -10,7 +10,7 @@ export default defineEventHandler(async (event): Promise<BlogItem[]> => {
     {
       domain: 'BLOGS',
       gsiSearchKey: (
-        ['mediacje', 'coaching', 'szkolenia'].includes(subject as string)
+        ['mediacje', 'coaching', 'szkolenia', 'terapia-dla-par'].includes(subject as string)
           ? `${subject as string}%`
           : subject as string
       ) || '',
@@ -19,5 +19,5 @@ export default defineEventHandler(async (event): Promise<BlogItem[]> => {
     }
   )
     .then(results => all && all === 'true' ? results : results.filter(item => item.active))
-    .then(results => results.slice(0, 6)) as unknown as BlogItem[]
+    .then(results => all && all === 'true' ? results : results.slice(0, 6)) as unknown as BlogItem[]
 })

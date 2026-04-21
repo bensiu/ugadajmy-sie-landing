@@ -5,9 +5,9 @@ export default function<T>(url: string) {
   const itemEditItem = ref<T | null>(null)
   const itemLoading = ref<boolean>(false)
 
-  const pullItems = async (value: string | number) => {
+  const pullItems = async (value: string | number, all: boolean = true) => {
     itemLoading.value = true
-    await $fetch(url, { query: { subject: value, all: true } })
+    await $fetch(url, { query: { subject: value, all } })
       .then((response) => {
         itemsData.value = response as unknown as T[] || []
       })

@@ -1,4 +1,5 @@
 import type { DetailPageProps } from '~/types'
+import FeatureFlags from '../../composables/useFeatureFlag'
 
 export const page: DetailPageProps = {
   id: 'mediacje-szczecin',
@@ -127,7 +128,8 @@ export const page: DetailPageProps = {
   },
   frequentlyAskedQuestions: {
     title: 'Pytania o&nbsp;mediacje',
-    questions: '/api/faqs/'
+    questions: '/api/faqs/',
+    variant: FeatureFlags().isFlagEnabled('blogsPages') ? 'default' : 'subtle'
   },
   callToAction: {
     title: 'Umów się na&nbsp;mediację w&nbsp;Szczecinie'
@@ -135,25 +137,5 @@ export const page: DetailPageProps = {
   listOfBlogs: {
     title: 'Artykuły o mediacjach',
     articles: '/api/blogs/'
-    // [
-    //   {
-    //     silos: 'mediacje',
-    //     title: 'Jak przygotować się do mediacji rozwodowej?',
-    //     slug: 'jak-przygotowac-sie-do-mediacji-rozwodowej',
-    //     description: 'Praktyczny przewodnik, który pomoże Ci wejść w&nbsp;proces mediacji z&nbsp;jasną głową i&nbsp;realistycznymi oczekiwaniami.',
-    //     readTime: '5 min',
-    //     counter: 0,
-    //     active: true
-    //   },
-    //   {
-    //     silos: 'mediacje',
-    //     title: '5 mitów o mediacji, w które wciąż wierzymy',
-    //     slug: '5-mitow-o-mediacji-w-ktore-wciaz-wierzymy',
-    //     description: 'Obalamy najpopularniejsze mity dotyczące mediacji. Sprawdź, ile z nich Cię dotyczy.',
-    //     readTime: '4 min',
-    //     counter: 0,
-    //     active: true
-    //   }
-    // ]
   }
 }

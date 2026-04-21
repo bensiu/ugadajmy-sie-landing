@@ -73,11 +73,11 @@ export const page: AdminPageStructure = {
         },
         {
           label: 'Program „Razem czy osobno?"',
-          key: 'terapia-program-razem-czy-osobno'
+          key: 'terapia-dla-par-program-razem-czy-osobno'
         },
         {
           label: 'Warsztaty dla par',
-          key: 'terapia-warsztaty-dla-par'
+          key: 'terapia-dla-par-warsztaty-dla-par'
         },
         {
           label: 'Konsultacje przedrozwodowe',
@@ -86,6 +86,10 @@ export const page: AdminPageStructure = {
         {
           label: 'Terapia po zdradzie',
           key: 'terapia-dla-par-po-zdradzie'
+        },
+        {
+          label: 'Terapia dla par',
+          key: 'terapia-dla-par'
         }
       ]
     },
@@ -163,4 +167,14 @@ export const getSilosName = (silos: string): string => {
   )
 
   return result?.label || ''
+}
+
+export const enhanceServiceLink = (key: string, url: string) => {
+  const link = flattenSections.find(item => item.key === key)
+
+  return {
+    ...link,
+    href: `/${url}${link?.key}-szczecin`,
+    title: link?.label || ''
+  }
 }

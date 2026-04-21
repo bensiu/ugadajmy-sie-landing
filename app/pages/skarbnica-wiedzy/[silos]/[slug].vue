@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { flattenSections } from '~/data/gazda'
+import { enhanceServiceLink } from '~/data/gazda'
 import { marked } from 'marked'
 
 const { params, path } = useRoute()
 const props = {
-  id: 'blog',
+  id: `skarbnica-wiedzy-${params.silos}-${params.slug}`,
   title: ['Skarbnica wiedzy'],
   breadCrumbs: [
     {
@@ -22,16 +22,6 @@ if (data?.value?.seo) {
     author: data?.value?.author
   }
   usePageSpecificSeoMeta(seo, path)
-}
-
-const enhanceServiceLink = (key: string, url: string) => {
-  const link = flattenSections.find(item => item.key === key)
-
-  return {
-    ...link,
-    href: `/${url}${link?.key}-szczecin`,
-    title: link?.label || ''
-  }
 }
 
 const convertBenkarty = useContentModifier()
@@ -73,7 +63,7 @@ onBeforeUnmount(() => {
       :bread-crumbs="props.breadCrumbs"
     />
     <BlocksSectionWrapper
-      :id="`czym-sa-${props.id}`"
+      :id="props.id"
     >
       <!-- eslint-disable vue/no-v-html -->
       <BlogHeader
@@ -96,11 +86,7 @@ onBeforeUnmount(() => {
         </em>
       </p>
       <hr class="my-8">
-      <BlockCallToActionLinks :id="`${props.id}-${data?.slug}`" />
-
-      <!-- eslint-disable vue/max-attributes-per-line -->
-      <!-- <DataDebugView label="params" :data="params" /> -->
-      <!-- <DataDebugView label="blog" :data="blog" /> -->
+      <BlockCallToActionLinks :id="`${props.id}-call-to-action`" />
       <BlogRelated
         v-if="data?.relatedItems && data?.relatedItems.length !== 0"
         title="Przeczytaj również:"

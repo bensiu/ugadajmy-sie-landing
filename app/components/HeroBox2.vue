@@ -68,7 +68,7 @@ const justWithLinks = (i: BreadCrumbsItem) => !!i.href
                 class="px-4"
               />
             </div>
-            <span>{{ props.breadCrumbs?.at(-1)?.label || 'X' }}</span>
+            <span>{{ props.breadCrumbs?.at(-1)?.label }}</span>
           </div>
         </div>
         <div

@@ -81,5 +81,9 @@ export const page: DetailPageProps = {
   callToAction: {
     title: 'Zacznij pracę nad swoim związkiem',
     description: 'Umów się na bezpłatną konsultację, podczas której omówimy Waszą sytuację i&nbsp;zaproponuję najlepszą formę wsparcia.'
+  },
+  listOfBlogs: {
+    title: 'Artykuły o terapiach dla par',
+    articles: '/api/blogs/'
   }
 }

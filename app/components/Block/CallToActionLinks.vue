@@ -4,7 +4,7 @@ const props = defineProps<{ id: string }>()
 </script>
 
 <template>
-  <div class="flex flex-col flex-wrap sm:flex-row items-center justify-center gap-6 mb-10">
+  <div class="flex flex-col flex-wrap sm:flex-row items-center justify-center gap-6 gap-y-3 mb-10">
     <div class="flex items-center gap-2 text-muted-foreground text-nowrap">
       <UIcon
         name="lucide-map-pin"

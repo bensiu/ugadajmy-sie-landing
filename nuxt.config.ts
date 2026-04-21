@@ -25,7 +25,6 @@ export default defineNuxtConfig({
   extends: [
     '../nuxt-layers/block-elements',
     '../nuxt-layers/simple-contact-form',
-    // '../nuxt-layers/cookie-consent',
     '../nuxt-layers/google-tag-manager',
     '../nuxt-layers/polityka-prywatnosci-rodo'
   ],
@@ -74,6 +73,22 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
+  // security: {
+  //   nonce: true,
+  //   headers: {
+  //     contentSecurityPolicy: {
+  //       'script-src': ['\'self\'', '\'unsafe-inline\'', '\'nonce-{{nonce}}\'', ...externalSites],
+  //       'img-src': ['\'self\'', 'data:', ...externalSites],
+  //       'connect-src': ['\'self\'', ...externalSites]
+  //       // Add other directives as needed (e.g., 'style-src', 'font-src')
+  //     }
+  //   }
+  // },
+
+  experimental: {
+    serverAppConfig: false
+  },
+
   // compatibilityDate: '2025-01-15',
   compatibilityDate: '2024-11-01',
 
@@ -86,6 +101,12 @@ export default defineNuxtConfig({
     },
     sourceMap: false,
     minify: true
+  },
+
+  vite: {
+    build: {
+      sourcemap: false
+    }
   },
 
   eslint: {
@@ -111,18 +132,6 @@ export default defineNuxtConfig({
       ...isGoogleTagManager
     }
   },
-
-  // security: {
-  //   nonce: true,
-  //   headers: {
-  //     contentSecurityPolicy: {
-  //       'script-src': ['\'self\'', '\'unsafe-inline\'', '\'nonce-{{nonce}}\'', ...externalSites],
-  //       'img-src': ['\'self\'', 'data:', ...externalSites],
-  //       'connect-src': ['\'self\'', ...externalSites]
-  //       // Add other directives as needed (e.g., 'style-src', 'font-src')
-  //     }
-  //   }
-  // },
 
   sitemap: {
     exclude: [

@@ -227,6 +227,10 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
       <UIcon name="lucide-x" />
       <UIcon name="lucide-menu" />
       <UIcon name="lucide-sparkles" />
+      <UIcon name="lucide-award" />
+      <UIcon name="lucide-graduation-cap" />
+      <UIcon name="lucide-heart" />
+      <UIcon name="lucide-target" />      
     </div> -->
   </UApp>
 </template>
