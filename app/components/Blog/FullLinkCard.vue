@@ -7,7 +7,7 @@ const convertBenkarty = useContentModifier()
 
 <template>
   <NuxtLink
-    :to="`/skarbnica-wiedzy/${props.silos}/${props.slug}/`"
+    :to="`/blog/${props.silos}/${props.slug}/`"
     class="group animate-fade-up block h-full"
   >
     <UCard

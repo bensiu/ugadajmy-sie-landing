@@ -42,7 +42,8 @@ const navLinks = [
   { href: '/mediacje-szczecin', label: 'Mediacje' },
   { href: '/terapia-dla-par-szczecin', label: 'Terapia dla par' },
   { href: '/coaching-szczecin', label: 'Coaching' },
-  { href: '/szkolenia-szczecin', label: 'Szkolenia' }
+  { href: '/szkolenia-szczecin', label: 'Szkolenia' },
+  { href: '/blog', label: 'Blogs' }
 ]
 const navLinkAdditional = [
   { href: '/wiadomosci-o-mediacjach', label: 'Wiadomości' },
@@ -230,7 +231,7 @@ const isRodo = computed(() => router.currentRoute.value.path.includes('polityka-
       <UIcon name="lucide-award" />
       <UIcon name="lucide-graduation-cap" />
       <UIcon name="lucide-heart" />
-      <UIcon name="lucide-target" />      
+      <UIcon name="lucide-target" />
     </div> -->
   </UApp>
 </template>

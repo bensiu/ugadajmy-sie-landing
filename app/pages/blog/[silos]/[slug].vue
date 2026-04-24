@@ -4,7 +4,7 @@ import { marked } from 'marked'
 
 const { params, path } = useRoute()
 const props = {
-  id: `skarbnica-wiedzy-${params.silos}-${params.slug}`,
+  id: `blog-${params.silos}-${params.slug}`,
   title: ['Skarbnica wiedzy'],
   breadCrumbs: [
     {

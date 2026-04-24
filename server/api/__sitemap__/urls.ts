@@ -29,7 +29,7 @@ export default defineSitemapEventHandler(async (event) => {
   return [
     { loc: '/', images: [{ loc: '/images/Aleksandra_Dubiel.jpg' }] },
     ...urls.map(item => ({ loc: item })),
-    ...blogs.map(item => ({ loc: `/skarbnica-wiedzy/${item.silos}/${item.slug}` })),
-    ...siloses.map(item => ({ loc: `/skarbnica-wiedzy/${item}/` }))
+    ...blogs.map(item => ({ loc: `/blog/${item.silos}/${item.slug}` })),
+    ...siloses.map(item => ({ loc: `/blog/${item}/` }))
   ]
 })
