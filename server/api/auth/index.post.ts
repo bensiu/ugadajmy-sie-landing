@@ -1,7 +1,13 @@
 import useAuthentication from '~~/server/utils/useAuthentication'
 
-export default defineEventHandler(async (event): Promise<boolean> => {
-  useAuthentication(event)
+interface AuthResponse {
+  info: string
+}
 
-  return true
+export default defineEventHandler(async (event): Promise<AuthResponse> => {
+  await useAuthentication(event)
+
+  return {
+    info: 'OK'
+  }
 })

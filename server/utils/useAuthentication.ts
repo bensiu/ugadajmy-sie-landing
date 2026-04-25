@@ -1,6 +1,6 @@
 import type { EventHandlerRequest, H3Event } from 'h3'
 
-export default function (event: H3Event<EventHandlerRequest>): void {
+export default async function (event: H3Event<EventHandlerRequest>): Promise<void> {
   const config = useRuntimeConfig(event)
   const authHeader = getHeader(event, 'authorization')
 
@@ -12,8 +12,8 @@ export default function (event: H3Event<EventHandlerRequest>): void {
     setHeader(event, 'WWW-Authenticate', 'Basic realm="Admin API"')
 
     throw createError({
-      statusCode: 401,
-      statusMessage: 'Unauthorized'
+      status: 401,
+      message: 'Unauthorized'
     })
   }
 }

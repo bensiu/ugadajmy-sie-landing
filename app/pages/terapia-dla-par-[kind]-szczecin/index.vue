@@ -1,6 +1,13 @@
 <script setup lang="ts">
 import { pages } from '~/data/terapia-dla-par/'
 
+const { params } = useRoute()
+if ([
+  'program-razem-czy-osobno',
+  'warsztaty-dla-par'
+].includes(params['kind'] as string)) {
+  navigateTo(`/${params['kind']}-szczecin`)
+}
 const page = usePageDataHandling(pages)
 </script>
 
