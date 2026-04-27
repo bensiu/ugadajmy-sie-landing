@@ -8,7 +8,7 @@ import { page as program_wspolpracy_dla_firm } from './program-wspolpracy-dla-fi
 
 import { addBreadCrumbs } from '../add-bread-crumbs'
 
-export const interPage = { label: 'Szkolenia', href: 'szkolenia-szczecin' }
+export const interPage = { label: 'Szkolenia', href: '/szkolenia-szczecin' }
 
 export const pages: { [key: string]: DetailPageProps } = {
   dla_firm: addBreadCrumbs(dla_firm, interPage),

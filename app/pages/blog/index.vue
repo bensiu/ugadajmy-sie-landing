@@ -21,7 +21,7 @@ await pullItems('', true)
       :titles="['Skarbnica wiedzy']"
       :bread-crumbs="[
         { label: 'Strona Główna', href: '/' },
-        { label: 'Blogs' }
+        { label: 'Blog' }
       ]"
     />
 

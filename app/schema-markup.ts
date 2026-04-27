@@ -11,7 +11,7 @@ export const schemaMarkup = (markup: MarkupSEO) => {
     'provider': {
       '@type': 'ProfessionalService',
       'name': 'Ugadajmy się - Aleksandra Dubiel',
-      'image': 'https://ugadajmysie.pl/logo.png',
+      'image': 'https://ugadajmysie.pl/images/logo.png',
       'address': {
         '@type': 'PostalAddress',
         'streetAddress': config.address,

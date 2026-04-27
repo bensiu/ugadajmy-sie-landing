@@ -66,6 +66,7 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
+    // '/sitemap_index.xml': { redirect: '/sitemap.xml' },
     '/': { prerender: true }
   },
 

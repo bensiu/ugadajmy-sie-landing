@@ -207,6 +207,14 @@ resources:
         TopicArn: !Ref ContactNotificationTopic
         Protocol: email
         Endpoint: 'Aleksandra_Dubiel@wp.pl'
+
+    BackupContactNotificationTopicSubscription:
+      Type: AWS::SNS::Subscription
+      Condition: IsProdStage
+      Properties:
+        TopicArn: !Ref ContactNotificationTopic
+        Protocol: email
+        Endpoint: 'marcincierpisz@yahoo.pl'
   
 
     ApiCloudFrontDistribution:

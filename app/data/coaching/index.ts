@@ -8,7 +8,7 @@ import { page as indywidualny } from './indywidualny'
 
 import { addBreadCrumbs } from '../add-bread-crumbs'
 
-export const interPage = { label: 'Coaching', href: 'coaching-szczecin' }
+export const interPage = { label: 'Coaching', href: '/coaching-szczecin' }
 
 export const pages: { [key: string]: DetailPageProps } = {
   kariery: addBreadCrumbs(kariery, interPage),

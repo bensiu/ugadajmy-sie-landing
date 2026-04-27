@@ -2,16 +2,17 @@ import { readFileSync } from 'fs'
 import { handler } from './.output/server/index.mjs'
 
 const hackerUrls = [
-  'wp-includes',
-  'wp-admin',
-  'wp-content',
+  '/wp-',
   '.well-know',
   '/admin',
   '/uploads',
   '/files',
   '.php',
   '.alfa',
-  '/cgi-bin'
+  '.map',
+  '/cgi-bin',
+  '/system',
+  '.env'
 ]
 
 const readImageFromPublic = (path) => {
@@ -53,6 +54,7 @@ export const runner = async (event) => {
     return response
   } catch (error) {
     console.log('ERROR : ', error.message, error)
+    console.log('Event : ', JSON.stringify(event))
 
     return {
       statusCode: 500,

@@ -43,7 +43,7 @@ const navLinks = [
   { href: '/terapia-dla-par-szczecin', label: 'Terapia dla par' },
   { href: '/coaching-szczecin', label: 'Coaching' },
   { href: '/szkolenia-szczecin', label: 'Szkolenia' },
-  { href: '/blog', label: 'Blogs' }
+  { href: '/blog', label: 'Blog' }
 ]
 const navLinkAdditional = [
   { href: '/wiadomosci-o-mediacjach', label: 'Wiadomości' },

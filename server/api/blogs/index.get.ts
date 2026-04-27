@@ -2,8 +2,8 @@ import type { BlogItem } from '~~/app/types'
 import { getRecordsList } from '~~/src/services/getRecordsList'
 
 export default defineEventHandler(async (event): Promise<BlogItem[]> => {
-  const { subject } = getQuery(event)
-  const { all } = getQuery(event)
+  const { subject, all } = getQuery(event)
+  // const { all } = getQuery(event)
 
   return getRecordsList(
     event,

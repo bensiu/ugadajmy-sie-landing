@@ -13,7 +13,7 @@ import { page as online } from './online'
 
 import { addBreadCrumbs } from '../add-bread-crumbs'
 
-export const interPage = { label: 'Mediacje', href: 'mediacje-szczecin' }
+export const interPage = { label: 'Mediacje', href: '/mediacje-szczecin' }
 
 export const pages: { [key: string]: DetailPageProps } = {
   gospodarcze: addBreadCrumbs(gospodarcze, interPage),

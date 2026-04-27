@@ -6,7 +6,7 @@ import { page as po_zdradzie } from './po-zdradzie'
 
 import { addBreadCrumbs } from '../add-bread-crumbs'
 
-export const interPage = { label: 'Terapia dla par', href: 'terapia-dla-par-szczecin' }
+export const interPage = { label: 'Terapia dla par', href: '/terapia-dla-par-szczecin' }
 
 export const pages: { [key: string]: DetailPageProps } = {
   malzenska: addBreadCrumbs(malzenska, interPage),
