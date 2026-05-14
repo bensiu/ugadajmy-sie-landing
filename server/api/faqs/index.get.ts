@@ -9,7 +9,9 @@ export default defineEventHandler(async (event): Promise<FaqItem[]> => {
     {
       domain: 'FAQS',
       gsiSearchKey: (subject as string) || '',
-      sorting: (a, b) => (a.counter as string) < (b.counter as string) ? 1 : -1,
+      sorting: subject
+        ? (a, b) => (a.counter as number) < (b.counter as number) ? 1 : -1
+        : (a, b) => ((a.slug as string) || '') > ((b.slug as string) || '') ? 1 : -1,
       fromCache: false
     }
   ) as unknown as FaqItem[]

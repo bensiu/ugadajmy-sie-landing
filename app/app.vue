@@ -47,7 +47,7 @@ const navLinks = [
 ]
 const navLinkAdditional = [
   { href: '/wiadomosci-o-mediacjach', label: 'Wiadomości' },
-  { href: '/#kim-jestem-Aleksandra-Dubiel', label: 'Kim jestem' },
+  { href: '/o-mnie', label: 'Kim jestem' },
   { href: '/#kontakt-ugadajmy-sie-szczecin', label: 'Kontakt' }
 ]
 

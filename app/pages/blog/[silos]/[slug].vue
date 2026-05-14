@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import { contact as contactRoot } from '~/data/contact'
 import { enhanceServiceLink } from '~/data/gazda'
 import { marked } from 'marked'
 
+const { contact } = contactRoot
 const { params, path } = useRoute()
 const props = {
   id: `blog-${params.silos}-${params.slug}`,
@@ -108,6 +110,19 @@ onBeforeUnmount(() => {
           v-bind="enhanceServiceLink(item, '')"
         />
       </BlogRelated>
+    </BlocksSectionWrapper>
+    <BlocksSectionWrapper
+      :id="`kontakt-${props.id}`"
+      :variant="contact.variant || 'subtle'"
+      style="scroll-margin-top: 32px;"
+    >
+      <BlocksSectionHeader
+        :title="contact.title"
+        :description="contact.description"
+        :lead="contact.lead"
+        title-color=" "
+      />
+      <PagesContactSection v-bind="contact" />
     </BlocksSectionWrapper>
   </div>
 </template>

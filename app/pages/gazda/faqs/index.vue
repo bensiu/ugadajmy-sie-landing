@@ -14,6 +14,23 @@ const _default = {
   counter: 0,
   active: false
 }
+
+$fetch('/api/gazda/mewho', {
+  method: 'GET',
+  server: false
+})
+  .then(
+    (value) => {
+      if (!value.active) {
+        navigateTo('/gazda/login')
+      } else {
+        console.log(value)
+      }
+    }
+  )
+  .catch(() => {
+    navigateTo('/gazda/login')
+  })
 </script>
 
 <template>

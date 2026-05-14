@@ -1,12 +1,14 @@
-import type { EventHandlerRequest, H3Event } from 'h3'
 import dynamodb from '~~/src/services/aws/dynamodb'
 import type { GazdaUserResponse } from '~~/app/types'
+import { getCookie } from 'h3'
+// import { setToken } from '~~/server/utils/token'
 
 const APP_DATA_TABLE_NAME = process.env.APP_DATA_TABLE_NAME || 'ugadajmy-sie-landing-dev-data'
 
-export default async function (event: H3Event<EventHandlerRequest>): Promise<Omit<GazdaUserResponse, 'password'>> {
+export default defineEventHandler(async (event): Promise<Omit<GazdaUserResponse, 'password'>> => {
   const cookie = getCookie(event, 'auth_token')
   const token = cookie?.split(':')[1]
+  // console.log('token : ', cookie, token)
 
   if (!token) {
     return { username: '', active: false }
@@ -27,6 +29,8 @@ export default async function (event: H3Event<EventHandlerRequest>): Promise<Omi
     }
   )
 
+  // console.log('user : ', user, (Math.floor(Date.now() / 1000) + 60 * 25))
+
   if (user && user.expiresAt > (Math.floor(Date.now() / 1000))) {
     // setToken(event, user.username)
 
@@ -34,21 +38,4 @@ export default async function (event: H3Event<EventHandlerRequest>): Promise<Omi
   }
 
   return { username: '', active: false }
-}
-
-//   const config = useRuntimeConfig(event)
-//   const authHeader = getHeader(event, 'authorization')
-
-//   const expectedAuth = `Basic ${Buffer.from(
-//     `${config.basicAuthUser}:${config.basicAuthPass}`
-//   ).toString('base64')}`
-
-//   if (!authHeader || authHeader !== expectedAuth) {
-//     setHeader(event, 'WWW-Authenticate', 'Basic realm="Admin API"')
-
-//     throw createError({
-//       status: 401,
-//       message: 'Unauthorized'
-//     })
-//   }
-// }
+})

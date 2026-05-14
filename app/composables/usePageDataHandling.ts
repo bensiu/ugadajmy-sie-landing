@@ -1,7 +1,8 @@
-import type { DetailPageProps } from '~/types'
+import type { DetailPageProps, FaqItemBase } from '~/types'
+import { faqs } from '~/data/faqs'
 
 export default function (pages: { [kind: string]: DetailPageProps }): DetailPageProps {
-  const { params } = useRoute()
+  const { params, path: path } = useRoute()
   const kind = (params['kind'] as string).replaceAll('-', '_')
 
   if (!pages[kind]) {
@@ -13,8 +14,26 @@ export default function (pages: { [kind: string]: DetailPageProps }): DetailPage
   }
   const page = pages[kind]
 
+  if (page.frequentlyAskedQuestions) {
+    page.frequentlyAskedQuestions = {
+      title: page.frequentlyAskedQuestions?.title || '',
+      variant: page.frequentlyAskedQuestions?.variant || 'subtle',
+      questions: faqs
+        .filter(
+          item => item.silos === page.silos
+        )
+        .map(
+          (item: FaqItemBase) => ({
+            label: item.title,
+            content: item.content,
+            slug: item.slug
+          })
+        )
+    }
+  }
+
   if (page?.seo) {
-    usePageSpecificSeoMeta(page.seo)
+    usePageSpecificSeoMeta(page.seo, path, faqs)
   }
 
   return page

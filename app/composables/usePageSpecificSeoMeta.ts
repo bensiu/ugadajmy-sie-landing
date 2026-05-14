@@ -1,13 +1,16 @@
-import type { SEO } from '~/types'
+import type { FaqItemBase, SEO } from '~/types'
 import { schemaMarkup } from '../schema-markup'
 
-export default function (seo: SEO, path: string = '') {
+export default function (seo: SEO, path: string = '', faqs: FaqItemBase[] = []) {
   if (!path) {
     path = useRoute().path
   }
   const script = seo.markup
     ? [
-        { type: 'application/ld+json', innerHTML: JSON.stringify(schemaMarkup(seo.markup)) }
+        {
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify(schemaMarkup(seo.markup, faqs))
+        }
       ]
     : []
 

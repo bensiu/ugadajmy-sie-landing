@@ -38,6 +38,8 @@ export default async function<T> (event: H3Event, domain: string): Promise<void>
             PK1: `${domain}-COUNTER`,
             SK1: `SLUG:${body.slug}`,
             IP: getRequestIP(event, { xForwardedFor: true }) || 'unknown',
+            silos: body.silos,
+            ga4: cookieValue,
             time: new Date().toISOString()
           },
           ConditionExpression: 'attribute_not_exists(PK) AND attribute_not_exists(SK)'

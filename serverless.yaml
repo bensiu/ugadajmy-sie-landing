@@ -67,8 +67,8 @@ custom:
     hooks:
       before:package:createDeploymentArtifacts:
         - "STAGE=${opt:stage, sls:stage, 'dev'} pnpm run build"
+        - 'pnpm run esbuild:counter-sync-worker'
         - 'pnpm run esbuild:rss-puller-worker'
-  #       - 'pnpm run esbuild:trigger-worker'
 
 
 plugins:
@@ -120,6 +120,27 @@ functions:
       - schedule:
           # enabled: ${self:custom.scheduleEvent.${opt:stage, sls:stage, 'dev'}}
           rate: rate(3 hours)
+    environment:
+      AWS_SERVICE_REGION: ${self:provider.region}
+      APP_DATA_BUCKET_NAME: ${self:custom.PROJECT_NAME}-${self:provider.region}-data
+      APP_DATA_TABLE_NAME: ${self:custom.PROJECT_NAME}-data
+
+  counter-sync-worker:
+    handler: src/counter-sync-worker.handler
+    timeout: 90
+    memorySize: 1024
+
+    package:
+      individually: true
+      patterns:
+        - '!**'
+        - 'src/counter-sync-worker.js'
+    events:
+      - schedule:
+          # enabled: ${self:custom.scheduleEvent.${opt:stage, sls:stage, 'dev'}}
+          rate: rate(8 hours)
+          input:
+            domain: 'BLOGS'
     environment:
       AWS_SERVICE_REGION: ${self:provider.region}
       APP_DATA_BUCKET_NAME: ${self:custom.PROJECT_NAME}-${self:provider.region}-data

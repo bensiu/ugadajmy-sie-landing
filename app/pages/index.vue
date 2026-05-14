@@ -53,50 +53,11 @@ if (page?.seo) {
       style="scroll-margin-top: 32px;"
     >
       <div class="grid md:grid-cols-12 gap-8">
-        <div class="relative animate-fade-up md:col-span-5">
-          <div class="relative">
-            <div>
-              <img
-                src="/images/Aleksandra_Dubiel.jpg"
-                alt="Aleksandra Dubiel - Mediator, Prawnik, Coach"
-                class="w-full aspect-[4/5] object-cover rounded-4xl shadow-lg shadow-elevated p-3 border-1"
-              >
-              <div class="absolute -bottom-4 -right-2 px-8 py-6 rounded-xl shadow-lg text-primary bg-white border-2">
-                <p class="font-display font-bold text-2xl">
-                  15+
-                </p>
-                <p class="text-sm font-medium">
-                  lat doświadczenia
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="animate-fade-up delay-200  md:col-span-7">
-          <BlocksSectionHeader
-            :title="page.aboutMe.title"
-            :description="page.aboutMe.description"
-            :lead="page.aboutMe.lead"
-            title-color=" "
-            class="text-left !mb-8"
-            :ui="{
-              description: '!text-base'
-            }"
-          />
-
-          <div class="grid sm:grid-cols-2 gap-4">
-            <BlockIndexCard
-              v-for="item in page.aboutMe.items"
-              :key="item.title"
-              v-bind="item"
-              class="section-subtle bg-secondary/30"
-              :ui="{
-                title: '!min-h-8'
-              }"
-            />
-          </div>
-        </div>
+        <PagesAboutMePhoto class="relative md:col-span-5" />
+        <PagesAboutMeDescription
+          v-bind="page.aboutMe"
+          class="md:col-span-7"
+        />
       </div>
     </BlocksSectionWrapper>
 
@@ -139,34 +100,7 @@ if (page?.seo) {
         :lead="page.contact.lead"
         title-color=" "
       />
-
-      <div class="grid lg:grid-cols-5 gap-5">
-        <div class="lg:col-span-2 animate-fade-up flex flex-col">
-          <BlockContactCard
-            v-for="item in page.contact.items"
-            :key="item.icon"
-            :item="item"
-            class="mb-3"
-          />
-          <div class="flex-grow" />
-          <div class="p-3 bg-primary rounded-xl text-white rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-shadow transition-all duration-300 group">
-            <!-- eslint-disable vue/no-v-html -->
-            <h3
-              class="font-display font-bold text-lg mb-2"
-              v-html="page.contact.footer.title"
-            />
-            <p
-              class="text-white/80 text-sm"
-              v-html="page.contact.footer.description"
-            />
-          </div>
-        </div>
-        <div class="lg:col-span-3 animate-fade-up">
-          <ContactForm
-            class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-shadow transition-all duration-300 group"
-          />
-        </div>
-      </div>
+      <PagesContactSection v-bind="page.contact" />
     </BlocksSectionWrapper>
   </div>
 </template>

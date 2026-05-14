@@ -1,18 +1,12 @@
 <script setup lang="ts">
-import type { SectionVariant, FaqItem } from '~/types'
-
-interface Question {
-  label: string
-  content: string
-  value?: string
-}
+import type { SectionVariant, FaqItemBase } from '~/types'
 
 interface FequentlyAskedQuestionsProps {
   id: string
   title: string
   variant?: SectionVariant
   silos: string
-  questions: Question[] | '/api/faqs/'
+  questions: FaqItemBase[] | '/api/faqs/'
 }
 
 const props = withDefaults(
@@ -22,18 +16,12 @@ const props = withDefaults(
   }
 )
 
-const questionsData = ref<Question[]>([])
+const questionsData = ref<FaqItemBase[]>([])
 
 if (!Array.isArray(props.questions)) {
   await $fetch(`/api/faqs/?subject=${props.silos}`)
     .then((response) => {
-      questionsData.value = response.map(
-        (item: FaqItem) => ({
-          label: item.title,
-          content: item.content,
-          value: item.slug
-        })
-      )
+      questionsData.value = response
     })
 } else {
   questionsData.value = props.questions
@@ -48,14 +36,14 @@ const onUpdate = (value: string | string[] | undefined) => {
       //   key: value
       // })
     }
-    const item = questionsData.value.find(i => i.value === value)
+    const item = questionsData.value.find(i => i.slug === value)
 
     if (item && value) {
       $fetch('/api/faqs/counter', {
         method: 'POST',
         body: {
           silos: props.silos,
-          slug: item.value
+          slug: item.slug
         }
       })
     }
@@ -76,6 +64,7 @@ const onUpdate = (value: string | string[] | undefined) => {
       <UAccordion
         :items="questionsData"
         variant="none"
+        value-key="slug"
         :ui="{
           item: 'bg-white rounded-lg shadow-sm mb-4',
           trigger: 'text-left text-lg font-semibold  px-6 hover:no-underline',

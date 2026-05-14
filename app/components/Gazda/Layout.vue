@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { page } from '~/data/gazda'
 
-setTimeout(async () => {
-  $fetch('/api/auth/', {
-    method: 'POST',
-    server: false
-  })
-}, 3 * 1000)
+// setTimeout(async () => {
+//   $fetch('/api/auth/', {
+//     method: 'POST',
+//     server: false
+//   })
+// }, 3 * 1000)
 
 const emits = defineEmits<{ selected: [value: string | number] }>()
 const onSelected = (value: string | number) => {

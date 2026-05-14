@@ -1,17 +1,13 @@
 import type { DetailPageProps, SectionContentProps } from '~/types'
-import { config } from './config'
+import type { ContactDetailsFooter } from './contact'
 
-interface ContactDetails {
-  footer: {
-    title: string
-    description: string
-  }
-}
+import { aboutMe } from './about-me'
+import { contact } from './contact'
 
 export const page: DetailPageProps & {
   whyMe: SectionContentProps
   aboutMe: SectionContentProps
-  contact: SectionContentProps & ContactDetails
+  contact: SectionContentProps & ContactDetailsFooter
 } = {
   id: 'ugadajmy-sie-szczecin',
   seo: {
@@ -120,71 +116,10 @@ export const page: DetailPageProps & {
       }
     ]
   },
-  aboutMe: {
-    lead: 'Kim jestem',
-    title: 'Aleksandra Dubiel',
-    description: [
-      'Witaj! Jestem certyfikowanym mediatorem, coachem i&nbsp;prawnikiem. To&nbsp;unikalne połączenie kompetencji pozwala mi patrzeć na&nbsp;konflikty z&nbsp;wielu perspektyw i&nbsp;znajdować rozwiązania, które naprawdę działają.',
-      'Wierzę, że każdy konflikt można rozwiązać - potrzeba do&nbsp;tego bezpiecznej przestrzeni, profesjonalnego wsparcia i&nbsp;gotowości do&nbsp;dialogu. Moją rolą jest być Twoim przewodnikiem na&nbsp;drodze do&nbsp;porozumienia.'
-    ].join('<br><br>'),
-    items: [
-      {
-        icon: 'lucide-scale',
-        title: 'Prawnik',
-        description: 'Wieloletnie doświadczenie w&nbsp;prawie rodzinnym i&nbsp;gospodarczym'
-      },
-      {
-        icon: 'lucide-heart',
-        title: 'Mediator',
-        description: 'Certyfikowany mediator wpisany na listę stałych mediatorów'
-      },
-      {
-        icon: 'lucide-target',
-        title: 'Coach',
-        description: 'Akredytowany coach wspierający rozwój osobisty i&nbsp;zawodowy'
-      },
-      {
-        icon: 'lucide-award',
-        title: 'Trener',
-        description: 'Prowadzę szkolenia z&nbsp;komunikacji i&nbsp;rozwiązywania konfliktów'
-      }
-    ]
-  },
+  aboutMe: aboutMe.aboutMe,
   callToAction: {
     title: 'Gotowy na pierwszy krok?',
     description: 'Pierwsza rozmowa jest po&nbsp;to, by&nbsp;zrozumieć Twoją sytuację i&nbsp;wspólnie ocenić, jak mogę Ci pomóc. Zadzwoń lub napisz – bez&nbsp;zobowiązań.'
   },
-  contact: {
-    lead: 'Kontakt',
-    title: 'Porozmawiajmy',
-    description: 'Masz pytania? Chcesz umówić konsultację? Napisz lub zadzwoń – pierwsza rozmowa jest zawsze bezpłatna i&nbsp;niezobowiązująca.',
-    items: [
-      {
-        icon: 'i-lucide-phone',
-        title: 'Telefon',
-        description: config.phone,
-        link: `tel:${config.phone.replaceAll(' ', '')}`
-      },
-      {
-        icon: 'i-lucide-mail',
-        title: 'Email',
-        description: config.email || '',
-        link: `mailto:${config.email}`
-      },
-      {
-        icon: 'i-lucide-map-pin',
-        title: 'Adres',
-        description: 'ul. Kapitańska 3a, Szczecin'
-      },
-      {
-        icon: 'i-lucide-clock',
-        title: 'Godziny',
-        description: 'Pon. – Pt.: 9:00-18:00'
-      }
-    ],
-    footer: {
-      title: 'Rozmowa wstępna',
-      description: 'Pierwsza konsultacja jest po&nbsp;to, by&nbsp;zrozumieć i&nbsp;wskazać dalsze wskazówki. To 60&nbsp;minut na&nbsp;poznanie Twojej sytuacji i&nbsp;wspólne ocenienie, jak mogę Ci&nbsp;pomóc.'
-    }
-  }
+  contact: contact.contact
 }

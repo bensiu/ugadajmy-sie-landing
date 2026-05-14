@@ -132,12 +132,21 @@ export type NewsCardItem = NewsItem & {
   toEdit?: boolean
 }
 
-export interface FaqItem {
-  silos: string
-  slug: string
-  counter: number
+export interface FaqItemBase {
   title: string
   content: string
+  silos: string
+  slug: string
+}
+
+export interface FaqItem extends FaqItemBase {
+  counter: number
   update_time?: string
+  active: boolean
+}
+
+export interface GazdaUserResponse {
+  username: string
+  password: string
   active: boolean
 }
